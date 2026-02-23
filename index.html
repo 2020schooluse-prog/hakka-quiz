@@ -1115,6 +1115,10 @@
             <label class="fg-label">每次題數</label>
             <input type="number" id="countInp" value="10" min="1" max="50">
           </div>
+          <div>
+            <label class="fg-label">從第幾題開始 (選填)</label>
+            <input type="number" id="startIdxInp" placeholder="例: 16" min="1">
+          </div>
         </div>
 
         <!-- Existing progress info -->
@@ -1432,13 +1436,19 @@
       const dialect = document.getElementById('dialectSel').value;
       const type = document.getElementById('typeSel').value;
       const count = parseInt(document.getElementById('countInp').value) || 10;
-      startQuiz(dialect, type, count, true); // always continue from progress
+      const startIdxVal = document.getElementById('startIdxInp').value;
+      let startIdx = null;
+      if (startIdxVal && startIdxVal.trim() !== '') {
+        startIdx = parseInt(startIdxVal) - 1; // Convert to 0-indexed
+        if (startIdx < 0) startIdx = 0;
+      }
+      startQuiz(dialect, type, count, true, startIdx); // always continue from progress
     }
 
     // ============================================================
     // QUIZ LOGIC
     // ============================================================
-    async function startQuiz(dialect, type, count, continueProgress) {
+    async function startQuiz(dialect, type, count, continueProgress, explicitStartIdx = null) {
       sessionKey = getQuizKey(dialect, type);
       showScreen('screenQuiz');
       hide('questionCard');
@@ -1458,19 +1468,29 @@
 
         if (!allQs || allQs.length === 0) throw new Error('此題型沒有資料，請先用 scraper.html 產生題庫資料。');
 
-        // Determine which questions to show
         const prog = currentStudent.progress[sessionKey] || { done: [], date: null };
         const doneSoFar = prog.done; // indices already done
 
-        // Get questions NOT yet done
-        const notDone = allQs.map((q, i) => ({ q, i })).filter(x => !doneSoFar.includes(x.i));
+        let batch;
 
-        if (notDone.length === 0) {
-          throw new Error('🎉 此題型的所有題目已完成！可在設定頁重置進度重新開始。');
+        // If an explicit start index is provided, use it directly to slice the array
+        if (explicitStartIdx !== null) {
+          if (explicitStartIdx >= allQs.length) {
+            throw new Error(`設定的起始題號（${explicitStartIdx + 1}）超過總題數（${allQs.length}）。`);
+          }
+          // Get questions starting from explicit start index, disregarding completely if they were done or not
+          const mappedAll = allQs.map((q, i) => ({ q, i }));
+          batch = mappedAll.slice(explicitStartIdx, explicitStartIdx + count);
+        } else {
+          // Otherwise, use the standard "resume where left off" logic
+          const notDone = allQs.map((q, i) => ({ q, i })).filter(x => !doneSoFar.includes(x.i));
+
+          if (notDone.length === 0) {
+            throw new Error('🎉 此題型的所有題目已完成！可在設定頁重置進度重新開始。');
+          }
+          batch = notDone.slice(0, count);
         }
 
-        // Take `count` questions from the front (already in order)
-        const batch = notDone.slice(0, count);
         sessionQuestions = batch.map(x => ({ ...x.q, origIndex: x.i }));
         sessionIndex = 0;
         sessionScore = 0;
