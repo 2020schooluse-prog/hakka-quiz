@@ -1,0 +1,1956 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>客語認證即時測驗</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Inter:wght@300;400;600;800&display=swap"
+    rel="stylesheet">
+  <!-- 題庫資料檔 (需要 quiz_data.js 在同一資料夾，或由 scraper.html 產生) -->
+  <script src="quiz_data.js" onerror="window.QUIZ_DATA_MISSING=true"></script>
+  <style>
+    :root {
+      /* Brighter, kid-friendly colors */
+      --p: #2ba873;
+      /* Brighter primary green */
+      --pl: #42df9d;
+      /* Very bright primary for gradients */
+      --pd: #1f8258;
+      /* Darker primary for contrast */
+      --acc: #ff9f1c;
+      /* Brighter orange accent */
+      --al: #ffdd44;
+      /* Light yellow accent */
+
+      /* Light theme for brightness instead of dark mode */
+      --bg: #f4fcf8;
+      /* Very light mint background */
+      --s1: #ffffff;
+      /* Pure white card backgrounds */
+      --s2: #ebf7f1;
+      /* Slightly darker white for inputs/chips */
+      --s3: #d1efe0;
+      /* Highlight background */
+
+      --tx: #2c4a3b;
+      /* Main text is dark green */
+      --tm: #56876d;
+      /* Muted text is medium green */
+      --bd: #c8ebd9;
+      /* Soft green borders */
+
+      --ok: #34c77a;
+      /* Correct answer green */
+      --er: #ff5e70;
+      /* Incorrect answer red */
+
+      --r: 20px;
+      /* More rounded corners for friendly feel */
+      --rs: 14px;
+      /* More rounded elements */
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0
+    }
+
+    body {
+      font-family: 'Noto Sans TC', 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--tx);
+      min-height: 100vh;
+      overflow-x: hidden
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(ellipse at 20% 20%, rgba(66, 223, 157, 0.4) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, rgba(255, 221, 68, 0.3) 0%, transparent 50%);
+      animation: bgF 20s ease-in-out infinite alternate;
+      pointer-events: none;
+      z-index: 0
+    }
+
+    @keyframes bgF {
+      0% {
+        transform: translate(0, 0) rotate(0deg)
+      }
+
+      100% {
+        transform: translate(2%, 3%) rotate(2deg)
+      }
+    }
+
+    .wrap {
+      position: relative;
+      z-index: 1;
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 16px 20px;
+      min-height: 100vh
+    }
+
+    /* ==== HEADER ==== */
+    header {
+      text-align: center;
+      padding: 32px 0 24px
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 8px
+    }
+
+    .logoicon {
+      width: 60px;
+      height: 60px;
+      background: linear-gradient(135deg, var(--pl), var(--p));
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      box-shadow: 0 8px 24px rgba(43, 168, 115, 0.4);
+      color: white;
+    }
+
+    header h1 {
+      font-size: clamp(26px, 6vw, 38px);
+      font-weight: 900;
+      color: var(--pd);
+      letter-spacing: 1px;
+    }
+
+    header p {
+      color: var(--tm);
+      font-size: 16px;
+      margin-top: 6px;
+      font-weight: 600;
+    }
+
+    /* ==== CARDS ==== */
+    .card {
+      background: var(--s1);
+      border: 2px solid var(--bd);
+      border-radius: var(--r);
+      padding: 30px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, .05)
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--tx);
+      margin-bottom: 20px
+    }
+
+    /* ==== FORM INPUTS ==== */
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 18px;
+      margin-bottom: 20px
+    }
+
+    .fg-label {
+      display: block;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--tx);
+      margin-bottom: 8px
+    }
+
+    select,
+    input[type="number"],
+    input[type="text"] {
+      width: 100%;
+      background: var(--s2);
+      color: var(--tx);
+      border: 2px solid var(--bd);
+      border-radius: var(--rs);
+      padding: 14px 18px;
+      font-size: 18px;
+      font-weight: 600;
+      font-family: inherit;
+      outline: none;
+      transition: border-color .2s;
+      appearance: none
+    }
+
+    select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpath d='M1 1l7 7 7-7' stroke='%232ba873' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 16px center;
+      cursor: pointer
+    }
+
+    select:focus,
+    input:focus {
+      border-color: var(--pl);
+      box-shadow: 0 0 0 3px rgba(45, 155, 110, .2)
+    }
+
+    .btn {
+      border: none;
+      border-radius: var(--rs);
+      padding: 16px 24px;
+      font-size: 18px;
+      font-weight: 800;
+      font-family: inherit;
+      cursor: pointer;
+      transition: transform .2s, box-shadow .2s
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--pl), var(--p));
+      color: #fff;
+      box-shadow: 0 6px 20px rgba(43, 168, 115, 0.4)
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(43, 168, 115, 0.5)
+    }
+
+    .btn-primary:active {
+      transform: translateY(0)
+    }
+
+    .btn-primary:disabled {
+      opacity: .45;
+      cursor: not-allowed;
+      transform: none
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--pd);
+      border: 2px solid var(--pd)
+    }
+
+    .btn-ghost:hover {
+      background: rgba(43, 168, 115, 0.1);
+    }
+
+    .btn-full {
+      width: 100%;
+      margin-top: 18px
+    }
+
+    /* ==== STUDENT SCREEN ==== */
+    .student-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 16px
+    }
+
+    .student-card {
+      background: var(--s2);
+      border: 2px solid var(--bd);
+      border-radius: var(--rs);
+      padding: 18px 24px;
+      cursor: pointer;
+      transition: border-color .15s, transform .15s, background .15s;
+      min-width: 180px
+    }
+
+    .student-card:hover {
+      border-color: var(--pl);
+      transform: translateY(-3px);
+      background: var(--s3);
+    }
+
+    .student-card:hover {
+      border-color: var(--pl);
+      transform: translateY(-2px)
+    }
+
+    .sc-name {
+      font-size: 16px;
+      font-weight: 700
+    }
+
+    .sc-meta {
+      font-size: 12px;
+      color: var(--tm);
+      margin-top: 4px
+    }
+
+    .btn-del-student {
+      background: rgba(255, 107, 122, .1);
+      color: var(--er);
+      border: 1px solid rgba(255, 107, 122, .3);
+      border-radius: 6px;
+      padding: 3px 8px;
+      font-size: 11px;
+      cursor: pointer;
+      float: right
+    }
+
+    /* ==== PROGRESS BAR ==== */
+    .prog-wrap {
+      background: var(--s2);
+      border-radius: 99px;
+      height: 6px;
+      overflow: hidden;
+      margin-top: 12px
+    }
+
+    .prog-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--p), var(--pl));
+      border-radius: 99px;
+      transition: width .4s ease
+    }
+
+    .quiz-meta-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px
+    }
+
+    .qmeta {
+      font-size: 13px;
+      color: var(--tm)
+    }
+
+    .qmeta strong {
+      color: var(--tx);
+      font-size: 18px
+    }
+
+    .score-pill {
+      background: var(--s2);
+      border: 1px solid var(--bd);
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-size: 13px;
+      color: var(--tm);
+      font-weight: 600
+    }
+
+    .score-pill span {
+      color: var(--ok);
+      font-size: 17px;
+      font-weight: 800
+    }
+
+    /* ==== QUESTION CARD ==== */
+    .qnum {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--pl);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 14px
+    }
+
+    .qtext {
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 1.5;
+      margin-bottom: 30px;
+      color: var(--tx)
+    }
+
+    .qtext.hidden-text {
+      opacity: 0;
+      height: 0;
+      overflow: hidden;
+      margin-bottom: 0 !important;
+      transition: opacity 0.3s ease;
+    }
+
+    .qtext.hidden-text.revealed {
+      opacity: 1;
+      height: auto;
+      margin-bottom: 30px !important;
+    }
+
+    .qimg {
+      width: 100%;
+      max-width: 380px;
+      border-radius: var(--rs);
+      margin-bottom: 18px;
+      border: 1px solid var(--bd);
+      display: none
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(18px)
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0)
+      }
+    }
+
+    /* Audio section */
+    .audio-bar {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--s2);
+      border: 1px solid var(--bd);
+      border-radius: var(--rs);
+      padding: 14px 18px;
+      margin-bottom: 20px
+    }
+
+    .play-btn {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(135deg, var(--pl), var(--p));
+      border: none;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: transform .2s, box-shadow .2s;
+      box-shadow: 0 4px 12px rgba(26, 107, 74, .4)
+    }
+
+    .play-btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 6px 18px rgba(26, 107, 74, .5)
+    }
+
+    .play-btn.playing {
+      animation: pulse 1s ease-in-out infinite
+    }
+
+    @keyframes pulse {
+
+      0%,
+      100% {
+        box-shadow: 0 4px 12px rgba(26, 107, 74, .4)
+      }
+
+      50% {
+        box-shadow: 0 4px 25px rgba(45, 155, 110, .7)
+      }
+    }
+
+    .audio-info {
+      flex: 1
+    }
+
+    .audio-lbl {
+      font-size: 12px;
+      color: var(--tm);
+      margin-bottom: 4px
+    }
+
+    .audio-prog {
+      height: 8px;
+      background: var(--s3);
+      border-radius: 99px;
+      overflow: hidden
+    }
+
+    .audio-prog-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--p), var(--pl));
+      border-radius: 99px;
+      width: 0%;
+      transition: width .1s linear
+    }
+
+    .play-cnt {
+      font-size: 14px;
+      color: var(--pd);
+      background: var(--s3);
+      border-radius: 20px;
+      padding: 6px 14px;
+      flex-shrink: 0;
+      font-weight: bold;
+    }
+
+    .opt-audio-btn {
+      background: var(--s2);
+      border: 2px solid var(--pd);
+      border-radius: var(--rs);
+      color: var(--pd);
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: border-color .2s, background .2s;
+      font-family: inherit;
+      margin-bottom: 24px
+    }
+
+    .opt-audio-btn:hover {
+      border-color: var(--pl);
+      background: rgba(43, 168, 115, 0.1);
+    }
+
+    /* Options - image */
+    .opts-img-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-bottom: 20px
+    }
+
+    @media(max-width:560px) {
+      .opts-img-grid {
+        grid-template-columns: 1fr
+      }
+    }
+
+    .opt-img-btn {
+      background: var(--s2);
+      border: 2px solid var(--bd);
+      border-radius: var(--rs);
+      padding: 0;
+      cursor: pointer;
+      transition: transform .15s, border-color .2s, box-shadow .2s;
+      overflow: hidden;
+      position: relative
+    }
+
+    .opt-img-btn:hover {
+      border-color: var(--pl);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, .3)
+    }
+
+    .opt-img-btn .on {
+      position: absolute;
+      top: 8px;
+      left: 9px;
+      background: rgba(0, 0, 0, .6);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      border-radius: 5px;
+      padding: 2px 7px;
+      z-index: 2
+    }
+
+    .opt-img-btn img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      display: block
+    }
+
+    .opt-img-txt {
+      padding: 9px 10px;
+      font-size: 15px;
+      text-align: center;
+      color: var(--tx);
+      font-weight: 700;
+    }
+
+    /* Used for hiding options text */
+    .opt-img-btn .hidden-text {
+      opacity: 0;
+      filter: blur(4px);
+      user-select: none;
+      background: #ccc;
+      color: transparent;
+      border-radius: 4px;
+      display: inline-block;
+      transition: opacity 0.3s, filter 0.3s, background 0.3s, color 0.3s;
+      height: auto;
+    }
+
+    .opt-img-btn .hidden-text.revealed {
+      opacity: 1;
+      filter: blur(0px);
+      user-select: auto;
+      background: transparent;
+      color: inherit;
+    }
+
+    .opt-img-btn.correct {
+      border-color: var(--ok);
+      background: rgba(76, 222, 143, .08)
+    }
+
+    .opt-img-btn.wrong {
+      border-color: var(--er);
+      background: rgba(255, 107, 122, .08);
+      opacity: .7
+    }
+
+    .opt-img-btn:disabled {
+      cursor: default;
+      transform: none
+    }
+
+    .rov {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 7px;
+      font-size: 12px;
+      font-weight: 700;
+      text-align: center;
+      display: none
+    }
+
+    .opt-img-btn.correct .rov {
+      display: block;
+      background: rgba(76, 222, 143, .9);
+      color: #0a2d1a
+    }
+
+    .opt-img-btn.wrong .rov {
+      display: block;
+      background: rgba(255, 107, 122, .85);
+      color: #300a10
+    }
+
+    /* Options - text */
+    .opts-txt-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 24px
+    }
+
+    .opt-txt-btn {
+      background: var(--s2);
+      border: 2px solid var(--bd);
+      border-radius: var(--rs);
+      padding: 18px 24px;
+      cursor: pointer;
+      text-align: left;
+      font-size: 22px;
+      font-weight: 700;
+      font-family: inherit;
+      color: var(--tx);
+      transition: border-color .15s, transform .15s, background .15s;
+      display: flex;
+      align-items: center;
+      gap: 16px
+    }
+
+    .opt-txt-btn .badge {
+      min-width: 36px;
+      height: 36px;
+      background: var(--s3);
+      border-radius: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 800;
+      flex-shrink: 0
+    }
+
+    .opt-txt-btn .opt-txt-content {
+      flex: 1;
+    }
+
+    /* Used for hiding options text */
+    .opt-txt-btn .hidden-text {
+      opacity: 0;
+      filter: blur(4px);
+      user-select: none;
+      background: #ccc;
+      color: transparent;
+      border-radius: 4px;
+      display: inline-block;
+      transition: opacity 0.3s, filter 0.3s, background 0.3s, color 0.3s;
+      height: auto;
+    }
+
+    .opt-txt-btn .hidden-text.revealed {
+      opacity: 1;
+      filter: blur(0px);
+      user-select: auto;
+      background: transparent;
+      color: inherit;
+    }
+
+    .opt-txt-btn:hover {
+      border-color: var(--pl);
+      transform: translateX(3px)
+    }
+
+    .opt-txt-btn.correct {
+      border-color: var(--ok);
+      background: rgba(76, 222, 143, .08)
+    }
+
+    .opt-txt-btn.wrong {
+      border-color: var(--er);
+      background: rgba(255, 107, 122, .08);
+      opacity: .7
+    }
+
+    .opt-txt-btn.correct .badge {
+      background: var(--ok);
+      color: #0a2d1a
+    }
+
+    .opt-txt-btn.wrong .badge {
+      background: var(--er);
+      color: #300a10
+    }
+
+    .opt-txt-btn:disabled {
+      cursor: default;
+      transform: none
+    }
+
+    /* Feedback */
+    .feedback {
+      display: none;
+      padding: 14px 18px;
+      border-radius: var(--rs);
+      margin-bottom: 18px;
+      font-weight: 600;
+      font-size: 14px;
+      align-items: center;
+      gap: 10px
+    }
+
+    .feedback.correct {
+      background: rgba(76, 222, 143, .12);
+      border: 1px solid var(--ok);
+      color: var(--ok)
+    }
+
+    .feedback.wrong {
+      background: rgba(255, 107, 122, .1);
+      border: 1px solid var(--er);
+      color: var(--er)
+    }
+
+    .feedback .icon {
+      font-size: 20px
+    }
+
+    .fb-detail {
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--tm);
+      margin-top: 3px
+    }
+
+    /* Options label */
+    .opts-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--tm);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 14px
+    }
+
+    /* Transcript toggle */
+    .transcript-box {
+      background: var(--s3);
+      border-radius: var(--rs);
+      padding: 14px;
+      margin-bottom: 16px;
+      display: none
+    }
+
+    .transcript-box .tl {
+      font-size: 11px;
+      color: var(--tm);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+      margin-bottom: 6px
+    }
+
+    .transcript-box p {
+      font-size: 15px;
+      line-height: 1.75
+    }
+
+    .btn-xscript {
+      background: var(--s2);
+      color: var(--tm);
+      border: 1px solid var(--bd);
+      border-radius: var(--rs);
+      padding: 12px 18px;
+      font-size: 13px;
+      cursor: pointer;
+      font-family: inherit;
+      transition: border-color .2s, color .2s;
+      display: none
+    }
+
+    .btn-xscript:hover {
+      border-color: var(--pl);
+      color: var(--tx)
+    }
+
+    /* Actions row */
+    .act-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap
+    }
+
+    .btn-next {
+      flex: 1;
+      background: linear-gradient(135deg, var(--pl), var(--p));
+      color: #fff;
+      border: none;
+      border-radius: var(--rs);
+      padding: 14px 22px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: inherit;
+      transition: transform .2s, box-shadow .2s;
+      box-shadow: 0 4px 14px rgba(26, 107, 74, .4);
+      display: none
+    }
+
+    .btn-next:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 22px rgba(26, 107, 74, .5)
+    }
+
+    /* Results */
+    .results-card {
+      display: none;
+      text-align: center;
+      padding: 36px 24px;
+      animation: slideUp .4s ease
+    }
+
+    .rtrophy {
+      font-size: 60px;
+      margin-bottom: 16px;
+      display: block
+    }
+
+    .rscore {
+      font-size: 56px;
+      font-weight: 900;
+      background: linear-gradient(135deg, var(--pl), var(--acc));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1
+    }
+
+    .rlbl {
+      font-size: 16px;
+      color: var(--tm);
+      margin-top: 6px
+    }
+
+    .rstats {
+      display: flex;
+      justify-content: center;
+      gap: 28px;
+      margin: 24px 0;
+      flex-wrap: wrap
+    }
+
+    .rstat {
+      text-align: center
+    }
+
+    .rstat-v {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--tx)
+    }
+
+    .rstat-l {
+      font-size: 11px;
+      color: var(--tm);
+      margin-top: 3px;
+      text-transform: uppercase;
+      letter-spacing: 1px
+    }
+
+    .rstat.green .rstat-v {
+      color: var(--ok)
+    }
+
+    .rstat.red .rstat-v {
+      color: var(--er)
+    }
+
+    .btn-session {
+      padding: 12px 24px;
+      border-radius: var(--rs);
+      font-size: 14px;
+      font-weight: 700;
+      font-family: inherit;
+      cursor: pointer;
+      transition: transform .2s
+    }
+
+    .btn-cont {
+      background: linear-gradient(135deg, var(--pl), var(--p));
+      color: #fff;
+      border: none;
+      box-shadow: 0 4px 14px rgba(26, 107, 74, .4)
+    }
+
+    .btn-cont:hover {
+      transform: translateY(-2px)
+    }
+
+    /* Error card */
+    .error-card {
+      display: none;
+      background: rgba(255, 107, 122, .08);
+      border: 1px solid var(--er);
+      border-radius: var(--r);
+      padding: 22px;
+      text-align: center;
+      color: var(--er)
+    }
+
+    .error-card p {
+      color: var(--tm);
+      font-size: 13px;
+      margin-top: 6px
+    }
+
+    /* Loading */
+    .loader {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      border: 2px solid var(--bd);
+      border-top-color: var(--pl);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+      margin-right: 8px;
+      vertical-align: middle
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg)
+      }
+    }
+
+    .status-bar {
+      text-align: center;
+      padding: 20px;
+      color: var(--tm);
+      font-size: 14px;
+      display: none
+    }
+
+    /* Data missing warning */
+    .data-warn {
+      background: rgba(245, 166, 35, .1);
+      border: 1px solid var(--acc);
+      border-radius: var(--rs);
+      padding: 16px;
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: var(--acc)
+    }
+
+    .data-warn a {
+      color: var(--al);
+      text-decoration: underline
+    }
+
+    /* Progress export/import */
+    .prog-tools {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 12px
+    }
+
+    .btn-sm {
+      padding: 7px 14px;
+      font-size: 12px;
+      border-radius: 7px;
+      cursor: pointer;
+      font-family: inherit;
+      font-weight: 600;
+      border: none;
+      transition: opacity .2s
+    }
+
+    .btn-sm:hover {
+      opacity: .85
+    }
+
+    .btn-export {
+      background: rgba(76, 222, 143, .15);
+      color: var(--ok);
+      border: 1px solid rgba(76, 222, 143, .3)
+    }
+
+    .btn-import {
+      background: rgba(45, 155, 110, .15);
+      color: var(--pl);
+      border: 1px solid rgba(45, 155, 110, .3)
+    }
+
+    .btn-danger {
+      background: rgba(255, 107, 122, .12);
+      color: var(--er);
+      border: 1px solid rgba(255, 107, 122, .3)
+    }
+
+    /* Screen toggle helpers */
+    .screen {
+      display: none
+    }
+
+    .screen.active {
+      display: block
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="wrap">
+    <header>
+      <div class="logo">
+        <div class="logoicon">🎧</div>
+        <div>
+          <h1>客語認證即時測驗</h1>
+          <p>Hakka Language Certification — Real-time Practice Quiz</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== SCREEN: Student Login ===== -->
+    <div class="screen active" id="screenStudent">
+
+      <!-- Data missing warning -->
+      <div class="data-warn" id="dataMissingWarn" style="display:none">
+        ⚠️ 未找到題庫資料 (quiz_data.js)。請先用
+        <a href="scraper.html" target="_blank">scraper.html</a>
+        產生題庫資料，再將 quiz_data.js 放在同一資料夾後重新整理頁面。
+      </div>
+
+      <div class="card">
+        <div class="card-title">👤 學生登入</div>
+        <div style="margin-bottom:16px">
+          <label class="fg-label">輸入學生姓名</label>
+          <div style="display:flex;gap:10px">
+            <input type="text" id="nameInput" placeholder="請輸入姓名..." style="flex:1"
+              onkeydown="if(event.key==='Enter')addOrLoginStudent()">
+            <button class="btn btn-primary" onclick="addOrLoginStudent()" style="white-space:nowrap">確認 →</button>
+          </div>
+        </div>
+
+        <div id="studentListWrap">
+          <div class="card-title" style="margin-bottom:10px">📋 已記錄的學生</div>
+          <div class="student-cards" id="studentCards"></div>
+          <div id="noStudents" style="color:var(--tm);font-size:13px;display:none">（尚無記錄，請輸入學生姓名開始）</div>
+        </div>
+
+        <div class="prog-tools" style="margin-top:18px">
+          <button class="btn-sm btn-import" onclick="document.getElementById('importFile').click()">📂 匯入存檔</button>
+          <input type="file" id="importFile" accept=".json" style="display:none" onchange="importProgress(event)">
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== SCREEN: Quiz Settings ===== -->
+    <div class="screen" id="screenSettings">
+      <div class="card">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px">
+          <div class="card-title" style="margin-bottom:0">⚙ 考試設定</div>
+          <button class="btn-sm btn-ghost" onclick="backToStudents()"
+            style="font-size:12px;padding:6px 12px;border-radius:6px;cursor:pointer;background:transparent;border:1px solid var(--bd);color:var(--tm);font-family:inherit">←
+            切換學生</button>
+        </div>
+        <div style="font-size:14px;color:var(--tm);margin-bottom:18px">
+          學生：<strong id="settingsStudentName" style="color:var(--tx)"></strong>
+        </div>
+
+        <div class="form-grid">
+          <div>
+            <label class="fg-label">腔調</label>
+            <select id="dialectSel">
+              <option value="1">四縣腔</option>
+              <option value="2">海陸腔</option>
+            </select>
+          </div>
+          <div>
+            <label class="fg-label">題型</label>
+            <select id="typeSel">
+              <option value="1">聽力理解-單句測驗</option>
+              <option value="2">聽力理解-對話測驗</option>
+              <option value="3">閱讀理解-單句測驗</option>
+            </select>
+          </div>
+          <div>
+            <label class="fg-label">每次題數</label>
+            <input type="number" id="countInp" value="10" min="1" max="50">
+          </div>
+        </div>
+
+        <!-- Existing progress info -->
+        <div id="existingProgressInfo"
+          style="display:none;background:var(--s2);border:1px solid var(--bd);border-radius:var(--rs);padding:14px;margin-bottom:14px;font-size:13px">
+          <div style="color:var(--pl);font-weight:700;margin-bottom:6px">📖 找到上次進度</div>
+          <div id="progressDetail" style="color:var(--tm)"></div>
+          <div style="display:flex;gap:8px;margin-top:10px">
+            <button class="btn-sm btn-primary btn-cont" onclick="continueFromProgress()"
+              style="font-size:12px;padding:7px 14px">▶ 繼續上次進度</button>
+            <button class="btn-sm btn-danger" onclick="resetProgress()" style="font-size:12px;padding:7px 14px">↺
+              重新開始</button>
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-full" id="startBtn" onclick="startNewSession()">🚀 開始測驗</button>
+      </div>
+    </div>
+
+    <!-- ===== SCREEN: Quiz ===== -->
+    <div class="screen" id="screenQuiz">
+
+      <!-- Quiz header -->
+      <div class="card" style="padding:18px 24px;margin-bottom:16px">
+        <div class="quiz-meta-row">
+          <div class="qmeta">第 <strong id="curQ">1</strong> 題 / <strong id="totQ">10</strong> 題</div>
+          <div class="score-pill">得分 <span id="scorNow">0</span>/<span id="scorTot">0</span></div>
+        </div>
+        <div class="prog-wrap">
+          <div class="prog-fill" id="progFill" style="width:0%"></div>
+        </div>
+        <div style="font-size:11px;color:var(--tm);margin-top:6px" id="sessionInfo"></div>
+      </div>
+
+      <!-- Status loading -->
+      <div class="status-bar" id="statusBar"><span class="loader"></span><span id="statusTxt">載入中...</span></div>
+      <div class="error-card" id="errorCard"><strong>❌ 載入失敗</strong>
+        <p id="errMsg"></p>
+      </div>
+
+      <!-- Question card -->
+      <div class="card" id="questionCard" style="display:none;animation:slideUp .35s ease">
+        <div class="qnum" id="qnum">題目 1</div>
+
+        <!-- Audio player (listening type) -->
+        <div class="audio-bar" id="audioBar">
+          <button class="play-btn" id="playBtn" onclick="toggleAudio()">▶</button>
+          <div class="audio-info">
+            <div class="audio-lbl">🎙 播放題目音檔</div>
+            <div class="audio-prog">
+              <div class="audio-prog-fill" id="audioPF"></div>
+            </div>
+          </div>
+          <div class="play-cnt" id="playCntDisp">⟳ 0</div>
+        </div>
+
+        <!-- Option audio (for dialogue) -->
+        <button class="opt-audio-btn" id="optAudioBtn" onclick="playOptionAudio()">▶ 播放選項音檔</button>
+
+        <!-- Question image -->
+        <img id="qImg" class="qimg" alt="" onerror="this.style.display='none'">
+
+        <!-- Question text -->
+        <div class="qtext" id="qText"></div>
+
+        <!-- Options label -->
+        <div class="opts-label">請選擇答案</div>
+
+        <!-- Image options -->
+        <div class="opts-img-grid" id="imgOptGrid"></div>
+
+        <!-- Text options -->
+        <div class="opts-txt-grid" id="txtOptGrid"></div>
+
+        <!-- Feedback -->
+        <div class="feedback" id="feedback">
+          <div class="icon" id="fbIcon"></div>
+          <div>
+            <div id="fbText"></div>
+            <div class="fb-detail" id="fbDetail"></div>
+          </div>
+        </div>
+
+        <!-- Transcript -->
+        <div class="transcript-box" id="xscriptBox">
+          <div class="tl">📝 題目文字稿</div>
+          <p id="xscriptTxt"></p>
+        </div>
+
+        <!-- Actions -->
+        <div class="act-row">
+          <button class="btn-xscript" id="xscriptBtn" onclick="toggleTranscript()">👁 顯示文字稿</button>
+          <button class="btn-next" id="nxtBtn" onclick="nextQuestion()">下一題 →</button>
+        </div>
+      </div>
+
+      <!-- Results card -->
+      <div class="card results-card" id="resultsCard">
+        <span class="rtrophy" id="rtrophy"></span>
+        <div class="rscore" id="rscore"></div>
+        <div class="rlbl">此次正確率</div>
+        <div class="rstats">
+          <div class="rstat green">
+            <div class="rstat-v" id="rcorrect"></div>
+            <div class="rstat-l">答對</div>
+          </div>
+          <div class="rstat red">
+            <div class="rstat-v" id="rwrong"></div>
+            <div class="rstat-l">答錯</div>
+          </div>
+          <div class="rstat">
+            <div class="rstat-v" id="rtotal"></div>
+            <div class="rstat-l">題數</div>
+          </div>
+          <div class="rstat">
+            <div class="rstat-v" id="rremain"></div>
+            <div class="rstat-l">剩餘未做</div>
+          </div>
+        </div>
+        <div style="color:var(--tm);font-size:13px;margin-bottom:20px" id="overallProg"></div>
+        <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+          <button class="btn-sm btn-cont btn-session" onclick="continueSession()">▶ 繼續做下一批</button>
+          <button class="btn-sm btn-ghost btn-session" onclick="goSettings()">⚙ 更換設定</button>
+          <button class="btn-sm btn-export btn-session" onclick="exportProgress()">💾 匯出存檔</button>
+          <button class="btn-sm btn-danger btn-session" onclick="backToStudents()">← 切換學生</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Audio element -->
+  <audio id="audioEl" preload="none"></audio>
+
+  <script>
+    // ============================================================
+    // CONSTANTS & STATE
+    // ============================================================
+    const PROXY = 'https://corsproxy.io/?';
+    const BASE = 'https://elearning.hakka.gov.tw';
+
+    let currentStudent = null;  // { name, progress: {key: {done:[], date}} }
+    let sessionQuestions = [];
+    let sessionIndex = 0;
+    let sessionScore = 0;
+    let sessionAnswered = 0;
+    let sessionKey = '';        // "d1_t1"
+    let audioPlays = 0;
+    let audioInterval = null;
+    let curOptAudioSrc = null;
+
+    // ============================================================
+    // STORAGE HELPERS
+    // ============================================================
+    function storageKey(name) { return 'hakka_quiz_' + name; }
+
+    function loadStudent(name) {
+      const raw = localStorage.getItem(storageKey(name));
+      if (!raw) return { name, progress: {} };
+      try { return JSON.parse(raw); }
+      catch (e) { return { name, progress: {} }; }
+    }
+
+    function saveStudent(student) {
+      localStorage.setItem(storageKey(student.name), JSON.stringify(student));
+    }
+
+    function getAllStudentNames() {
+      const names = [];
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (k.startsWith('hakka_quiz_')) names.push(k.replace('hakka_quiz_', ''));
+      }
+      return names;
+    }
+
+    function deleteStudent(name) {
+      localStorage.removeItem(storageKey(name));
+    }
+
+    // ============================================================
+    // DATA ACCESS
+    // ============================================================
+    function getQuestionsForKey(key) {
+      if (typeof QUIZ_DATA === 'undefined' || !QUIZ_DATA[key]) return null;
+      return QUIZ_DATA[key].questions;
+    }
+
+    function getQuizKey(dialect, type) {
+      return `d${dialect}_t${type}`;
+    }
+
+    // ============================================================
+    // SCREEN SWITCHING
+    // ============================================================
+    function showScreen(id) {
+      document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+
+    // ============================================================
+    // STUDENT SCREEN
+    // ============================================================
+    function init() {
+      // Check if quiz data is loaded
+      if (window.QUIZ_DATA_MISSING || typeof QUIZ_DATA === 'undefined') {
+        document.getElementById('dataMissingWarn').style.display = 'block';
+      }
+      renderStudentList();
+    }
+
+    function renderStudentList() {
+      const names = getAllStudentNames();
+      const container = document.getElementById('studentCards');
+      const noEl = document.getElementById('noStudents');
+
+      if (names.length === 0) {
+        container.innerHTML = '';
+        noEl.style.display = 'block';
+        return;
+      }
+      noEl.style.display = 'none';
+
+      container.innerHTML = names.map(name => {
+        const s = loadStudent(name);
+        const totalDone = Object.values(s.progress || {}).reduce((a, v) => a + (v.done || []).length, 0);
+        const lastDate = Object.values(s.progress || {}).reduce((a, v) => v.date > a ? v.date : a, '');
+        return `<div class="student-card" onclick="selectStudent('${esc(name)}')">
+      <button class="btn-del-student" onclick="event.stopPropagation();confirmDeleteStudent('${esc(name)}')">✕ 刪除</button>
+      <div class="sc-name">👤 ${esc(name)}</div>
+      <div class="sc-meta">已完成 ${totalDone} 題${lastDate ? ' · ' + lastDate.slice(0, 10) : ''}</div>
+    </div>`;
+      }).join('');
+    }
+
+    function esc(s) { return s.replace(/['"<>&]/g, c => ({ '\'': '&#39;', '"': '&quot;', '<': '&lt;', '>': '&gt;', '&': '&amp;' }[c])); }
+
+    function addOrLoginStudent() {
+      const name = document.getElementById('nameInput').value.trim();
+      if (!name) return;
+      selectStudent(name);
+    }
+
+    function selectStudent(name) {
+      currentStudent = loadStudent(name);
+      document.getElementById('nameInput').value = '';
+      showSettingsScreen();
+    }
+
+    function confirmDeleteStudent(name) {
+      if (confirm(`確定要刪除「${name}」的所有記錄嗎？`)) {
+        deleteStudent(name);
+        renderStudentList();
+      }
+    }
+
+    function backToStudents() {
+      stopAudio();
+      renderStudentList();
+      showScreen('screenStudent');
+    }
+
+    // ============================================================
+    // SETTINGS SCREEN
+    // ============================================================
+    function showSettingsScreen() {
+      document.getElementById('settingsStudentName').textContent = currentStudent.name;
+      showScreen('screenSettings');
+      updateProgressInfo();
+
+      document.getElementById('dialectSel').addEventListener('change', updateProgressInfo);
+      document.getElementById('typeSel').addEventListener('change', updateProgressInfo);
+    }
+
+    function updateProgressInfo() {
+      const dialect = document.getElementById('dialectSel').value;
+      const type = document.getElementById('typeSel').value;
+      const key = getQuizKey(dialect, type);
+      const prog = currentStudent.progress[key];
+      const infoDiv = document.getElementById('existingProgressInfo');
+      const detailDiv = document.getElementById('progressDetail');
+
+      const allQs = getQuestionsForKey(key);
+      const total = allQs ? allQs.length : '?';
+
+      if (prog && prog.done && prog.done.length > 0) {
+        infoDiv.style.display = 'block';
+        const remain = total === '?' ? '?' : (total - prog.done.length);
+        detailDiv.innerHTML = `已完成 <strong style="color:var(--tx)">${prog.done.length}</strong>/${total} 題
+      · 剩餘 <strong style="color:var(--acc)">${remain}</strong> 題未做
+      · 上次 ${prog.date ? prog.date.slice(0, 10) : ''}`;
+      } else {
+        infoDiv.style.display = 'none';
+      }
+    }
+
+    function continueFromProgress() {
+      const dialect = document.getElementById('dialectSel').value;
+      const type = document.getElementById('typeSel').value;
+      const count = parseInt(document.getElementById('countInp').value) || 10;
+      startQuiz(dialect, type, count, true);
+    }
+
+    function resetProgress() {
+      const dialect = document.getElementById('dialectSel').value;
+      const type = document.getElementById('typeSel').value;
+      const key = getQuizKey(dialect, type);
+      if (confirm('確定要重置此題型的所有進度嗎？')) {
+        delete currentStudent.progress[key];
+        saveStudent(currentStudent);
+        updateProgressInfo();
+      }
+    }
+
+    function startNewSession() {
+      const dialect = document.getElementById('dialectSel').value;
+      const type = document.getElementById('typeSel').value;
+      const count = parseInt(document.getElementById('countInp').value) || 10;
+      startQuiz(dialect, type, count, true); // always continue from progress
+    }
+
+    // ============================================================
+    // QUIZ LOGIC
+    // ============================================================
+    async function startQuiz(dialect, type, count, continueProgress) {
+      sessionKey = getQuizKey(dialect, type);
+      showScreen('screenQuiz');
+      hide('questionCard');
+      hide('resultsCard');
+      show('statusBar');
+      hide('errorCard');
+      setStatus('載入題目中...');
+
+      try {
+        let allQs = getQuestionsForKey(sessionKey);
+
+        // If no embedded data, fall back to live fetch
+        if (!allQs) {
+          setStatus('從網路載入題庫...');
+          allQs = await fetchQuestionsLive(dialect, type, count * 3);
+        }
+
+        if (!allQs || allQs.length === 0) throw new Error('此題型沒有資料，請先用 scraper.html 產生題庫資料。');
+
+        // Determine which questions to show
+        const prog = currentStudent.progress[sessionKey] || { done: [], date: null };
+        const doneSoFar = prog.done; // indices already done
+
+        // Get questions NOT yet done
+        const notDone = allQs.map((q, i) => ({ q, i })).filter(x => !doneSoFar.includes(x.i));
+
+        if (notDone.length === 0) {
+          throw new Error('🎉 此題型的所有題目已完成！可在設定頁重置進度重新開始。');
+        }
+
+        // Take `count` questions from the front (already in order)
+        const batch = notDone.slice(0, count);
+        sessionQuestions = batch.map(x => ({ ...x.q, origIndex: x.i }));
+        sessionIndex = 0;
+        sessionScore = 0;
+        sessionAnswered = 0;
+        audioPlays = 0;
+
+        const dialLabel = dialect === '1' ? '四縣腔' : '海陸腔';
+        const typeLabels = { '1': '聽力單句', '2': '聽力對話', '3': '閱讀單句' };
+        document.getElementById('sessionInfo').textContent =
+          `${dialLabel} · ${typeLabels[type]} · 已做 ${doneSoFar.length}/${allQs.length} 題`;
+        document.getElementById('totQ').textContent = sessionQuestions.length;
+
+        hide('statusBar');
+        show('questionCard');
+        renderQuestion(0);
+
+      } catch (e) {
+        hide('statusBar');
+        showEl('errorCard');
+        document.getElementById('errMsg').textContent = e.message || '未知錯誤';
+      }
+    }
+
+    // ============================================================
+    // LIVE FETCH FALLBACK
+    // ============================================================
+    async function fetchQuestionsLive(dialect, type, needed) {
+      let allQs = [];
+      for (let page = 1; page <= 6 && allQs.length < needed; page++) {
+        const url = `${BASE}/hakka/cert/question-library?l=1&d=${dialect}&t=${type}&page=${page}`;
+        const resp = await fetch(PROXY + encodeURIComponent(url));
+        if (!resp.ok) break;
+        const html = await resp.text();
+        const qs = parseQuestionsHTML(html);
+        if (qs.length === 0) break;
+        allQs = allQs.concat(qs);
+        await new Promise(r => setTimeout(r, 400));
+      }
+      return allQs;
+    }
+
+    function parseQuestionsHTML(html) {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+      const qdivs = doc.querySelectorAll('.question');
+      const questions = [];
+
+      qdivs.forEach(qDiv => {
+        try {
+          const allBtns = qDiv.querySelectorAll('.btn-play');
+          let questionAudioSrc = null, optionAudioSrc = null;
+          allBtns.forEach(btn => {
+            const src = btn.getAttribute('data-audio-src') || '';
+            if (src.includes('_Q.mp3')) questionAudioSrc = src;
+            else if (src.includes('_O.mp3')) optionAudioSrc = src;
+            else if (!questionAudioSrc && src.endsWith('.mp3')) questionAudioSrc = src;
+          });
+
+          let questionText = '';
+          const textNode = qDiv.querySelector('[id^="q-"]');
+          if (textNode) questionText = textNode.innerText.trim().replace(/^\d+\.\s*/, '').trim();
+
+          let questionImg = null;
+          qDiv.querySelectorAll('img').forEach(img => {
+            const src = img.getAttribute('src') || '';
+            if (src.includes('_Q.jpg')) questionImg = src;
+          });
+
+          const options = [];
+          const optLabels = qDiv.querySelectorAll('label.option, label[class*="option"]');
+          if (optLabels.length >= 2) {
+            optLabels.forEach((label, i) => {
+              const oImg = label.querySelector('img[src*="_O"]');
+              const isCorrect = !!label.querySelector('img[src*="option_correct"]');
+              let text = '';
+              const span = label.querySelector('.option-text');
+              if (span) text = span.innerText.trim().replace(/^\.\s*/, '');
+              else text = label.innerText.trim().replace(/^\d+\s*\.?\s*/, '');
+              options.push({ index: i + 1, imageSrc: oImg ? oImg.getAttribute('src') : null, text: text.trim(), isCorrect });
+            });
+          } else {
+            const oImgs = [...qDiv.querySelectorAll('img')].filter(img => /_(O1|O2|O3)\./i.test(img.getAttribute('src') || ''));
+            const cwImgs = [...qDiv.querySelectorAll('img')].filter(img => {
+              const s = img.getAttribute('src') || '';
+              return s.includes('option_correct') || s.includes('option_wrong');
+            });
+            oImgs.forEach((img, i) => {
+              const cw = cwImgs[i];
+              options.push({ index: i + 1, imageSrc: img.getAttribute('src'), text: String(i + 1), isCorrect: cw ? (cw.getAttribute('src') || '').includes('option_correct') : false });
+            });
+          }
+
+          if (!options.some(o => o.isCorrect)) {
+            const dv = qDiv.querySelector('[data-answer]');
+            if (dv) { const ci = parseInt(dv.getAttribute('data-answer')) - 1; if (options[ci]) options[ci].isCorrect = true; }
+          }
+
+          if (options.length >= 2) questions.push({ questionAudioSrc, optionAudioSrc, questionText, questionImg, options });
+        } catch (e) { }
+      });
+      return questions;
+    }
+
+    // ============================================================
+    // RENDER QUESTION
+    // ============================================================
+    function renderQuestion(idx) {
+      const q = sessionQuestions[idx];
+      audioPlays = 0;
+      curOptAudioSrc = q.optionAudioSrc || null;
+
+      document.getElementById('curQ').textContent = idx + 1;
+      document.getElementById('progFill').style.width = `${(idx / sessionQuestions.length) * 100}%`;
+      document.getElementById('qnum').textContent = `題目 ${idx + 1}`;
+
+      // Audio section (only for listening types)
+      const hasAudio = !!q.questionAudioSrc;
+      setDisplay('audioBar', hasAudio ? 'flex' : 'none');
+      if (hasAudio) {
+        const audioEl = document.getElementById('audioEl');
+        audioEl.src = q.questionAudioSrc;
+        audioEl.load();
+        document.getElementById('playCntDisp').textContent = '⟳ 0';
+        document.getElementById('audioPF').style.width = '0%';
+        document.getElementById('playBtn').textContent = '▶';
+        document.getElementById('playBtn').classList.remove('playing');
+      }
+
+      // Options audio
+      setDisplay('optAudioBtn', curOptAudioSrc ? 'inline-flex' : 'none');
+
+      // Question image
+      const qImg = document.getElementById('qImg');
+      if (q.questionImg) {
+        qImg.src = proxyImgSrc(q.questionImg);
+        qImg.style.display = 'block';
+        qImg.onerror = function () { this.style.display = 'none'; };
+      } else {
+        qImg.style.display = 'none';
+      }
+
+      // Question text
+      const qtEl = document.getElementById('qText');
+      if (q.questionText && q.questionText.trim()) {
+        qtEl.textContent = q.questionText;
+        qtEl.style.display = 'block';
+        // Hide questioning text if it has audio (listening question)
+        if (hasAudio) {
+          qtEl.classList.add('hidden-text');
+        } else {
+          qtEl.classList.remove('hidden-text');
+          qtEl.classList.remove('revealed');
+        }
+      } else {
+        qtEl.style.display = 'none';
+        qtEl.classList.remove('hidden-text');
+        qtEl.classList.remove('revealed');
+      }
+
+      // Transcript toggle
+      const xscriptBtn = document.getElementById('xscriptBtn');
+      document.getElementById('xscriptBox').style.display = 'none';
+      if (q.questionText && q.questionText.trim() && hasAudio) {
+        xscriptBtn.style.display = 'inline-block';
+        xscriptBtn.textContent = '👁 顯示文字稿';
+        document.getElementById('xscriptTxt').textContent = q.questionText;
+      } else {
+        xscriptBtn.style.display = 'none';
+      }
+
+      // Build options
+      const imgGrid = document.getElementById('imgOptGrid');
+      const txtGrid = document.getElementById('txtOptGrid');
+      imgGrid.innerHTML = '';
+      txtGrid.innerHTML = '';
+
+      const hasImages = q.options.some(o => o.imageSrc && /_(O1|O2|O3)/i.test(o.imageSrc));
+
+      if (hasImages) {
+        imgGrid.style.display = 'grid';
+        txtGrid.style.display = 'none';
+        q.options.forEach((opt, i) => {
+          const btn = document.createElement('button');
+          btn.className = 'opt-img-btn';
+          btn.dataset.idx = i;
+          btn.onclick = () => selectAnswer(i);
+          const txtClass = hasAudio ? 'hidden-text' : '';
+          btn.innerHTML = `
+        <div class="on">${opt.index}</div>
+        ${opt.imageSrc ? `<img src="${proxyImgSrc(opt.imageSrc)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+        <div class="opt-img-txt ${txtClass}">${opt.text && opt.text !== String(opt.index) ? opt.text : ''}</div>
+        <div class="rov"></div>`;
+          imgGrid.appendChild(btn);
+        });
+      } else {
+        imgGrid.style.display = 'none';
+        txtGrid.style.display = 'flex';
+        q.options.forEach((opt, i) => {
+          const btn = document.createElement('button');
+          btn.className = 'opt-txt-btn';
+          btn.dataset.idx = i;
+          btn.onclick = () => selectAnswer(i);
+          const txtClass = hasAudio ? 'hidden-text' : '';
+          btn.innerHTML = `<span class="badge">${opt.index}</span><span class="opt-txt-content ${txtClass}">${opt.text}</span>`;
+          txtGrid.appendChild(btn);
+        });
+      }
+
+      // Hide feedback & next
+      document.getElementById('feedback').style.display = 'none';
+      document.getElementById('nxtBtn').style.display = 'none';
+
+      // Auto-play audio for listening questions
+      if (hasAudio) {
+        setTimeout(() => playAudio(), 700);
+      }
+    }
+
+    // ============================================================
+    // AUDIO CONTROLS
+    // ============================================================
+    function playAudio() {
+      const audioEl = document.getElementById('audioEl');
+      const playBtn = document.getElementById('playBtn');
+      if (audioInterval) clearInterval(audioInterval);
+
+      audioEl.currentTime = 0;
+      audioEl.play().catch(() => { });
+      audioPlays++;
+      document.getElementById('playCntDisp').textContent = `⟳ ${audioPlays}`;
+      playBtn.classList.add('playing');
+      playBtn.textContent = '⏸';
+
+      audioInterval = setInterval(() => {
+        if (audioEl.duration) {
+          document.getElementById('audioPF').style.width = `${(audioEl.currentTime / audioEl.duration) * 100}%`;
+        }
+      }, 100);
+
+      audioEl.onended = () => {
+        playBtn.classList.remove('playing');
+        playBtn.textContent = '▶';
+        clearInterval(audioInterval);
+        document.getElementById('audioPF').style.width = '0%';
+      };
+    }
+
+    function toggleAudio() {
+      const audioEl = document.getElementById('audioEl');
+      if (!audioEl.paused) {
+        audioEl.pause();
+        document.getElementById('playBtn').textContent = '▶';
+        document.getElementById('playBtn').classList.remove('playing');
+        clearInterval(audioInterval);
+      } else {
+        playAudio();
+      }
+    }
+
+    function playOptionAudio() {
+      if (!curOptAudioSrc) return;
+      const audioEl = document.getElementById('audioEl');
+      audioEl.src = curOptAudioSrc;
+      audioEl.load();
+      audioEl.play().catch(() => { });
+    }
+
+    function stopAudio() {
+      clearInterval(audioInterval);
+      const audioEl = document.getElementById('audioEl');
+      audioEl.pause();
+      audioEl.src = '';
+    }
+
+    // ============================================================
+    // ANSWER SELECTION
+    // ============================================================
+    function selectAnswer(chosenIdx) {
+      const q = sessionQuestions[sessionIndex];
+      const chosen = q.options[chosenIdx];
+      const isCorrect = chosen.isCorrect;
+
+      sessionAnswered++;
+      if (isCorrect) sessionScore++;
+
+      document.getElementById('scorNow').textContent = sessionScore;
+      document.getElementById('scorTot').textContent = sessionAnswered;
+
+      // Disable + highlight all options
+      const imgBtns = document.querySelectorAll('.opt-img-btn');
+      const txtBtns = document.querySelectorAll('.opt-txt-btn');
+
+      [...imgBtns, ...txtBtns].forEach(btn => {
+        btn.disabled = true;
+        const i = parseInt(btn.dataset.idx);
+        const optIsCorrect = q.options[i].isCorrect;
+        if (optIsCorrect) {
+          btn.classList.add('correct');
+          const rov = btn.querySelector('.rov');
+          if (rov) rov.textContent = '✓ 正確答案';
+        } else if (i === chosenIdx && !optIsCorrect) {
+          btn.classList.add('wrong');
+          const rov = btn.querySelector('.rov');
+          if (rov) rov.textContent = '✗ 錯誤';
+        }
+      });
+
+      // Feedback
+      const fb = document.getElementById('feedback');
+      if (isCorrect) {
+        fb.className = 'feedback correct';
+        document.getElementById('fbIcon').textContent = '✅';
+        document.getElementById('fbText').textContent = '答對了！太棒了！';
+        document.getElementById('fbDetail').textContent = '';
+      } else {
+        fb.className = 'feedback wrong';
+        document.getElementById('fbIcon').textContent = '❌';
+        document.getElementById('fbText').textContent = '答錯了';
+        const correct = q.options.find(o => o.isCorrect);
+        document.getElementById('fbDetail').textContent = correct ? `正確答案是選項 ${correct.index}：${correct.text || ''}` : '';
+      }
+      fb.style.display = 'flex';
+
+      // Save progress
+      const prog = currentStudent.progress[sessionKey] || { done: [], date: null };
+      if (!prog.done.includes(q.origIndex)) prog.done.push(q.origIndex);
+      prog.date = new Date().toISOString();
+      currentStudent.progress[sessionKey] = prog;
+      saveStudent(currentStudent);
+
+      // Next button
+      const nxt = document.getElementById('nxtBtn');
+      nxt.style.display = 'block';
+      nxt.textContent = sessionIndex === sessionQuestions.length - 1 ? '查看成績 🏆' : '下一題 →';
+    }
+
+    function nextQuestion() {
+      sessionIndex++;
+      if (sessionIndex >= sessionQuestions.length) {
+        showResults();
+        return;
+      }
+      const card = document.getElementById('questionCard');
+      card.style.animation = 'none';
+      void card.offsetHeight;
+      card.style.animation = '';
+      renderQuestion(sessionIndex);
+    }
+
+    function toggleTranscript() {
+      const box = document.getElementById('xscriptBox');
+      const btn = document.getElementById('xscriptBtn');
+      const qtEl = document.getElementById('qText');
+      const showing = box.style.display === 'block';
+
+      if (!showing) {
+        box.style.display = 'block';
+        btn.textContent = '🙈 隱藏文字稿';
+
+        // Reveal hidden text in question and options
+        if (qtEl.classList.contains('hidden-text')) qtEl.classList.add('revealed');
+        document.querySelectorAll('.hidden-text').forEach(el => el.classList.add('revealed'));
+
+      } else {
+        box.style.display = 'none';
+        btn.textContent = '👁 顯示文字稿';
+
+        // Hide them again
+        document.querySelectorAll('.hidden-text').forEach(el => el.classList.remove('revealed'));
+      }
+    }
+
+    // ============================================================
+    // RESULTS
+    // ============================================================
+    function showResults() {
+      stopAudio();
+      hide('questionCard');
+
+      const allQs = getQuestionsForKey(sessionKey);
+      const prog = currentStudent.progress[sessionKey] || { done: [] };
+      const totalQ = allQs ? allQs.length : '?';
+      const doneTotal = prog.done.length;
+      const remain = totalQ === '?' ? '?' : (totalQ - doneTotal);
+
+      const pct = Math.round((sessionScore / sessionQuestions.length) * 100);
+      const trophy = pct >= 90 ? '🏆' : pct >= 70 ? '🥈' : pct >= 50 ? '🥉' : '💪';
+
+      document.getElementById('rtrophy').textContent = trophy;
+      document.getElementById('rscore').textContent = `${pct}%`;
+      document.getElementById('rcorrect').textContent = sessionScore;
+      document.getElementById('rwrong').textContent = sessionQuestions.length - sessionScore;
+      document.getElementById('rtotal').textContent = sessionQuestions.length;
+      document.getElementById('rremain').textContent = remain;
+      document.getElementById('overallProg').textContent = `總體進度：已完成 ${doneTotal}/${totalQ} 題`;
+
+      showEl('resultsCard');
+    }
+
+    function continueSession() {
+      const dialect = document.getElementById('dialectSel').value;
+      const type = document.getElementById('typeSel').value;
+      const count = parseInt(document.getElementById('countInp').value) || 10;
+      hide('resultsCard');
+      startQuiz(dialect, type, count, true);
+    }
+
+    function goSettings() {
+      stopAudio();
+      hide('resultsCard');
+      showScreen('screenSettings');
+      updateProgressInfo();
+    }
+
+    // ============================================================
+    // PROGRESS EXPORT / IMPORT
+    // ============================================================
+    function exportProgress() {
+      const data = {
+        version: 1,
+        student: currentStudent.name,
+        progress: currentStudent.progress,
+        exportDate: new Date().toISOString()
+      };
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `hakka_progress_${currentStudent.name}_${new Date().toISOString().slice(0, 10)}.json`;
+      a.click();
+    }
+
+    function importProgress(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          const data = JSON.parse(e.target.result);
+          if (!data.student || !data.progress) throw new Error('格式不正確');
+
+          // Load or create student
+          const student = loadStudent(data.student);
+          // Merge progress (union of done indices)
+          Object.entries(data.progress).forEach(([key, val]) => {
+            if (!student.progress[key]) student.progress[key] = { done: [], date: null };
+            const merged = [...new Set([...student.progress[key].done, ...(val.done || [])])];
+            student.progress[key].done = merged;
+            student.progress[key].date = val.date || student.progress[key].date;
+          });
+          saveStudent(student);
+          alert(`✅ 已匯入「${data.student}」的進度！`);
+          renderStudentList();
+        } catch (err) {
+          alert('❌ 匯入失敗：' + err.message);
+        }
+        event.target.value = '';
+      };
+      reader.readAsText(file);
+    }
+
+    // ============================================================
+    // DOM HELPERS
+    // ============================================================
+    function show(id) { document.getElementById(id).style.display = 'block'; }
+    function hide(id) { document.getElementById(id).style.display = 'none'; }
+    function showEl(id) { document.getElementById(id).style.display = 'block'; }
+    function setDisplay(id, val) { document.getElementById(id).style.display = val; }
+    function setStatus(txt) { document.getElementById('statusTxt').textContent = txt; }
+
+    function proxyImgSrc(src) {
+      if (!src) return '';
+      // Use referrer policy workaround instead of proxy for images (faster)
+      return src;
+    }
+
+    // ============================================================
+    // INIT
+    // ============================================================
+    window.addEventListener('load', init);
+  </script>
+</body>
+
+</html>
