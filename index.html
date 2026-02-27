@@ -1258,6 +1258,9 @@
     // ============================================================
     const PROXY = 'https://corsproxy.io/?';
     const BASE = 'https://elearning.hakka.gov.tw';
+    // ✅ 請將您部署好的 Google Apps Script 網址貼在下方引號中
+    // 範例：'https://script.google.com/macros/s/AKfycb.../exec'
+    const BACKEND_URL = '';
 
     let currentStudent = null;  // { name, progress: {key: {done:[], date}} }
     let sessionQuestions = [];
@@ -1888,6 +1891,60 @@
       document.getElementById('overallProg').textContent = `總體進度：已完成 ${doneTotal}/${totalQ} 題`;
 
       showEl('resultsCard');
+
+      // ====== 傳送成績到後台邏輯 ======
+      if (BACKEND_URL && BACKEND_URL.trim() !== '') {
+        const dialLabel = dialect === '1' ? '四縣腔' : '海陸腔';
+        const typeLabels = { '1': '聽力單句', '2': '聽力對話', '3': '閱讀單句' };
+
+        const payload = {
+          studentName: currentStudent.name,
+          dialectLabel: dialLabel,
+          typeLabel: typeLabels[type],
+          totalQuestions: sessionQuestions.length,
+          correctCount: sessionScore,
+          wrongCount: sessionQuestions.length - sessionScore,
+          accuracy: pct
+        };
+
+        // 顯示傳送中的提示
+        const progMsg = document.createElement('div');
+        progMsg.id = 'backendSubmitMsg';
+        progMsg.style.cssText = 'font-size: 13px; color: var(--pl); margin-bottom: 12px; font-weight: bold; text-align: center;';
+        progMsg.textContent = '⏳ 正在將成績回傳至後台...';
+
+        // 將提示安插在 overallProg 之後
+        const overallProgEl = document.getElementById('overallProg');
+        if (!document.getElementById('backendSubmitMsg')) {
+          overallProgEl.parentNode.insertBefore(progMsg, overallProgEl.nextSibling);
+        }
+
+        fetch(BACKEND_URL, {
+          method: 'POST',
+          mode: 'no-cors', // 避免 CORS 錯誤 (Google Apps Script 會遇到)
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        })
+          .then(() => {
+            const msgEl = document.getElementById('backendSubmitMsg');
+            if (msgEl) {
+              msgEl.textContent = '✅ 成績已成功回傳！';
+              msgEl.style.color = 'var(--ok)';
+              setTimeout(() => msgEl.remove(), 4000);
+            }
+          })
+          .catch(err => {
+            console.error('成績傳送失敗:', err);
+            const msgEl = document.getElementById('backendSubmitMsg');
+            if (msgEl) {
+              msgEl.textContent = '❌ 成績傳送失敗，請檢查網路連線。';
+              msgEl.style.color = 'var(--er)';
+              setTimeout(() => msgEl.remove(), 4000);
+            }
+          });
+      }
     }
 
     function continueSession() {
