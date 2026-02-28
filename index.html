@@ -63,7 +63,8 @@
       background: var(--bg);
       color: var(--tx);
       min-height: 100vh;
-      overflow-x: hidden
+      overflow-x: hidden;
+      overflow-y: auto;
     }
 
     body::before {
@@ -137,6 +138,159 @@
       font-size: 16px;
       margin-top: 6px;
       font-weight: 600;
+    }
+
+    /* Map Interface */
+    .map-container {
+      background-color: #dcf5ff;
+      background-image: url('pokemon_taiwan_map.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100% 100%;
+      border: 3px solid #72db9e;
+      border-radius: 20px;
+      position: relative;
+      margin: 20px auto;
+      overflow: hidden;
+      width: 100%;
+      max-width: 600px;
+      height: 800px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .map-title {
+      font-size: 24px;
+      font-weight: 900;
+      color: #1f8258;
+      text-align: center;
+      position: absolute;
+      top: 20px;
+      left: 0;
+      right: 0;
+      z-index: 20;
+      text-shadow: 1px 1px 0px #fff;
+      pointer-events: none;
+    }
+
+    .map-path {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+    }
+
+    .path-line-svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 5;
+    }
+
+    .map-node {
+      padding: 4px 12px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.6);
+      border: 1.5px solid #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 14px;
+      font-weight: 900;
+      color: #000;
+      position: absolute;
+      z-index: 10;
+      transition: all 0.2s ease;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      backdrop-filter: blur(5px);
+      white-space: nowrap;
+    }
+
+    .map-node.locked {
+      background: rgba(230, 230, 230, 0.5);
+      border-color: rgba(200, 200, 200, 0.4);
+      color: #666;
+      cursor: not-allowed;
+    }
+
+    .map-node.unlocked {
+      border-color: #ff9f1c;
+      color: #d17c00;
+      cursor: pointer;
+      box-shadow: 0 0 15px rgba(255, 159, 28, 0.8);
+      background: rgba(255, 251, 240, 0.9);
+      border-width: 2.5px;
+    }
+
+    .map-node.unlocked:hover {
+      transform: translate(-50%, -50%) scale(1.15);
+    }
+
+    .map-node.done {
+      border-color: #2ba873;
+      color: #1f8258;
+      background: rgba(255, 255, 255, 0.9);
+    }
+
+    @keyframes hopTrain {
+
+      0%,
+      100% {
+        transform: translate(-50%, -50%) translateY(0) rotate(-5deg);
+      }
+
+      50% {
+        transform: translate(-50%, -50%) translateY(-10px) rotate(5deg);
+      }
+    }
+
+    @keyframes hopPlane {
+
+      0%,
+      100% {
+        transform: translate(-50%, -50%) translateY(0);
+      }
+
+      50% {
+        transform: translate(-50%, -50%) translateY(-15px);
+      }
+    }
+
+    .vehicle-icon {
+      position: absolute;
+      font-size: 36px;
+      z-index: 15;
+      pointer-events: none;
+      transition: left 0.6s ease-in-out, top 0.6s ease-in-out;
+    }
+
+    .vehicle-train {
+      animation: hopTrain 0.5s infinite;
+      filter: drop-shadow(0 5px 6px rgba(0, 0, 0, 0.4));
+    }
+
+    .vehicle-plane {
+      animation: hopPlane 0.8s infinite;
+      filter: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.3));
+    }
+
+    /* Enlarged options */
+    .opt-txt-btn {
+      padding: 22px 28px !important;
+      font-size: 26px !important;
+      font-weight: 800 !important;
+    }
+
+    .opt-txt-btn .badge {
+      min-width: 44px !important;
+      height: 44px !important;
+      font-size: 22px !important;
     }
 
     /* ==== CARDS ==== */
@@ -814,28 +968,29 @@
     .act-row {
       display: flex;
       gap: 10px;
-      flex-wrap: wrap
+      flex-wrap: wrap;
     }
 
     .btn-next {
-      flex: 1;
+      display: none;
+      width: 100%;
+      margin-top: 14px;
       background: linear-gradient(135deg, var(--pl), var(--p));
       color: #fff;
       border: none;
       border-radius: var(--rs);
-      padding: 14px 22px;
-      font-size: 15px;
-      font-weight: 700;
+      padding: 18px 22px;
+      font-size: 20px;
+      font-weight: 800;
       cursor: pointer;
       font-family: inherit;
-      transition: transform .2s, box-shadow .2s;
       box-shadow: 0 4px 14px rgba(26, 107, 74, .4);
-      display: none
+      transition: transform .15s, box-shadow .15s;
     }
 
     .btn-next:hover {
       transform: translateY(-2px);
-      box-shadow: 0 8px 22px rgba(26, 107, 74, .5)
+      box-shadow: 0 8px 22px rgba(26, 107, 74, .5);
     }
 
     /* Results */
@@ -1128,13 +1283,30 @@
           <div id="progressDetail" style="color:var(--tm)"></div>
           <div style="display:flex;gap:8px;margin-top:10px">
             <button class="btn-sm btn-primary btn-cont" onclick="continueFromProgress()"
-              style="font-size:12px;padding:7px 14px">▶ 繼續上次進度</button>
+              style="font-size:12px;padding:7px 14px">🗺 繼續地圖冒險</button>
             <button class="btn-sm btn-danger" onclick="resetProgress()" style="font-size:12px;padding:7px 14px">↺
               重新開始</button>
           </div>
         </div>
 
-        <button class="btn btn-primary btn-full" id="startBtn" onclick="startNewSession()">🚀 開始測驗</button>
+        <button class="btn btn-primary btn-full" id="startBtn" onclick="startNewSession()">開啟台灣客語地圖冒險</button>
+      </div>
+    </div>
+
+    <!-- ===== SCREEN: Map ===== -->
+    <div class="screen" id="screenMap">
+      <div class="card" style="padding:15px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+          <div class="card-title" style="margin:0">� 台灣客語寶可夢冒險地圖</div>
+          <button class="btn btn-ghost btn-sm" onclick="showSettingsScreen()">← 回設定</button>
+        </div>
+        <div id="mapMetaInfo" style="font-size:14px;color:var(--tm);margin-bottom:10px;font-weight:bold;"></div>
+        <div class="map-container" id="bgMapCont">
+          <div class="map-title" id="mapTitle">目標：收服所有縣市寶可夢！</div>
+          <svg class="path-line-svg" id="pathLineSvg"></svg>
+          <div class="map-path" id="mapPath"></div>
+          <div id="vehicleContainer"></div>
+        </div>
       </div>
     </div>
 
@@ -1193,12 +1365,13 @@
         <!-- Text options -->
         <div class="opts-txt-grid" id="txtOptGrid"></div>
 
-        <!-- Feedback -->
+        <!-- Feedback + next button together -->
         <div class="feedback" id="feedback">
           <div class="icon" id="fbIcon"></div>
-          <div>
+          <div style="flex:1">
             <div id="fbText"></div>
             <div class="fb-detail" id="fbDetail"></div>
+            <button class="btn-next" id="nxtBtn" onclick="nextQuestion()">下一題 →</button>
           </div>
         </div>
 
@@ -1208,10 +1381,9 @@
           <p id="xscriptTxt"></p>
         </div>
 
-        <!-- Actions -->
+        <!-- Actions (transcript toggle only) -->
         <div class="act-row">
           <button class="btn-xscript" id="xscriptBtn" onclick="toggleTranscript()">👁 顯示文字稿</button>
-          <button class="btn-next" id="nxtBtn" onclick="nextQuestion()">下一題 →</button>
         </div>
       </div>
 
@@ -1240,7 +1412,7 @@
         </div>
         <div style="color:var(--tm);font-size:13px;margin-bottom:20px" id="overallProg"></div>
         <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-          <button class="btn-sm btn-cont btn-session" onclick="continueSession()">▶ 繼續做下一批</button>
+          <button class="btn-sm btn-cont btn-session" onclick="continueSession()">🗺 繼續探索下一站</button>
           <button class="btn-sm btn-ghost btn-session" onclick="goSettings()">⚙ 更換設定</button>
           <button class="btn-sm btn-export btn-session" onclick="exportProgress()">💾 匯出存檔</button>
           <button class="btn-sm btn-danger btn-session" onclick="backToStudents()">← 切換學生</button>
@@ -1251,6 +1423,8 @@
 
   <!-- Audio element -->
   <audio id="audioEl" preload="none"></audio>
+  <audio id="sfxCorrect" src="https://assets.mixkit.co/active_storage/sfx/1084/1084-preview.mp3" preload="auto"></audio>
+  <audio id="sfxWrong" src="https://assets.mixkit.co/active_storage/sfx/2955/2955-preview.mp3" preload="auto"></audio>
 
   <script>
     // ============================================================
@@ -1260,7 +1434,7 @@
     const BASE = 'https://elearning.hakka.gov.tw';
     // ✅ 請將您部署好的 Google Apps Script 網址貼在下方引號中
     // 範例：'https://script.google.com/macros/s/AKfycb.../exec'
-    const BACKEND_URL = '';
+    const BACKEND_URL = 'https://script.google.com/macros/s/AKfycbw1EAomAjxSBSHhXVlM1wUzGpeLW8G_K6R-MfRpPdUhTHqsGSqRItstSuqedbDT5OCC/exec';
 
     let currentStudent = null;  // { name, progress: {key: {done:[], date}} }
     let sessionQuestions = [];
@@ -1417,11 +1591,66 @@
       }
     }
 
+    // ============================================================
+    // Pokemon Map Session & Routing
+    // ============================================================
+    const TAIWAN_COUNTIES = [
+      { name: "基隆市", x: 84, y: 9, type: "main" },
+      { name: "台北市", x: 76, y: 14, type: "main" },
+      { name: "新北市", x: 70, y: 18, type: "main" },
+      { name: "桃園市", x: 67, y: 24, type: "main" },
+      { name: "新竹縣", x: 66, y: 30, type: "main" },
+      { name: "新竹市", x: 55, y: 28, type: "main" },
+      { name: "苗栗縣", x: 60, y: 38, type: "main" },
+      { name: "台中市", x: 52, y: 46, type: "main" },
+      { name: "彰化縣", x: 48, y: 54, type: "main" },
+      { name: "南投縣", x: 62, y: 55, type: "main" },
+      { name: "雲林縣", x: 48, y: 62, type: "main" },
+      { name: "嘉義縣", x: 56, y: 71, type: "main" },
+      { name: "嘉義市", x: 47, y: 68, type: "main" },
+      { name: "台南市", x: 47, y: 77, type: "main" },
+      { name: "高雄市", x: 53, y: 83, type: "main" },
+      { name: "屏東縣", x: 60, y: 90, type: "main" },
+      { name: "宜蘭縣", x: 84, y: 29, type: "main" },
+      { name: "花蓮縣", x: 78, y: 55, type: "main" },
+      { name: "台東縣", x: 67, y: 78, type: "main" },
+      { name: "澎湖縣", x: 16, y: 66, type: "offshore" },
+      { name: "金門縣", x: 16, y: 38, type: "offshore" },
+      { name: "連江縣", x: 26, y: 16, type: "offshore" }
+    ];
+
+    let currentStageIndex = 0;
+
+    async function sendResultToBackend(score, total, answered) {
+      if (!BACKEND_URL || BACKEND_URL.trim() === '') return;
+      try {
+        const dialect = document.getElementById('dialectSel').value;
+        const type = document.getElementById('typeSel').value;
+        const dialLabel = dialect === '1' ? '四縣腔' : '海陸腔';
+        const typeLabels = { '1': '聽力單句', '2': '聽力對話', '3': '閱讀單句' };
+        const pct = Math.round((score / total) * 100) || 0;
+
+        const payload = {
+          studentName: currentStudent ? currentStudent.name : 'Unknown',
+          dialectLabel: dialLabel,
+          typeLabel: typeLabels[type],
+          totalQuestions: total,
+          correctCount: score,
+          wrongCount: total - score,
+          accuracy: pct
+        };
+
+        await fetch(BACKEND_URL, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+      } catch (e) { console.error("Backend error", e); throw e; }
+    }
+
     function continueFromProgress() {
-      const dialect = document.getElementById('dialectSel').value;
-      const type = document.getElementById('typeSel').value;
-      const count = parseInt(document.getElementById('countInp').value) || 10;
-      startQuiz(dialect, type, count, true);
+      startNewSession();
     }
 
     function resetProgress() {
@@ -1438,15 +1667,162 @@
     function startNewSession() {
       const dialect = document.getElementById('dialectSel').value;
       const type = document.getElementById('typeSel').value;
-      const count = parseInt(document.getElementById('countInp').value) || 10;
-      const startIdxVal = document.getElementById('startIdxInp').value;
-      let startIdx = null;
-      if (startIdxVal && startIdxVal.trim() !== '') {
-        startIdx = parseInt(startIdxVal) - 1; // Convert to 0-indexed
-        if (startIdx < 0) startIdx = 0;
-      }
-      startQuiz(dialect, type, count, true, startIdx); // always continue from progress
+      sessionKey = getQuizKey(dialect, type);
+
+      showScreen('screenMap');
+      renderMap();
     }
+
+    function renderMap() {
+      const explicitStartIdx = parseInt(document.getElementById('startIdxInp').value) || 1;
+      const count = parseInt(document.getElementById('countInp').value) || 10;
+
+      const prog = currentStudent.progress[sessionKey] || { doneIndices: [], date: null };
+      if (!currentStudent.progress[sessionKey]) currentStudent.progress[sessionKey] = prog;
+      if (!prog.doneIndices) prog.doneIndices = [];
+
+      let allQs = getQuestionsForKey(sessionKey) || [];
+      if (!allQs.length) {
+        document.getElementById('mapMetaInfo').textContent = '⚠️ 請先抓取題庫資料！';
+        return;
+      }
+
+      let startIndex = explicitStartIdx - 1;
+      if (startIndex < 0) startIndex = 0;
+      let availableQs = allQs.slice(startIndex).map((q, i) => ({ ...q, origIndex: startIndex + i }));
+
+      let currentQIdxGlobal = 0;
+      const stageAllocations = [];
+
+      for (let i = 0; i < TAIWAN_COUNTIES.length; i++) {
+        if (i === TAIWAN_COUNTIES.length - 1) {
+          stageAllocations.push(availableQs.slice(currentQIdxGlobal));
+          currentQIdxGlobal = availableQs.length;
+        } else {
+          let slice = availableQs.slice(currentQIdxGlobal, currentQIdxGlobal + count);
+          stageAllocations.push(slice);
+          currentQIdxGlobal += slice.length;
+        }
+      }
+
+      document.getElementById('mapMetaInfo').textContent = `目標總題數：${allQs.length} 題 | 已收服 ${prog.doneIndices.length}/${TAIWAN_COUNTIES.length} 關（從第 ${explicitStartIdx} 題開始）`;
+
+      const mapPath = document.getElementById('mapPath');
+      mapPath.innerHTML = '';
+
+      let latestUnlockedIdx = 0;
+      while (latestUnlockedIdx < TAIWAN_COUNTIES.length) {
+        if (prog.doneIndices.includes(latestUnlockedIdx)) latestUnlockedIdx++;
+        else break;
+      }
+
+      // Auto-clear empty remaining nodes if we ran out of questions due to a large batch setting.
+      while (latestUnlockedIdx < TAIWAN_COUNTIES.length && stageAllocations[latestUnlockedIdx].length === 0) {
+        if (!prog.doneIndices.includes(latestUnlockedIdx)) {
+          prog.doneIndices.push(latestUnlockedIdx);
+          saveStudent(currentStudent);
+        }
+        latestUnlockedIdx++;
+      }
+
+      TAIWAN_COUNTIES.forEach((county, idx) => {
+        const node = document.createElement('div');
+        node.className = 'map-node';
+        const isDone = prog.doneIndices.includes(idx);
+        const isUnlocked = isDone || idx <= latestUnlockedIdx;
+
+        if (isDone) node.classList.add('done');
+        else if (isUnlocked) node.classList.add('unlocked');
+        else node.classList.add('locked');
+
+        node.style.left = county.x + '%';
+        node.style.top = county.y + '%';
+        node.innerHTML = `<div>${county.name}</div>${isDone ? '✨' : ''}`;
+
+        if (isUnlocked) {
+          node.onclick = () => {
+            currentStageIndex = idx;
+            const stageQs = stageAllocations[idx];
+            if (stageQs.length === 0) {
+              alert("本關卡題目已被先前設定消化完畢，自動收服！");
+              if (!prog.doneIndices.includes(idx)) {
+                prog.doneIndices.push(idx);
+                saveStudent(currentStudent);
+              }
+              renderMap();
+              return;
+            }
+            startPokemonQuizRound(stageQs);
+          };
+        }
+
+        if (idx === latestUnlockedIdx && !isDone && latestUnlockedIdx < TAIWAN_COUNTIES.length) {
+          setTimeout(() => updateVehiclePosition(county, idx), 300);
+        }
+
+        mapPath.appendChild(node);
+      });
+
+      setTimeout(drawPathLines, 100);
+    }
+
+    function updateVehiclePosition(county, idx) {
+      const vCont = document.getElementById('vehicleContainer');
+      vCont.innerHTML = '';
+      const vNode = document.createElement('div');
+      vNode.className = 'vehicle-icon ' + (county.type === 'offshore' ? 'vehicle-plane' : 'vehicle-train');
+      vNode.textContent = county.type === 'offshore' ? '✈️' : '🚂';
+      vNode.style.left = county.x + '%';
+      vNode.style.top = (county.y - 4) + '%';
+      vCont.appendChild(vNode);
+    }
+
+    function drawPathLines() {
+      const svg = document.getElementById('pathLineSvg');
+      svg.innerHTML = '';
+      TAIWAN_COUNTIES.forEach((c, i) => {
+        if (i === 0) return;
+        const prev = TAIWAN_COUNTIES[i - 1];
+        const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+        line.setAttribute("x1", prev.x + "%");
+        line.setAttribute("y1", prev.y + "%");
+        line.setAttribute("x2", c.x + "%");
+        line.setAttribute("y2", c.y + "%");
+        if (c.type === 'offshore' || prev.type === 'offshore') {
+          line.setAttribute("stroke", "orange");
+          line.setAttribute("stroke-width", "3");
+          line.setAttribute("stroke-dasharray", "8,5");
+        } else {
+          line.setAttribute("stroke", "darkgreen");
+          line.setAttribute("stroke-width", "4");
+          line.setAttribute("stroke-dasharray", "10,5");
+        }
+        line.setAttribute("opacity", "0.8");
+        svg.appendChild(line);
+      });
+    }
+
+    function startPokemonQuizRound(qs) {
+      sessionQuestions = qs;
+      sessionIndex = 0;
+      sessionScore = 0;
+      sessionAnswered = 0;
+      audioPlays = 0;
+      document.getElementById('totQ').textContent = sessionQuestions.length;
+
+      const dialLabel = document.getElementById('dialectSel').options[document.getElementById('dialectSel').selectedIndex].text;
+      const typeLabel = document.getElementById('typeSel').options[document.getElementById('typeSel').selectedIndex].text;
+
+      document.getElementById('sessionInfo').textContent = `${dialLabel} · ${typeLabel} · 關卡：${TAIWAN_COUNTIES[currentStageIndex].name}`;
+
+      showScreen('screenQuiz');
+      hide('resultsCard');
+      hide('statusBar');
+      hide('errorCard');
+      show('questionCard');
+      renderQuestion(0);
+    }
+
 
     // ============================================================
     // QUIZ LOGIC
@@ -1803,22 +2179,40 @@
 
       // Feedback
       const fb = document.getElementById('feedback');
+      const sfxc = document.getElementById('sfxCorrect');
+      const sfxw = document.getElementById('sfxWrong');
+      const detail = document.getElementById('fbDetail');
+      const fbTxt = document.getElementById('fbText');
+      const fbIco = document.getElementById('fbIcon');
+
       if (isCorrect) {
         fb.className = 'feedback correct';
-        document.getElementById('fbIcon').textContent = '✅';
-        document.getElementById('fbText').textContent = '答對了！太棒了！';
-        document.getElementById('fbDetail').textContent = '';
+        fbIco.textContent = '✅';
+        fbTxt.textContent = '正確！太厲害了，成功收服！';
+        detail.textContent = '';
+        if (sfxc) {
+          sfxc.currentTime = 0;
+          sfxc.play();
+          setTimeout(() => { sfxc.pause(); sfxc.currentTime = 0; }, 1200);
+        }
       } else {
         fb.className = 'feedback wrong';
-        document.getElementById('fbIcon').textContent = '❌';
-        document.getElementById('fbText').textContent = '答錯了';
-        const correct = q.options.find(o => o.isCorrect);
-        document.getElementById('fbDetail').textContent = correct ? `正確答案是選項 ${correct.index}：${correct.text || ''}` : '';
+        fbIco.textContent = '❌';
+        fbTxt.textContent = '哎呀，被牠逃跑了... 沒關係，再接再厲！';
+        const correctOpt = q.options.find(o => o.isCorrect);
+        detail.textContent = `正確答案是：${correctOpt ? (correctOpt.text || '選項 ' + correctOpt.index) : '未知'}`;
+        if (sfxw) {
+          sfxw.currentTime = 0;
+          sfxw.play();
+          setTimeout(() => { sfxw.pause(); sfxw.currentTime = 0; }, 800);
+        }
       }
       fb.style.display = 'flex';
 
-      // Save progress
-      const prog = currentStudent.progress[sessionKey] || { done: [], date: null };
+      // Save progress (defensive: ensure prog.done is always an array)
+      const prog = currentStudent.progress[sessionKey] || {};
+      if (!Array.isArray(prog.done)) prog.done = [];
+      if (!Array.isArray(prog.doneIndices)) prog.doneIndices = [];
       if (!prog.done.includes(q.origIndex)) prog.done.push(q.origIndex);
       prog.date = new Date().toISOString();
       currentStudent.progress[sessionKey] = prog;
@@ -1828,6 +2222,13 @@
       const nxt = document.getElementById('nxtBtn');
       nxt.style.display = 'block';
       nxt.textContent = sessionIndex === sessionQuestions.length - 1 ? '查看成績 🏆' : '下一題 →';
+      // Scroll so the button is visible on screen
+      setTimeout(() => {
+        const rect = nxt.getBoundingClientRect();
+        if (rect.bottom > window.innerHeight || rect.top < 0) {
+          window.scrollTo({ top: window.scrollY + rect.top - window.innerHeight / 2 + rect.height / 2, behavior: 'smooth' });
+        }
+      }, 150);
     }
 
     function nextQuestion() {
@@ -1892,41 +2293,26 @@
 
       showEl('resultsCard');
 
-      // ====== 傳送成績到後台邏輯 ======
+      // ====== Pokémon Map Advanced Stage Logic & Backend ======
+      if (!prog.doneIndices) prog.doneIndices = [];
+      if (!prog.doneIndices.includes(currentStageIndex)) {
+        prog.doneIndices.push(currentStageIndex);
+      }
+      prog.date = new Date().toISOString();
+      saveStudent(currentStudent);
+
       if (BACKEND_URL && BACKEND_URL.trim() !== '') {
-        const dialLabel = dialect === '1' ? '四縣腔' : '海陸腔';
-        const typeLabels = { '1': '聽力單句', '2': '聽力對話', '3': '閱讀單句' };
-
-        const payload = {
-          studentName: currentStudent.name,
-          dialectLabel: dialLabel,
-          typeLabel: typeLabels[type],
-          totalQuestions: sessionQuestions.length,
-          correctCount: sessionScore,
-          wrongCount: sessionQuestions.length - sessionScore,
-          accuracy: pct
-        };
-
-        // 顯示傳送中的提示
         const progMsg = document.createElement('div');
         progMsg.id = 'backendSubmitMsg';
         progMsg.style.cssText = 'font-size: 13px; color: var(--pl); margin-bottom: 12px; font-weight: bold; text-align: center;';
         progMsg.textContent = '⏳ 正在將成績回傳至後台...';
 
-        // 將提示安插在 overallProg 之後
         const overallProgEl = document.getElementById('overallProg');
         if (!document.getElementById('backendSubmitMsg')) {
           overallProgEl.parentNode.insertBefore(progMsg, overallProgEl.nextSibling);
         }
 
-        fetch(BACKEND_URL, {
-          method: 'POST',
-          mode: 'no-cors', // 避免 CORS 錯誤 (Google Apps Script 會遇到)
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify(payload)
-        })
+        sendResultToBackend(sessionScore, sessionQuestions.length, sessionAnswered)
           .then(() => {
             const msgEl = document.getElementById('backendSubmitMsg');
             if (msgEl) {
@@ -1934,8 +2320,7 @@
               msgEl.style.color = 'var(--ok)';
               setTimeout(() => msgEl.remove(), 4000);
             }
-          })
-          .catch(err => {
+          }).catch(err => {
             console.error('成績傳送失敗:', err);
             const msgEl = document.getElementById('backendSubmitMsg');
             if (msgEl) {
@@ -1948,11 +2333,8 @@
     }
 
     function continueSession() {
-      const dialect = document.getElementById('dialectSel').value;
-      const type = document.getElementById('typeSel').value;
-      const count = parseInt(document.getElementById('countInp').value) || 10;
       hide('resultsCard');
-      startQuiz(dialect, type, count, true);
+      startNewSession(); // Back to Map
     }
 
     function goSettings() {
