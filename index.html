@@ -1388,7 +1388,10 @@
       </div>
 
       <!-- Results card -->
-      <div class="card results-card" id="resultsCard">
+      <div class="card results-card" id="resultsCard" style="padding-top: 48px; position: relative;">
+        <div id="resultStudentName"
+          style="position: absolute; top: 16px; left: 16px; font-weight: 800; font-size: 16px; color: var(--pd); background: var(--s2); padding: 5px 14px; border-radius: 12px; border: 1.5px solid var(--bd); box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+        </div>
         <span class="rtrophy" id="rtrophy"></span>
         <div class="rscore" id="rscore"></div>
         <div class="rlbl">此次正確率</div>
@@ -2283,6 +2286,7 @@
       const pct = Math.round((sessionScore / sessionQuestions.length) * 100);
       const trophy = pct >= 90 ? '🏆' : pct >= 70 ? '🥈' : pct >= 50 ? '🥉' : '💪';
 
+      document.getElementById('resultStudentName').textContent = `👤 ${currentStudent.name}`;
       document.getElementById('rtrophy').textContent = trophy;
       document.getElementById('rscore').textContent = `${pct}%`;
       document.getElementById('rcorrect').textContent = sessionScore;
