@@ -1423,8 +1423,8 @@
 
   <!-- Audio element -->
   <audio id="audioEl" preload="none"></audio>
-  <audio id="sfxCorrect" src="https://assets.mixkit.co/active_storage/sfx/1084/1084-preview.mp3" preload="auto"></audio>
-  <audio id="sfxWrong" src="https://assets.mixkit.co/active_storage/sfx/2955/2955-preview.mp3" preload="auto"></audio>
+  <audio id="sfxCorrect" src="https://actions.google.com/sounds/v1/ui/message_notification.ogg" preload="auto"></audio>
+  <audio id="sfxWrong" src="https://actions.google.com/sounds/v1/ui/error_beep.ogg" preload="auto"></audio>
 
   <script>
     // ============================================================
@@ -2193,7 +2193,6 @@
         if (sfxc) {
           sfxc.currentTime = 0;
           sfxc.play();
-          setTimeout(() => { sfxc.pause(); sfxc.currentTime = 0; }, 1200);
         }
       } else {
         fb.className = 'feedback wrong';
@@ -2204,7 +2203,6 @@
         if (sfxw) {
           sfxw.currentTime = 0;
           sfxw.play();
-          setTimeout(() => { sfxw.pause(); sfxw.currentTime = 0; }, 800);
         }
       }
       fb.style.display = 'flex';
