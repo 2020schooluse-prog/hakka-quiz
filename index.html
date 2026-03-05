@@ -1722,45 +1722,51 @@
       const type = document.getElementById('typeSel').value;
 
       // ============================================================
-      // Local audio question generators (listening + speaking types)
+      // Build question list: merge quiz_data images/answers with local MP3s
       // ============================================================
-      const LOCAL_AUDIO_MAP = {
-        '1': { prefix: 'HA-01', total: 258 },
-        '2': { prefix: 'HA-02', total: 97 },
-        'speak': { prefix: 'HA-05', total: 242 }
-      };
+      function makeListeningQs(quizKey, localPrefix) {
+        // Use existing quiz_data questions (which have correct images & isCorrect marks)
+        // but replace the audio src with a local file
+        const base = getQuestionsForKey(quizKey) || [];
+        return base.map((q, i) => ({
+          ...q,
+          questionAudioSrc: `./${localPrefix}-${String(i + 1).padStart(3, '0')}s.mp3`,
+          optionAudioSrc: null,   // no per-option audio for local version
+          isLocalFile: true,
+          isSpeakType: false,
+        }));
+      }
 
-      function makeLocalQs(typeKey) {
-        const cfg = LOCAL_AUDIO_MAP[typeKey];
+      function makeSpeakQs() {
         const qs = [];
-        for (let i = 1; i <= cfg.total; i++) {
+        for (let i = 1; i <= 242; i++) {
           const num = String(i).padStart(3, '0');
           qs.push({
-            questionAudioSrc: `./${cfg.prefix}-${num}s.mp3`,
+            questionAudioSrc: `./HA-05-${num}s.mp3`,
             optionAudioSrc: null,
             questionText: '',
             questionImg: null,
             isLocalFile: true,
-            isSpeakType: typeKey === 'speak',
-            options: typeKey === 'speak' ? [] : [
-              { index: 1, imageSrc: null, text: '1', isCorrect: false },
-              { index: 2, imageSrc: null, text: '2', isCorrect: false },
-              { index: 3, imageSrc: null, text: '3', isCorrect: false }
-            ]
+            isSpeakType: true,
+            options: []
           });
         }
         return qs;
       }
 
       let allQs = [];
-      if (type === '1' || type === '2' || type === 'speak') {
-        allQs = makeLocalQs(type);
+      if (type === '1') {
+        allQs = makeListeningQs('d2_t1', 'HA-01');
+      } else if (type === '2') {
+        allQs = makeListeningQs('d2_t2', 'HA-02');
+      } else if (type === 'speak') {
+        allQs = makeSpeakQs();
       } else {
         allQs = getQuestionsForKey(sessionKey) || [];
       }
 
       if (!allQs.length) {
-        document.getElementById('mapMetaInfo').textContent = '⚠️ 請先抓取題庫資料！';
+        document.getElementById('mapMetaInfo').textContent = '⚠️ 找不到題庫資料，請確認 quiz_data.js 已載入！';
         return;
       }
 
@@ -2184,6 +2190,11 @@
         if (hasAudio) {
           playAudio();
         }
+      }
+
+      // For speak type: also auto-play the original audio after showing the panel
+      if (isSpeakQ && hasAudio) {
+        playAudio();
       }
 
       // ============================================================
