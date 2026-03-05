@@ -1251,19 +1251,15 @@
         </div>
 
         <div class="form-grid">
-          <div>
-            <label class="fg-label">腔調</label>
-            <select id="dialectSel">
-              <option value="1">四縣腔</option>
-              <option value="2">海陸腔</option>
-            </select>
-          </div>
+          <!-- Dialect is fixed to Hailu (海陸腔) -->
+          <input type="hidden" id="dialectSel" value="2">
           <div>
             <label class="fg-label">題型</label>
             <select id="typeSel">
-              <option value="1">聽力理解-單句測驗</option>
-              <option value="2">聽力理解-對話測驗</option>
-              <option value="3">閱讀理解-單句測驗</option>
+              <option value="1">🎧 聽力單句測驗</option>
+              <option value="2">🎧 聽力對話測驗</option>
+              <option value="speak">🎙 口語測驗-複誦</option>
+              <option value="3">📖 閱讀理解測驗</option>
             </select>
           </div>
           <div>
@@ -1356,8 +1352,20 @@
         <!-- Question text -->
         <div class="qtext" id="qText"></div>
 
+        <!-- Recording panel (for speaking/複誦 type) -->
+        <div id="speakPanel"
+          style="display:none; background:var(--s2); border:1px solid var(--bd); border-radius:var(--r); padding:18px; margin:12px 0; text-align:center;">
+          <button id="recordBtn" onclick="toggleRecording()"
+            style="font-size:18px; padding:12px 24px; border-radius:50px; border:none; background:var(--er); color:white; cursor:pointer; font-weight:bold; margin-bottom:10px;">🎤
+            開始錄音</button>
+          <audio id="playbackEl" controls style="display:none; width:100%; margin-top:10px;"></audio>
+          <button id="speakDoneBtn" onclick="speakDone()"
+            style="display:none; margin-top:12px; font-size:15px; padding:10px 28px; background:var(--ok); color:white; border:none; border-radius:20px; cursor:pointer; font-weight:bold;">✅
+            複誦完成，收服！</button>
+        </div>
+
         <!-- Options label -->
-        <div class="opts-label">請選擇答案</div>
+        <div class="opts-label" id="optsLabel">請選擇答案</div>
 
         <!-- Image options -->
         <div class="opts-img-grid" id="imgOptGrid"></div>
@@ -1425,11 +1433,18 @@
   </div>
 
   <!-- Audio element -->
-  <audio id="audioEl" preload="none"></audio>
-  <audio id="sfxCorrect" src="https://assets.mixkit.co/active_storage/sfx/1084/1084-preview.mp3" preload="auto"></audio>
-  <audio id="sfxWrong" src="https://assets.mixkit.co/active_storage/sfx/2955/2955-preview.mp3" preload="auto"></audio>
+  <audio id="audioEl" preload="auto" crossorigin="anonymous"></audio>
+  <audio id="sfxCorrect" src="https://assets.mixkit.co/active_storage/sfx/1084/1084-preview.mp3" preload="auto"
+    crossorigin="anonymous"></audio>
+  <audio id="sfxWrong" src="https://assets.mixkit.co/active_storage/sfx/2955/2955-preview.mp3" preload="auto"
+    crossorigin="anonymous"></audio>
 
   <script>
+    // Audio debug listener
+    document.getElementById('audioEl').addEventListener('error', function (e) {
+      console.error('Audio elements Error:', e.target.error);
+    });
+
     // ============================================================
     // CONSTANTS & STATE
     // ============================================================
@@ -1448,6 +1463,28 @@
     let audioPlays = 0;
     let audioInterval = null;
     let curOptAudioSrc = null;
+    let audioUnlocked = false;
+
+    // ============================================================
+    // UNLOCK AUDIO ON FIRST INTERACTION
+    // ============================================================
+    function unlockAudio() {
+      if (audioUnlocked) return;
+      const audioEl = document.getElementById('audioEl');
+      const sfxc = document.getElementById('sfxCorrect');
+      const sfxw = document.getElementById('sfxWrong');
+
+      // Play and immediately pause to unlock the audio context on this device
+      audioEl.play().catch(() => { }); audioEl.pause(); audioEl.currentTime = 0;
+      sfxc.play().catch(() => { }); sfxc.pause(); sfxc.currentTime = 0;
+      sfxw.play().catch(() => { }); sfxw.pause(); sfxw.currentTime = 0;
+
+      audioUnlocked = true;
+      document.removeEventListener('click', unlockAudio);
+      document.removeEventListener('touchstart', unlockAudio);
+    }
+    document.addEventListener('click', unlockAudio);
+    document.addEventListener('touchstart', unlockAudio);
 
     // ============================================================
     // STORAGE HELPERS
@@ -1627,16 +1664,14 @@
     async function sendResultToBackend(score, total, answered) {
       if (!BACKEND_URL || BACKEND_URL.trim() === '') return;
       try {
-        const dialect = document.getElementById('dialectSel').value;
         const type = document.getElementById('typeSel').value;
-        const dialLabel = dialect === '1' ? '四縣腔' : '海陸腔';
-        const typeLabels = { '1': '聽力單句', '2': '聽力對話', '3': '閱讀單句' };
+        const typeLabels = { '1': '聽力單句', '2': '聽力對話', 'speak': '口語複誦', '3': '閱讀單句' };
         const pct = Math.round((score / total) * 100) || 0;
 
         const payload = {
           studentName: currentStudent ? currentStudent.name : 'Unknown',
-          dialectLabel: dialLabel,
-          typeLabel: typeLabels[type],
+          dialectLabel: '海陸腔',
+          typeLabel: typeLabels[type] || type,
           totalQuestions: total,
           correctCount: score,
           wrongCount: total - score,
@@ -1684,7 +1719,46 @@
       if (!currentStudent.progress[sessionKey]) currentStudent.progress[sessionKey] = prog;
       if (!prog.doneIndices) prog.doneIndices = [];
 
-      let allQs = getQuestionsForKey(sessionKey) || [];
+      const type = document.getElementById('typeSel').value;
+
+      // ============================================================
+      // Local audio question generators (listening + speaking types)
+      // ============================================================
+      const LOCAL_AUDIO_MAP = {
+        '1': { prefix: 'HA-01', total: 258 },
+        '2': { prefix: 'HA-02', total: 97 },
+        'speak': { prefix: 'HA-05', total: 242 }
+      };
+
+      function makeLocalQs(typeKey) {
+        const cfg = LOCAL_AUDIO_MAP[typeKey];
+        const qs = [];
+        for (let i = 1; i <= cfg.total; i++) {
+          const num = String(i).padStart(3, '0');
+          qs.push({
+            questionAudioSrc: `./${cfg.prefix}-${num}s.mp3`,
+            optionAudioSrc: null,
+            questionText: '',
+            questionImg: null,
+            isLocalFile: true,
+            isSpeakType: typeKey === 'speak',
+            options: typeKey === 'speak' ? [] : [
+              { index: 1, imageSrc: null, text: '1', isCorrect: false },
+              { index: 2, imageSrc: null, text: '2', isCorrect: false },
+              { index: 3, imageSrc: null, text: '3', isCorrect: false }
+            ]
+          });
+        }
+        return qs;
+      }
+
+      let allQs = [];
+      if (type === '1' || type === '2' || type === 'speak') {
+        allQs = makeLocalQs(type);
+      } else {
+        allQs = getQuestionsForKey(sessionKey) || [];
+      }
+
       if (!allQs.length) {
         document.getElementById('mapMetaInfo').textContent = '⚠️ 請先抓取題庫資料！';
         return;
@@ -1813,10 +1887,9 @@
       audioPlays = 0;
       document.getElementById('totQ').textContent = sessionQuestions.length;
 
-      const dialLabel = document.getElementById('dialectSel').options[document.getElementById('dialectSel').selectedIndex].text;
-      const typeLabel = document.getElementById('typeSel').options[document.getElementById('typeSel').selectedIndex].text;
-
-      document.getElementById('sessionInfo').textContent = `${dialLabel} · ${typeLabel} · 關卡：${TAIWAN_COUNTIES[currentStageIndex].name}`;
+      const type = document.getElementById('typeSel').value;
+      const typeLabels = { '1': '🎧 聽力單句', '2': '🎧 聽力對話', 'speak': '🎙 口語複誦', '3': '📖 閱讀' };
+      document.getElementById('sessionInfo').textContent = `海陸腔 · ${typeLabels[type] || type} · 關卡：${TAIWAN_COUNTIES[currentStageIndex].name}`;
 
       showScreen('screenQuiz');
       hide('resultsCard');
@@ -1988,12 +2061,15 @@
       document.getElementById('progFill').style.width = `${(idx / sessionQuestions.length) * 100}%`;
       document.getElementById('qnum').textContent = `題目 ${idx + 1}`;
 
-      // Audio section (only for listening types)
+      const isSpeakQ = !!q.isSpeakType;
+
+      // Audio bar (shown for all listening + speaking types)
       const hasAudio = !!q.questionAudioSrc;
       setDisplay('audioBar', hasAudio ? 'flex' : 'none');
       if (hasAudio) {
         const audioEl = document.getElementById('audioEl');
-        audioEl.src = q.questionAudioSrc;
+        // Local file: use the path directly (no CORS proxy needed)
+        audioEl.src = q.isLocalFile ? q.questionAudioSrc : ('https://cors.eu.org/' + q.questionAudioSrc);
         audioEl.load();
         document.getElementById('playCntDisp').textContent = '⟳ 0';
         document.getElementById('audioPF').style.width = '0%';
@@ -2001,7 +2077,8 @@
         document.getElementById('playBtn').classList.remove('playing');
       }
 
-      // Options audio
+      // Options audio (not available for local files)
+      curOptAudioSrc = q.isLocalFile ? null : (q.optionAudioSrc || null);
       setDisplay('optAudioBtn', curOptAudioSrc ? 'inline-flex' : 'none');
 
       // Question image
@@ -2014,12 +2091,11 @@
         qImg.style.display = 'none';
       }
 
-      // Question text
+      // Question text (hidden for local listening/speaking files)
       const qtEl = document.getElementById('qText');
-      if (q.questionText && q.questionText.trim()) {
+      if (q.questionText && q.questionText.trim() && !q.isLocalFile) {
         qtEl.textContent = q.questionText;
         qtEl.style.display = 'block';
-        // Hide questioning text if it has audio (listening question)
         if (hasAudio) {
           qtEl.classList.add('hidden-text');
         } else {
@@ -2032,10 +2108,10 @@
         qtEl.classList.remove('revealed');
       }
 
-      // Transcript toggle
+      // Transcript toggle (hidden for local files)
       const xscriptBtn = document.getElementById('xscriptBtn');
       document.getElementById('xscriptBox').style.display = 'none';
-      if (q.questionText && q.questionText.trim() && hasAudio) {
+      if (q.questionText && q.questionText.trim() && hasAudio && !q.isLocalFile) {
         xscriptBtn.style.display = 'inline-block';
         xscriptBtn.textContent = '👁 顯示文字稿';
         document.getElementById('xscriptTxt').textContent = q.questionText;
@@ -2043,93 +2119,126 @@
         xscriptBtn.style.display = 'none';
       }
 
-      // Build options
+      // Show/hide speak panel and options based on type
+      const speakPanel = document.getElementById('speakPanel');
+      const optsLabel = document.getElementById('optsLabel');
       const imgGrid = document.getElementById('imgOptGrid');
       const txtGrid = document.getElementById('txtOptGrid');
-      imgGrid.innerHTML = '';
-      txtGrid.innerHTML = '';
 
-      const hasImages = q.options.some(o => o.imageSrc && /_(O1|O2|O3)/i.test(o.imageSrc));
-
-      if (hasImages) {
-        imgGrid.style.display = 'grid';
+      if (isSpeakQ) {
+        // Speaking test: show recording panel, hide option grids
+        speakPanel.style.display = 'block';
+        optsLabel.style.display = 'none';
+        imgGrid.style.display = 'none';
+        imgGrid.innerHTML = '';
         txtGrid.style.display = 'none';
-        q.options.forEach((opt, i) => {
-          const btn = document.createElement('button');
-          btn.className = 'opt-img-btn';
-          btn.dataset.idx = i;
-          btn.onclick = () => selectAnswer(i);
-          const txtClass = hasAudio ? 'hidden-text' : '';
-          btn.innerHTML = `
+        txtGrid.innerHTML = '';
+        // Reset recording controls
+        document.getElementById('recordBtn').textContent = '🎤 開始錄音';
+        document.getElementById('playbackEl').style.display = 'none';
+        document.getElementById('speakDoneBtn').style.display = 'none';
+        document.getElementById('playbackEl').src = '';
+      } else {
+        speakPanel.style.display = 'none';
+        optsLabel.style.display = 'block';
+        imgGrid.innerHTML = '';
+        txtGrid.innerHTML = '';
+
+        const hasImages = q.options.some(o => o.imageSrc && /_(O1|O2|O3)/i.test(o.imageSrc));
+
+        if (hasImages) {
+          imgGrid.style.display = 'grid';
+          txtGrid.style.display = 'none';
+          q.options.forEach((opt, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'opt-img-btn';
+            btn.dataset.idx = i;
+            btn.onclick = () => selectAnswer(i);
+            const txtClass = hasAudio ? 'hidden-text' : '';
+            btn.innerHTML = `
         <div class="on">${opt.index}</div>
         ${opt.imageSrc ? `<img src="${proxyImgSrc(opt.imageSrc)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
         <div class="opt-img-txt ${txtClass}">${opt.text && opt.text !== String(opt.index) ? opt.text : ''}</div>
         <div class="rov"></div>`;
-          imgGrid.appendChild(btn);
-        });
-      } else {
-        imgGrid.style.display = 'none';
-        txtGrid.style.display = 'flex';
-        q.options.forEach((opt, i) => {
-          const btn = document.createElement('button');
-          btn.className = 'opt-txt-btn';
-          btn.dataset.idx = i;
-          btn.onclick = () => selectAnswer(i);
-          const txtClass = hasAudio ? 'hidden-text' : '';
-          btn.innerHTML = `<span class="badge">${opt.index}</span><span class="opt-txt-content ${txtClass}">${opt.text}</span>`;
-          txtGrid.appendChild(btn);
-        });
-      }
-
-      // Hide feedback & next
-      document.getElementById('feedback').style.display = 'none';
-      document.getElementById('nxtBtn').style.display = 'none';
-
-      // Auto-play audio for listening questions
-      if (hasAudio) {
-        setTimeout(() => playAudio(), 700);
-      }
-    }
-
-    // ============================================================
-    // AUDIO CONTROLS
-    // ============================================================
-    function playAudio() {
-      const audioEl = document.getElementById('audioEl');
-      const playBtn = document.getElementById('playBtn');
-      if (audioInterval) clearInterval(audioInterval);
-
-      audioEl.currentTime = 0;
-      audioEl.play().catch(() => { });
-      audioPlays++;
-      document.getElementById('playCntDisp').textContent = `⟳ ${audioPlays}`;
-      playBtn.classList.add('playing');
-      playBtn.textContent = '⏸';
-
-      audioInterval = setInterval(() => {
-        if (audioEl.duration) {
-          document.getElementById('audioPF').style.width = `${(audioEl.currentTime / audioEl.duration) * 100}%`;
+            imgGrid.appendChild(btn);
+          });
+        } else {
+          imgGrid.style.display = 'none';
+          txtGrid.style.display = 'flex';
+          q.options.forEach((opt, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'opt-txt-btn';
+            btn.dataset.idx = i;
+            btn.onclick = () => selectAnswer(i);
+            const txtClass = hasAudio ? 'hidden-text' : '';
+            btn.innerHTML = `<span class="badge">${opt.index}</span><span class="opt-txt-content ${txtClass}">${opt.text}</span>`;
+            txtGrid.appendChild(btn);
+          });
         }
-      }, 100);
 
-      audioEl.onended = () => {
-        playBtn.classList.remove('playing');
-        playBtn.textContent = '▶';
-        clearInterval(audioInterval);
-        document.getElementById('audioPF').style.width = '0%';
-      };
-    }
+        // Hide feedback & next
+        document.getElementById('feedback').style.display = 'none';
+        document.getElementById('nxtBtn').style.display = 'none';
 
-    function toggleAudio() {
-      const audioEl = document.getElementById('audioEl');
-      if (!audioEl.paused) {
-        audioEl.pause();
-        document.getElementById('playBtn').textContent = '▶';
-        document.getElementById('playBtn').classList.remove('playing');
-        clearInterval(audioInterval);
-      } else {
-        playAudio();
+        // Auto-play audio for listening questions
+        if (hasAudio) {
+          playAudio();
+        }
       }
+
+      // ============================================================
+      // AUDIO CONTROLS
+      // ============================================================
+      function playAudio() {
+        const audioEl = document.getElementById('audioEl');
+        const playBtn = document.getElementById('playBtn');
+        if (audioInterval) clearInterval(audioInterval);
+
+        audioEl.currentTime = 0;
+        const playPromise = audioEl.play();
+
+        if (playPromise !== undefined) {
+          playPromise.then(_ => {
+            // Playback started successfully
+            audioPlays++;
+            document.getElementById('playCntDisp').textContent = `⟳ ${audioPlays}`;
+            playBtn.classList.add('playing');
+            playBtn.textContent = '⏸';
+
+            audioInterval = setInterval(() => {
+              if (audioEl.duration) {
+                document.getElementById('audioPF').style.width = `${(audioEl.currentTime / audioEl.duration) * 100}%`;
+              }
+            }, 100);
+          }).catch(error => {
+            // Playback was blocked by the browser
+            console.warn('播放被瀏覽器阻擋，需手動點擊播放:', error);
+            playBtn.classList.remove('playing');
+            playBtn.textContent = '▶';
+            document.getElementById('audioPF').style.width = '0%';
+          });
+        }
+
+        audioEl.onended = () => {
+          playBtn.classList.remove('playing');
+          playBtn.textContent = '▶';
+          clearInterval(audioInterval);
+          document.getElementById('audioPF').style.width = '0%';
+        };
+      }
+
+      function toggleAudio() {
+        const audioEl = document.getElementById('audioEl');
+        if (!audioEl.paused) {
+          audioEl.pause();
+          document.getElementById('playBtn').textContent = '▶';
+          document.getElementById('playBtn').classList.remove('playing');
+          clearInterval(audioInterval);
+        } else {
+          playAudio();
+        }
+      }
+
     }
 
     function playOptionAudio() {
@@ -2145,6 +2254,56 @@
       const audioEl = document.getElementById('audioEl');
       audioEl.pause();
       audioEl.src = '';
+    }
+
+    // ============================================================
+    // VOICE RECORDING (Speaking / 複誦 type)
+    // ============================================================
+    let mediaRecorder = null;
+    let recordedChunks = [];
+
+    async function toggleRecording() {
+      const btn = document.getElementById('recordBtn');
+      if (mediaRecorder && mediaRecorder.state === 'recording') {
+        // Stop recording
+        mediaRecorder.stop();
+        btn.textContent = '🎤 再次錄音';
+        btn.style.background = 'var(--er)';
+        return;
+      }
+      // Start recording
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        recordedChunks = [];
+        mediaRecorder = new MediaRecorder(stream);
+        mediaRecorder.ondataavailable = e => { if (e.data.size > 0) recordedChunks.push(e.data); };
+        mediaRecorder.onstop = () => {
+          const blob = new Blob(recordedChunks, { type: 'audio/webm' });
+          const url = URL.createObjectURL(blob);
+          const playbackEl = document.getElementById('playbackEl');
+          playbackEl.src = url;
+          playbackEl.style.display = 'block';
+          document.getElementById('speakDoneBtn').style.display = 'inline-block';
+          // Release mic
+          stream.getTracks().forEach(t => t.stop());
+        };
+        mediaRecorder.start();
+        btn.textContent = '⏹ 停止錄音';
+        btn.style.background = '#555';
+        document.getElementById('playbackEl').style.display = 'none';
+        document.getElementById('speakDoneBtn').style.display = 'none';
+      } catch (err) {
+        alert('無法取得麥克風！請確認已允許瀏覽器存取麥克風。\n' + err.message);
+      }
+    }
+
+    function speakDone() {
+      // Treat as a "correct" completion for progress tracking
+      sessionScore++;
+      sessionAnswered++;
+      document.getElementById('scorNow').textContent = sessionScore;
+      document.getElementById('scorTot').textContent = sessionAnswered;
+      nextQuestion();
     }
 
     // ============================================================
