@@ -1402,13 +1402,13 @@
         </div>
         <span class="rtrophy" id="rtrophy"></span>
         <div class="rscore" id="rscore"></div>
-        <div class="rlbl">此次正確率</div>
+        <div class="rlbl" id="rscoreLbl">此次正確率</div>
         <div class="rstats">
-          <div class="rstat green">
+          <div class="rstat green" id="statCorrect">
             <div class="rstat-v" id="rcorrect"></div>
-            <div class="rstat-l">答對</div>
+            <div class="rstat-l" id="lblCorrect">答對</div>
           </div>
-          <div class="rstat red">
+          <div class="rstat red" id="statWrong">
             <div class="rstat-v" id="rwrong"></div>
             <div class="rstat-l">答錯</div>
           </div>
@@ -2453,14 +2453,30 @@
       const doneTotal = prog.done.length;
       const remain = totalQ === '?' ? '?' : (totalQ - doneTotal);
 
+      const type = document.getElementById('typeSel').value;
+      const isSpeak = type === 'speak';
+
       const pct = Math.round((sessionScore / sessionQuestions.length) * 100);
       const trophy = pct >= 90 ? '🏆' : pct >= 70 ? '🥈' : pct >= 50 ? '🥉' : '💪';
 
       document.getElementById('resultStudentName').textContent = `👤 ${currentStudent.name}`;
-      document.getElementById('rtrophy').textContent = trophy;
-      document.getElementById('rscore').textContent = `${pct}%`;
-      document.getElementById('rcorrect').textContent = sessionScore;
-      document.getElementById('rwrong').textContent = sessionQuestions.length - sessionScore;
+
+      if (isSpeak) {
+        document.getElementById('rtrophy').textContent = '🎙️';
+        document.getElementById('rscore').textContent = '完成練習';
+        document.getElementById('rscoreLbl').textContent = '此次進度';
+        document.getElementById('statCorrect').style.display = 'none';
+        document.getElementById('statWrong').style.display = 'none';
+      } else {
+        document.getElementById('rtrophy').textContent = trophy;
+        document.getElementById('rscore').textContent = `${pct}%`;
+        document.getElementById('rscoreLbl').textContent = '此次正確率';
+        document.getElementById('statCorrect').style.display = 'block';
+        document.getElementById('statWrong').style.display = 'block';
+        document.getElementById('rcorrect').textContent = sessionScore;
+        document.getElementById('rwrong').textContent = sessionQuestions.length - sessionScore;
+      }
+
       document.getElementById('rtotal').textContent = sessionQuestions.length;
       document.getElementById('rremain').textContent = remain;
       document.getElementById('overallProg').textContent = `總體進度：已完成 ${doneTotal}/${totalQ} 題`;
