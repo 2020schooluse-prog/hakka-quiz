@@ -1774,33 +1774,35 @@
       if (startIndex < 0) startIndex = 0;
       let availableQs = allQs.slice(startIndex).map((q, i) => ({ ...q, origIndex: startIndex + i }));
 
-      let currentQIdxGlobal = 0;
-      const stageAllocations = [];
-
-      for (let i = 0; i < TAIWAN_COUNTIES.length; i++) {
-        if (i === TAIWAN_COUNTIES.length - 1) {
-          stageAllocations.push(availableQs.slice(currentQIdxGlobal));
-          currentQIdxGlobal = availableQs.length;
-        } else {
-          let slice = availableQs.slice(currentQIdxGlobal, currentQIdxGlobal + count);
-          stageAllocations.push(slice);
-          currentQIdxGlobal += slice.length;
-        }
-      }
-
       document.getElementById('mapMetaInfo').textContent = `目標總題數：${allQs.length} 題 | 已收服 ${prog.doneIndices.length}/${TAIWAN_COUNTIES.length} 關（從第 ${explicitStartIdx} 題開始）`;
 
       const mapPath = document.getElementById('mapPath');
       mapPath.innerHTML = '';
 
+      // Determine where the user is currently at on the map
       let latestUnlockedIdx = 0;
       while (latestUnlockedIdx < TAIWAN_COUNTIES.length) {
         if (prog.doneIndices.includes(latestUnlockedIdx)) latestUnlockedIdx++;
         else break;
       }
 
+      // Allocate questions starting from the first unlocked node
+      const stageAllocations = new Array(TAIWAN_COUNTIES.length).fill([]);
+      let currentQIdxGlobal = 0;
+
+      for (let i = latestUnlockedIdx; i < TAIWAN_COUNTIES.length; i++) {
+        if (i === TAIWAN_COUNTIES.length - 1) {
+          stageAllocations[i] = availableQs.slice(currentQIdxGlobal);
+          currentQIdxGlobal = availableQs.length;
+        } else {
+          let slice = availableQs.slice(currentQIdxGlobal, currentQIdxGlobal + count);
+          stageAllocations[i] = slice;
+          currentQIdxGlobal += slice.length;
+        }
+      }
+
       // Auto-clear empty remaining nodes if we ran out of questions due to a large batch setting.
-      while (latestUnlockedIdx < TAIWAN_COUNTIES.length && stageAllocations[latestUnlockedIdx].length === 0) {
+      while (latestUnlockedIdx < TAIWAN_COUNTIES.length && (!stageAllocations[latestUnlockedIdx] || stageAllocations[latestUnlockedIdx].length === 0)) {
         if (!prog.doneIndices.includes(latestUnlockedIdx)) {
           prog.doneIndices.push(latestUnlockedIdx);
           saveStudent(currentStudent);
