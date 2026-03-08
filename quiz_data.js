@@ -1,4 +1,4 @@
-// 客語認證題庫資料
+﻿// 客語認證題庫資料
 // 自動生成於 2026/2/28 上午12:23:43
 const QUIZ_DATA = {
   "d1_t1": {
@@ -15947,23 +15947,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/001_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/001_O.mp3",
         "questionText": "阿爸渡𠊎摎老弟去放紙鷂。請問佢兜係去搞麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/001_Q.jpg",
+        "questionImg": "./d2_t1_001_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/001_O1.jpg",
+            "imageSrc": "./d2_t1_001_O1.jpg",
             "text": "放天燈",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/001_O2.jpg",
+            "imageSrc": "./d2_t1_001_O2.jpg",
             "text": "打紙炮仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/001_O3.jpg",
+            "imageSrc": "./d2_t1_001_O3.jpg",
             "text": "放紙鷂仔",
             "isCorrect": true
           }
@@ -15973,23 +15973,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/002_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/002_O.mp3",
         "questionText": "佢正噭啊過，所以目珠看起來仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/002_Q.jpg",
+        "questionImg": "./d2_t1_002_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/002_O1.jpg",
+            "imageSrc": "./d2_t1_002_O1.jpg",
             "text": "紅紅",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/002_O2.jpg",
+            "imageSrc": "./d2_t1_002_O2.jpg",
             "text": "黃黃",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/002_O3.jpg",
+            "imageSrc": "./d2_t1_002_O3.jpg",
             "text": "矇矇",
             "isCorrect": false
           }
@@ -15999,23 +15999,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/003_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/003_O.mp3",
         "questionText": "麼个天時最有可能會做大水?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/003_Q.jpg",
+        "questionImg": "./d2_t1_003_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/003_O1.jpg",
+            "imageSrc": "./d2_t1_003_O1.jpg",
             "text": "出日頭",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/003_O2.jpg",
+            "imageSrc": "./d2_t1_003_O2.jpg",
             "text": "發風搓",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/003_O3.jpg",
+            "imageSrc": "./d2_t1_003_O3.jpg",
             "text": "落水毛仔",
             "isCorrect": false
           }
@@ -16025,23 +16025,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/004_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/004_O.mp3",
         "questionText": "空氣毋好，在外背最好愛戴麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/004_Q.jpg",
+        "questionImg": "./d2_t1_004_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/004_O1.jpg",
+            "imageSrc": "./d2_t1_004_O1.jpg",
             "text": "禁指",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/004_O2.jpg",
+            "imageSrc": "./d2_t1_004_O2.jpg",
             "text": "時錶",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/004_O3.jpg",
+            "imageSrc": "./d2_t1_004_O3.jpg",
             "text": "封嘴仔",
             "isCorrect": true
           }
@@ -16051,23 +16051,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/005_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/005_O.mp3",
         "questionText": "佢著个衫褲長長短短，還生趣哦！出門去可能會仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/005_Q.jpg",
+        "questionImg": "./d2_t1_005_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/005_O1.jpg",
+            "imageSrc": "./d2_t1_005_O1.jpg",
             "text": "分人笑",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/005_O2.jpg",
+            "imageSrc": "./d2_t1_005_O2.jpg",
             "text": "分人愁",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/005_O3.jpg",
+            "imageSrc": "./d2_t1_005_O3.jpg",
             "text": "分人罵",
             "isCorrect": false
           }
@@ -16077,23 +16077,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/006_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/006_O.mp3",
         "questionText": "請問下背个圖，哪個人較矮細?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/006_Q.jpg",
+        "questionImg": "./d2_t1_006_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/006_O1.jpg",
+            "imageSrc": "./d2_t1_006_O1.jpg",
             "text": "矮瘦的人站桌邊",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/006_O2.jpg",
+            "imageSrc": "./d2_t1_006_O2.jpg",
             "text": "高瘦的人站桌邊",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/006_O3.jpg",
+            "imageSrc": "./d2_t1_006_O3.jpg",
             "text": "矮胖的人站桌邊",
             "isCorrect": false
           }
@@ -16103,23 +16103,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/007_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/007_O.mp3",
         "questionText": "阿德牯歸日仔食飽尞、尞飽食，麼个就毋肯做。意思係講佢仰般﹖",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/007_Q.jpg",
+        "questionImg": "./d2_t1_007_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/007_O1.jpg",
+            "imageSrc": "./d2_t1_007_O1.jpg",
             "text": "當懶尸",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/007_O2.jpg",
+            "imageSrc": "./d2_t1_007_O2.jpg",
             "text": "當儘採",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/007_O3.jpg",
+            "imageSrc": "./d2_t1_007_O3.jpg",
             "text": "當生趣",
             "isCorrect": false
           }
@@ -16129,23 +16129,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/008_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/008_O.mp3",
         "questionText": "阿伯舊年60歲，請問阿伯明年幾多歲?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/008_Q.jpg",
+        "questionImg": "./d2_t1_008_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/008_O1.jpg",
+            "imageSrc": "./d2_t1_008_O1.jpg",
             "text": "60歲",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/008_O2.jpg",
+            "imageSrc": "./d2_t1_008_O2.jpg",
             "text": "61歲",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/008_O3.jpg",
+            "imageSrc": "./d2_t1_008_O3.jpg",
             "text": "62歲",
             "isCorrect": true
           }
@@ -16155,23 +16155,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/009_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/009_O.mp3",
         "questionText": "請問哪張圖係蕹菜?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/009_Q.jpg",
+        "questionImg": "./d2_t1_009_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/009_O1.jpg",
+            "imageSrc": "./d2_t1_009_O1.jpg",
             "text": "空心菜",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/009_O2.jpg",
+            "imageSrc": "./d2_t1_009_O2.jpg",
             "text": "青江菜",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/009_O3.jpg",
+            "imageSrc": "./d2_t1_009_O3.jpg",
             "text": "芥菜",
             "isCorrect": false
           }
@@ -16181,23 +16181,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/010_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/010_O.mp3",
         "questionText": "請問麼个動物，長透會在花頂高飛上飛下？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/010_Q.jpg",
+        "questionImg": "./d2_t1_010_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/010_O1.jpg",
+            "imageSrc": "./d2_t1_010_O1.jpg",
             "text": "蟻公",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/010_O2.jpg",
+            "imageSrc": "./d2_t1_010_O2.jpg",
             "text": "蜞蚻仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/010_O3.jpg",
+            "imageSrc": "./d2_t1_010_O3.jpg",
             "text": "蝶仔",
             "isCorrect": true
           }
@@ -16207,23 +16207,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/011_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/011_O.mp3",
         "questionText": "佢看毋着粉牌个字，怕係目珠仰般咧？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/011_Q.jpg",
+        "questionImg": "./d2_t1_011_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/011_O1.jpg",
+            "imageSrc": "./d2_t1_011_O1.jpg",
             "text": "近視",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/011_O2.jpg",
+            "imageSrc": "./d2_t1_011_O2.jpg",
             "text": "進士",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/011_O3.jpg",
+            "imageSrc": "./d2_t1_011_O3.jpg",
             "text": "敬字",
             "isCorrect": false
           }
@@ -16233,23 +16233,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/012_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/012_O.mp3",
         "questionText": "凳頂毋知麼个尖尖，佢坐啊着就跳起來。請問佢哪位痛？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/012_Q.jpg",
+        "questionImg": "./d2_t1_012_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/012_O1.jpg",
+            "imageSrc": "./d2_t1_012_O1.jpg",
             "text": "屎朏",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/012_O2.jpg",
+            "imageSrc": "./d2_t1_012_O2.jpg",
             "text": "肚屎",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/012_O3.jpg",
+            "imageSrc": "./d2_t1_012_O3.jpg",
             "text": "膝頭",
             "isCorrect": false
           }
@@ -16259,23 +16259,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/013_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/013_O.mp3",
         "questionText": "請問下背个圖，哪個人又高又大箍?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/013_Q.jpg",
+        "questionImg": "./d2_t1_013_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/013_O1.jpg",
+            "imageSrc": "./d2_t1_013_O1.jpg",
             "text": "高胖的人站桌邊",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/013_O2.jpg",
+            "imageSrc": "./d2_t1_013_O2.jpg",
             "text": "高瘦的人站桌邊",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/013_O3.jpg",
+            "imageSrc": "./d2_t1_013_O3.jpg",
             "text": "矮胖的人站桌邊",
             "isCorrect": false
           }
@@ -16285,23 +16285,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/014_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/014_O.mp3",
         "questionText": "落水時節个時節，愛著麼个腳正毋會溼忒？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/014_Q.jpg",
+        "questionImg": "./d2_t1_014_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/014_O1.jpg",
+            "imageSrc": "./d2_t1_014_O1.jpg",
             "text": "水衣",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/014_O2.jpg",
+            "imageSrc": "./d2_t1_014_O2.jpg",
             "text": "水靴",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/014_O3.jpg",
+            "imageSrc": "./d2_t1_014_O3.jpg",
             "text": "遮仔",
             "isCorrect": false
           }
@@ -16311,23 +16311,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/015_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/015_O.mp3",
         "questionText": "阿英前幾日去日本遶尞，到今還吂轉。請問阿英這下在哪？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/015_Q.jpg",
+        "questionImg": "./d2_t1_015_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/015_O1.jpg",
+            "imageSrc": "./d2_t1_015_O1.jpg",
             "text": "日本",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/015_O2.jpg",
+            "imageSrc": "./d2_t1_015_O2.jpg",
             "text": "臺灣",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/015_O3.jpg",
+            "imageSrc": "./d2_t1_015_O3.jpg",
             "text": "屋下",
             "isCorrect": false
           }
@@ -16337,23 +16337,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/016_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/016_O.mp3",
         "questionText": "恁冷个天佢還著短袖衫，表示佢个身體仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/016_Q.jpg",
+        "questionImg": "./d2_t1_016_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/016_O1.jpg",
+            "imageSrc": "./d2_t1_016_O1.jpg",
             "text": "當弱",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/016_O2.jpg",
+            "imageSrc": "./d2_t1_016_O2.jpg",
             "text": "當砸",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/016_O3.jpg",
+            "imageSrc": "./d2_t1_016_O3.jpg",
             "text": "當悿",
             "isCorrect": false
           }
@@ -16363,23 +16363,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/017_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/017_O.mp3",
         "questionText": "下背這三張圖，黃色个教堂係在哪片？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/017_Q.jpg",
+        "questionImg": "./d2_t1_017_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/017_O1.jpg",
+            "imageSrc": "./d2_t1_017_O1.jpg",
             "text": "左手片",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/017_O2.jpg",
+            "imageSrc": "./d2_t1_017_O2.jpg",
             "text": "正手片",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/017_O3.jpg",
+            "imageSrc": "./d2_t1_017_O3.jpg",
             "text": "在中央",
             "isCorrect": true
           }
@@ -16389,23 +16389,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/018_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/018_O.mp3",
         "questionText": "𠊎摎該個人問路，佢全無應，佢敢係麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/018_Q.jpg",
+        "questionImg": "./d2_t1_018_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/018_O1.jpg",
+            "imageSrc": "./d2_t1_018_O1.jpg",
             "text": "鴨仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/018_O2.jpg",
+            "imageSrc": "./d2_t1_018_O2.jpg",
             "text": "盎仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/018_O3.jpg",
+            "imageSrc": "./d2_t1_018_O3.jpg",
             "text": "啞仔",
             "isCorrect": true
           }
@@ -16415,23 +16415,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/019_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/019_O.mp3",
         "questionText": "請問下背哪張圖係四四角角个窗門?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/019_Q.jpg",
+        "questionImg": "./d2_t1_019_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/019_O1.jpg",
+            "imageSrc": "./d2_t1_019_O1.jpg",
             "text": "方型的窗門",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/019_O2.jpg",
+            "imageSrc": "./d2_t1_019_O2.jpg",
             "text": "方型的門",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/019_O3.jpg",
+            "imageSrc": "./d2_t1_019_O3.jpg",
             "text": "拱型的門",
             "isCorrect": false
           }
@@ -16441,23 +16441,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/020_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/020_O.mp3",
         "questionText": "揹恁重个書包，肩頭會仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/020_Q.jpg",
+        "questionImg": "./d2_t1_020_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/020_O1.jpg",
+            "imageSrc": "./d2_t1_020_O1.jpg",
             "text": "佇毋著",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/020_O2.jpg",
+            "imageSrc": "./d2_t1_020_O2.jpg",
             "text": "赴毋掣",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/020_O3.jpg",
+            "imageSrc": "./d2_t1_020_O3.jpg",
             "text": "跈毋着",
             "isCorrect": false
           }
@@ -16467,23 +16467,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/021_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/021_O.mp3",
         "questionText": "阿婆在菜園挖泥，挖着幾下尾麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/021_Q.jpg",
+        "questionImg": "./d2_t1_021_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/021_O1.jpg",
+            "imageSrc": "./d2_t1_021_O1.jpg",
             "text": "壁蛇",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/021_O2.jpg",
+            "imageSrc": "./d2_t1_021_O2.jpg",
             "text": "蜂仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/021_O3.jpg",
+            "imageSrc": "./d2_t1_021_O3.jpg",
             "text": "蟲䘆",
             "isCorrect": true
           }
@@ -16493,23 +16493,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/022_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/022_O.mp3",
         "questionText": "阿爸當閼講：你个皮愛弓緪兜仔！這句話係阿爸對細人仔仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/022_Q.jpg",
+        "questionImg": "./d2_t1_022_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/022_O1.jpg",
+            "imageSrc": "./d2_t1_022_O1.jpg",
             "text": "阿𧩣佢",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/022_O2.jpg",
+            "imageSrc": "./d2_t1_022_O2.jpg",
             "text": "警告佢",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/022_O3.jpg",
+            "imageSrc": "./d2_t1_022_O3.jpg",
             "text": "同情佢",
             "isCorrect": false
           }
@@ -16519,23 +16519,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/023_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/023_O.mp3",
         "questionText": "冷天睡目愛蓋麼个正毋會冷着?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/023_Q.jpg",
+        "questionImg": "./d2_t1_023_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/023_O1.jpg",
+            "imageSrc": "./d2_t1_023_O1.jpg",
             "text": "被骨",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/023_O2.jpg",
+            "imageSrc": "./d2_t1_023_O2.jpg",
             "text": "被單",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/023_O3.jpg",
+            "imageSrc": "./d2_t1_023_O3.jpg",
             "text": "枕頭",
             "isCorrect": false
           }
@@ -16545,23 +16545,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/024_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/024_O.mp3",
         "questionText": "佢走到盡遽，運動會哪項總係打頭名？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/024_Q.jpg",
+        "questionImg": "./d2_t1_024_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/024_O1.jpg",
+            "imageSrc": "./d2_t1_024_O1.jpg",
             "text": "跳高",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/024_O2.jpg",
+            "imageSrc": "./d2_t1_024_O2.jpg",
             "text": "踢腳球",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/024_O3.jpg",
+            "imageSrc": "./d2_t1_024_O3.jpg",
             "text": "走追仔",
             "isCorrect": true
           }
@@ -16571,23 +16571,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/025_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/025_O.mp3",
         "questionText": "請問這個人个後背係麼个？(圖：一個人的正面，後面是學校，左邊是摩托車、右邊是樹)",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/025_Q.jpg",
+        "questionImg": "./d2_t1_025_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/025_O1.jpg",
+            "imageSrc": "./d2_t1_025_O1.jpg",
             "text": "學校",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/025_O2.jpg",
+            "imageSrc": "./d2_t1_025_O2.jpg",
             "text": "奧多拜",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/025_O3.jpg",
+            "imageSrc": "./d2_t1_025_O3.jpg",
             "text": "大樹仔",
             "isCorrect": false
           }
@@ -16597,23 +16597,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/026_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/026_O.mp3",
         "questionText": "用鉛筆寫字，係寫毋著，愛用麼个修改﹖",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/026_Q.jpg",
+        "questionImg": "./d2_t1_026_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/026_O1.jpg",
+            "imageSrc": "./d2_t1_026_O1.jpg",
             "text": "刷仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/026_O2.jpg",
+            "imageSrc": "./d2_t1_026_O2.jpg",
             "text": "擦仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/026_O3.jpg",
+            "imageSrc": "./d2_t1_026_O3.jpg",
             "text": "捽仔",
             "isCorrect": true
           }
@@ -16623,23 +16623,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/027_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/027_O.mp3",
         "questionText": "這張圖裡肚較矮个細阿哥仔，佢个身材仰般？(圖片：兩男生，一高瘦一矮胖)",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/027_Q.jpg",
+        "questionImg": "./d2_t1_027_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/027_O1.jpg",
+            "imageSrc": "./d2_t1_027_O1.jpg",
             "text": "瘦瘦",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/027_O2.jpg",
+            "imageSrc": "./d2_t1_027_O2.jpg",
             "text": "大箍",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/027_O3.jpg",
+            "imageSrc": "./d2_t1_027_O3.jpg",
             "text": "矮細",
             "isCorrect": false
           }
@@ -16649,23 +16649,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/028_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/028_O.mp3",
         "questionText": "老妹分蚊仔叼着，當痎，看着佢當當在該做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/028_Q.jpg",
+        "questionImg": "./d2_t1_028_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/028_O1.jpg",
+            "imageSrc": "./d2_t1_028_O1.jpg",
             "text": "爪痎",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/028_O2.jpg",
+            "imageSrc": "./d2_t1_028_O2.jpg",
             "text": "擘嘴",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/028_O3.jpg",
+            "imageSrc": "./d2_t1_028_O3.jpg",
             "text": "撥涼",
             "isCorrect": false
           }
@@ -16675,23 +16675,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/029_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/029_O.mp3",
         "questionText": "佢無赴着尾枋車，意思係講佢仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/029_Q.jpg",
+        "questionImg": "./d2_t1_029_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/029_O1.jpg",
+            "imageSrc": "./d2_t1_029_O1.jpg",
             "text": "無坐着車仔",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/029_O2.jpg",
+            "imageSrc": "./d2_t1_029_O2.jpg",
             "text": "車仔無人坐",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/029_O3.jpg",
+            "imageSrc": "./d2_t1_029_O3.jpg",
             "text": "無愛坐車仔",
             "isCorrect": false
           }
@@ -16701,23 +16701,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/030_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/030_O.mp3",
         "questionText": "用鉛筆寫毋著字，愛拿麼个來改過？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/030_Q.jpg",
+        "questionImg": "./d2_t1_030_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/030_O1.jpg",
+            "imageSrc": "./d2_t1_030_O1.jpg",
             "text": "蠟筆",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/030_O2.jpg",
+            "imageSrc": "./d2_t1_030_O2.jpg",
             "text": "捽仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/030_O3.jpg",
+            "imageSrc": "./d2_t1_030_O3.jpg",
             "text": "蓋仔",
             "isCorrect": false
           }
@@ -16727,23 +16727,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/031_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/031_O.mp3",
         "questionText": "緊打電動，哪位會矇矇？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/031_Q.jpg",
+        "questionImg": "./d2_t1_031_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/031_O1.jpg",
+            "imageSrc": "./d2_t1_031_O1.jpg",
             "text": "頭那",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/031_O2.jpg",
+            "imageSrc": "./d2_t1_031_O2.jpg",
             "text": "目珠",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/031_O3.jpg",
+            "imageSrc": "./d2_t1_031_O3.jpg",
             "text": "頸根",
             "isCorrect": false
           }
@@ -16753,23 +16753,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/032_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/032_O.mp3",
         "questionText": "日時頭落水過後，下把仔天頂會有彎彎七色个麼个現象？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/032_Q.jpg",
+        "questionImg": "./d2_t1_032_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/032_O1.jpg",
+            "imageSrc": "./d2_t1_032_O1.jpg",
             "text": "出日頭",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/032_O2.jpg",
+            "imageSrc": "./d2_t1_032_O2.jpg",
             "text": "出月光",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/032_O3.jpg",
+            "imageSrc": "./d2_t1_032_O3.jpg",
             "text": "出虹",
             "isCorrect": true
           }
@@ -16779,23 +16779,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/033_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/033_O.mp3",
         "questionText": "請問，這張圖裡肚个天時係仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/033_Q.jpg",
+        "questionImg": "./d2_t1_033_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/033_O1.jpg",
+            "imageSrc": "./d2_t1_033_O1.jpg",
             "text": "做大水",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/033_O2.jpg",
+            "imageSrc": "./d2_t1_033_O2.jpg",
             "text": "起大風",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/033_O3.jpg",
+            "imageSrc": "./d2_t1_033_O3.jpg",
             "text": "落大雪",
             "isCorrect": true
           }
@@ -16805,23 +16805,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/034_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/034_O.mp3",
         "questionText": "你看這張圖个車仔愛過麼个咧？(圖：車要過十字路口)",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/034_Q.jpg",
+        "questionImg": "./d2_t1_034_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/034_O1.jpg",
+            "imageSrc": "./d2_t1_034_O1.jpg",
             "text": "過窿",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/034_O2.jpg",
+            "imageSrc": "./d2_t1_034_O2.jpg",
             "text": "過橋",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/034_O3.jpg",
+            "imageSrc": "./d2_t1_034_O3.jpg",
             "text": "過大路",
             "isCorrect": true
           }
@@ -16831,23 +16831,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/035_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/035_O.mp3",
         "questionText": "今晡日過晝就變天，一無注意嗄流濞、打哈啾。意思係講麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/035_Q.jpg",
+        "questionImg": "./d2_t1_035_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/035_O1.jpg",
+            "imageSrc": "./d2_t1_035_O1.jpg",
             "text": "熱着",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/035_O2.jpg",
+            "imageSrc": "./d2_t1_035_O2.jpg",
             "text": "驚着",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/035_O3.jpg",
+            "imageSrc": "./d2_t1_035_O3.jpg",
             "text": "冷着",
             "isCorrect": true
           }
@@ -16857,23 +16857,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/036_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/036_O.mp3",
         "questionText": "阿姆講佢放尞日正有閒渡𠊎兜去美術館參觀！係講阿姆幾時正有閒？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/036_Q.jpg",
+        "questionImg": "./d2_t1_036_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/036_O1.jpg",
+            "imageSrc": "./d2_t1_036_O1.jpg",
             "text": "前日",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/036_O2.jpg",
+            "imageSrc": "./d2_t1_036_O2.jpg",
             "text": "拜日",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/036_O3.jpg",
+            "imageSrc": "./d2_t1_036_O3.jpg",
             "text": "逐日",
             "isCorrect": false
           }
@@ -16883,23 +16883,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/037_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/037_O.mp3",
         "questionText": "寒流來咧，溫度降到伸5度，愛著麼个衫較適當？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/037_Q.jpg",
+        "questionImg": "./d2_t1_037_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/037_O1.jpg",
+            "imageSrc": "./d2_t1_037_O1.jpg",
             "text": "短袖",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/037_O2.jpg",
+            "imageSrc": "./d2_t1_037_O2.jpg",
             "text": "裌仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/037_O3.jpg",
+            "imageSrc": "./d2_t1_037_O3.jpg",
             "text": "襖婆",
             "isCorrect": true
           }
@@ -16909,23 +16909,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/038_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/038_O.mp3",
         "questionText": "熱天透當晝，最好毋好去晒日頭，驚怕會仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/038_Q.jpg",
+        "questionImg": "./d2_t1_038_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/038_O1.jpg",
+            "imageSrc": "./d2_t1_038_O1.jpg",
             "text": "發燒",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/038_O2.jpg",
+            "imageSrc": "./d2_t1_038_O2.jpg",
             "text": "發痧",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/038_O3.jpg",
+            "imageSrc": "./d2_t1_038_O3.jpg",
             "text": "發閼",
             "isCorrect": false
           }
@@ -16935,23 +16935,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/039_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/039_O.mp3",
         "questionText": "該條狗盡會掌屋，見看着生份人就會仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/039_Q.jpg",
+        "questionImg": "./d2_t1_039_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/039_O1.jpg",
+            "imageSrc": "./d2_t1_039_O1.jpg",
             "text": "會吠",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/039_O2.jpg",
+            "imageSrc": "./d2_t1_039_O2.jpg",
             "text": "會來",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/039_O3.jpg",
+            "imageSrc": "./d2_t1_039_O3.jpg",
             "text": "會退",
             "isCorrect": false
           }
@@ -16961,23 +16961,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/040_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/040_O.mp3",
         "questionText": "請問下背哪種動物有翼胛？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/040_Q.jpg",
+        "questionImg": "./d2_t1_040_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/040_O1.jpg",
+            "imageSrc": "./d2_t1_040_O1.jpg",
             "text": "雞仔",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/040_O2.jpg",
+            "imageSrc": "./d2_t1_040_O2.jpg",
             "text": "狗",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/040_O3.jpg",
+            "imageSrc": "./d2_t1_040_O3.jpg",
             "text": "牛",
             "isCorrect": false
           }
@@ -16987,23 +16987,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/041_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/041_O.mp3",
         "questionText": "阿爸摎阿叔，麼人較多歲？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/041_Q.jpg",
+        "questionImg": "./d2_t1_041_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/041_O1.jpg",
+            "imageSrc": "./d2_t1_041_O1.jpg",
             "text": "阿爸",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/041_O2.jpg",
+            "imageSrc": "./d2_t1_041_O2.jpg",
             "text": "阿叔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/041_O3.jpg",
+            "imageSrc": "./d2_t1_041_O3.jpg",
             "text": "平大",
             "isCorrect": false
           }
@@ -17013,23 +17013,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/042_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/042_O.mp3",
         "questionText": "請問，這張圖係麼个球仔？(圖：乒乓球)",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/042_Q.jpg",
+        "questionImg": "./d2_t1_042_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/042_O1.jpg",
+            "imageSrc": "./d2_t1_042_O1.jpg",
             "text": "乒乓",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/042_O2.jpg",
+            "imageSrc": "./d2_t1_042_O2.jpg",
             "text": "羽毛球",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/042_O3.jpg",
+            "imageSrc": "./d2_t1_042_O3.jpg",
             "text": "野球",
             "isCorrect": false
           }
@@ -17039,23 +17039,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/043_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/043_O.mp3",
         "questionText": "你看這張圖个車仔愛過麼个咧？(圖：車要過山洞)",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/043_Q.jpg",
+        "questionImg": "./d2_t1_043_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/043_O1.jpg",
+            "imageSrc": "./d2_t1_043_O1.jpg",
             "text": "過窿",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/043_O2.jpg",
+            "imageSrc": "./d2_t1_043_O2.jpg",
             "text": "過橋",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/043_O3.jpg",
+            "imageSrc": "./d2_t1_043_O3.jpg",
             "text": "過大路",
             "isCorrect": false
           }
@@ -17065,23 +17065,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/044_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/044_O.mp3",
         "questionText": "阿明戴街路，厥爺哀戴莊下。係講佢摎厥爺哀仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/044_Q.jpg",
+        "questionImg": "./d2_t1_044_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/044_O1.jpg",
+            "imageSrc": "./d2_t1_044_O1.jpg",
             "text": "戴共下",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/044_O2.jpg",
+            "imageSrc": "./d2_t1_044_O2.jpg",
             "text": "無共下",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/044_O3.jpg",
+            "imageSrc": "./d2_t1_044_O3.jpg",
             "text": "無哪好戴",
             "isCorrect": false
           }
@@ -17091,23 +17091,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/045_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/045_O.mp3",
         "questionText": "這站仔氣溫降低咧，愛著加兜衫正毋會仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/045_Q.jpg",
+        "questionImg": "./d2_t1_045_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/045_O1.jpg",
+            "imageSrc": "./d2_t1_045_O1.jpg",
             "text": "熱着",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/045_O2.jpg",
+            "imageSrc": "./d2_t1_045_O2.jpg",
             "text": "冷着",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/045_O3.jpg",
+            "imageSrc": "./d2_t1_045_O3.jpg",
             "text": "翕着",
             "isCorrect": false
           }
@@ -17117,23 +17117,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/046_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/046_O.mp3",
         "questionText": "阿姨今晡日著一領衫，還圍等一條麼个，盡時行哦！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/046_Q.jpg",
+        "questionImg": "./d2_t1_046_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/046_O1.jpg",
+            "imageSrc": "./d2_t1_046_O1.jpg",
             "text": "耳環",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/046_O2.jpg",
+            "imageSrc": "./d2_t1_046_O2.jpg",
             "text": "皮帶",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/046_O3.jpg",
+            "imageSrc": "./d2_t1_046_O3.jpg",
             "text": "頸纏仔",
             "isCorrect": true
           }
@@ -17143,23 +17143,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/047_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/047_O.mp3",
         "questionText": "今晡日先生交代當多作業，無閒到半夜，實在仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/047_Q.jpg",
+        "questionImg": "./d2_t1_047_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/047_O1.jpg",
+            "imageSrc": "./d2_t1_047_O1.jpg",
             "text": "還暢",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/047_O2.jpg",
+            "imageSrc": "./d2_t1_047_O2.jpg",
             "text": "還悿",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/047_O3.jpg",
+            "imageSrc": "./d2_t1_047_O3.jpg",
             "text": "還慶",
             "isCorrect": false
           }
@@ -17169,23 +17169,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/048_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/048_O.mp3",
         "questionText": "下背哪隻動物係兩支腳个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/048_Q.jpg",
+        "questionImg": "./d2_t1_048_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/048_O1.jpg",
+            "imageSrc": "./d2_t1_048_O1.jpg",
             "text": "牛",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/048_O2.jpg",
+            "imageSrc": "./d2_t1_048_O2.jpg",
             "text": "兔仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/048_O3.jpg",
+            "imageSrc": "./d2_t1_048_O3.jpg",
             "text": "雞仔",
             "isCorrect": true
           }
@@ -17195,23 +17195,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/049_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/049_O.mp3",
         "questionText": "請問這張圖裡肚，哪種球仔最多？(圖：乒乓球5顆、羽毛球3顆和棒球2顆)",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/049_Q.jpg",
+        "questionImg": "./d2_t1_049_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/049_O1.jpg",
+            "imageSrc": "./d2_t1_049_O1.jpg",
             "text": "乒乓",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/049_O2.jpg",
+            "imageSrc": "./d2_t1_049_O2.jpg",
             "text": "羽毛球",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/049_O3.jpg",
+            "imageSrc": "./d2_t1_049_O3.jpg",
             "text": "野球",
             "isCorrect": false
           }
@@ -17221,23 +17221,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/050_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/050_O.mp3",
         "questionText": "你毋識看過个人，對你來講係麼个人？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/050_Q.jpg",
+        "questionImg": "./d2_t1_050_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/050_O1.jpg",
+            "imageSrc": "./d2_t1_050_O1.jpg",
             "text": "屋下人",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/050_O2.jpg",
+            "imageSrc": "./d2_t1_050_O2.jpg",
             "text": "生份人",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/050_O3.jpg",
+            "imageSrc": "./d2_t1_050_O3.jpg",
             "text": "冤仇人",
             "isCorrect": false
           }
@@ -17247,23 +17247,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/051_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/051_O.mp3",
         "questionText": "駛車對河壩頂過，就係車仔仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/051_Q.jpg",
+        "questionImg": "./d2_t1_051_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/051_O1.jpg",
+            "imageSrc": "./d2_t1_051_O1.jpg",
             "text": "過窿",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/051_O2.jpg",
+            "imageSrc": "./d2_t1_051_O2.jpg",
             "text": "過橋",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/051_O3.jpg",
+            "imageSrc": "./d2_t1_051_O3.jpg",
             "text": "過河壩",
             "isCorrect": false
           }
@@ -17273,23 +17273,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/052_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/052_O.mp3",
         "questionText": "阿明問這擺比賽个結果係仰般。請問佢對比賽个結果知幾多?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/052_Q.jpg",
+        "questionImg": "./d2_t1_052_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/052_O1.jpg",
+            "imageSrc": "./d2_t1_052_O1.jpg",
             "text": "無輸又無贏",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/052_O2.jpg",
+            "imageSrc": "./d2_t1_052_O2.jpg",
             "text": "已經知輸贏",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/052_O3.jpg",
+            "imageSrc": "./d2_t1_052_O3.jpg",
             "text": "還毋知輸贏",
             "isCorrect": true
           }
@@ -17299,23 +17299,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/053_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/053_O.mp3",
         "questionText": "上下車愛細義，正毋會仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/053_Q.jpg",
+        "questionImg": "./d2_t1_053_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/053_O1.jpg",
+            "imageSrc": "./d2_t1_053_O1.jpg",
             "text": "跢倒",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/053_O2.jpg",
+            "imageSrc": "./d2_t1_053_O2.jpg",
             "text": "摸着",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/053_O3.jpg",
+            "imageSrc": "./d2_t1_053_O3.jpg",
             "text": "踏着",
             "isCorrect": false
           }
@@ -17325,23 +17325,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/054_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/054_O.mp3",
         "questionText": "阿興牯上課个時節，目珠緊眨、頭那緊頷，你想佢係仰般咧?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/054_Q.jpg",
+        "questionImg": "./d2_t1_054_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/054_O1.jpg",
+            "imageSrc": "./d2_t1_054_O1.jpg",
             "text": "啄目睡",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/054_O2.jpg",
+            "imageSrc": "./d2_t1_054_O2.jpg",
             "text": "睡當晝",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/054_O3.jpg",
+            "imageSrc": "./d2_t1_054_O3.jpg",
             "text": "睡毋得",
             "isCorrect": false
           }
@@ -17351,23 +17351,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/055_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/055_O.mp3",
         "questionText": "阿明分車仔撞着咧！盡嚴重。請你遽遽打119喊麼个車來？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/055_Q.jpg",
+        "questionImg": "./d2_t1_055_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/055_O1.jpg",
+            "imageSrc": "./d2_t1_055_O1.jpg",
             "text": "消防車",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/055_O2.jpg",
+            "imageSrc": "./d2_t1_055_O2.jpg",
             "text": "警察車",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/055_O3.jpg",
+            "imageSrc": "./d2_t1_055_O3.jpg",
             "text": "救護車",
             "isCorrect": true
           }
@@ -17377,23 +17377,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/056_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/056_O.mp3",
         "questionText": "請問下背哪種動物有生角？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/056_Q.jpg",
+        "questionImg": "./d2_t1_056_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/056_O1.jpg",
+            "imageSrc": "./d2_t1_056_O1.jpg",
             "text": "羊仔",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/056_O2.jpg",
+            "imageSrc": "./d2_t1_056_O2.jpg",
             "text": "狗",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/056_O3.jpg",
+            "imageSrc": "./d2_t1_056_O3.jpg",
             "text": "豬仔",
             "isCorrect": false
           }
@@ -17403,23 +17403,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/057_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/057_O.mp3",
         "questionText": "請問這張圖裡肚，哪種球仔最少？(圖：乒乓球5顆、羽毛球3顆和棒球2顆)",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/057_Q.jpg",
+        "questionImg": "./d2_t1_057_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/057_O1.jpg",
+            "imageSrc": "./d2_t1_057_O1.jpg",
             "text": "乒乓",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/057_O2.jpg",
+            "imageSrc": "./d2_t1_057_O2.jpg",
             "text": "羽毛球",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/057_O3.jpg",
+            "imageSrc": "./d2_t1_057_O3.jpg",
             "text": "野球",
             "isCorrect": true
           }
@@ -17429,23 +17429,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/058_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/058_O.mp3",
         "questionText": "下背哪項係梳頭那毛會用着个東西？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/058_Q.jpg",
+        "questionImg": "./d2_t1_058_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/058_O1.jpg",
+            "imageSrc": "./d2_t1_058_O1.jpg",
             "text": "梳子",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/058_O2.jpg",
+            "imageSrc": "./d2_t1_058_O2.jpg",
             "text": "洗髮精",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/058_O3.jpg",
+            "imageSrc": "./d2_t1_058_O3.jpg",
             "text": "牙刷仔",
             "isCorrect": false
           }
@@ -17455,23 +17455,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/059_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/059_O.mp3",
         "questionText": "人客來𫣆俚屋下坐尞，佢轉个時節，愛摎佢講麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/059_Q.jpg",
+        "questionImg": "./d2_t1_059_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/059_O1.jpg",
+            "imageSrc": "./d2_t1_059_O1.jpg",
             "text": "食飽吂",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/059_O2.jpg",
+            "imageSrc": "./d2_t1_059_O2.jpg",
             "text": "正來尞",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/059_O3.jpg",
+            "imageSrc": "./d2_t1_059_O3.jpg",
             "text": "落來坐",
             "isCorrect": false
           }
@@ -17481,23 +17481,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/060_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/060_O.mp3",
         "questionText": "阿明講，該東西看得着、食毋着。請問阿明个意思係仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/060_Q.jpg",
+        "questionImg": "./d2_t1_060_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/060_O1.jpg",
+            "imageSrc": "./d2_t1_060_O1.jpg",
             "text": "有好食",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/060_O2.jpg",
+            "imageSrc": "./d2_t1_060_O2.jpg",
             "text": "無好食",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/060_O3.jpg",
+            "imageSrc": "./d2_t1_060_O3.jpg",
             "text": "毋好食",
             "isCorrect": false
           }
@@ -17507,23 +17507,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/061_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/061_O.mp3",
         "questionText": "揹恁重个書包，身體个哪位會佇毋著?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/061_Q.jpg",
+        "questionImg": "./d2_t1_061_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/061_O1.jpg",
+            "imageSrc": "./d2_t1_061_O1.jpg",
             "text": "手㬹",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/061_O2.jpg",
+            "imageSrc": "./d2_t1_061_O2.jpg",
             "text": "肩頭",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/061_O3.jpg",
+            "imageSrc": "./d2_t1_061_O3.jpg",
             "text": "額頭",
             "isCorrect": false
           }
@@ -17533,23 +17533,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/062_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/062_O.mp3",
         "questionText": "阿華去拗竹筍無著麼个，所以佢个手分蚊仔叼到當多[皮卜]。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/062_Q.jpg",
+        "questionImg": "./d2_t1_062_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/062_O1.jpg",
+            "imageSrc": "./d2_t1_062_O1.jpg",
             "text": "長袖衫",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/062_O2.jpg",
+            "imageSrc": "./d2_t1_062_O2.jpg",
             "text": "長褲",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/062_O3.jpg",
+            "imageSrc": "./d2_t1_062_O3.jpg",
             "text": "底衫仔",
             "isCorrect": false
           }
@@ -17559,23 +17559,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/063_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/063_O.mp3",
         "questionText": "食燒湯个時節愛先略略仔歕冷一息，係無會仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/063_Q.jpg",
+        "questionImg": "./d2_t1_063_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/063_O1.jpg",
+            "imageSrc": "./d2_t1_063_O1.jpg",
             "text": "熝着",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/063_O2.jpg",
+            "imageSrc": "./d2_t1_063_O2.jpg",
             "text": "熱着",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/063_O3.jpg",
+            "imageSrc": "./d2_t1_063_O3.jpg",
             "text": "燒着",
             "isCorrect": false
           }
@@ -17585,23 +17585,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/064_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/064_O.mp3",
         "questionText": "楊桃、黃梨、弓蕉全部係當好食个麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/064_Q.jpg",
+        "questionImg": "./d2_t1_064_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/064_O1.jpg",
+            "imageSrc": "./d2_t1_064_O1.jpg",
             "text": "果子",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/064_O2.jpg",
+            "imageSrc": "./d2_t1_064_O2.jpg",
             "text": "果汁",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/064_O3.jpg",
+            "imageSrc": "./d2_t1_064_O3.jpg",
             "text": "歌仔",
             "isCorrect": false
           }
@@ -17611,23 +17611,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/065_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/065_O.mp3",
         "questionText": "請問這張圖裡肚，哪種球仔最細隻？(圖：乒乓球5顆、羽毛球3顆和棒球2顆)",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/065_Q.jpg",
+        "questionImg": "./d2_t1_065_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/065_O1.jpg",
+            "imageSrc": "./d2_t1_065_O1.jpg",
             "text": "乒乓",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/065_O2.jpg",
+            "imageSrc": "./d2_t1_065_O2.jpg",
             "text": "羽毛球",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/065_O3.jpg",
+            "imageSrc": "./d2_t1_065_O3.jpg",
             "text": "野球",
             "isCorrect": false
           }
@@ -17637,23 +17637,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/066_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/066_O.mp3",
         "questionText": "阿姊緊洗身緊唱歌仔。意思係講阿姊仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/066_Q.jpg",
+        "questionImg": "./d2_t1_066_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/066_O1.jpg",
+            "imageSrc": "./d2_t1_066_O1.jpg",
             "text": "洗好身愛去唱歌仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/066_O2.jpg",
+            "imageSrc": "./d2_t1_066_O2.jpg",
             "text": "毋好唱歌仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/066_O3.jpg",
+            "imageSrc": "./d2_t1_066_O3.jpg",
             "text": "又洗身又唱歌仔",
             "isCorrect": true
           }
@@ -17663,23 +17663,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/067_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/067_O.mp3",
         "questionText": "下背哪項係盪嘴會用着个東西？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/067_Q.jpg",
+        "questionImg": "./d2_t1_067_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/067_O1.jpg",
+            "imageSrc": "./d2_t1_067_O1.jpg",
             "text": "漱口杯",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/067_O2.jpg",
+            "imageSrc": "./d2_t1_067_O2.jpg",
             "text": "口罩",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/067_O3.jpg",
+            "imageSrc": "./d2_t1_067_O3.jpg",
             "text": "牙刷仔",
             "isCorrect": false
           }
@@ -17689,23 +17689,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/068_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/068_O.mp3",
         "questionText": "阿哥朝晨頭去公園運動，堵着熟事人，會摎佢講麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/068_Q.jpg",
+        "questionImg": "./d2_t1_068_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/068_O1.jpg",
+            "imageSrc": "./d2_t1_068_O1.jpg",
             "text": "恁慶",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/068_O2.jpg",
+            "imageSrc": "./d2_t1_068_O2.jpg",
             "text": "恁早",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/068_O3.jpg",
+            "imageSrc": "./d2_t1_068_O3.jpg",
             "text": "恁好",
             "isCorrect": false
           }
@@ -17715,23 +17715,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/069_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/069_O.mp3",
         "questionText": "佢恁久嗽無停，愛去哪檢查？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/069_Q.jpg",
+        "questionImg": "./d2_t1_069_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/069_O1.jpg",
+            "imageSrc": "./d2_t1_069_O1.jpg",
             "text": "學校",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/069_O2.jpg",
+            "imageSrc": "./d2_t1_069_O2.jpg",
             "text": "醫院",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/069_O3.jpg",
+            "imageSrc": "./d2_t1_069_O3.jpg",
             "text": "藥房",
             "isCorrect": false
           }
@@ -17741,23 +17741,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/070_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/070_O.mp3",
         "questionText": "𠊎兜出去尞，自家煮摎搭帳篷過夜。請問𠊎兜去做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/070_Q.jpg",
+        "questionImg": "./d2_t1_070_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/070_O1.jpg",
+            "imageSrc": "./d2_t1_070_O1.jpg",
             "text": "蹶山",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/070_O2.jpg",
+            "imageSrc": "./d2_t1_070_O2.jpg",
             "text": "露營",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/070_O3.jpg",
+            "imageSrc": "./d2_t1_070_O3.jpg",
             "text": "野餐",
             "isCorrect": false
           }
@@ -17767,23 +17767,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/071_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/071_O.mp3",
         "questionText": "佢緊講話緊噴口水，實在會分人試着仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/071_Q.jpg",
+        "questionImg": "./d2_t1_071_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/071_O1.jpg",
+            "imageSrc": "./d2_t1_071_O1.jpg",
             "text": "佇毋著",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/071_O2.jpg",
+            "imageSrc": "./d2_t1_071_O2.jpg",
             "text": "黏毋核",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/071_O3.jpg",
+            "imageSrc": "./d2_t1_071_O3.jpg",
             "text": "企毋穩",
             "isCorrect": false
           }
@@ -17793,23 +17793,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/072_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/072_O.mp3",
         "questionText": "阿華姊盡愛靚，長透會在頸根項戴麼个東西?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/072_Q.jpg",
+        "questionImg": "./d2_t1_072_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/072_O1.jpg",
+            "imageSrc": "./d2_t1_072_O1.jpg",
             "text": "手鈪",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/072_O2.jpg",
+            "imageSrc": "./d2_t1_072_O2.jpg",
             "text": "禁指",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/072_O3.jpg",
+            "imageSrc": "./d2_t1_072_O3.jpg",
             "text": "䯋鍊",
             "isCorrect": true
           }
@@ -17819,23 +17819,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/073_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/073_O.mp3",
         "questionText": "坐火車，愛去哪位等車?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/073_Q.jpg",
+        "questionImg": "./d2_t1_073_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/073_O1.jpg",
+            "imageSrc": "./d2_t1_073_O1.jpg",
             "text": "火車肚",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/073_O2.jpg",
+            "imageSrc": "./d2_t1_073_O2.jpg",
             "text": "火車路",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/073_O3.jpg",
+            "imageSrc": "./d2_t1_073_O3.jpg",
             "text": "火車頭",
             "isCorrect": true
           }
@@ -17845,23 +17845,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/074_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/074_O.mp3",
         "questionText": "洗身間个地泥溼溼，落去愛較細義兜。意思係講洗身間仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/074_Q.jpg",
+        "questionImg": "./d2_t1_074_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/074_O1.jpg",
+            "imageSrc": "./d2_t1_074_O1.jpg",
             "text": "暗暗",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/074_O2.jpg",
+            "imageSrc": "./d2_t1_074_O2.jpg",
             "text": "狹狹",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/074_O3.jpg",
+            "imageSrc": "./d2_t1_074_O3.jpg",
             "text": "滑滑",
             "isCorrect": true
           }
@@ -17871,23 +17871,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/075_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/075_O.mp3",
         "questionText": "這張圖个狗在哪位？(一張圖為屋子內部，有扇窗戶、有扇門，狗在窗戶下方。)",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/075_Q.jpg",
+        "questionImg": "./d2_t1_075_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/075_O1.jpg",
+            "imageSrc": "./d2_t1_075_O1.jpg",
             "text": "窗門下背",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/075_O2.jpg",
+            "imageSrc": "./d2_t1_075_O2.jpg",
             "text": "大門脣頭",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/075_O3.jpg",
+            "imageSrc": "./d2_t1_075_O3.jpg",
             "text": "窗門外背",
             "isCorrect": false
           }
@@ -17897,23 +17897,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/076_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/076_O.mp3",
         "questionText": "下背哪項係洗牙齒會用着个東西？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/076_Q.jpg",
+        "questionImg": "./d2_t1_076_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/076_O1.jpg",
+            "imageSrc": "./d2_t1_076_O1.jpg",
             "text": "梳子",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/076_O2.jpg",
+            "imageSrc": "./d2_t1_076_O2.jpg",
             "text": "奶瓶刷仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/076_O3.jpg",
+            "imageSrc": "./d2_t1_076_O3.jpg",
             "text": "牙刷仔",
             "isCorrect": true
           }
@@ -17923,23 +17923,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/077_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/077_O.mp3",
         "questionText": "阿明摎厥餔娘去看電影，請問佢兩儕係麼个關係?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/077_Q.jpg",
+        "questionImg": "./d2_t1_077_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/077_O1.jpg",
+            "imageSrc": "./d2_t1_077_O1.jpg",
             "text": "兩姊妹",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/077_O2.jpg",
+            "imageSrc": "./d2_t1_077_O2.jpg",
             "text": "兩公婆",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/077_O3.jpg",
+            "imageSrc": "./d2_t1_077_O3.jpg",
             "text": "兩子爺",
             "isCorrect": false
           }
@@ -17949,23 +17949,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/078_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/078_O.mp3",
         "questionText": "阿文歸身都痎，有兜位所爪毋着。可能係哪位爪毋着？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/078_Q.jpg",
+        "questionImg": "./d2_t1_078_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/078_O1.jpg",
+            "imageSrc": "./d2_t1_078_O1.jpg",
             "text": "背囊",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/078_O2.jpg",
+            "imageSrc": "./d2_t1_078_O2.jpg",
             "text": "屎朏",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/078_O3.jpg",
+            "imageSrc": "./d2_t1_078_O3.jpg",
             "text": "頸根",
             "isCorrect": false
           }
@@ -17975,23 +17975,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/079_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/079_O.mp3",
         "questionText": "為着過年時節賺兜仔錢繳學費，佢逐暗晡都去學撐獅。請問佢做麼个愛學撐獅?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/079_Q.jpg",
+        "questionImg": "./d2_t1_079_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/079_O1.jpg",
+            "imageSrc": "./d2_t1_079_O1.jpg",
             "text": "賺紅包",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/079_O2.jpg",
+            "imageSrc": "./d2_t1_079_O2.jpg",
             "text": "搞生趣",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/079_O3.jpg",
+            "imageSrc": "./d2_t1_079_O3.jpg",
             "text": "練身體",
             "isCorrect": false
           }
@@ -18001,23 +18001,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/080_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/080_O.mp3",
         "questionText": "東西係無淨俐，食了驚怕會仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/080_Q.jpg",
+        "questionImg": "./d2_t1_080_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/080_O1.jpg",
+            "imageSrc": "./d2_t1_080_O1.jpg",
             "text": "牙齒痛",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/080_O2.jpg",
+            "imageSrc": "./d2_t1_080_O2.jpg",
             "text": "屙硬屎",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/080_O3.jpg",
+            "imageSrc": "./d2_t1_080_O3.jpg",
             "text": "屙痢肚",
             "isCorrect": true
           }
@@ -18027,23 +18027,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/081_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/081_O.mp3",
         "questionText": "厥爸去出差，愛40零日正會轉。係講愛出差幾久?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/081_Q.jpg",
+        "questionImg": "./d2_t1_081_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/081_O1.jpg",
+            "imageSrc": "./d2_t1_081_O1.jpg",
             "text": "個半月",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/081_O2.jpg",
+            "imageSrc": "./d2_t1_081_O2.jpg",
             "text": "半個月",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/081_O3.jpg",
+            "imageSrc": "./d2_t1_081_O3.jpg",
             "text": "該隻月",
             "isCorrect": false
           }
@@ -18053,23 +18053,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/082_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/082_O.mp3",
         "questionText": "這擺旅行，佢愛掌屋無法度去，係講佢仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/082_Q.jpg",
+        "questionImg": "./d2_t1_082_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/082_O1.jpg",
+            "imageSrc": "./d2_t1_082_O1.jpg",
             "text": "去毋得",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/082_O2.jpg",
+            "imageSrc": "./d2_t1_082_O2.jpg",
             "text": "無愛去",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/082_O3.jpg",
+            "imageSrc": "./d2_t1_082_O3.jpg",
             "text": "渡人去",
             "isCorrect": false
           }
@@ -18079,23 +18079,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/083_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/083_O.mp3",
         "questionText": "請問下背个圖，哪種水果个皮最硬?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/083_Q.jpg",
+        "questionImg": "./d2_t1_083_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/083_O1.jpg",
+            "imageSrc": "./d2_t1_083_O1.jpg",
             "text": "葡萄",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/083_O2.jpg",
+            "imageSrc": "./d2_t1_083_O2.jpg",
             "text": "龍眼",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/083_O3.jpg",
+            "imageSrc": "./d2_t1_083_O3.jpg",
             "text": "椰子",
             "isCorrect": true
           }
@@ -18105,23 +18105,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/084_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/084_O.mp3",
         "questionText": "請問圖項細妹人个頸根有一條麼个東西？(圖：女人戴項鍊、手鍊、戒指)",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/084_Q.jpg",
+        "questionImg": "./d2_t1_084_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/084_O1.jpg",
+            "imageSrc": "./d2_t1_084_O1.jpg",
             "text": "禁指",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/084_O2.jpg",
+            "imageSrc": "./d2_t1_084_O2.jpg",
             "text": "䯋鍊",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/084_O3.jpg",
+            "imageSrc": "./d2_t1_084_O3.jpg",
             "text": "手鈪",
             "isCorrect": false
           }
@@ -18131,23 +18131,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/085_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/085_O.mp3",
         "questionText": "毋堵好撞着人，愛摎佢講麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/085_Q.jpg",
+        "questionImg": "./d2_t1_085_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/085_O1.jpg",
+            "imageSrc": "./d2_t1_085_O1.jpg",
             "text": "還好勢",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/085_O2.jpg",
+            "imageSrc": "./d2_t1_085_O2.jpg",
             "text": "還敗勢",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/085_O3.jpg",
+            "imageSrc": "./d2_t1_085_O3.jpg",
             "text": "還堵好",
             "isCorrect": false
           }
@@ -18157,23 +18157,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/086_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/086_O.mp3",
         "questionText": "冷着咧！食藥仔後愛多睡目、休息正好。這句話係麼个意思？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/086_Q.jpg",
+        "questionImg": "./d2_t1_086_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/086_O1.jpg",
+            "imageSrc": "./d2_t1_086_O1.jpg",
             "text": "冷着个人好啄目睡",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/086_O2.jpg",
+            "imageSrc": "./d2_t1_086_O2.jpg",
             "text": "多休息病正較遽好",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/086_O3.jpg",
+            "imageSrc": "./d2_t1_086_O3.jpg",
             "text": "食藥仔正睡得落覺",
             "isCorrect": false
           }
@@ -18183,23 +18183,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/087_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/087_O.mp3",
         "questionText": "先生點名个時節，你會仰般做，先生正知你有來上課？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/087_Q.jpg",
+        "questionImg": "./d2_t1_087_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/087_O1.jpg",
+            "imageSrc": "./d2_t1_087_O1.jpg",
             "text": "拍手",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/087_O2.jpg",
+            "imageSrc": "./d2_t1_087_O2.jpg",
             "text": "擎手",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/087_O3.jpg",
+            "imageSrc": "./d2_t1_087_O3.jpg",
             "text": "扼手",
             "isCorrect": false
           }
@@ -18209,23 +18209,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/088_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/088_O.mp3",
         "questionText": "膴身分蚊仔叼着會緊爪，係因為感覺着仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/088_Q.jpg",
+        "questionImg": "./d2_t1_088_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/088_O1.jpg",
+            "imageSrc": "./d2_t1_088_O1.jpg",
             "text": "當痎",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/088_O2.jpg",
+            "imageSrc": "./d2_t1_088_O2.jpg",
             "text": "當軟",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/088_O3.jpg",
+            "imageSrc": "./d2_t1_088_O3.jpg",
             "text": "當閼",
             "isCorrect": false
           }
@@ -18235,23 +18235,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/089_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/089_O.mp3",
         "questionText": "厥妹仔過忒年愛嫁咧。係講厥妹仔哪久愛嫁人？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/089_Q.jpg",
+        "questionImg": "./d2_t1_089_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/089_O1.jpg",
+            "imageSrc": "./d2_t1_089_O1.jpg",
             "text": "今年",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/089_O2.jpg",
+            "imageSrc": "./d2_t1_089_O2.jpg",
             "text": "明年",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/089_O3.jpg",
+            "imageSrc": "./d2_t1_089_O3.jpg",
             "text": "後年",
             "isCorrect": false
           }
@@ -18261,23 +18261,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/090_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/090_O.mp3",
         "questionText": "佢忒慢出門，無坐着火車。係講佢仰般咧？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/090_Q.jpg",
+        "questionImg": "./d2_t1_090_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/090_O1.jpg",
+            "imageSrc": "./d2_t1_090_O1.jpg",
             "text": "無赴着車",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/090_O2.jpg",
+            "imageSrc": "./d2_t1_090_O2.jpg",
             "text": "有赴着車",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/090_O3.jpg",
+            "imageSrc": "./d2_t1_090_O3.jpg",
             "text": "無看着車",
             "isCorrect": false
           }
@@ -18287,23 +18287,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/091_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/091_O.mp3",
         "questionText": "請問下背个圖，哪種食物又白又軟?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/091_Q.jpg",
+        "questionImg": "./d2_t1_091_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/091_O1.jpg",
+            "imageSrc": "./d2_t1_091_O1.jpg",
             "text": "豆腐",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/091_O2.jpg",
+            "imageSrc": "./d2_t1_091_O2.jpg",
             "text": "紅粄",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/091_O3.jpg",
+            "imageSrc": "./d2_t1_091_O3.jpg",
             "text": "白蒜頭",
             "isCorrect": false
           }
@@ -18313,23 +18313,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/092_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/092_O.mp3",
         "questionText": "請問圖項細妹人个手指戴有一隻麼个東西？(圖：女人戴項鍊、手鍊、戒指)",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/092_Q.jpg",
+        "questionImg": "./d2_t1_092_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/092_O1.jpg",
+            "imageSrc": "./d2_t1_092_O1.jpg",
             "text": "禁指",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/092_O2.jpg",
+            "imageSrc": "./d2_t1_092_O2.jpg",
             "text": "䯋鍊",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/092_O3.jpg",
+            "imageSrc": "./d2_t1_092_O3.jpg",
             "text": "手鈪",
             "isCorrect": false
           }
@@ -18339,23 +18339,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/093_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/093_O.mp3",
         "questionText": "阿明係你當好个朋友，你會仰般對待佢？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/093_Q.jpg",
+        "questionImg": "./d2_t1_093_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/093_O1.jpg",
+            "imageSrc": "./d2_t1_093_O1.jpg",
             "text": "跢倒毋管佢",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/093_O2.jpg",
+            "imageSrc": "./d2_t1_093_O2.jpg",
             "text": "堵着就冤家",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/093_O3.jpg",
+            "imageSrc": "./d2_t1_093_O3.jpg",
             "text": "下課尋佢搞",
             "isCorrect": true
           }
@@ -18365,23 +18365,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/094_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/094_O.mp3",
         "questionText": "阿姆煮飯恁辛苦，食飽飯後，碗箸恁多，𠊎兜愛仰般做最好？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/094_Q.jpg",
+        "questionImg": "./d2_t1_094_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/094_O1.jpg",
+            "imageSrc": "./d2_t1_094_O1.jpg",
             "text": "儘採放",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/094_O2.jpg",
+            "imageSrc": "./d2_t1_094_O2.jpg",
             "text": "𢯭手洗",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/094_O3.jpg",
+            "imageSrc": "./d2_t1_094_O3.jpg",
             "text": "隔夜洗",
             "isCorrect": false
           }
@@ -18391,23 +18391,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/095_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/095_O.mp3",
         "questionText": "大家共下來走追仔。係講大家來去哪位？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/095_Q.jpg",
+        "questionImg": "./d2_t1_095_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/095_O1.jpg",
+            "imageSrc": "./d2_t1_095_O1.jpg",
             "text": "教室",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/095_O2.jpg",
+            "imageSrc": "./d2_t1_095_O2.jpg",
             "text": "運動坪",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/095_O3.jpg",
+            "imageSrc": "./d2_t1_095_O3.jpg",
             "text": "便所",
             "isCorrect": false
           }
@@ -18417,23 +18417,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/096_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/096_O.mp3",
         "questionText": "五月个桐花祭，人多到落斯毋得。係講該位仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/096_Q.jpg",
+        "questionImg": "./d2_t1_096_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/096_O1.jpg",
+            "imageSrc": "./d2_t1_096_O1.jpg",
             "text": "當鬧熱",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/096_O2.jpg",
+            "imageSrc": "./d2_t1_096_O2.jpg",
             "text": "當生趣",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/096_O3.jpg",
+            "imageSrc": "./d2_t1_096_O3.jpg",
             "text": "當好搞",
             "isCorrect": false
           }
@@ -18443,23 +18443,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/097_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/097_O.mp3",
         "questionText": "佢食等枝仔冰，一路行去教室。係講佢仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/097_Q.jpg",
+        "questionImg": "./d2_t1_097_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/097_O1.jpg",
+            "imageSrc": "./d2_t1_097_O1.jpg",
             "text": "緊行緊食",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/097_O2.jpg",
+            "imageSrc": "./d2_t1_097_O2.jpg",
             "text": "先行先食",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/097_O3.jpg",
+            "imageSrc": "./d2_t1_097_O3.jpg",
             "text": "食咧正行",
             "isCorrect": false
           }
@@ -18469,23 +18469,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/098_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/098_O.mp3",
         "questionText": "佢講上擺有去臺北，意思係講麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/098_Q.jpg",
+        "questionImg": "./d2_t1_098_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/098_O1.jpg",
+            "imageSrc": "./d2_t1_098_O1.jpg",
             "text": "還吂去",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/098_O2.jpg",
+            "imageSrc": "./d2_t1_098_O2.jpg",
             "text": "去過咧",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/098_O3.jpg",
+            "imageSrc": "./d2_t1_098_O3.jpg",
             "text": "正愛去",
             "isCorrect": false
           }
@@ -18495,23 +18495,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/099_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/099_O.mp3",
         "questionText": "請問下背个圖，哪種水果數量最多?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/099_Q.jpg",
+        "questionImg": "./d2_t1_099_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/099_O1.jpg",
+            "imageSrc": "./d2_t1_099_O1.jpg",
             "text": "10顆葡萄",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/099_O2.jpg",
+            "imageSrc": "./d2_t1_099_O2.jpg",
             "text": "5顆龍眼",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/099_O3.jpg",
+            "imageSrc": "./d2_t1_099_O3.jpg",
             "text": "1顆鳳梨",
             "isCorrect": false
           }
@@ -18521,23 +18521,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/100_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/100_O.mp3",
         "questionText": "下背哪樣做得拿來舀水？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/100_Q.jpg",
+        "questionImg": "./d2_t1_100_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/100_O1.jpg",
+            "imageSrc": "./d2_t1_100_O1.jpg",
             "text": "水龍頭",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/100_O2.jpg",
+            "imageSrc": "./d2_t1_100_O2.jpg",
             "text": "水管",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/100_O3.jpg",
+            "imageSrc": "./d2_t1_100_O3.jpg",
             "text": "杓嫲",
             "isCorrect": true
           }
@@ -18547,23 +18547,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/101_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/101_O.mp3",
         "questionText": "朝晨頭去學校上課，看着先生愛摎佢講麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/101_Q.jpg",
+        "questionImg": "./d2_t1_101_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/101_O1.jpg",
+            "imageSrc": "./d2_t1_101_O1.jpg",
             "text": "正來尞！",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/101_O2.jpg",
+            "imageSrc": "./d2_t1_101_O2.jpg",
             "text": "恁會早！",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/101_O3.jpg",
+            "imageSrc": "./d2_t1_101_O3.jpg",
             "text": "恁敗勢！",
             "isCorrect": false
           }
@@ -18573,23 +18573,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/102_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/102_O.mp3",
         "questionText": "𠊎當想買一臺電腦，毋過阿爸講這下無錢好買。請問阿爸个意思係仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/102_Q.jpg",
+        "questionImg": "./d2_t1_102_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/102_O1.jpg",
+            "imageSrc": "./d2_t1_102_O1.jpg",
             "text": "做得買",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/102_O2.jpg",
+            "imageSrc": "./d2_t1_102_O2.jpg",
             "text": "愛去買",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/102_O3.jpg",
+            "imageSrc": "./d2_t1_102_O3.jpg",
             "text": "做毋得買",
             "isCorrect": true
           }
@@ -18599,23 +18599,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/103_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/103_O.mp3",
         "questionText": "阿爸帶等釣梹行到陂塘脣。請問阿爸係去做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/103_Q.jpg",
+        "questionImg": "./d2_t1_103_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/103_O1.jpg",
+            "imageSrc": "./d2_t1_103_O1.jpg",
             "text": "網魚仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/103_O2.jpg",
+            "imageSrc": "./d2_t1_103_O2.jpg",
             "text": "拈魚仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/103_O3.jpg",
+            "imageSrc": "./d2_t1_103_O3.jpg",
             "text": "釣魚仔",
             "isCorrect": true
           }
@@ -18625,23 +18625,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/104_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/104_O.mp3",
         "questionText": "佢當想食飯，係因為麼个原因?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/104_Q.jpg",
+        "questionImg": "./d2_t1_104_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/104_O1.jpg",
+            "imageSrc": "./d2_t1_104_O1.jpg",
             "text": "肚屎痛",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/104_O2.jpg",
+            "imageSrc": "./d2_t1_104_O2.jpg",
             "text": "肚屎枵",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/104_O3.jpg",
+            "imageSrc": "./d2_t1_104_O3.jpg",
             "text": "屙痢肚",
             "isCorrect": false
           }
@@ -18651,23 +18651,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/105_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/105_O.mp3",
         "questionText": "請問下背个圖，哪種水果數量最少?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/105_Q.jpg",
+        "questionImg": "./d2_t1_105_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/105_O1.jpg",
+            "imageSrc": "./d2_t1_105_O1.jpg",
             "text": "10顆葡萄",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/105_O2.jpg",
+            "imageSrc": "./d2_t1_105_O2.jpg",
             "text": "5顆龍眼",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/105_O3.jpg",
+            "imageSrc": "./d2_t1_105_O3.jpg",
             "text": "1顆鳳梨",
             "isCorrect": true
           }
@@ -18677,23 +18677,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/106_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/106_O.mp3",
         "questionText": "阿姆講等加下仔就好食夜咧！請問這下係麼个時間？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/106_Q.jpg",
+        "questionImg": "./d2_t1_106_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/106_O1.jpg",
+            "imageSrc": "./d2_t1_106_O1.jpg",
             "text": "朝晨頭",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/106_O2.jpg",
+            "imageSrc": "./d2_t1_106_O2.jpg",
             "text": "當晝頭",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/106_O3.jpg",
+            "imageSrc": "./d2_t1_106_O3.jpg",
             "text": "暗晡頭",
             "isCorrect": true
           }
@@ -18703,23 +18703,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/107_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/107_O.mp3",
         "questionText": "阿姆講等加下仔就好食飯咧！阿姆个意思係仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/107_Q.jpg",
+        "questionImg": "./d2_t1_107_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/107_O1.jpg",
+            "imageSrc": "./d2_t1_107_O1.jpg",
             "text": "吂好食",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/107_O2.jpg",
+            "imageSrc": "./d2_t1_107_O2.jpg",
             "text": "食等咧",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/107_O3.jpg",
+            "imageSrc": "./d2_t1_107_O3.jpg",
             "text": "好食咧",
             "isCorrect": false
           }
@@ -18729,23 +18729,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/108_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/108_O.mp3",
         "questionText": "下背哪張圖係面頰卵?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/108_Q.jpg",
+        "questionImg": "./d2_t1_108_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/108_O1.jpg",
+            "imageSrc": "./d2_t1_108_O1.jpg",
             "text": "面頰",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/108_O2.jpg",
+            "imageSrc": "./d2_t1_108_O2.jpg",
             "text": "嘴唇",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/108_O3.jpg",
+            "imageSrc": "./d2_t1_108_O3.jpg",
             "text": "額頭",
             "isCorrect": false
           }
@@ -18755,23 +18755,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/109_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/109_O.mp3",
         "questionText": "阿姊係阿婆從細渡到大个。這係講阿婆仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/109_Q.jpg",
+        "questionImg": "./d2_t1_109_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/109_O1.jpg",
+            "imageSrc": "./d2_t1_109_O1.jpg",
             "text": "照顧阿姊到大",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/109_O2.jpg",
+            "imageSrc": "./d2_t1_109_O2.jpg",
             "text": "摎阿姊飼到大",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/109_O3.jpg",
+            "imageSrc": "./d2_t1_109_O3.jpg",
             "text": "摎阿姊畜到盡大箍",
             "isCorrect": false
           }
@@ -18781,23 +18781,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/110_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/110_O.mp3",
         "questionText": "阿爸阿姆共下出門咧，斯留阿雄一個人在屋下做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/110_Q.jpg",
+        "questionImg": "./d2_t1_110_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/110_O1.jpg",
+            "imageSrc": "./d2_t1_110_O1.jpg",
             "text": "掌屋",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/110_O2.jpg",
+            "imageSrc": "./d2_t1_110_O2.jpg",
             "text": "起屋",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/110_O3.jpg",
+            "imageSrc": "./d2_t1_110_O3.jpg",
             "text": "徙屋",
             "isCorrect": false
           }
@@ -18807,23 +18807,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/111_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/111_O.mp3",
         "questionText": "阿明伯自家開公司，所以大家喊佢麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/111_Q.jpg",
+        "questionImg": "./d2_t1_111_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/111_O1.jpg",
+            "imageSrc": "./d2_t1_111_O1.jpg",
             "text": "司機",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/111_O2.jpg",
+            "imageSrc": "./d2_t1_111_O2.jpg",
             "text": "頭家",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/111_O3.jpg",
+            "imageSrc": "./d2_t1_111_O3.jpg",
             "text": "記者",
             "isCorrect": false
           }
@@ -18833,23 +18833,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/112_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/112_O.mp3",
         "questionText": "佢考試考一百分，心肝肚試着仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/112_Q.jpg",
+        "questionImg": "./d2_t1_112_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/112_O1.jpg",
+            "imageSrc": "./d2_t1_112_O1.jpg",
             "text": "當暢",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/112_O2.jpg",
+            "imageSrc": "./d2_t1_112_O2.jpg",
             "text": "當恬",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/112_O3.jpg",
+            "imageSrc": "./d2_t1_112_O3.jpg",
             "text": "當閼",
             "isCorrect": false
           }
@@ -18859,23 +18859,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/113_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/113_O.mp3",
         "questionText": "請問下背个圖，哪種水果青皮又盡酸?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/113_Q.jpg",
+        "questionImg": "./d2_t1_113_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/113_O1.jpg",
+            "imageSrc": "./d2_t1_113_O1.jpg",
             "text": "檸檬",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/113_O2.jpg",
+            "imageSrc": "./d2_t1_113_O2.jpg",
             "text": "西瓜",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/113_O3.jpg",
+            "imageSrc": "./d2_t1_113_O3.jpg",
             "text": "綠皮香蕉",
             "isCorrect": false
           }
@@ -18885,23 +18885,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/114_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/114_O.mp3",
         "questionText": "老弟當好摎狗共下搞。這句話係講老弟仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/114_Q.jpg",
+        "questionImg": "./d2_t1_114_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/114_O1.jpg",
+            "imageSrc": "./d2_t1_114_O1.jpg",
             "text": "毋好狗",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/114_O2.jpg",
+            "imageSrc": "./d2_t1_114_O2.jpg",
             "text": "盡惜狗",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/114_O3.jpg",
+            "imageSrc": "./d2_t1_114_O3.jpg",
             "text": "當惱狗",
             "isCorrect": false
           }
@@ -18911,23 +18911,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/115_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/115_O.mp3",
         "questionText": "𫣆俚做得聽着人講話，係因為有麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/115_Q.jpg",
+        "questionImg": "./d2_t1_115_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/115_O1.jpg",
+            "imageSrc": "./d2_t1_115_O1.jpg",
             "text": "鼻空",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/115_O2.jpg",
+            "imageSrc": "./d2_t1_115_O2.jpg",
             "text": "耳空",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/115_O3.jpg",
+            "imageSrc": "./d2_t1_115_O3.jpg",
             "text": "嘴",
             "isCorrect": false
           }
@@ -18937,23 +18937,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/116_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/116_O.mp3",
         "questionText": "這片較莊下，一日正有一枋巴士，朝晨來過咧，下二擺幾時正會來?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/116_Q.jpg",
+        "questionImg": "./d2_t1_116_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/116_O1.jpg",
+            "imageSrc": "./d2_t1_116_O1.jpg",
             "text": "暗晡夜",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/116_O2.jpg",
+            "imageSrc": "./d2_t1_116_O2.jpg",
             "text": "韶朝晨",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/116_O3.jpg",
+            "imageSrc": "./d2_t1_116_O3.jpg",
             "text": "韶下晝",
             "isCorrect": false
           }
@@ -18963,23 +18963,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/117_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/117_O.mp3",
         "questionText": "先生上忒兩節課都無食茶，會感覺着仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/117_Q.jpg",
+        "questionImg": "./d2_t1_117_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/117_O1.jpg",
+            "imageSrc": "./d2_t1_117_O1.jpg",
             "text": "嘴燥",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/117_O2.jpg",
+            "imageSrc": "./d2_t1_117_O2.jpg",
             "text": "肚屎枵",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/117_O3.jpg",
+            "imageSrc": "./d2_t1_117_O3.jpg",
             "text": "手痛",
             "isCorrect": false
           }
@@ -18989,23 +18989,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/118_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/118_O.mp3",
         "questionText": "游泳課个教練會教𫣆俚做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/118_Q.jpg",
+        "questionImg": "./d2_t1_118_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/118_O1.jpg",
+            "imageSrc": "./d2_t1_118_O1.jpg",
             "text": "泅水",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/118_O2.jpg",
+            "imageSrc": "./d2_t1_118_O2.jpg",
             "text": "跳遠",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/118_O3.jpg",
+            "imageSrc": "./d2_t1_118_O3.jpg",
             "text": "翕相",
             "isCorrect": false
           }
@@ -19015,23 +19015,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/119_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/119_O.mp3",
         "questionText": "這下人係毋曉用手機抑係電腦，就會仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/119_Q.jpg",
+        "questionImg": "./d2_t1_119_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/119_O1.jpg",
+            "imageSrc": "./d2_t1_119_O1.jpg",
             "text": "摎人毋合",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/119_O2.jpg",
+            "imageSrc": "./d2_t1_119_O2.jpg",
             "text": "跈人毋着",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/119_O3.jpg",
+            "imageSrc": "./d2_t1_119_O3.jpg",
             "text": "分人利用",
             "isCorrect": false
           }
@@ -19041,23 +19041,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/120_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/120_O.mp3",
         "questionText": "你毋堵好跺着同學个腳，你愛仰般講？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/120_Q.jpg",
+        "questionImg": "./d2_t1_120_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/120_O1.jpg",
+            "imageSrc": "./d2_t1_120_O1.jpg",
             "text": "感謝你",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/120_O2.jpg",
+            "imageSrc": "./d2_t1_120_O2.jpg",
             "text": "正來尞",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/120_O3.jpg",
+            "imageSrc": "./d2_t1_120_O3.jpg",
             "text": "真失禮",
             "isCorrect": true
           }
@@ -19067,23 +19067,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/121_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/121_O.mp3",
         "questionText": "佢長透三分話講到十分，莫信佢較贏。係講這儕人講話仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/121_Q.jpg",
+        "questionImg": "./d2_t1_121_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/121_O1.jpg",
+            "imageSrc": "./d2_t1_121_O1.jpg",
             "text": "恁大聲",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/121_O2.jpg",
+            "imageSrc": "./d2_t1_121_O2.jpg",
             "text": "恁囉嗦",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/121_O3.jpg",
+            "imageSrc": "./d2_t1_121_O3.jpg",
             "text": "恁膨風",
             "isCorrect": true
           }
@@ -19093,23 +19093,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/122_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/122_O.mp3",
         "questionText": "請問下背个圖，哪種果子水分足又甜?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/122_Q.jpg",
+        "questionImg": "./d2_t1_122_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/122_O1.jpg",
+            "imageSrc": "./d2_t1_122_O1.jpg",
             "text": "檸檬",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/122_O2.jpg",
+            "imageSrc": "./d2_t1_122_O2.jpg",
             "text": "西瓜",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/122_O3.jpg",
+            "imageSrc": "./d2_t1_122_O3.jpg",
             "text": "朳仔",
             "isCorrect": false
           }
@@ -19119,23 +19119,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/123_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/123_O.mp3",
         "questionText": "請問下背个圖，哪張圖係在該跳索仔?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/123_Q.jpg",
+        "questionImg": "./d2_t1_123_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/123_O1.jpg",
+            "imageSrc": "./d2_t1_123_O1.jpg",
             "text": "跳索仔",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/123_O2.jpg",
+            "imageSrc": "./d2_t1_123_O2.jpg",
             "text": "跳格子",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/123_O3.jpg",
+            "imageSrc": "./d2_t1_123_O3.jpg",
             "text": "跳橡皮筋",
             "isCorrect": false
           }
@@ -19145,23 +19145,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/124_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/124_O.mp3",
         "questionText": "阿姆無閒，搭阿伯去買茶米。意思係講麼人去買茶米？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/124_Q.jpg",
+        "questionImg": "./d2_t1_124_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/124_O1.jpg",
+            "imageSrc": "./d2_t1_124_O1.jpg",
             "text": "阿姆",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/124_O2.jpg",
+            "imageSrc": "./d2_t1_124_O2.jpg",
             "text": "阿伯",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/124_O3.jpg",
+            "imageSrc": "./d2_t1_124_O3.jpg",
             "text": "兩儕共下",
             "isCorrect": false
           }
@@ -19171,23 +19171,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/125_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/125_O.mp3",
         "questionText": "今晡日係拜四，後日愛去蹶山。請問係哪日愛去蹶山？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/125_Q.jpg",
+        "questionImg": "./d2_t1_125_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/125_O1.jpg",
+            "imageSrc": "./d2_t1_125_O1.jpg",
             "text": "拜五",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/125_O2.jpg",
+            "imageSrc": "./d2_t1_125_O2.jpg",
             "text": "拜六",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/125_O3.jpg",
+            "imageSrc": "./d2_t1_125_O3.jpg",
             "text": "拜日",
             "isCorrect": false
           }
@@ -19197,23 +19197,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/126_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/126_O.mp3",
         "questionText": "個人衛生盡重要，去便所出來一定愛仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/126_Q.jpg",
+        "questionImg": "./d2_t1_126_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/126_O1.jpg",
+            "imageSrc": "./d2_t1_126_O1.jpg",
             "text": "洗身",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/126_O2.jpg",
+            "imageSrc": "./d2_t1_126_O2.jpg",
             "text": "洗手",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/126_O3.jpg",
+            "imageSrc": "./d2_t1_126_O3.jpg",
             "text": "洗面",
             "isCorrect": false
           }
@@ -19223,23 +19223,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/127_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/127_O.mp3",
         "questionText": "著高㬹鞋愛細義行，係無較會仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/127_Q.jpg",
+        "questionImg": "./d2_t1_127_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/127_O1.jpg",
+            "imageSrc": "./d2_t1_127_O1.jpg",
             "text": "挷着",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/127_O2.jpg",
+            "imageSrc": "./d2_t1_127_O2.jpg",
             "text": "刺着",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/127_O3.jpg",
+            "imageSrc": "./d2_t1_127_O3.jpg",
             "text": "跢倒",
             "isCorrect": true
           }
@@ -19249,23 +19249,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/128_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/128_O.mp3",
         "questionText": "間房肚暗暗看毋着，怕係電火仰般咧？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/128_Q.jpg",
+        "questionImg": "./d2_t1_128_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/128_O1.jpg",
+            "imageSrc": "./d2_t1_128_O1.jpg",
             "text": "爛忒",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/128_O2.jpg",
+            "imageSrc": "./d2_t1_128_O2.jpg",
             "text": "燥忒",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/128_O3.jpg",
+            "imageSrc": "./d2_t1_128_O3.jpg",
             "text": "烏忒",
             "isCorrect": true
           }
@@ -19275,23 +19275,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/129_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/129_O.mp3",
         "questionText": "阿明一日到暗做事做無停，𫣆俚講阿明係哪種人？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/129_Q.jpg",
+        "questionImg": "./d2_t1_129_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/129_O1.jpg",
+            "imageSrc": "./d2_t1_129_O1.jpg",
             "text": "懶尸个人",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/129_O2.jpg",
+            "imageSrc": "./d2_t1_129_O2.jpg",
             "text": "沙鼻个人",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/129_O3.jpg",
+            "imageSrc": "./d2_t1_129_O3.jpg",
             "text": "煞猛个人",
             "isCorrect": true
           }
@@ -19301,23 +19301,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/130_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/130_O.mp3",
         "questionText": "請問下背个圖，哪張係碗公打爛忒?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/130_Q.jpg",
+        "questionImg": "./d2_t1_130_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/130_O1.jpg",
+            "imageSrc": "./d2_t1_130_O1.jpg",
             "text": "碗公打破了",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/130_O2.jpg",
+            "imageSrc": "./d2_t1_130_O2.jpg",
             "text": "魚缸打破了",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/130_O3.jpg",
+            "imageSrc": "./d2_t1_130_O3.jpg",
             "text": "用碗公打蛋",
             "isCorrect": false
           }
@@ -19327,23 +19327,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/131_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/131_O.mp3",
         "questionText": "下背哪種比賽定著愛大家同時間共下出力正會贏？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/131_Q.jpg",
+        "questionImg": "./d2_t1_131_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/131_O1.jpg",
+            "imageSrc": "./d2_t1_131_O1.jpg",
             "text": "跳遠",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/131_O2.jpg",
+            "imageSrc": "./d2_t1_131_O2.jpg",
             "text": "走追仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/131_O3.jpg",
+            "imageSrc": "./d2_t1_131_O3.jpg",
             "text": "挷大索",
             "isCorrect": true
           }
@@ -19353,23 +19353,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/132_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/132_O.mp3",
         "questionText": "下背哪張圖係黃瓠?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/132_Q.jpg",
+        "questionImg": "./d2_t1_132_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/132_O1.jpg",
+            "imageSrc": "./d2_t1_132_O1.jpg",
             "text": "番瓜",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/132_O2.jpg",
+            "imageSrc": "./d2_t1_132_O2.jpg",
             "text": "冬瓜",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/132_O3.jpg",
+            "imageSrc": "./d2_t1_132_O3.jpg",
             "text": "小玉西瓜",
             "isCorrect": false
           }
@@ -19379,23 +19379,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/133_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/133_O.mp3",
         "questionText": "𠊎逐朝晨一開門就看得着日頭出來。請問𠊎屋下係向哪片？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/133_Q.jpg",
+        "questionImg": "./d2_t1_133_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/133_O1.jpg",
+            "imageSrc": "./d2_t1_133_O1.jpg",
             "text": "南片",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/133_O2.jpg",
+            "imageSrc": "./d2_t1_133_O2.jpg",
             "text": "西片",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/133_O3.jpg",
+            "imageSrc": "./d2_t1_133_O3.jpg",
             "text": "東片",
             "isCorrect": true
           }
@@ -19405,23 +19405,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/134_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/134_O.mp3",
         "questionText": "阿文用電腦定書，送到到。係講佢用下背哪種方式買書？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/134_Q.jpg",
+        "questionImg": "./d2_t1_134_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/134_O1.jpg",
+            "imageSrc": "./d2_t1_134_O1.jpg",
             "text": "利用網路",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/134_O2.jpg",
+            "imageSrc": "./d2_t1_134_O2.jpg",
             "text": "行去書店",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/134_O3.jpg",
+            "imageSrc": "./d2_t1_134_O3.jpg",
             "text": "朋友紹介",
             "isCorrect": false
           }
@@ -19431,23 +19431,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/135_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/135_O.mp3",
         "questionText": "下樓梯个時節毋好仰般，正毋會害頭前个人跢倒？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/135_Q.jpg",
+        "questionImg": "./d2_t1_135_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/135_O1.jpg",
+            "imageSrc": "./d2_t1_135_O1.jpg",
             "text": "𢱤人",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/135_O2.jpg",
+            "imageSrc": "./d2_t1_135_O2.jpg",
             "text": "揹人",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/135_O3.jpg",
+            "imageSrc": "./d2_t1_135_O3.jpg",
             "text": "插人",
             "isCorrect": false
           }
@@ -19457,23 +19457,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/136_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/136_O.mp3",
         "questionText": "七月半普渡，廟肚還鬧熱。請問這係講廟肚仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/136_Q.jpg",
+        "questionImg": "./d2_t1_136_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/136_O1.jpg",
+            "imageSrc": "./d2_t1_136_O1.jpg",
             "text": "人恁多",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/136_O2.jpg",
+            "imageSrc": "./d2_t1_136_O2.jpg",
             "text": "人恁少",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/136_O3.jpg",
+            "imageSrc": "./d2_t1_136_O3.jpg",
             "text": "天恁熱",
             "isCorrect": false
           }
@@ -19483,23 +19483,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/137_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/137_O.mp3",
         "questionText": "這細妹仔生到已靚，係講佢仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/137_Q.jpg",
+        "questionImg": "./d2_t1_137_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/137_O1.jpg",
+            "imageSrc": "./d2_t1_137_O1.jpg",
             "text": "毋會媸",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/137_O2.jpg",
+            "imageSrc": "./d2_t1_137_O2.jpg",
             "text": "毋會戇",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/137_O3.jpg",
+            "imageSrc": "./d2_t1_137_O3.jpg",
             "text": "毋會閼",
             "isCorrect": false
           }
@@ -19509,23 +19509,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/138_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/138_O.mp3",
         "questionText": "請問這張圖裡肚个人，看起來仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/138_Q.jpg",
+        "questionImg": "./d2_t1_138_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/138_O1.jpg",
+            "imageSrc": "./d2_t1_138_O1.jpg",
             "text": "當緊張",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/138_O2.jpg",
+            "imageSrc": "./d2_t1_138_O2.jpg",
             "text": "當細義",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/138_O3.jpg",
+            "imageSrc": "./d2_t1_138_O3.jpg",
             "text": "當自然",
             "isCorrect": false
           }
@@ -19535,23 +19535,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/139_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/139_O.mp3",
         "questionText": "阿政仔在山頂做一下晝事，當想食茶，係講佢仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/139_Q.jpg",
+        "questionImg": "./d2_t1_139_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/139_O1.jpg",
+            "imageSrc": "./d2_t1_139_O1.jpg",
             "text": "肚屎枵咧",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/139_O2.jpg",
+            "imageSrc": "./d2_t1_139_O2.jpg",
             "text": "嘴燥咧",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/139_O3.jpg",
+            "imageSrc": "./d2_t1_139_O3.jpg",
             "text": "腳軟咧",
             "isCorrect": false
           }
@@ -19561,23 +19561,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/140_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/140_O.mp3",
         "questionText": "哪種球仔比賽个時節，球仔做毋得跌落地泥下？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/140_Q.jpg",
+        "questionImg": "./d2_t1_140_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/140_O1.jpg",
+            "imageSrc": "./d2_t1_140_O1.jpg",
             "text": "躲避球",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/140_O2.jpg",
+            "imageSrc": "./d2_t1_140_O2.jpg",
             "text": "打棒球",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/140_O3.jpg",
+            "imageSrc": "./d2_t1_140_O3.jpg",
             "text": "打乒乓球",
             "isCorrect": true
           }
@@ -19587,23 +19587,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/141_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/141_O.mp3",
         "questionText": "請問下課个時節，小朋友做毋得在教室裡背做麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/141_Q.jpg",
+        "questionImg": "./d2_t1_141_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/141_O1.jpg",
+            "imageSrc": "./d2_t1_141_O1.jpg",
             "text": "打嘴鼓",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/141_O2.jpg",
+            "imageSrc": "./d2_t1_141_O2.jpg",
             "text": "走追仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/141_O3.jpg",
+            "imageSrc": "./d2_t1_141_O3.jpg",
             "text": "寫作業",
             "isCorrect": false
           }
@@ -19613,23 +19613,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/142_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/142_O.mp3",
         "questionText": "題目恁難，佢儘採選嗄分佢選著。這係講佢仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/142_Q.jpg",
+        "questionImg": "./d2_t1_142_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/142_O1.jpg",
+            "imageSrc": "./d2_t1_142_O1.jpg",
             "text": "揣着个",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/142_O2.jpg",
+            "imageSrc": "./d2_t1_142_O2.jpg",
             "text": "撞着个",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/142_O3.jpg",
+            "imageSrc": "./d2_t1_142_O3.jpg",
             "text": "張着个",
             "isCorrect": false
           }
@@ -19639,23 +19639,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/143_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/143_O.mp3",
         "questionText": "「壞咧，九點咧！𠊎會赴毋掣囉！」係講𠊎仰般咧？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/143_Q.jpg",
+        "questionImg": "./d2_t1_143_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/143_O1.jpg",
+            "imageSrc": "./d2_t1_143_O1.jpg",
             "text": "睡忒晝",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/143_O2.jpg",
+            "imageSrc": "./d2_t1_143_O2.jpg",
             "text": "睡當晝",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/143_O3.jpg",
+            "imageSrc": "./d2_t1_143_O3.jpg",
             "text": "睡過晝",
             "isCorrect": false
           }
@@ -19665,23 +19665,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/144_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/144_O.mp3",
         "questionText": "佢選着縣議員，歸屋下人就試着仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/144_Q.jpg",
+        "questionImg": "./d2_t1_144_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/144_O1.jpg",
+            "imageSrc": "./d2_t1_144_O1.jpg",
             "text": "歡喜",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/144_O2.jpg",
+            "imageSrc": "./d2_t1_144_O2.jpg",
             "text": "見笑",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/144_O3.jpg",
+            "imageSrc": "./d2_t1_144_O3.jpg",
             "text": "失禮",
             "isCorrect": false
           }
@@ -19691,23 +19691,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/145_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/145_O.mp3",
         "questionText": "阿哥摎阿姊兩儕企共下，看起來平高平高。請問佢兩儕仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/145_Q.jpg",
+        "questionImg": "./d2_t1_145_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/145_O1.jpg",
+            "imageSrc": "./d2_t1_145_O1.jpg",
             "text": "差盡遠",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/145_O2.jpg",
+            "imageSrc": "./d2_t1_145_O2.jpg",
             "text": "差毋多",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/145_O3.jpg",
+            "imageSrc": "./d2_t1_145_O3.jpg",
             "text": "差多咧",
             "isCorrect": false
           }
@@ -19717,23 +19717,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/146_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/146_O.mp3",
         "questionText": "請問下背哪張圖个鉛筆較長?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/146_Q.jpg",
+        "questionImg": "./d2_t1_146_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/146_O1.jpg",
+            "imageSrc": "./d2_t1_146_O1.jpg",
             "text": "鉛筆長、原子筆短",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/146_O2.jpg",
+            "imageSrc": "./d2_t1_146_O2.jpg",
             "text": "鉛筆短、原子筆長",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/146_O3.jpg",
+            "imageSrc": "./d2_t1_146_O3.jpg",
             "text": "鉛筆短、毛筆長",
             "isCorrect": false
           }
@@ -19743,23 +19743,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/147_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/147_O.mp3",
         "questionText": "阿華牯食着無萋个便當，這下佢可能會仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/147_Q.jpg",
+        "questionImg": "./d2_t1_147_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/147_O1.jpg",
+            "imageSrc": "./d2_t1_147_O1.jpg",
             "text": "牙齒痛",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/147_O2.jpg",
+            "imageSrc": "./d2_t1_147_O2.jpg",
             "text": "嘴角痛",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/147_O3.jpg",
+            "imageSrc": "./d2_t1_147_O3.jpg",
             "text": "肚屎痛",
             "isCorrect": true
           }
@@ -19769,23 +19769,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/148_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/148_O.mp3",
         "questionText": "𠊎讀幼稚園該下，阿婆逐日來看𠊎，係驚𠊎仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/148_Q.jpg",
+        "questionImg": "./d2_t1_148_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/148_O1.jpg",
+            "imageSrc": "./d2_t1_148_O1.jpg",
             "text": "毋慣",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/148_O2.jpg",
+            "imageSrc": "./d2_t1_148_O2.jpg",
             "text": "見笑",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/148_O3.jpg",
+            "imageSrc": "./d2_t1_148_O3.jpg",
             "text": "肚屎枵",
             "isCorrect": false
           }
@@ -19795,23 +19795,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/149_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/149_O.mp3",
         "questionText": "「暗晡夜來𠊎屋下尞。」係講哪時來尞?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/149_Q.jpg",
+        "questionImg": "./d2_t1_149_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/149_O1.jpg",
+            "imageSrc": "./d2_t1_149_O1.jpg",
             "text": "昨暗晡",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/149_O2.jpg",
+            "imageSrc": "./d2_t1_149_O2.jpg",
             "text": "今暗晡",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/149_O3.jpg",
+            "imageSrc": "./d2_t1_149_O3.jpg",
             "text": "韶暗晡",
             "isCorrect": false
           }
@@ -19821,23 +19821,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/150_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/150_O.mp3",
         "questionText": "瓠杓做得拿來做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/150_Q.jpg",
+        "questionImg": "./d2_t1_150_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/150_O1.jpg",
+            "imageSrc": "./d2_t1_150_O1.jpg",
             "text": "舀水",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/150_O2.jpg",
+            "imageSrc": "./d2_t1_150_O2.jpg",
             "text": "㧡水",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/150_O3.jpg",
+            "imageSrc": "./d2_t1_150_O3.jpg",
             "text": "出水",
             "isCorrect": false
           }
@@ -19847,23 +19847,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/151_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/151_O.mp3",
         "questionText": "佢講佢昨暗晡飛到阿里山頂去。佢可能係仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/151_Q.jpg",
+        "questionImg": "./d2_t1_151_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/151_O1.jpg",
+            "imageSrc": "./d2_t1_151_O1.jpg",
             "text": "膨風",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/151_O2.jpg",
+            "imageSrc": "./d2_t1_151_O2.jpg",
             "text": "吹風",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/151_O3.jpg",
+            "imageSrc": "./d2_t1_151_O3.jpg",
             "text": "歕風",
             "isCorrect": false
           }
@@ -19873,23 +19873,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/152_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/152_O.mp3",
         "questionText": "請問下背哪張圖係廳下？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/152_Q.jpg",
+        "questionImg": "./d2_t1_152_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/152_O1.jpg",
+            "imageSrc": "./d2_t1_152_O1.jpg",
             "text": "客廳",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/152_O2.jpg",
+            "imageSrc": "./d2_t1_152_O2.jpg",
             "text": "廚房",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/152_O3.jpg",
+            "imageSrc": "./d2_t1_152_O3.jpg",
             "text": "房間",
             "isCorrect": false
           }
@@ -19899,23 +19899,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/153_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/153_O.mp3",
         "questionText": "醫生喊阿姆煮菜毋好放忒多鹽，係講阿姆食个東西愛仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/153_Q.jpg",
+        "questionImg": "./d2_t1_153_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/153_O1.jpg",
+            "imageSrc": "./d2_t1_153_O1.jpg",
             "text": "較淡",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/153_O2.jpg",
+            "imageSrc": "./d2_t1_153_O2.jpg",
             "text": "較鹹",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/153_O3.jpg",
+            "imageSrc": "./d2_t1_153_O3.jpg",
             "text": "較甜",
             "isCorrect": false
           }
@@ -19925,23 +19925,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/154_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/154_O.mp3",
         "questionText": "阿民佢兩儕在運動坪相拚看麼人較遽。係講佢兩儕搞麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/154_Q.jpg",
+        "questionImg": "./d2_t1_154_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/154_O1.jpg",
+            "imageSrc": "./d2_t1_154_O1.jpg",
             "text": "吊晃槓",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/154_O2.jpg",
+            "imageSrc": "./d2_t1_154_O2.jpg",
             "text": "挷大索",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/154_O3.jpg",
+            "imageSrc": "./d2_t1_154_O3.jpg",
             "text": "走追仔",
             "isCorrect": true
           }
@@ -19951,23 +19951,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/155_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/155_O.mp3",
         "questionText": "請問下背哪樣係牛眼？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/155_Q.jpg",
+        "questionImg": "./d2_t1_155_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/155_O1.jpg",
+            "imageSrc": "./d2_t1_155_O1.jpg",
             "text": "芭樂仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/155_O2.jpg",
+            "imageSrc": "./d2_t1_155_O2.jpg",
             "text": "蓮霧",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/155_O3.jpg",
+            "imageSrc": "./d2_t1_155_O3.jpg",
             "text": "龍眼",
             "isCorrect": true
           }
@@ -19977,23 +19977,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/156_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/156_O.mp3",
         "questionText": "山頂空氣好，當多人好去該做麼个運動?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/156_Q.jpg",
+        "questionImg": "./d2_t1_156_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/156_O1.jpg",
+            "imageSrc": "./d2_t1_156_O1.jpg",
             "text": "走山",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/156_O2.jpg",
+            "imageSrc": "./d2_t1_156_O2.jpg",
             "text": "入山",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/156_O3.jpg",
+            "imageSrc": "./d2_t1_156_O3.jpg",
             "text": "蹶山",
             "isCorrect": true
           }
@@ -20003,23 +20003,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/157_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/157_O.mp3",
         "questionText": "下背哪種運動，做得一個人搞呢？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/157_Q.jpg",
+        "questionImg": "./d2_t1_157_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/157_O1.jpg",
+            "imageSrc": "./d2_t1_157_O1.jpg",
             "text": "挷大索",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/157_O2.jpg",
+            "imageSrc": "./d2_t1_157_O2.jpg",
             "text": "閃避球",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/157_O3.jpg",
+            "imageSrc": "./d2_t1_157_O3.jpg",
             "text": "打籃球",
             "isCorrect": true
           }
@@ -20029,23 +20029,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/158_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/158_O.mp3",
         "questionText": "阿姆當晝開始炊甜粄，大約愛三點鐘久，請問幾時會炊好？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/158_Q.jpg",
+        "questionImg": "./d2_t1_158_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/158_O1.jpg",
+            "imageSrc": "./d2_t1_158_O1.jpg",
             "text": "朝晨八點",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/158_O2.jpg",
+            "imageSrc": "./d2_t1_158_O2.jpg",
             "text": "暗晡夜七點",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/158_O3.jpg",
+            "imageSrc": "./d2_t1_158_O3.jpg",
             "text": "下晝四點",
             "isCorrect": true
           }
@@ -20055,23 +20055,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/159_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/159_O.mp3",
         "questionText": "阿明愛去搞閃避球，佢會帶下背哪種東西？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/159_Q.jpg",
+        "questionImg": "./d2_t1_159_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/159_O1.jpg",
+            "imageSrc": "./d2_t1_159_O1.jpg",
             "text": "躲避球",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/159_O2.jpg",
+            "imageSrc": "./d2_t1_159_O2.jpg",
             "text": "羽毛球",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/159_O3.jpg",
+            "imageSrc": "./d2_t1_159_O3.jpg",
             "text": "溜溜球",
             "isCorrect": false
           }
@@ -20081,23 +20081,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/160_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/160_O.mp3",
         "questionText": "今晡日豬肉食忒多，毋消化，肚屎嗄試着仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/160_Q.jpg",
+        "questionImg": "./d2_t1_160_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/160_O1.jpg",
+            "imageSrc": "./d2_t1_160_O1.jpg",
             "text": "脹脹",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/160_O2.jpg",
+            "imageSrc": "./d2_t1_160_O2.jpg",
             "text": "枵枵",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/160_O3.jpg",
+            "imageSrc": "./d2_t1_160_O3.jpg",
             "text": "扁扁",
             "isCorrect": false
           }
@@ -20107,23 +20107,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/161_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/161_O.mp3",
         "questionText": "這場球賽明明會贏个，無想着嗄打輸忒咧，心肝肚會試着仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/161_Q.jpg",
+        "questionImg": "./d2_t1_161_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/161_O1.jpg",
+            "imageSrc": "./d2_t1_161_O1.jpg",
             "text": "無感覺",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/161_O2.jpg",
+            "imageSrc": "./d2_t1_161_O2.jpg",
             "text": "毋盼得",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/161_O3.jpg",
+            "imageSrc": "./d2_t1_161_O3.jpg",
             "text": "毋甘願",
             "isCorrect": true
           }
@@ -20133,23 +20133,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/162_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/162_O.mp3",
         "questionText": "做事个人愛轉夜咧。請問這下係麼个時間？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/162_Q.jpg",
+        "questionImg": "./d2_t1_162_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/162_O1.jpg",
+            "imageSrc": "./d2_t1_162_O1.jpg",
             "text": "朝晨頭",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/162_O2.jpg",
+            "imageSrc": "./d2_t1_162_O2.jpg",
             "text": "當晝頭",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/162_O3.jpg",
+            "imageSrc": "./d2_t1_162_O3.jpg",
             "text": "臨暗頭",
             "isCorrect": true
           }
@@ -20159,23 +20159,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/163_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/163_O.mp3",
         "questionText": "請問你係想愛屙尿，愛去哪位?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/163_Q.jpg",
+        "questionImg": "./d2_t1_163_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/163_O1.jpg",
+            "imageSrc": "./d2_t1_163_O1.jpg",
             "text": "廁所指示牌",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/163_O2.jpg",
+            "imageSrc": "./d2_t1_163_O2.jpg",
             "text": "逃生出口指示牌",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/163_O3.jpg",
+            "imageSrc": "./d2_t1_163_O3.jpg",
             "text": "電梯指示牌",
             "isCorrect": false
           }
@@ -20185,23 +20185,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/164_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/164_O.mp3",
         "questionText": "天頂个雲當賁，看毋着日頭，係講這天時仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/164_Q.jpg",
+        "questionImg": "./d2_t1_164_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/164_O1.jpg",
+            "imageSrc": "./d2_t1_164_O1.jpg",
             "text": "大熱天",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/164_O2.jpg",
+            "imageSrc": "./d2_t1_164_O2.jpg",
             "text": "烏陰天",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/164_O3.jpg",
+            "imageSrc": "./d2_t1_164_O3.jpg",
             "text": "風搓天",
             "isCorrect": false
           }
@@ -20211,23 +20211,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/165_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/165_O.mp3",
         "questionText": "看電視緊坐緊近，目珠驚怕係仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/165_Q.jpg",
+        "questionImg": "./d2_t1_165_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/165_O1.jpg",
+            "imageSrc": "./d2_t1_165_O1.jpg",
             "text": "青光眼",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/165_O2.jpg",
+            "imageSrc": "./d2_t1_165_O2.jpg",
             "text": "近視眼",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/165_O3.jpg",
+            "imageSrc": "./d2_t1_165_O3.jpg",
             "text": "老花眼",
             "isCorrect": false
           }
@@ -20237,23 +20237,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/166_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/166_O.mp3",
         "questionText": "路項堵着阿姆个老弟，愛仰般相借問？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/166_Q.jpg",
+        "questionImg": "./d2_t1_166_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/166_O1.jpg",
+            "imageSrc": "./d2_t1_166_O1.jpg",
             "text": "老弟好",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/166_O2.jpg",
+            "imageSrc": "./d2_t1_166_O2.jpg",
             "text": "先生好",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/166_O3.jpg",
+            "imageSrc": "./d2_t1_166_O3.jpg",
             "text": "阿舅好",
             "isCorrect": true
           }
@@ -20263,23 +20263,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/167_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/167_O.mp3",
         "questionText": "阿榮牯戴个所在有田乜有陂塘，請問佢盡可能係戴在哪位?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/167_Q.jpg",
+        "questionImg": "./d2_t1_167_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/167_O1.jpg",
+            "imageSrc": "./d2_t1_167_O1.jpg",
             "text": "莊下",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/167_O2.jpg",
+            "imageSrc": "./d2_t1_167_O2.jpg",
             "text": "街路",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/167_O3.jpg",
+            "imageSrc": "./d2_t1_167_O3.jpg",
             "text": "山頂",
             "isCorrect": false
           }
@@ -20289,23 +20289,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/168_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/168_O.mp3",
         "questionText": "昨晡日係拜二，該今晡日係拜幾？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/168_Q.jpg",
+        "questionImg": "./d2_t1_168_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/168_O1.jpg",
+            "imageSrc": "./d2_t1_168_O1.jpg",
             "text": "拜一",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/168_O2.jpg",
+            "imageSrc": "./d2_t1_168_O2.jpg",
             "text": "拜三",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/168_O3.jpg",
+            "imageSrc": "./d2_t1_168_O3.jpg",
             "text": "拜六",
             "isCorrect": false
           }
@@ -20315,23 +20315,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/169_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/169_O.mp3",
         "questionText": "阿宏昨暗晡食了酒，朝晨還歸身个酒味。請問佢盡可能係仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/169_Q.jpg",
+        "questionImg": "./d2_t1_169_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/169_O1.jpg",
+            "imageSrc": "./d2_t1_169_O1.jpg",
             "text": "無洗面",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/169_O2.jpg",
+            "imageSrc": "./d2_t1_169_O2.jpg",
             "text": "無洗身",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/169_O3.jpg",
+            "imageSrc": "./d2_t1_169_O3.jpg",
             "text": "無洗手",
             "isCorrect": false
           }
@@ -20341,23 +20341,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/170_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/170_O.mp3",
         "questionText": "落水咧！騎奧多拜愛仰般，正毋會歸身溼溼？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/170_Q.jpg",
+        "questionImg": "./d2_t1_170_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/170_O1.jpg",
+            "imageSrc": "./d2_t1_170_O1.jpg",
             "text": "著水衣",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/170_O2.jpg",
+            "imageSrc": "./d2_t1_170_O2.jpg",
             "text": "擎遮仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/170_O3.jpg",
+            "imageSrc": "./d2_t1_170_O3.jpg",
             "text": "戴帽仔",
             "isCorrect": false
           }
@@ -20367,23 +20367,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/171_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/171_O.mp3",
         "questionText": "下背這張圖係哪位？(題目為浴室的圖片。)",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/171_Q.jpg",
+        "questionImg": "./d2_t1_171_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/171_O1.jpg",
+            "imageSrc": "./d2_t1_171_O1.jpg",
             "text": "洗身堂",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/171_O2.jpg",
+            "imageSrc": "./d2_t1_171_O2.jpg",
             "text": "灶下",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/171_O3.jpg",
+            "imageSrc": "./d2_t1_171_O3.jpg",
             "text": "間房",
             "isCorrect": false
           }
@@ -20393,23 +20393,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/172_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/172_O.mp3",
         "questionText": "雲恁賁，看日頭毋着，係講這下天時仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/172_Q.jpg",
+        "questionImg": "./d2_t1_172_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/172_O1.jpg",
+            "imageSrc": "./d2_t1_172_O1.jpg",
             "text": "烏陰天",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/172_O2.jpg",
+            "imageSrc": "./d2_t1_172_O2.jpg",
             "text": "大好天",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/172_O3.jpg",
+            "imageSrc": "./d2_t1_172_O3.jpg",
             "text": "風搓天",
             "isCorrect": false
           }
@@ -20419,23 +20419,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/173_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/173_O.mp3",
         "questionText": "十字路口發生車禍，救護車會摎著傷个人送到哪？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/173_Q.jpg",
+        "questionImg": "./d2_t1_173_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/173_O1.jpg",
+            "imageSrc": "./d2_t1_173_O1.jpg",
             "text": "公園",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/173_O2.jpg",
+            "imageSrc": "./d2_t1_173_O2.jpg",
             "text": "醫院",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/173_O3.jpg",
+            "imageSrc": "./d2_t1_173_O3.jpg",
             "text": "戲院",
             "isCorrect": false
           }
@@ -20445,23 +20445,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/174_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/174_O.mp3",
         "questionText": "阿哥做歸日事，行路都無力咧，係講佢仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/174_Q.jpg",
+        "questionImg": "./d2_t1_174_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/174_O1.jpg",
+            "imageSrc": "./d2_t1_174_O1.jpg",
             "text": "當暢",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/174_O2.jpg",
+            "imageSrc": "./d2_t1_174_O2.jpg",
             "text": "當悿",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/174_O3.jpg",
+            "imageSrc": "./d2_t1_174_O3.jpg",
             "text": "當爽",
             "isCorrect": false
           }
@@ -20471,23 +20471,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/175_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/175_O.mp3",
         "questionText": "今晡日係初五，該初六就係麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/175_Q.jpg",
+        "questionImg": "./d2_t1_175_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/175_O1.jpg",
+            "imageSrc": "./d2_t1_175_O1.jpg",
             "text": "韶早",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/175_O2.jpg",
+            "imageSrc": "./d2_t1_175_O2.jpg",
             "text": "昨晡日",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/175_O3.jpg",
+            "imageSrc": "./d2_t1_175_O3.jpg",
             "text": "後日",
             "isCorrect": false
           }
@@ -20497,23 +20497,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/176_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/176_O.mp3",
         "questionText": "𠊎笑佢也笑，𠊎閼佢也閼。請問佢係麼个東西？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/176_Q.jpg",
+        "questionImg": "./d2_t1_176_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/176_O1.jpg",
+            "imageSrc": "./d2_t1_176_O1.jpg",
             "text": "鏡仔",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/176_O2.jpg",
+            "imageSrc": "./d2_t1_176_O2.jpg",
             "text": "電視",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/176_O3.jpg",
+            "imageSrc": "./d2_t1_176_O3.jpg",
             "text": "人公仔",
             "isCorrect": false
           }
@@ -20523,23 +20523,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/177_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/177_O.mp3",
         "questionText": "阿明下晝上課緊啄目睡，最可能个原因係仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/177_Q.jpg",
+        "questionImg": "./d2_t1_177_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/177_O1.jpg",
+            "imageSrc": "./d2_t1_177_O1.jpg",
             "text": "睡忒晝",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/177_O2.jpg",
+            "imageSrc": "./d2_t1_177_O2.jpg",
             "text": "睡無飽",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/177_O3.jpg",
+            "imageSrc": "./d2_t1_177_O3.jpg",
             "text": "睡忒飽",
             "isCorrect": false
           }
@@ -20549,23 +20549,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/178_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/178_O.mp3",
         "questionText": "看電視莫仰般形，目珠正毋會近視？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/178_Q.jpg",
+        "questionImg": "./d2_t1_178_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/178_O1.jpg",
+            "imageSrc": "./d2_t1_178_O1.jpg",
             "text": "坐忒遠",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/178_O2.jpg",
+            "imageSrc": "./d2_t1_178_O2.jpg",
             "text": "坐忒近",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/178_O3.jpg",
+            "imageSrc": "./d2_t1_178_O3.jpg",
             "text": "坐忒正",
             "isCorrect": false
           }
@@ -20575,23 +20575,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/179_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/179_O.mp3",
         "questionText": "下背哪樣東西，著等散步當好？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/179_Q.jpg",
+        "questionImg": "./d2_t1_179_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/179_O1.jpg",
+            "imageSrc": "./d2_t1_179_O1.jpg",
             "text": "一雙新鞋",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/179_O2.jpg",
+            "imageSrc": "./d2_t1_179_O2.jpg",
             "text": "一副眼鏡",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/179_O3.jpg",
+            "imageSrc": "./d2_t1_179_O3.jpg",
             "text": "一對洋娃娃",
             "isCorrect": false
           }
@@ -20601,23 +20601,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/180_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/180_O.mp3",
         "questionText": "佢一冷着就遽遽去分先生看。請問這係講佢愛去尋麼人?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/180_Q.jpg",
+        "questionImg": "./d2_t1_180_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/180_O1.jpg",
+            "imageSrc": "./d2_t1_180_O1.jpg",
             "text": "老公",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/180_O2.jpg",
+            "imageSrc": "./d2_t1_180_O2.jpg",
             "text": "教師",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/180_O3.jpg",
+            "imageSrc": "./d2_t1_180_O3.jpg",
             "text": "醫生",
             "isCorrect": true
           }
@@ -20627,23 +20627,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/181_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/181_O.mp3",
         "questionText": "天時轉冷咧愛著加領衫，這句話係講驚怕會仰般形？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/181_Q.jpg",
+        "questionImg": "./d2_t1_181_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/181_O1.jpg",
+            "imageSrc": "./d2_t1_181_O1.jpg",
             "text": "熱着",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/181_O2.jpg",
+            "imageSrc": "./d2_t1_181_O2.jpg",
             "text": "冷着",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/181_O3.jpg",
+            "imageSrc": "./d2_t1_181_O3.jpg",
             "text": "嚇着",
             "isCorrect": false
           }
@@ -20653,23 +20653,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/182_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/182_O.mp3",
         "questionText": "暗晡頭飛上飛下，尾項像吊等燈籠个係麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/182_Q.jpg",
+        "questionImg": "./d2_t1_182_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/182_O1.jpg",
+            "imageSrc": "./d2_t1_182_O1.jpg",
             "text": "囊蜺仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/182_O2.jpg",
+            "imageSrc": "./d2_t1_182_O2.jpg",
             "text": "蝶仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/182_O3.jpg",
+            "imageSrc": "./d2_t1_182_O3.jpg",
             "text": "火焰蟲",
             "isCorrect": true
           }
@@ -20679,23 +20679,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/183_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/183_O.mp3",
         "questionText": "體育先生講籃球愛打着好，愛多練習麼个動作?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/183_Q.jpg",
+        "questionImg": "./d2_t1_183_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/183_O1.jpg",
+            "imageSrc": "./d2_t1_183_O1.jpg",
             "text": "揰球仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/183_O2.jpg",
+            "imageSrc": "./d2_t1_183_O2.jpg",
             "text": "拍球仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/183_O3.jpg",
+            "imageSrc": "./d2_t1_183_O3.jpg",
             "text": "踢球仔",
             "isCorrect": false
           }
@@ -20705,23 +20705,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/184_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/184_O.mp3",
         "questionText": "恁遠个路，好得有你做伴，成半日就行到！請問佢兜係行幾久？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/184_Q.jpg",
+        "questionImg": "./d2_t1_184_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/184_O1.jpg",
+            "imageSrc": "./d2_t1_184_O1.jpg",
             "text": "大約日半",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/184_O2.jpg",
+            "imageSrc": "./d2_t1_184_O2.jpg",
             "text": "大約一日",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/184_O3.jpg",
+            "imageSrc": "./d2_t1_184_O3.jpg",
             "text": "大約半日",
             "isCorrect": true
           }
@@ -20731,23 +20731,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/185_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/185_O.mp3",
         "questionText": "買東西愛細義，係過期个東西，愛注意麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/185_Q.jpg",
+        "questionImg": "./d2_t1_185_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/185_O1.jpg",
+            "imageSrc": "./d2_t1_185_O1.jpg",
             "text": "毋好買",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/185_O2.jpg",
+            "imageSrc": "./d2_t1_185_O2.jpg",
             "text": "盡量買",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/185_O3.jpg",
+            "imageSrc": "./d2_t1_185_O3.jpg",
             "text": "儘採買",
             "isCorrect": false
           }
@@ -20757,23 +20757,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/186_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/186_O.mp3",
         "questionText": "新聞講天時會變冷，所以出外最好愛仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/186_Q.jpg",
+        "questionImg": "./d2_t1_186_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/186_O1.jpg",
+            "imageSrc": "./d2_t1_186_O1.jpg",
             "text": "帶加領衫",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/186_O2.jpg",
+            "imageSrc": "./d2_t1_186_O2.jpg",
             "text": "帶支遮仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/186_O3.jpg",
+            "imageSrc": "./d2_t1_186_O3.jpg",
             "text": "帶隻飯包",
             "isCorrect": false
           }
@@ -20783,23 +20783,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/187_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/187_O.mp3",
         "questionText": "下背个圖，哪隻係雞卵糕？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/187_Q.jpg",
+        "questionImg": "./d2_t1_187_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/187_O1.jpg",
+            "imageSrc": "./d2_t1_187_O1.jpg",
             "text": "雞蛋",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/187_O2.jpg",
+            "imageSrc": "./d2_t1_187_O2.jpg",
             "text": "糕餅(桂花糕)",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/187_O3.jpg",
+            "imageSrc": "./d2_t1_187_O3.jpg",
             "text": "蛋糕",
             "isCorrect": true
           }
@@ -20809,23 +20809,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/188_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/188_O.mp3",
         "questionText": "請問圖裡肚係麼个動物？(圖：青蛙)",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/188_Q.jpg",
+        "questionImg": "./d2_t1_188_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/188_O1.jpg",
+            "imageSrc": "./d2_t1_188_O1.jpg",
             "text": "蚊仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/188_O2.jpg",
+            "imageSrc": "./d2_t1_188_O2.jpg",
             "text": "𧊅仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/188_O3.jpg",
+            "imageSrc": "./d2_t1_188_O3.jpg",
             "text": "蜂仔",
             "isCorrect": false
           }
@@ -20835,23 +20835,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/189_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/189_O.mp3",
         "questionText": "洗好个衫，愛拿去哪晒會較遽燥?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/189_Q.jpg",
+        "questionImg": "./d2_t1_189_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/189_O1.jpg",
+            "imageSrc": "./d2_t1_189_O1.jpg",
             "text": "屋簷下",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/189_O2.jpg",
+            "imageSrc": "./d2_t1_189_O2.jpg",
             "text": "樹影下",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/189_O3.jpg",
+            "imageSrc": "./d2_t1_189_O3.jpg",
             "text": "日頭下",
             "isCorrect": true
           }
@@ -20861,23 +20861,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/190_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/190_O.mp3",
         "questionText": "韶早拜阿公婆，愛先買金、香、水果。請問韶早愛拜麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/190_Q.jpg",
+        "questionImg": "./d2_t1_190_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/190_O1.jpg",
+            "imageSrc": "./d2_t1_190_O1.jpg",
             "text": "伯公",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/190_O2.jpg",
+            "imageSrc": "./d2_t1_190_O2.jpg",
             "text": "祖先",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/190_O3.jpg",
+            "imageSrc": "./d2_t1_190_O3.jpg",
             "text": "天公",
             "isCorrect": false
           }
@@ -20887,23 +20887,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/191_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/191_O.mp3",
         "questionText": "佢分蚊仔叼着緊在該爪，係因為佢仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/191_Q.jpg",
+        "questionImg": "./d2_t1_191_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/191_O1.jpg",
+            "imageSrc": "./d2_t1_191_O1.jpg",
             "text": "當痎",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/191_O2.jpg",
+            "imageSrc": "./d2_t1_191_O2.jpg",
             "text": "當痛",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/191_O3.jpg",
+            "imageSrc": "./d2_t1_191_O3.jpg",
             "text": "當冷",
             "isCorrect": false
           }
@@ -20913,23 +20913,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/192_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/192_O.mp3",
         "questionText": "貓頭鳥在麼个時節正會出來尋食？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/192_Q.jpg",
+        "questionImg": "./d2_t1_192_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/192_O1.jpg",
+            "imageSrc": "./d2_t1_192_O1.jpg",
             "text": "日時頭",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/192_O2.jpg",
+            "imageSrc": "./d2_t1_192_O2.jpg",
             "text": "當晝頭",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/192_O3.jpg",
+            "imageSrc": "./d2_t1_192_O3.jpg",
             "text": "暗晡頭",
             "isCorrect": true
           }
@@ -20939,23 +20939,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/193_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/193_O.mp3",
         "questionText": "做粗事，做麼个愛戴手袋仔較好?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/193_Q.jpg",
+        "questionImg": "./d2_t1_193_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/193_O1.jpg",
+            "imageSrc": "./d2_t1_193_O1.jpg",
             "text": "提防著傷",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/193_O2.jpg",
+            "imageSrc": "./d2_t1_193_O2.jpg",
             "text": "為着好看",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/193_O3.jpg",
+            "imageSrc": "./d2_t1_193_O3.jpg",
             "text": "毋會見笑",
             "isCorrect": false
           }
@@ -20965,23 +20965,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/194_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/194_O.mp3",
         "questionText": "老妹發長薯仔滿面疤疤，囥在間肚毋敢出來。這係講佢仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/194_Q.jpg",
+        "questionImg": "./d2_t1_194_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/194_O1.jpg",
+            "imageSrc": "./d2_t1_194_O1.jpg",
             "text": "驚生份",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/194_O2.jpg",
+            "imageSrc": "./d2_t1_194_O2.jpg",
             "text": "驚失禮",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/194_O3.jpg",
+            "imageSrc": "./d2_t1_194_O3.jpg",
             "text": "驚見笑",
             "isCorrect": true
           }
@@ -20991,23 +20991,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/195_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/195_O.mp3",
         "questionText": "下背哪張圖係鑊仔?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/195_Q.jpg",
+        "questionImg": "./d2_t1_195_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/195_O1.jpg",
+            "imageSrc": "./d2_t1_195_O1.jpg",
             "text": "臉盆",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/195_O2.jpg",
+            "imageSrc": "./d2_t1_195_O2.jpg",
             "text": "水桶",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/195_O3.jpg",
+            "imageSrc": "./d2_t1_195_O3.jpg",
             "text": "湯鍋",
             "isCorrect": true
           }
@@ -21017,23 +21017,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/196_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/196_O.mp3",
         "questionText": "阿華得着走追仔比賽个冠軍。請問，這比賽會在哪位舉辦？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/196_Q.jpg",
+        "questionImg": "./d2_t1_196_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/196_O1.jpg",
+            "imageSrc": "./d2_t1_196_O1.jpg",
             "text": "公園",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/196_O2.jpg",
+            "imageSrc": "./d2_t1_196_O2.jpg",
             "text": "運動坪",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/196_O3.jpg",
+            "imageSrc": "./d2_t1_196_O3.jpg",
             "text": "草坪",
             "isCorrect": false
           }
@@ -21043,23 +21043,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/197_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/197_O.mp3",
         "questionText": "佢昨晡日去領錢嗄分人搶走，係講堵着麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/197_Q.jpg",
+        "questionImg": "./d2_t1_197_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/197_O1.jpg",
+            "imageSrc": "./d2_t1_197_O1.jpg",
             "text": "強盜",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/197_O2.jpg",
+            "imageSrc": "./d2_t1_197_O2.jpg",
             "text": "賊仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/197_O3.jpg",
+            "imageSrc": "./d2_t1_197_O3.jpg",
             "text": "戇仔",
             "isCorrect": false
           }
@@ -21069,23 +21069,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/198_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/198_O.mp3",
         "questionText": "阿文在屋肚看電視，請問阿文這下人可能在哪？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/198_Q.jpg",
+        "questionImg": "./d2_t1_198_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/198_O1.jpg",
+            "imageSrc": "./d2_t1_198_O1.jpg",
             "text": "廊下",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/198_O2.jpg",
+            "imageSrc": "./d2_t1_198_O2.jpg",
             "text": "樹下",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/198_O3.jpg",
+            "imageSrc": "./d2_t1_198_O3.jpg",
             "text": "廳下",
             "isCorrect": true
           }
@@ -21095,23 +21095,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/199_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/199_O.mp3",
         "questionText": "食忒个弓蕉皮毋好亂擲，係無會害人仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/199_Q.jpg",
+        "questionImg": "./d2_t1_199_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/199_O1.jpg",
+            "imageSrc": "./d2_t1_199_O1.jpg",
             "text": "割着",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/199_O2.jpg",
+            "imageSrc": "./d2_t1_199_O2.jpg",
             "text": "跢倒",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/199_O3.jpg",
+            "imageSrc": "./d2_t1_199_O3.jpg",
             "text": "拗着",
             "isCorrect": false
           }
@@ -21121,23 +21121,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/200_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/200_O.mp3",
         "questionText": "耕種人在日頭下做事，面晒到仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/200_Q.jpg",
+        "questionImg": "./d2_t1_200_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/200_O1.jpg",
+            "imageSrc": "./d2_t1_200_O1.jpg",
             "text": "白白",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/200_O2.jpg",
+            "imageSrc": "./d2_t1_200_O2.jpg",
             "text": "烏烏",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/200_O3.jpg",
+            "imageSrc": "./d2_t1_200_O3.jpg",
             "text": "黃黃",
             "isCorrect": false
           }
@@ -21147,23 +21147,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/201_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/201_O.mp3",
         "questionText": "食過个菜尾，愛冰起來，係無會壞忒。請問這下愛摎麼个冰起來？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/201_Q.jpg",
+        "questionImg": "./d2_t1_201_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/201_O1.jpg",
+            "imageSrc": "./d2_t1_201_O1.jpg",
             "text": "吂食个菜",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/201_O2.jpg",
+            "imageSrc": "./d2_t1_201_O2.jpg",
             "text": "煮好个菜",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/201_O3.jpg",
+            "imageSrc": "./d2_t1_201_O3.jpg",
             "text": "食伸个菜",
             "isCorrect": true
           }
@@ -21173,23 +21173,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/202_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/202_O.mp3",
         "questionText": "阿爸在眠床睡，一下仔就睡到毋知人，係講佢仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/202_Q.jpg",
+        "questionImg": "./d2_t1_202_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/202_O1.jpg",
+            "imageSrc": "./d2_t1_202_O1.jpg",
             "text": "當好睡",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/202_O2.jpg",
+            "imageSrc": "./d2_t1_202_O2.jpg",
             "text": "毋好睡",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/202_O3.jpg",
+            "imageSrc": "./d2_t1_202_O3.jpg",
             "text": "睡毋得",
             "isCorrect": false
           }
@@ -21199,23 +21199,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/203_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/203_O.mp3",
         "questionText": "下背哪張圖係遮仔?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/203_Q.jpg",
+        "questionImg": "./d2_t1_203_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/203_O1.jpg",
+            "imageSrc": "./d2_t1_203_O1.jpg",
             "text": "斗笠",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/203_O2.jpg",
+            "imageSrc": "./d2_t1_203_O2.jpg",
             "text": "雨傘",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/203_O3.jpg",
+            "imageSrc": "./d2_t1_203_O3.jpg",
             "text": "帽仔",
             "isCorrect": false
           }
@@ -21225,23 +21225,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/204_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/204_O.mp3",
         "questionText": "八月半个暗晡頭，麼个特別大特別圓?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/204_Q.jpg",
+        "questionImg": "./d2_t1_204_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/204_O1.jpg",
+            "imageSrc": "./d2_t1_204_O1.jpg",
             "text": "星仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/204_O2.jpg",
+            "imageSrc": "./d2_t1_204_O2.jpg",
             "text": "日頭",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/204_O3.jpg",
+            "imageSrc": "./d2_t1_204_O3.jpg",
             "text": "月光",
             "isCorrect": true
           }
@@ -21251,23 +21251,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/205_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/205_O.mp3",
         "questionText": "用麼个筆寫字，寫毋著字做得用捽仔捽忒？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/205_Q.jpg",
+        "questionImg": "./d2_t1_205_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/205_O1.jpg",
+            "imageSrc": "./d2_t1_205_O1.jpg",
             "text": "鉛筆",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/205_O2.jpg",
+            "imageSrc": "./d2_t1_205_O2.jpg",
             "text": "毛筆",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/205_O3.jpg",
+            "imageSrc": "./d2_t1_205_O3.jpg",
             "text": "蠟筆",
             "isCorrect": false
           }
@@ -21277,23 +21277,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/206_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/206_O.mp3",
         "questionText": "阿婆精神當好，目珠看起來仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/206_Q.jpg",
+        "questionImg": "./d2_t1_206_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/206_O1.jpg",
+            "imageSrc": "./d2_t1_206_O1.jpg",
             "text": "金金",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/206_O2.jpg",
+            "imageSrc": "./d2_t1_206_O2.jpg",
             "text": "黃黃",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/206_O3.jpg",
+            "imageSrc": "./d2_t1_206_O3.jpg",
             "text": "紅紅",
             "isCorrect": false
           }
@@ -21303,23 +21303,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/207_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/207_O.mp3",
         "questionText": "店頭家看着人客來，總係笑笑仔問佢愛麼个，所以生理當好，係講佢為人仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/207_Q.jpg",
+        "questionImg": "./d2_t1_207_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/207_O1.jpg",
+            "imageSrc": "./d2_t1_207_O1.jpg",
             "text": "懶尸",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/207_O2.jpg",
+            "imageSrc": "./d2_t1_207_O2.jpg",
             "text": "客氣",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/207_O3.jpg",
+            "imageSrc": "./d2_t1_207_O3.jpg",
             "text": "盡惡",
             "isCorrect": false
           }
@@ -21329,23 +21329,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/208_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/208_O.mp3",
         "questionText": "阿華兩公婆去日本尞，屋下伸着阿梅無去。請問阿華屋下有幾多儕?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/208_Q.jpg",
+        "questionImg": "./d2_t1_208_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/208_O1.jpg",
+            "imageSrc": "./d2_t1_208_O1.jpg",
             "text": "兩儕",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/208_O2.jpg",
+            "imageSrc": "./d2_t1_208_O2.jpg",
             "text": "三儕",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/208_O3.jpg",
+            "imageSrc": "./d2_t1_208_O3.jpg",
             "text": "四儕",
             "isCorrect": false
           }
@@ -21355,23 +21355,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/209_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/209_O.mp3",
         "questionText": "過年摎阿婆領紅包該下，應該愛先講麼个較有禮貌?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/209_Q.jpg",
+        "questionImg": "./d2_t1_209_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/209_O1.jpg",
+            "imageSrc": "./d2_t1_209_O1.jpg",
             "text": "生日快樂",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/209_O2.jpg",
+            "imageSrc": "./d2_t1_209_O2.jpg",
             "text": "恭喜發財",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/209_O3.jpg",
+            "imageSrc": "./d2_t1_209_O3.jpg",
             "text": "恁久好無",
             "isCorrect": false
           }
@@ -21381,23 +21381,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/210_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/210_O.mp3",
         "questionText": "還食得、用得着个東西，毋好儘採仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/210_Q.jpg",
+        "questionImg": "./d2_t1_210_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/210_O1.jpg",
+            "imageSrc": "./d2_t1_210_O1.jpg",
             "text": "跌忒",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/210_O2.jpg",
+            "imageSrc": "./d2_t1_210_O2.jpg",
             "text": "擲忒",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/210_O3.jpg",
+            "imageSrc": "./d2_t1_210_O3.jpg",
             "text": "放忒",
             "isCorrect": false
           }
@@ -21407,23 +21407,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/211_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/211_O.mp3",
         "questionText": "請問下背哪張圖係瓠仔？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/211_Q.jpg",
+        "questionImg": "./d2_t1_211_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/211_O1.jpg",
+            "imageSrc": "./d2_t1_211_O1.jpg",
             "text": "瓠瓜",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/211_O2.jpg",
+            "imageSrc": "./d2_t1_211_O2.jpg",
             "text": "絲瓜",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/211_O3.jpg",
+            "imageSrc": "./d2_t1_211_O3.jpg",
             "text": "苦瓜",
             "isCorrect": false
           }
@@ -21433,23 +21433,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/212_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/212_O.mp3",
         "questionText": "阿豪牯看毋着粉牌个字，先生喊佢坐到頭前。請問阿豪牯無帶着麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/212_Q.jpg",
+        "questionImg": "./d2_t1_212_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/212_O1.jpg",
+            "imageSrc": "./d2_t1_212_O1.jpg",
             "text": "目鏡",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/212_O2.jpg",
+            "imageSrc": "./d2_t1_212_O2.jpg",
             "text": "目汁",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/212_O3.jpg",
+            "imageSrc": "./d2_t1_212_O3.jpg",
             "text": "目珠",
             "isCorrect": false
           }
@@ -21459,23 +21459,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/213_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/213_O.mp3",
         "questionText": "下背哪樣東西係阿姆在灶下煮飯愛用着个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/213_Q.jpg",
+        "questionImg": "./d2_t1_213_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/213_O1.jpg",
+            "imageSrc": "./d2_t1_213_O1.jpg",
             "text": "洗衫機",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/213_O2.jpg",
+            "imageSrc": "./d2_t1_213_O2.jpg",
             "text": "瓦斯爐",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/213_O3.jpg",
+            "imageSrc": "./d2_t1_213_O3.jpg",
             "text": "熱水器",
             "isCorrect": false
           }
@@ -21485,23 +21485,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/214_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/214_O.mp3",
         "questionText": "阿明緊流濞水，頭那會痛，想愛去分先生看。係講阿明可能仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/214_Q.jpg",
+        "questionImg": "./d2_t1_214_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/214_O1.jpg",
+            "imageSrc": "./d2_t1_214_O1.jpg",
             "text": "熱着",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/214_O2.jpg",
+            "imageSrc": "./d2_t1_214_O2.jpg",
             "text": "冷着",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/214_O3.jpg",
+            "imageSrc": "./d2_t1_214_O3.jpg",
             "text": "閃着",
             "isCorrect": false
           }
@@ -21511,23 +21511,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/215_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/215_O.mp3",
         "questionText": "阿榮今晡日討餔娘，佢个身分係麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/215_Q.jpg",
+        "questionImg": "./d2_t1_215_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/215_O1.jpg",
+            "imageSrc": "./d2_t1_215_O1.jpg",
             "text": "丈人老",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/215_O2.jpg",
+            "imageSrc": "./d2_t1_215_O2.jpg",
             "text": "親家公",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/215_O3.jpg",
+            "imageSrc": "./d2_t1_215_O3.jpg",
             "text": "新娘公",
             "isCorrect": true
           }
@@ -21537,23 +21537,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/216_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/216_O.mp3",
         "questionText": "學生仔有三十儕，請問凳仔愛準備幾多？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/216_Q.jpg",
+        "questionImg": "./d2_t1_216_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/216_O1.jpg",
+            "imageSrc": "./d2_t1_216_O1.jpg",
             "text": "三十張",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/216_O2.jpg",
+            "imageSrc": "./d2_t1_216_O2.jpg",
             "text": "三十個",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/216_O3.jpg",
+            "imageSrc": "./d2_t1_216_O3.jpg",
             "text": "三十枝",
             "isCorrect": false
           }
@@ -21563,23 +21563,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/217_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/217_O.mp3",
         "questionText": "遮仔帶等去，驚怕等下會落水，請問這下个天時係仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/217_Q.jpg",
+        "questionImg": "./d2_t1_217_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/217_O1.jpg",
+            "imageSrc": "./d2_t1_217_O1.jpg",
             "text": "出日頭",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/217_O2.jpg",
+            "imageSrc": "./d2_t1_217_O2.jpg",
             "text": "烏陰烏陰",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/217_O3.jpg",
+            "imageSrc": "./d2_t1_217_O3.jpg",
             "text": "出虹咧",
             "isCorrect": false
           }
@@ -21589,23 +21589,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/218_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/218_O.mp3",
         "questionText": "人客來咧！阿公開瓦斯做麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/218_Q.jpg",
+        "questionImg": "./d2_t1_218_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/218_O1.jpg",
+            "imageSrc": "./d2_t1_218_O1.jpg",
             "text": "洗身",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/218_O2.jpg",
+            "imageSrc": "./d2_t1_218_O2.jpg",
             "text": "點香",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/218_O3.jpg",
+            "imageSrc": "./d2_t1_218_O3.jpg",
             "text": "煮茶",
             "isCorrect": true
           }
@@ -21615,23 +21615,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/219_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/219_O.mp3",
         "questionText": "下背哪張圖係細孲仔?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/219_Q.jpg",
+        "questionImg": "./d2_t1_219_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/219_O1.jpg",
+            "imageSrc": "./d2_t1_219_O1.jpg",
             "text": "3、4歲的小孩",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/219_O2.jpg",
+            "imageSrc": "./d2_t1_219_O2.jpg",
             "text": "年輕人",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/219_O3.jpg",
+            "imageSrc": "./d2_t1_219_O3.jpg",
             "text": "中年人",
             "isCorrect": false
           }
@@ -21641,23 +21641,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/220_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/220_O.mp3",
         "questionText": "阿姆毋分細人仔看忒多電視，係驚怕對麼个毋好?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/220_Q.jpg",
+        "questionImg": "./d2_t1_220_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/220_O1.jpg",
+            "imageSrc": "./d2_t1_220_O1.jpg",
             "text": "目珠",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/220_O2.jpg",
+            "imageSrc": "./d2_t1_220_O2.jpg",
             "text": "手腳",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/220_O3.jpg",
+            "imageSrc": "./d2_t1_220_O3.jpg",
             "text": "鼻空",
             "isCorrect": false
           }
@@ -21667,23 +21667,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/221_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/221_O.mp3",
         "questionText": "阿英厥爸開公司，賺毋會少錢。請問厥爸係哪種人？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/221_Q.jpg",
+        "questionImg": "./d2_t1_221_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/221_O1.jpg",
+            "imageSrc": "./d2_t1_221_O1.jpg",
             "text": "教書人",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/221_O2.jpg",
+            "imageSrc": "./d2_t1_221_O2.jpg",
             "text": "耕種人",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/221_O3.jpg",
+            "imageSrc": "./d2_t1_221_O3.jpg",
             "text": "生理人",
             "isCorrect": true
           }
@@ -21693,23 +21693,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/222_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/222_O.mp3",
         "questionText": "佢今晡日日時頭緊啄目睡，定著係麼个時節無睡飽?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/222_Q.jpg",
+        "questionImg": "./d2_t1_222_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/222_O1.jpg",
+            "imageSrc": "./d2_t1_222_O1.jpg",
             "text": "暗晡夜",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/222_O2.jpg",
+            "imageSrc": "./d2_t1_222_O2.jpg",
             "text": "昨暗晡",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/222_O3.jpg",
+            "imageSrc": "./d2_t1_222_O3.jpg",
             "text": "韶朝晨",
             "isCorrect": false
           }
@@ -21719,23 +21719,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/223_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/223_O.mp3",
         "questionText": "上屋个叔公，下屋个伯婆，長下來過家尞。這係講佢兜戴在哪？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/223_Q.jpg",
+        "questionImg": "./d2_t1_223_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/223_O1.jpg",
+            "imageSrc": "./d2_t1_223_O1.jpg",
             "text": "隔壁鄰舍",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/223_O2.jpg",
+            "imageSrc": "./d2_t1_223_O2.jpg",
             "text": "隔壁莊頭",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/223_O3.jpg",
+            "imageSrc": "./d2_t1_223_O3.jpg",
             "text": "隔壁縣市",
             "isCorrect": false
           }
@@ -21745,23 +21745,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/224_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/224_O.mp3",
         "questionText": "𠊎買一隻杯仔，拿兩百個銀，找五十。請問這隻杯仔愛幾多錢？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/224_Q.jpg",
+        "questionImg": "./d2_t1_224_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/224_O1.jpg",
+            "imageSrc": "./d2_t1_224_O1.jpg",
             "text": "兩百五",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/224_O2.jpg",
+            "imageSrc": "./d2_t1_224_O2.jpg",
             "text": "百五",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/224_O3.jpg",
+            "imageSrc": "./d2_t1_224_O3.jpg",
             "text": "五十",
             "isCorrect": false
           }
@@ -21771,23 +21771,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/225_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/225_O.mp3",
         "questionText": "阿公逐日都去公園。請問阿公可能係去做麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/225_Q.jpg",
+        "questionImg": "./d2_t1_225_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/225_O1.jpg",
+            "imageSrc": "./d2_t1_225_O1.jpg",
             "text": "行棋",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/225_O2.jpg",
+            "imageSrc": "./d2_t1_225_O2.jpg",
             "text": "分先生看",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/225_O3.jpg",
+            "imageSrc": "./d2_t1_225_O3.jpg",
             "text": "露營",
             "isCorrect": false
           }
@@ -21797,23 +21797,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/226_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/226_O.mp3",
         "questionText": "正月半該暗晡，社區有可能舉辦个活動係麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/226_Q.jpg",
+        "questionImg": "./d2_t1_226_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/226_O1.jpg",
+            "imageSrc": "./d2_t1_226_O1.jpg",
             "text": "揣令仔",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/226_O2.jpg",
+            "imageSrc": "./d2_t1_226_O2.jpg",
             "text": "划龍船",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/226_O3.jpg",
+            "imageSrc": "./d2_t1_226_O3.jpg",
             "text": "食月餅",
             "isCorrect": false
           }
@@ -21823,23 +21823,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/227_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/227_O.mp3",
         "questionText": "葡萄係茄色个，下背哪種菜也係茄色?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/227_Q.jpg",
+        "questionImg": "./d2_t1_227_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/227_O1.jpg",
+            "imageSrc": "./d2_t1_227_O1.jpg",
             "text": "紫萵苣",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/227_O2.jpg",
+            "imageSrc": "./d2_t1_227_O2.jpg",
             "text": "白蘿蔔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/227_O3.jpg",
+            "imageSrc": "./d2_t1_227_O3.jpg",
             "text": "玉米",
             "isCorrect": false
           }
@@ -21849,23 +21849,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/228_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/228_O.mp3",
         "questionText": "下背哪種做得用來煮泡麵？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/228_Q.jpg",
+        "questionImg": "./d2_t1_228_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/228_O1.jpg",
+            "imageSrc": "./d2_t1_228_O1.jpg",
             "text": "水",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/228_O2.jpg",
+            "imageSrc": "./d2_t1_228_O2.jpg",
             "text": "涼水",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/228_O3.jpg",
+            "imageSrc": "./d2_t1_228_O3.jpg",
             "text": "口水",
             "isCorrect": false
           }
@@ -21875,23 +21875,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/229_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/229_O.mp3",
         "questionText": "過年會到咧，歸家人開始拚掃屋下，準備團圓飯，大家就當仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/229_Q.jpg",
+        "questionImg": "./d2_t1_229_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/229_O1.jpg",
+            "imageSrc": "./d2_t1_229_O1.jpg",
             "text": "無閒",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/229_O2.jpg",
+            "imageSrc": "./d2_t1_229_O2.jpg",
             "text": "無影",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/229_O3.jpg",
+            "imageSrc": "./d2_t1_229_O3.jpg",
             "text": "無採",
             "isCorrect": false
           }
@@ -21901,23 +21901,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/230_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/230_O.mp3",
         "questionText": "佢逐暗晡讀到12點正睡目，請問佢係仰般个人？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/230_Q.jpg",
+        "questionImg": "./d2_t1_230_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/230_O1.jpg",
+            "imageSrc": "./d2_t1_230_O1.jpg",
             "text": "煞猛",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/230_O2.jpg",
+            "imageSrc": "./d2_t1_230_O2.jpg",
             "text": "懶尸",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/230_O3.jpg",
+            "imageSrc": "./d2_t1_230_O3.jpg",
             "text": "好搞",
             "isCorrect": false
           }
@@ -21927,23 +21927,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/231_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/231_O.mp3",
         "questionText": "阿山牯摎厥爸兩儕係麼个關係？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/231_Q.jpg",
+        "questionImg": "./d2_t1_231_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/231_O1.jpg",
+            "imageSrc": "./d2_t1_231_O1.jpg",
             "text": "兩子爺",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/231_O2.jpg",
+            "imageSrc": "./d2_t1_231_O2.jpg",
             "text": "兩兄弟",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/231_O3.jpg",
+            "imageSrc": "./d2_t1_231_O3.jpg",
             "text": "兩子叔",
             "isCorrect": false
           }
@@ -21953,23 +21953,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/232_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/232_O.mp3",
         "questionText": "頭擺个細人仔無法度去學堂讀書，長下在草埔𢯭手做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/232_Q.jpg",
+        "questionImg": "./d2_t1_232_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/232_O1.jpg",
+            "imageSrc": "./d2_t1_232_O1.jpg",
             "text": "種菜",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/232_O2.jpg",
+            "imageSrc": "./d2_t1_232_O2.jpg",
             "text": "掌牛",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/232_O3.jpg",
+            "imageSrc": "./d2_t1_232_O3.jpg",
             "text": "晒穀",
             "isCorrect": false
           }
@@ -21979,23 +21979,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/233_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/233_O.mp3",
         "questionText": "落水囉，去學校愛擎麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/233_Q.jpg",
+        "questionImg": "./d2_t1_233_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/233_O1.jpg",
+            "imageSrc": "./d2_t1_233_O1.jpg",
             "text": "沙仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/233_O2.jpg",
+            "imageSrc": "./d2_t1_233_O2.jpg",
             "text": "遮仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/233_O3.jpg",
+            "imageSrc": "./d2_t1_233_O3.jpg",
             "text": "瓜仔",
             "isCorrect": false
           }
@@ -22005,23 +22005,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/234_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/234_O.mp3",
         "questionText": "下背麼人最多歲？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/234_Q.jpg",
+        "questionImg": "./d2_t1_234_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/234_O1.jpg",
+            "imageSrc": "./d2_t1_234_O1.jpg",
             "text": "阿伯",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/234_O2.jpg",
+            "imageSrc": "./d2_t1_234_O2.jpg",
             "text": "阿叔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/234_O3.jpg",
+            "imageSrc": "./d2_t1_234_O3.jpg",
             "text": "阿爸",
             "isCorrect": false
           }
@@ -22031,23 +22031,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/235_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/235_O.mp3",
         "questionText": "請問下背哪張圖係包粟？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/235_Q.jpg",
+        "questionImg": "./d2_t1_235_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/235_O1.jpg",
+            "imageSrc": "./d2_t1_235_O1.jpg",
             "text": "玉米",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/235_O2.jpg",
+            "imageSrc": "./d2_t1_235_O2.jpg",
             "text": "小麥",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/235_O3.jpg",
+            "imageSrc": "./d2_t1_235_O3.jpg",
             "text": "番石榴",
             "isCorrect": false
           }
@@ -22057,23 +22057,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/236_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/236_O.mp3",
         "questionText": "下背哪樣人在公車肚愛先讓位分老人家坐?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/236_Q.jpg",
+        "questionImg": "./d2_t1_236_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/236_O1.jpg",
+            "imageSrc": "./d2_t1_236_O1.jpg",
             "text": "自家人",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/236_O2.jpg",
+            "imageSrc": "./d2_t1_236_O2.jpg",
             "text": "生份人",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/236_O3.jpg",
+            "imageSrc": "./d2_t1_236_O3.jpg",
             "text": "後生人",
             "isCorrect": true
           }
@@ -22083,23 +22083,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/237_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/237_O.mp3",
         "questionText": "日頭愛落山咧！請問這下係麼个時間？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/237_Q.jpg",
+        "questionImg": "./d2_t1_237_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/237_O1.jpg",
+            "imageSrc": "./d2_t1_237_O1.jpg",
             "text": "暗晡頭",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/237_O2.jpg",
+            "imageSrc": "./d2_t1_237_O2.jpg",
             "text": "臨暗仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/237_O3.jpg",
+            "imageSrc": "./d2_t1_237_O3.jpg",
             "text": "當晝頭",
             "isCorrect": false
           }
@@ -22109,23 +22109,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/238_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/238_O.mp3",
         "questionText": "阿姆逐日盡早就出門做事，係講佢仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/238_Q.jpg",
+        "questionImg": "./d2_t1_238_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/238_O1.jpg",
+            "imageSrc": "./d2_t1_238_O1.jpg",
             "text": "客氣",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/238_O2.jpg",
+            "imageSrc": "./d2_t1_238_O2.jpg",
             "text": "煞猛",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/238_O3.jpg",
+            "imageSrc": "./d2_t1_238_O3.jpg",
             "text": "老實",
             "isCorrect": false
           }
@@ -22135,23 +22135,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/239_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/239_O.mp3",
         "questionText": "這支刀仔無利咧，阿姆講愛拿去仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/239_Q.jpg",
+        "questionImg": "./d2_t1_239_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/239_O1.jpg",
+            "imageSrc": "./d2_t1_239_O1.jpg",
             "text": "摸摸仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/239_O2.jpg",
+            "imageSrc": "./d2_t1_239_O2.jpg",
             "text": "捽捽仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/239_O3.jpg",
+            "imageSrc": "./d2_t1_239_O3.jpg",
             "text": "挼挼仔",
             "isCorrect": true
           }
@@ -22161,23 +22161,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/240_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/240_O.mp3",
         "questionText": "𠊎去蹶山堵着阿山牯摎厥姊，係講𠊎堵着佢屋下个麼人?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/240_Q.jpg",
+        "questionImg": "./d2_t1_240_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/240_O1.jpg",
+            "imageSrc": "./d2_t1_240_O1.jpg",
             "text": "兩姊妹",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/240_O2.jpg",
+            "imageSrc": "./d2_t1_240_O2.jpg",
             "text": "兩兄弟",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/240_O3.jpg",
+            "imageSrc": "./d2_t1_240_O3.jpg",
             "text": "兩公婆",
             "isCorrect": false
           }
@@ -22187,23 +22187,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/241_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/241_O.mp3",
         "questionText": "看毋着个人過大路，𫣆俚愛仰般做較好？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/241_Q.jpg",
+        "questionImg": "./d2_t1_241_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/241_O1.jpg",
+            "imageSrc": "./d2_t1_241_O1.jpg",
             "text": "牽佢",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/241_O2.jpg",
+            "imageSrc": "./d2_t1_241_O2.jpg",
             "text": "譴佢",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/241_O3.jpg",
+            "imageSrc": "./d2_t1_241_O3.jpg",
             "text": "勸佢",
             "isCorrect": false
           }
@@ -22213,23 +22213,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/242_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/242_O.mp3",
         "questionText": "韶下晝毋使上課。請問這句話係講韶下晝仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/242_Q.jpg",
+        "questionImg": "./d2_t1_242_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/242_O1.jpg",
+            "imageSrc": "./d2_t1_242_O1.jpg",
             "text": "放尞",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/242_O2.jpg",
+            "imageSrc": "./d2_t1_242_O2.jpg",
             "text": "補課",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/242_O3.jpg",
+            "imageSrc": "./d2_t1_242_O3.jpg",
             "text": "上課",
             "isCorrect": false
           }
@@ -22239,23 +22239,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/243_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/243_O.mp3",
         "questionText": "下背哪張圖係禾埕?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/243_Q.jpg",
+        "questionImg": "./d2_t1_243_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/243_O1.jpg",
+            "imageSrc": "./d2_t1_243_O1.jpg",
             "text": "禾田",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/243_O2.jpg",
+            "imageSrc": "./d2_t1_243_O2.jpg",
             "text": "禾埕",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/243_O3.jpg",
+            "imageSrc": "./d2_t1_243_O3.jpg",
             "text": "運動坪",
             "isCorrect": false
           }
@@ -22265,23 +22265,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/244_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/244_O.mp3",
         "questionText": "這張圖个豆腐愛仰般形講？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/244_Q.jpg",
+        "questionImg": "./d2_t1_244_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/244_O1.jpg",
+            "imageSrc": "./d2_t1_244_O1.jpg",
             "text": "兩垤豆腐",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/244_O2.jpg",
+            "imageSrc": "./d2_t1_244_O2.jpg",
             "text": "兩隻豆腐",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/244_O3.jpg",
+            "imageSrc": "./d2_t1_244_O3.jpg",
             "text": "兩粒豆腐",
             "isCorrect": false
           }
@@ -22291,23 +22291,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/245_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/245_O.mp3",
         "questionText": "妹仔个老公，係若麼人?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/245_Q.jpg",
+        "questionImg": "./d2_t1_245_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/245_O1.jpg",
+            "imageSrc": "./d2_t1_245_O1.jpg",
             "text": "姪仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/245_O2.jpg",
+            "imageSrc": "./d2_t1_245_O2.jpg",
             "text": "婿郎",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/245_O3.jpg",
+            "imageSrc": "./d2_t1_245_O3.jpg",
             "text": "外甥",
             "isCorrect": false
           }
@@ -22317,23 +22317,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/246_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/246_O.mp3",
         "questionText": "阿明走追仔打第一當暢，係講佢仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/246_Q.jpg",
+        "questionImg": "./d2_t1_246_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/246_O1.jpg",
+            "imageSrc": "./d2_t1_246_O1.jpg",
             "text": "當歡喜",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/246_O2.jpg",
+            "imageSrc": "./d2_t1_246_O2.jpg",
             "text": "當生趣",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/246_O3.jpg",
+            "imageSrc": "./d2_t1_246_O3.jpg",
             "text": "當細義",
             "isCorrect": false
           }
@@ -22343,23 +22343,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/247_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/247_O.mp3",
         "questionText": "老弟毋知用麼个彈𠊎，當痛!請問老弟可能係用麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/247_Q.jpg",
+        "questionImg": "./d2_t1_247_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/247_O1.jpg",
+            "imageSrc": "./d2_t1_247_O1.jpg",
             "text": "手落仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/247_O2.jpg",
+            "imageSrc": "./d2_t1_247_O2.jpg",
             "text": "雞胲仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/247_O3.jpg",
+            "imageSrc": "./d2_t1_247_O3.jpg",
             "text": "樹乳仔",
             "isCorrect": true
           }
@@ -22369,23 +22369,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/248_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/248_O.mp3",
         "questionText": "有人客來屋下愛轉咧，你會摎佢講麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/248_Q.jpg",
+        "questionImg": "./d2_t1_248_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/248_O1.jpg",
+            "imageSrc": "./d2_t1_248_O1.jpg",
             "text": "正做得",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/248_O2.jpg",
+            "imageSrc": "./d2_t1_248_O2.jpg",
             "text": "正來尞",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/248_O3.jpg",
+            "imageSrc": "./d2_t1_248_O3.jpg",
             "text": "過家尞",
             "isCorrect": false
           }
@@ -22395,23 +22395,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/249_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/249_O.mp3",
         "questionText": "請問下背哪張圖係「蟲䘆」?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/249_Q.jpg",
+        "questionImg": "./d2_t1_249_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/249_O1.jpg",
+            "imageSrc": "./d2_t1_249_O1.jpg",
             "text": "毛蟲",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/249_O2.jpg",
+            "imageSrc": "./d2_t1_249_O2.jpg",
             "text": "蟑螂",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/249_O3.jpg",
+            "imageSrc": "./d2_t1_249_O3.jpg",
             "text": "蚯蚓",
             "isCorrect": true
           }
@@ -22421,23 +22421,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/250_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/250_O.mp3",
         "questionText": "過年過節係去人屋下，愛帶兜仔麼个正毋會失禮?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/250_Q.jpg",
+        "questionImg": "./d2_t1_250_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/250_O1.jpg",
+            "imageSrc": "./d2_t1_250_O1.jpg",
             "text": "手帕",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/250_O2.jpg",
+            "imageSrc": "./d2_t1_250_O2.jpg",
             "text": "皮包",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/250_O3.jpg",
+            "imageSrc": "./d2_t1_250_O3.jpg",
             "text": "等路",
             "isCorrect": true
           }
@@ -22447,23 +22447,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/251_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/251_O.mp3",
         "questionText": "下背這張圖哪位係腳目珠？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/251_Q.jpg",
+        "questionImg": "./d2_t1_251_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/251_O1.jpg",
+            "imageSrc": "./d2_t1_251_O1.jpg",
             "text": "大腳指",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/251_O2.jpg",
+            "imageSrc": "./d2_t1_251_O2.jpg",
             "text": "膝蓋",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/251_O3.jpg",
+            "imageSrc": "./d2_t1_251_O3.jpg",
             "text": "腳目珠",
             "isCorrect": true
           }
@@ -22473,23 +22473,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/252_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/252_O.mp3",
         "questionText": "下背哪張圖係梯排?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/252_Q.jpg",
+        "questionImg": "./d2_t1_252_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/252_O1.jpg",
+            "imageSrc": "./d2_t1_252_O1.jpg",
             "text": "石階",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/252_O2.jpg",
+            "imageSrc": "./d2_t1_252_O2.jpg",
             "text": "樓梯",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/252_O3.jpg",
+            "imageSrc": "./d2_t1_252_O3.jpg",
             "text": "書架",
             "isCorrect": false
           }
@@ -22499,23 +22499,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/253_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/253_O.mp3",
         "questionText": "請問這張圖係麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/253_Q.jpg",
+        "questionImg": "./d2_t1_253_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/253_O1.jpg",
+            "imageSrc": "./d2_t1_253_O1.jpg",
             "text": "溜滑梯",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/253_O2.jpg",
+            "imageSrc": "./d2_t1_253_O2.jpg",
             "text": "孔翹板",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/253_O3.jpg",
+            "imageSrc": "./d2_t1_253_O3.jpg",
             "text": "晃槓仔",
             "isCorrect": true
           }
@@ -22525,23 +22525,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/254_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/254_O.mp3",
         "questionText": "阿爸个老弟，你愛喊佢麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/254_Q.jpg",
+        "questionImg": "./d2_t1_254_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/254_O1.jpg",
+            "imageSrc": "./d2_t1_254_O1.jpg",
             "text": "阿伯",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/254_O2.jpg",
+            "imageSrc": "./d2_t1_254_O2.jpg",
             "text": "阿舅",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/254_O3.jpg",
+            "imageSrc": "./d2_t1_254_O3.jpg",
             "text": "阿叔",
             "isCorrect": true
           }
@@ -22551,23 +22551,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/255_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/255_O.mp3",
         "questionText": "熱天時節，阿明長透去河壩洗身仔，「洗身仔」就係麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/255_Q.jpg",
+        "questionImg": "./d2_t1_255_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/255_O1.jpg",
+            "imageSrc": "./d2_t1_255_O1.jpg",
             "text": "浸水",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/255_O2.jpg",
+            "imageSrc": "./d2_t1_255_O2.jpg",
             "text": "搞水",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/255_O3.jpg",
+            "imageSrc": "./d2_t1_255_O3.jpg",
             "text": "泅水",
             "isCorrect": true
           }
@@ -22577,23 +22577,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/256_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/256_O.mp3",
         "questionText": "阿明歸暗晡睡毋得，係講佢昨暗晡仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/256_Q.jpg",
+        "questionImg": "./d2_t1_256_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/256_O1.jpg",
+            "imageSrc": "./d2_t1_256_O1.jpg",
             "text": "反躁",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/256_O2.jpg",
+            "imageSrc": "./d2_t1_256_O2.jpg",
             "text": "發夢",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/256_O3.jpg",
+            "imageSrc": "./d2_t1_256_O3.jpg",
             "text": "緊睡",
             "isCorrect": false
           }
@@ -22603,23 +22603,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/257_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/257_O.mp3",
         "questionText": "恁暗咧！好放忒來食飯！係講食哪餐飯？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/257_Q.jpg",
+        "questionImg": "./d2_t1_257_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/257_O1.jpg",
+            "imageSrc": "./d2_t1_257_O1.jpg",
             "text": "食朝",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/257_O2.jpg",
+            "imageSrc": "./d2_t1_257_O2.jpg",
             "text": "食夜",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/257_O3.jpg",
+            "imageSrc": "./d2_t1_257_O3.jpg",
             "text": "食晝",
             "isCorrect": false
           }
@@ -22629,23 +22629,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/258_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/258_O.mp3",
         "questionText": "該支遮仔毋係你个，做麼个儘採停動！請問這係麼个意思？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/258_Q.jpg",
+        "questionImg": "./d2_t1_258_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/258_O1.jpg",
+            "imageSrc": "./d2_t1_258_O1.jpg",
             "text": "莫儘採用別人个遮仔",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/258_O2.jpg",
+            "imageSrc": "./d2_t1_258_O2.jpg",
             "text": "你做得用這支遮仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/1/258_O3.jpg",
+            "imageSrc": "./d2_t1_258_O3.jpg",
             "text": "麼儕就用得這支遮仔",
             "isCorrect": false
           }
@@ -22663,23 +22663,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/001_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/001_O.mp3",
         "questionText": "男：阿姆，𠊎想愛去打電動，好無? 女：你敢去，皮就愛弓較緪兜！ 男：請問阿姆个意思係仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/001_Q.jpg",
+        "questionImg": "./d2_t2_001_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/001_O1.jpg",
+            "imageSrc": "./d2_t2_001_O1.jpg",
             "text": "反對",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/001_O2.jpg",
+            "imageSrc": "./d2_t2_001_O2.jpg",
             "text": "無意見",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/001_O3.jpg",
+            "imageSrc": "./d2_t2_001_O3.jpg",
             "text": "贊成",
             "isCorrect": false
           }
@@ -22689,23 +22689,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/002_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/002_O.mp3",
         "questionText": "男：你个柑仔買好吂？ 女：還在這擇哦！ 男：請問細妹仔買着柑仔吂？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/002_Q.jpg",
+        "questionImg": "./d2_t2_002_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/002_O1.jpg",
+            "imageSrc": "./d2_t2_002_O1.jpg",
             "text": "吂買好",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/002_O2.jpg",
+            "imageSrc": "./d2_t2_002_O2.jpg",
             "text": "買好咧",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/002_O3.jpg",
+            "imageSrc": "./d2_t2_002_O3.jpg",
             "text": "買毋着",
             "isCorrect": false
           }
@@ -22715,23 +22715,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/003_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/003_O.mp3",
         "questionText": "女：今晡日个罅咧！韶早再過來𢯭手㓾。 男：吓！還愛挷毛？恁麻煩，你自家㓾。 女：請問細妹人係愛㓾麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/003_Q.jpg",
+        "questionImg": "./d2_t2_003_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/003_O1.jpg",
+            "imageSrc": "./d2_t2_003_O1.jpg",
             "text": "魚仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/003_O2.jpg",
+            "imageSrc": "./d2_t2_003_O2.jpg",
             "text": "雞仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/003_O3.jpg",
+            "imageSrc": "./d2_t2_003_O3.jpg",
             "text": "梨仔",
             "isCorrect": false
           }
@@ -22741,23 +22741,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/004_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/004_O.mp3",
         "questionText": "男：阿姆，𠊎這盆燒水愛兜分阿公洗面。 女：哦～恁曉得！ 男：頂高个對話，下背哪隻選項正著？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/004_Q.jpg",
+        "questionImg": "./d2_t2_004_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/004_O1.jpg",
+            "imageSrc": "./d2_t2_004_O1.jpg",
             "text": "倈仔應阿姆",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/004_O2.jpg",
+            "imageSrc": "./d2_t2_004_O2.jpg",
             "text": "阿姆安𧩣倈仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/004_O3.jpg",
+            "imageSrc": "./d2_t2_004_O3.jpg",
             "text": "阿姆念倈仔",
             "isCorrect": false
           }
@@ -22767,23 +22767,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/005_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/005_O.mp3",
         "questionText": "女：肚屎枵咧！好放尞吂﹖ 男：吂哦！朝晨出門正無幾久。 女：請問這下係麼个時節﹖",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/005_Q.jpg",
+        "questionImg": "./d2_t2_005_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/005_O1.jpg",
+            "imageSrc": "./d2_t2_005_O1.jpg",
             "text": "上晝",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/005_O2.jpg",
+            "imageSrc": "./d2_t2_005_O2.jpg",
             "text": "當晝",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/005_O3.jpg",
+            "imageSrc": "./d2_t2_005_O3.jpg",
             "text": "下晝",
             "isCorrect": false
           }
@@ -22793,23 +22793,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/006_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/006_O.mp3",
         "questionText": "男：仰會人恁多？毋知愛等加幾久正有好食。 女：算咧，轉來去食較贏。 男：請問這段對話有可能發生在哪位？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/006_Q.jpg",
+        "questionImg": "./d2_t2_006_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/006_O1.jpg",
+            "imageSrc": "./d2_t2_006_O1.jpg",
             "text": "餐廳",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/006_O2.jpg",
+            "imageSrc": "./d2_t2_006_O2.jpg",
             "text": "屋下",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/006_O3.jpg",
+            "imageSrc": "./d2_t2_006_O3.jpg",
             "text": "公園",
             "isCorrect": false
           }
@@ -22819,23 +22819,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/007_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/007_O.mp3",
         "questionText": "女：該間飯店个覆菜豬肚湯已有名。 男：該你哪日渡𠊎兜去食好無？ 女：頂高个對話，下背哪隻選項正著？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/007_Q.jpg",
+        "questionImg": "./d2_t2_007_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/007_O1.jpg",
+            "imageSrc": "./d2_t2_007_O1.jpg",
             "text": "佢兜當在該食",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/007_O2.jpg",
+            "imageSrc": "./d2_t2_007_O2.jpg",
             "text": "佢兜食過咧",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/007_O3.jpg",
+            "imageSrc": "./d2_t2_007_O3.jpg",
             "text": "佢兜想愛去食",
             "isCorrect": true
           }
@@ -22845,23 +22845,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/008_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/008_O.mp3",
         "questionText": "男：當晝食麼个？ 女：連分人請三日，鼻着就會嘔出來哩喲。 男：請問婦人家个意思係麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/008_Q.jpg",
+        "questionImg": "./d2_t2_008_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/008_O1.jpg",
+            "imageSrc": "./d2_t2_008_O1.jpg",
             "text": "無想食",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/008_O2.jpg",
+            "imageSrc": "./d2_t2_008_O2.jpg",
             "text": "還想分人請",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/008_O3.jpg",
+            "imageSrc": "./d2_t2_008_O3.jpg",
             "text": "發病咧",
             "isCorrect": false
           }
@@ -22871,23 +22871,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/009_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/009_O.mp3",
         "questionText": "男：若妹仔去美國尞，轉吂? 女：還使講！尞到毋知好轉！ 男：請問婦人家厥妹仔轉吂？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/009_Q.jpg",
+        "questionImg": "./d2_t2_009_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/009_O1.jpg",
+            "imageSrc": "./d2_t2_009_O1.jpg",
             "text": "轉咧",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/009_O2.jpg",
+            "imageSrc": "./d2_t2_009_O2.jpg",
             "text": "吂轉",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/009_O3.jpg",
+            "imageSrc": "./d2_t2_009_O3.jpg",
             "text": "正轉",
             "isCorrect": false
           }
@@ -22897,23 +22897,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/010_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/010_O.mp3",
         "questionText": "女：你敢知哪位出个黃梨最有名？ 男：𠊎兜共下來上網查看哪！ 女：頂高个對話，下背哪隻選項最有可能？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/010_Q.jpg",
+        "questionImg": "./d2_t2_010_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/010_O1.jpg",
+            "imageSrc": "./d2_t2_010_O1.jpg",
             "text": "佢兜知",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/010_O2.jpg",
+            "imageSrc": "./d2_t2_010_O2.jpg",
             "text": "佢兜毋知",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/010_O3.jpg",
+            "imageSrc": "./d2_t2_010_O3.jpg",
             "text": "細倈仔知",
             "isCorrect": false
           }
@@ -22923,23 +22923,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/011_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/011_O.mp3",
         "questionText": "女：你仰坐毋核呢？ 男：𠊎食忒多茶咧。 女：請問男仔人麼个原因坐毋核？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/011_Q.jpg",
+        "questionImg": "./d2_t2_011_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/011_O1.jpg",
+            "imageSrc": "./d2_t2_011_O1.jpg",
             "text": "想屙屎",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/011_O2.jpg",
+            "imageSrc": "./d2_t2_011_O2.jpg",
             "text": "想屙尿",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/011_O3.jpg",
+            "imageSrc": "./d2_t2_011_O3.jpg",
             "text": "想睡目",
             "isCorrect": false
           }
@@ -22949,23 +22949,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/012_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/012_O.mp3",
         "questionText": "女：阿文，你哪久正愛開始讀書？ 男：𠊎食下茶就去書房！ 女：請問倈仔幾時愛開始讀書？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/012_Q.jpg",
+        "questionImg": "./d2_t2_012_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/012_O1.jpg",
+            "imageSrc": "./d2_t2_012_O1.jpg",
             "text": "等下",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/012_O2.jpg",
+            "imageSrc": "./d2_t2_012_O2.jpg",
             "text": "該下",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/012_O3.jpg",
+            "imageSrc": "./d2_t2_012_O3.jpg",
             "text": "頭下",
             "isCorrect": false
           }
@@ -22975,23 +22975,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/013_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/013_O.mp3",
         "questionText": "女：若爸摎𠊎共樣毋好食檨仔。 男：𠊎知啊！你買分𠊎食就好咧！ 女：請問，麼人盡有可能好食檨仔？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/013_Q.jpg",
+        "questionImg": "./d2_t2_013_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/013_O1.jpg",
+            "imageSrc": "./d2_t2_013_O1.jpg",
             "text": "倈仔",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/013_O2.jpg",
+            "imageSrc": "./d2_t2_013_O2.jpg",
             "text": "阿爸",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/013_O3.jpg",
+            "imageSrc": "./d2_t2_013_O3.jpg",
             "text": "阿姆",
             "isCorrect": false
           }
@@ -23001,23 +23001,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/014_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/014_O.mp3",
         "questionText": "女：阿公，𠊎愛去同學屋下打電動。 男：厥爸厥姆有同意無？ 女：請問阿公喊孫仔愛仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/014_Q.jpg",
+        "questionImg": "./d2_t2_014_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/014_O1.jpg",
+            "imageSrc": "./d2_t2_014_O1.jpg",
             "text": "愛知禮貌",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/014_O2.jpg",
+            "imageSrc": "./d2_t2_014_O2.jpg",
             "text": "愛知煞猛",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/014_O3.jpg",
+            "imageSrc": "./d2_t2_014_O3.jpg",
             "text": "愛有性格",
             "isCorrect": false
           }
@@ -23027,23 +23027,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/015_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/015_O.mp3",
         "questionText": "男：屋下恁無閒，你頭先走去哪位? 女：𠊎去銀行領錢。 男：請問細妹人去銀行吂?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/015_Q.jpg",
+        "questionImg": "./d2_t2_015_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/015_O1.jpg",
+            "imageSrc": "./d2_t2_015_O1.jpg",
             "text": "吂有閒好去",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/015_O2.jpg",
+            "imageSrc": "./d2_t2_015_O2.jpg",
             "text": "正想愛去",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/015_O3.jpg",
+            "imageSrc": "./d2_t2_015_O3.jpg",
             "text": "去轉來咧",
             "isCorrect": true
           }
@@ -23053,23 +23053,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/016_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/016_O.mp3",
         "questionText": "男：來來來！自家人，毋使細義，你先食。 女：毋怕、毋怕！等一下。 男：頂高个對話，下背哪隻選項正著？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/016_Q.jpg",
+        "questionImg": "./d2_t2_016_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/016_O1.jpg",
+            "imageSrc": "./d2_t2_016_O1.jpg",
             "text": "細妹仔先食",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/016_O2.jpg",
+            "imageSrc": "./d2_t2_016_O2.jpg",
             "text": "細倈仔先食",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/016_O3.jpg",
+            "imageSrc": "./d2_t2_016_O3.jpg",
             "text": "大家共下食",
             "isCorrect": true
           }
@@ -23079,23 +23079,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/017_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/017_O.mp3",
         "questionText": "男：媽！𠊎去公園捉寶可夢。 女：恁暗咧！你敢去就試看哪。 男：請問阿姆个意思係講仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/017_Q.jpg",
+        "questionImg": "./d2_t2_017_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/017_O1.jpg",
+            "imageSrc": "./d2_t2_017_O1.jpg",
             "text": "喊佢遽去",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/017_O2.jpg",
+            "imageSrc": "./d2_t2_017_O2.jpg",
             "text": "做毋得去",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/017_O3.jpg",
+            "imageSrc": "./d2_t2_017_O3.jpg",
             "text": "去試看哪",
             "isCorrect": false
           }
@@ -23105,23 +23105,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/018_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/018_O.mp3",
         "questionText": "女：阿福伯請食夜，你愛去無？ 男：無哦！𠊎愛看籃球比賽喲！ 女：請問籃球比賽哪時轉播？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/018_Q.jpg",
+        "questionImg": "./d2_t2_018_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/018_O1.jpg",
+            "imageSrc": "./d2_t2_018_O1.jpg",
             "text": "暗晡頭",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/018_O2.jpg",
+            "imageSrc": "./d2_t2_018_O2.jpg",
             "text": "下晝頭",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/018_O3.jpg",
+            "imageSrc": "./d2_t2_018_O3.jpg",
             "text": "朝晨頭",
             "isCorrect": false
           }
@@ -23131,23 +23131,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/019_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/019_O.mp3",
         "questionText": "男：做麼个阿華兩公婆會恁惜厥外甥仔？ 女：因為佢兜屋下無細人仔。 男：頂高个對話，係講阿華佢兜屋下仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/019_Q.jpg",
+        "questionImg": "./d2_t2_019_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/019_O1.jpg",
+            "imageSrc": "./d2_t2_019_O1.jpg",
             "text": "有降妺仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/019_O2.jpg",
+            "imageSrc": "./d2_t2_019_O2.jpg",
             "text": "有降倈仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/019_O3.jpg",
+            "imageSrc": "./d2_t2_019_O3.jpg",
             "text": "無倈仔無妹仔",
             "isCorrect": true
           }
@@ -23157,23 +23157,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/020_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/020_O.mp3",
         "questionText": "男：阿美，你有看着樹仔頂高个動物無? 女：有啊！尾膨膨、在樹仔頂高走上走下，盡得人惜。 男：請問佢兜看着个係麼个動物？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/020_Q.jpg",
+        "questionImg": "./d2_t2_020_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/020_O1.jpg",
+            "imageSrc": "./d2_t2_020_O1.jpg",
             "text": "膨尾鼠",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/020_O2.jpg",
+            "imageSrc": "./d2_t2_020_O2.jpg",
             "text": "貓熊",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/020_O3.jpg",
+            "imageSrc": "./d2_t2_020_O3.jpg",
             "text": "無尾熊",
             "isCorrect": false
           }
@@ -23183,23 +23183,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/021_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/021_O.mp3",
         "questionText": "男：這係朝晨正去菜園摘个，當萋喲。 女：好啊！𠊎愛買轉去煮湯。 男：請問細妹人最有可能買麼个東西？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/021_Q.jpg",
+        "questionImg": "./d2_t2_021_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/021_O1.jpg",
+            "imageSrc": "./d2_t2_021_O1.jpg",
             "text": "魚仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/021_O2.jpg",
+            "imageSrc": "./d2_t2_021_O2.jpg",
             "text": "苦瓜",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/021_O3.jpg",
+            "imageSrc": "./d2_t2_021_O3.jpg",
             "text": "番薯",
             "isCorrect": false
           }
@@ -23209,23 +23209,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/022_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/022_O.mp3",
         "questionText": "女：聽講佢這擺考試考着毋好。 男：難怪哦！𠊎看佢考試前還當在該搞手機。 女：請問這兩儕講个人仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/022_Q.jpg",
+        "questionImg": "./d2_t2_022_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/022_O1.jpg",
+            "imageSrc": "./d2_t2_022_O1.jpg",
             "text": "無認真",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/022_O2.jpg",
+            "imageSrc": "./d2_t2_022_O2.jpg",
             "text": "盡煞猛",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/022_O3.jpg",
+            "imageSrc": "./d2_t2_022_O3.jpg",
             "text": "運氣差",
             "isCorrect": false
           }
@@ -23235,23 +23235,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/023_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/023_O.mp3",
         "questionText": "男：𠊎火氣大个時節，食兩杯青草茶就好咧。 女：恁有效！𠊎乜愛來食兩杯。 男：請問細妺仔係麼个意思？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/023_Q.jpg",
+        "questionImg": "./d2_t2_023_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/023_O1.jpg",
+            "imageSrc": "./d2_t2_023_O1.jpg",
             "text": "阿𧩣佢",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/023_O2.jpg",
+            "imageSrc": "./d2_t2_023_O2.jpg",
             "text": "相信佢",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/023_O3.jpg",
+            "imageSrc": "./d2_t2_023_O3.jpg",
             "text": "毋信佢",
             "isCorrect": false
           }
@@ -23261,23 +23261,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/024_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/024_O.mp3",
         "questionText": "男：你个嘴恁甜，實在還得人惜哪！ 女：承蒙你恁會阿𧩣。 男：請問男仔人試着這細妹仔仰般形？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/024_Q.jpg",
+        "questionImg": "./d2_t2_024_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/024_O1.jpg",
+            "imageSrc": "./d2_t2_024_O1.jpg",
             "text": "好食甜个",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/024_O2.jpg",
+            "imageSrc": "./d2_t2_024_O2.jpg",
             "text": "嘴講無停",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/024_O3.jpg",
+            "imageSrc": "./d2_t2_024_O3.jpg",
             "text": "已會講話",
             "isCorrect": true
           }
@@ -23287,23 +23287,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/025_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/025_O.mp3",
         "questionText": "男：阿明嫂，恁早就自行車牽等，愛做麼个? 女：你看𠊎菜籃掛等，還毋知𠊎愛去哪喺？ 男：請問阿明嫂可能係愛去做麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/025_Q.jpg",
+        "questionImg": "./d2_t2_025_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/025_O1.jpg",
+            "imageSrc": "./d2_t2_025_O1.jpg",
             "text": "去買菜",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/025_O2.jpg",
+            "imageSrc": "./d2_t2_025_O2.jpg",
             "text": "去運動",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/025_O3.jpg",
+            "imageSrc": "./d2_t2_025_O3.jpg",
             "text": "去整車",
             "isCorrect": false
           }
@@ -23313,23 +23313,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/026_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/026_O.mp3",
         "questionText": "男：恁早！食飽吂？ 女：還吂咧！共下來去食啊！ 男：請問該兩儕愛共下去做麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/026_Q.jpg",
+        "questionImg": "./d2_t2_026_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/026_O1.jpg",
+            "imageSrc": "./d2_t2_026_O1.jpg",
             "text": "食晝",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/026_O2.jpg",
+            "imageSrc": "./d2_t2_026_O2.jpg",
             "text": "食朝",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/026_O3.jpg",
+            "imageSrc": "./d2_t2_026_O3.jpg",
             "text": "食夜",
             "isCorrect": false
           }
@@ -23339,23 +23339,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/027_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/027_O.mp3",
         "questionText": "男：阿菊，你个身體毋鬆爽係無？ 女：係呀！見擺天時一變，老症頭就擎起來。 男：請問阿菊个身體仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/027_Q.jpg",
+        "questionImg": "./d2_t2_027_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/027_O1.jpg",
+            "imageSrc": "./d2_t2_027_O1.jpg",
             "text": "已弱",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/027_O2.jpg",
+            "imageSrc": "./d2_t2_027_O2.jpg",
             "text": "已健",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/027_O3.jpg",
+            "imageSrc": "./d2_t2_027_O3.jpg",
             "text": "已砸",
             "isCorrect": false
           }
@@ -23365,23 +23365,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/028_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/028_O.mp3",
         "questionText": "男：時間差毋多咧！遽遽來去看大戲。 女：毋過，𠊎驚怕孫仔自家在屋下。 男：請問阿婆个心情仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/028_Q.jpg",
+        "questionImg": "./d2_t2_028_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/028_O1.jpg",
+            "imageSrc": "./d2_t2_028_O1.jpg",
             "text": "毋盼得",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/028_O2.jpg",
+            "imageSrc": "./d2_t2_028_O2.jpg",
             "text": "毋甘願",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/028_O3.jpg",
+            "imageSrc": "./d2_t2_028_O3.jpg",
             "text": "毋堵好",
             "isCorrect": false
           }
@@ -23391,23 +23391,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/029_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/029_O.mp3",
         "questionText": "男：𠊎愛點一號餐，阿芳你呢？ 女：摎你共樣！ 男：請問阿芳个意思係仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/029_Q.jpg",
+        "questionImg": "./d2_t2_029_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/029_O1.jpg",
+            "imageSrc": "./d2_t2_029_O1.jpg",
             "text": "愛點一號餐",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/029_O2.jpg",
+            "imageSrc": "./d2_t2_029_O2.jpg",
             "text": "無想愛食飯",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/029_O3.jpg",
+            "imageSrc": "./d2_t2_029_O3.jpg",
             "text": "食朋友个飯",
             "isCorrect": false
           }
@@ -23417,23 +23417,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/030_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/030_O.mp3",
         "questionText": "女：𠊎看你企就毋核，哪位艱苦係無？ 男：𠊎昨暗晡屙落粑，歸夜仔走便所。 女：請問細倈仔哪位痛？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/030_Q.jpg",
+        "questionImg": "./d2_t2_030_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/030_O1.jpg",
+            "imageSrc": "./d2_t2_030_O1.jpg",
             "text": "肚屎",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/030_O2.jpg",
+            "imageSrc": "./d2_t2_030_O2.jpg",
             "text": "腰骨",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/030_O3.jpg",
+            "imageSrc": "./d2_t2_030_O3.jpg",
             "text": "腳骨",
             "isCorrect": false
           }
@@ -23443,23 +23443,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/031_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/031_O.mp3",
         "questionText": "男：阿英，你摎𠊎扶好勢來，𠊎愛拿頂高个書。 女：愛細義毋好跢下來哦! 男：請問佢喊阿英扶等麼个東西?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/031_Q.jpg",
+        "questionImg": "./d2_t2_031_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/031_O1.jpg",
+            "imageSrc": "./d2_t2_031_O1.jpg",
             "text": "立著屏風",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/031_O2.jpg",
+            "imageSrc": "./d2_t2_031_O2.jpg",
             "text": "梯子",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/031_O3.jpg",
+            "imageSrc": "./d2_t2_031_O3.jpg",
             "text": "直立的竹竿",
             "isCorrect": false
           }
@@ -23469,23 +23469,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/032_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/032_O.mp3",
         "questionText": "女：等恁久車仔還吂來，怕係慢分咧。 男：路項全全車仔，看來怕係塞車哦！ 女：請問佢兜愛坐哪種交通工具？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/032_Q.jpg",
+        "questionImg": "./d2_t2_032_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/032_O1.jpg",
+            "imageSrc": "./d2_t2_032_O1.jpg",
             "text": "火車",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/032_O2.jpg",
+            "imageSrc": "./d2_t2_032_O2.jpg",
             "text": "客運",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/032_O3.jpg",
+            "imageSrc": "./d2_t2_032_O3.jpg",
             "text": "捷運",
             "isCorrect": false
           }
@@ -23495,23 +23495,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/033_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/033_O.mp3",
         "questionText": "男：阿芳，今晡日著到恁靚，愛去哪？ 女：阿光叔討心臼，愛來去分佢請。 男：請問阿芳愛做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/033_Q.jpg",
+        "questionImg": "./d2_t2_033_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/033_O1.jpg",
+            "imageSrc": "./d2_t2_033_O1.jpg",
             "text": "請人客",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/033_O2.jpg",
+            "imageSrc": "./d2_t2_033_O2.jpg",
             "text": "去食酒",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/033_O3.jpg",
+            "imageSrc": "./d2_t2_033_O3.jpg",
             "text": "看阿舅",
             "isCorrect": false
           }
@@ -23521,23 +23521,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/034_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/034_O.mp3",
         "questionText": "女：恁多書愛仰般拿呢? 男：該就䌈起來拿啊！ 女：請問佢愛用着麼个東西？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/034_Q.jpg",
+        "questionImg": "./d2_t2_034_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/034_O1.jpg",
+            "imageSrc": "./d2_t2_034_O1.jpg",
             "text": "索仔",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/034_O2.jpg",
+            "imageSrc": "./d2_t2_034_O2.jpg",
             "text": "箱仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/034_O3.jpg",
+            "imageSrc": "./d2_t2_034_O3.jpg",
             "text": "袋仔",
             "isCorrect": false
           }
@@ -23547,23 +23547,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/035_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/035_O.mp3",
         "questionText": "女：頭家！一碗米粉，在這位食。 男：裡背自家尋位仔坐，等下就來咧。 女：請問這段對話在哪位聽得着？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/035_Q.jpg",
+        "questionImg": "./d2_t2_035_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/035_O1.jpg",
+            "imageSrc": "./d2_t2_035_O1.jpg",
             "text": "雜貨店",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/035_O2.jpg",
+            "imageSrc": "./d2_t2_035_O2.jpg",
             "text": "米店",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/035_O3.jpg",
+            "imageSrc": "./d2_t2_035_O3.jpg",
             "text": "麵店",
             "isCorrect": true
           }
@@ -23573,23 +23573,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/036_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/036_O.mp3",
         "questionText": "女：這車柚仔今晡日你定著愛送到人客手項去。 男：頭家娘，𠊎知，你放心。 女：請問細倈人係做麼个頭路个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/036_Q.jpg",
+        "questionImg": "./d2_t2_036_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/036_O1.jpg",
+            "imageSrc": "./d2_t2_036_O1.jpg",
             "text": "送信仔个",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/036_O2.jpg",
+            "imageSrc": "./d2_t2_036_O2.jpg",
             "text": "種柚仔个",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/036_O3.jpg",
+            "imageSrc": "./d2_t2_036_O3.jpg",
             "text": "送貨个",
             "isCorrect": true
           }
@@ -23599,23 +23599,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/037_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/037_O.mp3",
         "questionText": "男：𠊎跈毋着咧，愛尞一下正做得。 女：過行一下仔，頭前有一隻涼亭。 男：請問佢兜在該做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/037_Q.jpg",
+        "questionImg": "./d2_t2_037_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/037_O1.jpg",
+            "imageSrc": "./d2_t2_037_O1.jpg",
             "text": "走追仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/037_O2.jpg",
+            "imageSrc": "./d2_t2_037_O2.jpg",
             "text": "蹶山",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/037_O3.jpg",
+            "imageSrc": "./d2_t2_037_O3.jpg",
             "text": "行棋",
             "isCorrect": false
           }
@@ -23625,23 +23625,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/038_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/038_O.mp3",
         "questionText": "男：先生，𠊎个電腦字打毋出來！ 女：仰會恁樣？𠊎試撳看哪！ 男：請問可能係麼个壞忒咧？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/038_Q.jpg",
+        "questionImg": "./d2_t2_038_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/038_O1.jpg",
+            "imageSrc": "./d2_t2_038_O1.jpg",
             "text": "滑鼠",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/038_O2.jpg",
+            "imageSrc": "./d2_t2_038_O2.jpg",
             "text": "螢幕",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/038_O3.jpg",
+            "imageSrc": "./d2_t2_038_O3.jpg",
             "text": "鍵盤",
             "isCorrect": true
           }
@@ -23651,23 +23651,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/039_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/039_O.mp3",
         "questionText": "女：這罐藥水兩點鐘點一擺，愛記得哦！ 男：好，𠊎知，承蒙你！ 女：請問細倈仔个病係看哪科？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/039_Q.jpg",
+        "questionImg": "./d2_t2_039_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/039_O1.jpg",
+            "imageSrc": "./d2_t2_039_O1.jpg",
             "text": "內科",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/039_O2.jpg",
+            "imageSrc": "./d2_t2_039_O2.jpg",
             "text": "骨科",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/039_O3.jpg",
+            "imageSrc": "./d2_t2_039_O3.jpg",
             "text": "眼科",
             "isCorrect": true
           }
@@ -23677,23 +23677,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/040_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/040_O.mp3",
         "questionText": "女：咦？你今晡日仰請假呢？ 男：𠊎去醫院看𠊎正出世个妹仔啊。 女：請問男仔人今晡日做麼个無上班？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/040_Q.jpg",
+        "questionImg": "./d2_t2_040_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/040_O1.jpg",
+            "imageSrc": "./d2_t2_040_O1.jpg",
             "text": "厥妺仔發病咧",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/040_O2.jpg",
+            "imageSrc": "./d2_t2_040_O2.jpg",
             "text": "厥老妹降咧",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/040_O3.jpg",
+            "imageSrc": "./d2_t2_040_O3.jpg",
             "text": "厥餔娘降咧",
             "isCorrect": true
           }
@@ -23703,23 +23703,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/041_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/041_O.mp3",
         "questionText": "男：來來來！續下來這題个獎品係自行車哦!有麼人愛回答無? 女：𠊎𠊎𠊎!答案係「佛光山」，著無? 男：請問佢兜在該做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/041_Q.jpg",
+        "questionImg": "./d2_t2_041_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/041_O1.jpg",
+            "imageSrc": "./d2_t2_041_O1.jpg",
             "text": "打嘴鼓",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/041_O2.jpg",
+            "imageSrc": "./d2_t2_041_O2.jpg",
             "text": "揣令仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/041_O3.jpg",
+            "imageSrc": "./d2_t2_041_O3.jpg",
             "text": "鬥鬧熱",
             "isCorrect": false
           }
@@ -23729,23 +23729,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/042_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/042_O.mp3",
         "questionText": "女：仰會愛食一餐飯全尋無位仔好停。 男：算咧，毋使下去，𫣆俚駛轉屋下正來食。 女：請問這段對話係在哪位講个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/042_Q.jpg",
+        "questionImg": "./d2_t2_042_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/042_O1.jpg",
+            "imageSrc": "./d2_t2_042_O1.jpg",
             "text": "餐廳",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/042_O2.jpg",
+            "imageSrc": "./d2_t2_042_O2.jpg",
             "text": "公園",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/042_O3.jpg",
+            "imageSrc": "./d2_t2_042_O3.jpg",
             "text": "車肚",
             "isCorrect": true
           }
@@ -23755,23 +23755,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/043_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/043_O.mp3",
         "questionText": "男：𠊎正慢到一下仔定定，你做麼个恁閼？ 女：麼人喊你逐擺就恁仰？ 男：請問細妹仔閼細倈仔麼个事情？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/043_Q.jpg",
+        "questionImg": "./d2_t2_043_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/043_O1.jpg",
+            "imageSrc": "./d2_t2_043_O1.jpg",
             "text": "慢到一擺",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/043_O2.jpg",
+            "imageSrc": "./d2_t2_043_O2.jpg",
             "text": "輒常慢到",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/043_O3.jpg",
+            "imageSrc": "./d2_t2_043_O3.jpg",
             "text": "逐擺無到",
             "isCorrect": false
           }
@@ -23781,23 +23781,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/044_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/044_O.mp3",
         "questionText": "女：阿明，𠊎肚屎當痛，你愛出來吂? 男：會淨咧!𠊎坐加一下就好。 女：請問阿明在該做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/044_Q.jpg",
+        "questionImg": "./d2_t2_044_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/044_O1.jpg",
+            "imageSrc": "./d2_t2_044_O1.jpg",
             "text": "洗牙齒",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/044_O2.jpg",
+            "imageSrc": "./d2_t2_044_O2.jpg",
             "text": "拚掃",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/044_O3.jpg",
+            "imageSrc": "./d2_t2_044_O3.jpg",
             "text": "屙屎",
             "isCorrect": true
           }
@@ -23807,23 +23807,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/045_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/045_O.mp3",
         "questionText": "男：媽，𠊎摎相片傳分阿婆看好無? 女：好啊！網路愛記得開哦！ 男：請問細倈仔係用麼个傳相片？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/045_Q.jpg",
+        "questionImg": "./d2_t2_045_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/045_O1.jpg",
+            "imageSrc": "./d2_t2_045_O1.jpg",
             "text": "錄影機",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/045_O2.jpg",
+            "imageSrc": "./d2_t2_045_O2.jpg",
             "text": "手機",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/045_O3.jpg",
+            "imageSrc": "./d2_t2_045_O3.jpg",
             "text": "電話",
             "isCorrect": false
           }
@@ -23833,23 +23833,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/046_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/046_O.mp3",
         "questionText": "女：來喲！來喲！皮包仔一隻一千個銀！ 男：吓～路邊攤个東西還愛恁多錢哦？ 女：請問男仔人試着這皮包仔个價數仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/046_Q.jpg",
+        "questionImg": "./d2_t2_046_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/046_O1.jpg",
+            "imageSrc": "./d2_t2_046_O1.jpg",
             "text": "便宜",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/046_O2.jpg",
+            "imageSrc": "./d2_t2_046_O2.jpg",
             "text": "忒貴",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/046_O3.jpg",
+            "imageSrc": "./d2_t2_046_O3.jpg",
             "text": "堵好",
             "isCorrect": false
           }
@@ -23859,23 +23859,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/047_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/047_O.mp3",
         "questionText": "男：媽，𠊎碗肚划到淨淨咧！ 女：還會喲！全無打爽東西。 男：請問佢兜這下在該做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/047_Q.jpg",
+        "questionImg": "./d2_t2_047_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/047_O1.jpg",
+            "imageSrc": "./d2_t2_047_O1.jpg",
             "text": "食飯",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/047_O2.jpg",
+            "imageSrc": "./d2_t2_047_O2.jpg",
             "text": "拚掃",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/047_O3.jpg",
+            "imageSrc": "./d2_t2_047_O3.jpg",
             "text": "洗碗",
             "isCorrect": false
           }
@@ -23885,23 +23885,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/048_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/048_O.mp3",
         "questionText": "男：仰風搓吂來，雞卵就恁貴呢? 女：一下冷一下熱，雞仔嗄毋生卵。 男：請問雞卵做麼个會起價？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/048_Q.jpg",
+        "questionImg": "./d2_t2_048_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/048_O1.jpg",
+            "imageSrc": "./d2_t2_048_O1.jpg",
             "text": "天時毋好",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/048_O2.jpg",
+            "imageSrc": "./d2_t2_048_O2.jpg",
             "text": "風搓來咧",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/048_O3.jpg",
+            "imageSrc": "./d2_t2_048_O3.jpg",
             "text": "雞仔有病",
             "isCorrect": false
           }
@@ -23911,23 +23911,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/049_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/049_O.mp3",
         "questionText": "女：這隻當靚，𠊎有中意！ 男：毋好啦，你愛吊个衫褲恁多呢！哪放得落? 女：請問佢兜愛買麼个東西﹖",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/049_Q.jpg",
+        "questionImg": "./d2_t2_049_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/049_O1.jpg",
+            "imageSrc": "./d2_t2_049_O1.jpg",
             "text": "衫櫥",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/049_O2.jpg",
+            "imageSrc": "./d2_t2_049_O2.jpg",
             "text": "洗衫機",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/049_O3.jpg",
+            "imageSrc": "./d2_t2_049_O3.jpg",
             "text": "衫吊仔",
             "isCorrect": false
           }
@@ -23937,23 +23937,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/050_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/050_O.mp3",
         "questionText": "女：阿爸！𠊎个頸根當毋鬆爽。 男：你哦！歸日仔頭犁犁手緊畫，連目珠乜會看壞忒。 女：請問這細妹人輒輒做麼个正會毋鬆爽﹖",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/050_Q.jpg",
+        "questionImg": "./d2_t2_050_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/050_O1.jpg",
+            "imageSrc": "./d2_t2_050_O1.jpg",
             "text": "看電視",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/050_O2.jpg",
+            "imageSrc": "./d2_t2_050_O2.jpg",
             "text": "搞手機",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/050_O3.jpg",
+            "imageSrc": "./d2_t2_050_O3.jpg",
             "text": "看時錶",
             "isCorrect": false
           }
@@ -23963,23 +23963,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/051_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/051_O.mp3",
         "questionText": "男：𠊎食已多、啉已多、尿已多，又緊瘦下來。 女：來驗一下，無定著係糖尿病哦！ 男：請問這對話可能發生在哪？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/051_Q.jpg",
+        "questionImg": "./d2_t2_051_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/051_O1.jpg",
+            "imageSrc": "./d2_t2_051_O1.jpg",
             "text": "醫院",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/051_O2.jpg",
+            "imageSrc": "./d2_t2_051_O2.jpg",
             "text": "教室",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/051_O3.jpg",
+            "imageSrc": "./d2_t2_051_O3.jpg",
             "text": "食飯間",
             "isCorrect": false
           }
@@ -23989,23 +23989,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/052_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/052_O.mp3",
         "questionText": "男：落恁大水！鞋會溼忒。 女：毋使驚，𠊎早就有準備咧！ 男：請問細妹仔有準備麼个鞋？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/052_Q.jpg",
+        "questionImg": "./d2_t2_052_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/052_O1.jpg",
+            "imageSrc": "./d2_t2_052_O1.jpg",
             "text": "水靴",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/052_O2.jpg",
+            "imageSrc": "./d2_t2_052_O2.jpg",
             "text": "靴仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/052_O3.jpg",
+            "imageSrc": "./d2_t2_052_O3.jpg",
             "text": "球鞋",
             "isCorrect": false
           }
@@ -24015,23 +24015,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/053_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/053_O.mp3",
         "questionText": "女：還孤盲！𠊎个雞子分鷂婆扡走一隻咧。 男：難怪看你面臭臭仔。 女：請問細妹人試着鷂婆係仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/053_Q.jpg",
+        "questionImg": "./d2_t2_053_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/053_O1.jpg",
+            "imageSrc": "./d2_t2_053_O1.jpg",
             "text": "得人驚",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/053_O2.jpg",
+            "imageSrc": "./d2_t2_053_O2.jpg",
             "text": "得人惱",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/053_O3.jpg",
+            "imageSrc": "./d2_t2_053_O3.jpg",
             "text": "得人惜",
             "isCorrect": false
           }
@@ -24041,23 +24041,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/054_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/054_O.mp3",
         "questionText": "男：當晝想愛食麼个？ 女：坐車仔坐到暈暈，會嘔會嘔咧。 男：請問婦人家个意思係麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/054_Q.jpg",
+        "questionImg": "./d2_t2_054_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/054_O1.jpg",
+            "imageSrc": "./d2_t2_054_O1.jpg",
             "text": "食忒飽",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/054_O2.jpg",
+            "imageSrc": "./d2_t2_054_O2.jpg",
             "text": "無想食",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/054_O3.jpg",
+            "imageSrc": "./d2_t2_054_O3.jpg",
             "text": "肚屎枵",
             "isCorrect": false
           }
@@ -24067,23 +24067,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/055_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/055_O.mp3",
         "questionText": "女：頭家，這頂帽仔幾多錢？ 男：堵好百五個銀。 女：請問這頂帽仔幾多錢？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/055_Q.jpg",
+        "questionImg": "./d2_t2_055_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/055_O1.jpg",
+            "imageSrc": "./d2_t2_055_O1.jpg",
             "text": "五十個銀",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/055_O2.jpg",
+            "imageSrc": "./d2_t2_055_O2.jpg",
             "text": "一百個銀",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/055_O3.jpg",
+            "imageSrc": "./d2_t2_055_O3.jpg",
             "text": "一百五十個銀",
             "isCorrect": true
           }
@@ -24093,23 +24093,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/056_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/056_O.mp3",
         "questionText": "女：阿松哥講佢分你一百萬。 男：無影个，半角銀乜無。 女：請問細倈人講阿松哥仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/056_Q.jpg",
+        "questionImg": "./d2_t2_056_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/056_O1.jpg",
+            "imageSrc": "./d2_t2_056_O1.jpg",
             "text": "騙人",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/056_O2.jpg",
+            "imageSrc": "./d2_t2_056_O2.jpg",
             "text": "餳人",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/056_O3.jpg",
+            "imageSrc": "./d2_t2_056_O3.jpg",
             "text": "嚇人",
             "isCorrect": false
           }
@@ -24119,23 +24119,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/057_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/057_O.mp3",
         "questionText": "女：愛煮飯咧，蕹菜正摘啊轉來。 男：𠊎先摎你𢯭手，你等下正拿去洗。 女：請問細倈仔愛𢯭手做麼个事情？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/057_Q.jpg",
+        "questionImg": "./d2_t2_057_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/057_O1.jpg",
+            "imageSrc": "./d2_t2_057_O1.jpg",
             "text": "煮菜",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/057_O2.jpg",
+            "imageSrc": "./d2_t2_057_O2.jpg",
             "text": "擇菜",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/057_O3.jpg",
+            "imageSrc": "./d2_t2_057_O3.jpg",
             "text": "洗菜",
             "isCorrect": false
           }
@@ -24145,23 +24145,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/058_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/058_O.mp3",
         "questionText": "男：阿英，若爸轉吂？ 女：𠊎爸當晝正會轉。 男：請問佢兩儕係在麼个時節講話？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/058_Q.jpg",
+        "questionImg": "./d2_t2_058_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/058_O1.jpg",
+            "imageSrc": "./d2_t2_058_O1.jpg",
             "text": "朝晨頭",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/058_O2.jpg",
+            "imageSrc": "./d2_t2_058_O2.jpg",
             "text": "下晝頭",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/058_O3.jpg",
+            "imageSrc": "./d2_t2_058_O3.jpg",
             "text": "暗晡頭",
             "isCorrect": false
           }
@@ -24171,23 +24171,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/059_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/059_O.mp3",
         "questionText": "女：拜託你韶早來𠊎屋下𢯭手㓾雞仔好無？ 男：吓！講着挷毛，𠊎就盡驚！ 女：請問細倈仔想來𢯭手無？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/059_Q.jpg",
+        "questionImg": "./d2_t2_059_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/059_O1.jpg",
+            "imageSrc": "./d2_t2_059_O1.jpg",
             "text": "有想",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/059_O2.jpg",
+            "imageSrc": "./d2_t2_059_O2.jpg",
             "text": "毋想",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/059_O3.jpg",
+            "imageSrc": "./d2_t2_059_O3.jpg",
             "text": "盡想",
             "isCorrect": false
           }
@@ -24197,23 +24197,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/060_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/060_O.mp3",
         "questionText": "男：鑊頭个水忒多咧。 女：𠊎去舀忒一息。 男：請問細妹仔會用着麼个東西？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/060_Q.jpg",
+        "questionImg": "./d2_t2_060_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/060_O1.jpg",
+            "imageSrc": "./d2_t2_060_O1.jpg",
             "text": "刷仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/060_O2.jpg",
+            "imageSrc": "./d2_t2_060_O2.jpg",
             "text": "杓仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/060_O3.jpg",
+            "imageSrc": "./d2_t2_060_O3.jpg",
             "text": "索仔",
             "isCorrect": false
           }
@@ -24223,23 +24223,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/061_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/061_O.mp3",
         "questionText": "男：坐雲霄飛車盡生趣。 女：聽着𠊎个腳就軟忒咧。 男：請問細妹仔最有可能係仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/061_Q.jpg",
+        "questionImg": "./d2_t2_061_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/061_O1.jpg",
+            "imageSrc": "./d2_t2_061_O1.jpg",
             "text": "會驚",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/061_O2.jpg",
+            "imageSrc": "./d2_t2_061_O2.jpg",
             "text": "毋驚",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/061_O3.jpg",
+            "imageSrc": "./d2_t2_061_O3.jpg",
             "text": "莫驚",
             "isCorrect": false
           }
@@ -24249,23 +24249,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/062_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/062_O.mp3",
         "questionText": "男：手機見擺就聽毋清楚。 女：停忒佢好咧。 男：請問手機愛停忒个理由係麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/062_Q.jpg",
+        "questionImg": "./d2_t2_062_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/062_O1.jpg",
+            "imageSrc": "./d2_t2_062_O1.jpg",
             "text": "收訊毋好",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/062_O2.jpg",
+            "imageSrc": "./d2_t2_062_O2.jpg",
             "text": "型款毋靚",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/062_O3.jpg",
+            "imageSrc": "./d2_t2_062_O3.jpg",
             "text": "面板忒細",
             "isCorrect": false
           }
@@ -24275,23 +24275,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/063_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/063_O.mp3",
         "questionText": "男：𠊎想送妹仔去美國學英文。 女：好啊！七月學校放尞，差毋多有兩隻月時間做得去學。 男：請問佢兩公婆計劃哪時送妹仔去美國？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/063_Q.jpg",
+        "questionImg": "./d2_t2_063_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/063_O1.jpg",
+            "imageSrc": "./d2_t2_063_O1.jpg",
             "text": "暑假",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/063_O2.jpg",
+            "imageSrc": "./d2_t2_063_O2.jpg",
             "text": "寒假",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/063_O3.jpg",
+            "imageSrc": "./d2_t2_063_O3.jpg",
             "text": "春假",
             "isCorrect": false
           }
@@ -24301,23 +24301,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/064_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/064_O.mp3",
         "questionText": "女1：𠊎食毋落，斯想愛食酸个東西。 女2：係啦！發子个人大部分就會恁樣。 男：請問細妹仔做麼个會食毋落？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/064_Q.jpg",
+        "questionImg": "./d2_t2_064_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/064_O1.jpg",
+            "imageSrc": "./d2_t2_064_O1.jpg",
             "text": "發病仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/064_O2.jpg",
+            "imageSrc": "./d2_t2_064_O2.jpg",
             "text": "有身項",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/064_O3.jpg",
+            "imageSrc": "./d2_t2_064_O3.jpg",
             "text": "食飽咧",
             "isCorrect": false
           }
@@ -24327,23 +24327,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/065_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/065_O.mp3",
         "questionText": "男：禮拜日𫣆俚來去騎自行車好無？ 女：好啊！毋過𠊎个帽仔壞忒咧，有哪位好借無？ 男：請問細妹仔想愛做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/065_Q.jpg",
+        "questionImg": "./d2_t2_065_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/065_O1.jpg",
+            "imageSrc": "./d2_t2_065_O1.jpg",
             "text": "整安全帽",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/065_O2.jpg",
+            "imageSrc": "./d2_t2_065_O2.jpg",
             "text": "借安全帽",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/065_O3.jpg",
+            "imageSrc": "./d2_t2_065_O3.jpg",
             "text": "整自行車",
             "isCorrect": false
           }
@@ -24353,23 +24353,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/066_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/066_O.mp3",
         "questionText": "女：若妹仔緊大緊靚囉！ 男：無影哪！細人仔肯聽話就好。 女：請問阿爸試着細人仔愛仰般較好？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/066_Q.jpg",
+        "questionImg": "./d2_t2_066_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/066_O1.jpg",
+            "imageSrc": "./d2_t2_066_O1.jpg",
             "text": "愛靚",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/066_O2.jpg",
+            "imageSrc": "./d2_t2_066_O2.jpg",
             "text": "愛乖",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/066_O3.jpg",
+            "imageSrc": "./d2_t2_066_O3.jpg",
             "text": "愛精",
             "isCorrect": false
           }
@@ -24379,23 +24379,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/067_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/067_O.mp3",
         "questionText": "女：阿興牯！時間已及囉！車仔無等人，遽遽去！ 男：阿姆！𠊎知啦！𠊎來得掣啦！ 女：請問阿興牯愛去做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/067_Q.jpg",
+        "questionImg": "./d2_t2_067_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/067_O1.jpg",
+            "imageSrc": "./d2_t2_067_O1.jpg",
             "text": "騎車仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/067_O2.jpg",
+            "imageSrc": "./d2_t2_067_O2.jpg",
             "text": "赴車仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/067_O3.jpg",
+            "imageSrc": "./d2_t2_067_O3.jpg",
             "text": "整車仔",
             "isCorrect": false
           }
@@ -24405,23 +24405,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/068_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/068_O.mp3",
         "questionText": "女：你毋係講你發燒咩？仰還來呢？ 男：正略略仔定定，泅水怕麼个？ 女：請問細妹仔講這話个意思係麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/068_Q.jpg",
+        "questionImg": "./d2_t2_068_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/068_O1.jpg",
+            "imageSrc": "./d2_t2_068_O1.jpg",
             "text": "泅水會引起發燒",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/068_O2.jpg",
+            "imageSrc": "./d2_t2_068_O2.jpg",
             "text": "發燒無影響泅水",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/068_O3.jpg",
+            "imageSrc": "./d2_t2_068_O3.jpg",
             "text": "發燒做毋得泅水",
             "isCorrect": true
           }
@@ -24431,23 +24431,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/069_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/069_O.mp3",
         "questionText": "女：阿興牯！愛記得做資源回收哦！ 男：阿姆！𠊎知啦！ 女：請問阿興牯可能會拿哪項東西去做回收？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/069_Q.jpg",
+        "questionImg": "./d2_t2_069_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/069_O1.jpg",
+            "imageSrc": "./d2_t2_069_O1.jpg",
             "text": "牛乳",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/069_O2.jpg",
+            "imageSrc": "./d2_t2_069_O2.jpg",
             "text": "垃圾",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/069_O3.jpg",
+            "imageSrc": "./d2_t2_069_O3.jpg",
             "text": "酒盎",
             "isCorrect": true
           }
@@ -24457,23 +24457,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/070_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/070_O.mp3",
         "questionText": "女：還慶哪！桌頂伸恁多飯菜，全分你食淨淨。 男：唉！𠊎朝晨無閒到這下正食飯。 女：請問這細倈仔係仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/070_Q.jpg",
+        "questionImg": "./d2_t2_070_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/070_O1.jpg",
+            "imageSrc": "./d2_t2_070_O1.jpg",
             "text": "嘴燥",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/070_O2.jpg",
+            "imageSrc": "./d2_t2_070_O2.jpg",
             "text": "肚屎枵",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/070_O3.jpg",
+            "imageSrc": "./d2_t2_070_O3.jpg",
             "text": "當悿",
             "isCorrect": false
           }
@@ -24483,23 +24483,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/071_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/071_O.mp3",
         "questionText": "男：阿美，透當晝來，食飽吂？ 女：還吂食哦！就等分你請咩。 男：請問佢可能請阿美食哪餐？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/071_Q.jpg",
+        "questionImg": "./d2_t2_071_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/071_O1.jpg",
+            "imageSrc": "./d2_t2_071_O1.jpg",
             "text": "食朝",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/071_O2.jpg",
+            "imageSrc": "./d2_t2_071_O2.jpg",
             "text": "食晝",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/071_O3.jpg",
+            "imageSrc": "./d2_t2_071_O3.jpg",
             "text": "食夜",
             "isCorrect": false
           }
@@ -24509,23 +24509,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/072_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/072_O.mp3",
         "questionText": "男：下隻月阿哥愛去日本尞幾日仔。 女：係喲，恁好哦！ 男：請問阿哥去日本做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/072_Q.jpg",
+        "questionImg": "./d2_t2_072_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/072_O1.jpg",
+            "imageSrc": "./d2_t2_072_O1.jpg",
             "text": "讀書",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/072_O2.jpg",
+            "imageSrc": "./d2_t2_072_O2.jpg",
             "text": "旅行",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/072_O3.jpg",
+            "imageSrc": "./d2_t2_072_O3.jpg",
             "text": "出差",
             "isCorrect": false
           }
@@ -24535,23 +24535,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/073_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/073_O.mp3",
         "questionText": "女：阿三哥！運動會你參加哪項比賽？ 男：𠊎參加大隊接力啦！ 女：請問阿三哥在運動會參加麼个比賽？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/073_Q.jpg",
+        "questionImg": "./d2_t2_073_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/073_O1.jpg",
+            "imageSrc": "./d2_t2_073_O1.jpg",
             "text": "挷大索",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/073_O2.jpg",
+            "imageSrc": "./d2_t2_073_O2.jpg",
             "text": "走追仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/073_O3.jpg",
+            "imageSrc": "./d2_t2_073_O3.jpg",
             "text": "閃避球",
             "isCorrect": false
           }
@@ -24561,23 +24561,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/074_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/074_O.mp3",
         "questionText": "男：你看，佢在該看電視，看到目珠瞇瞇緊頷頭。 女：係啊！還生趣喲！ 男：請問該人看電視看到仰般咧？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/074_Q.jpg",
+        "questionImg": "./d2_t2_074_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/074_O1.jpg",
+            "imageSrc": "./d2_t2_074_O1.jpg",
             "text": "啄目睡",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/074_O2.jpg",
+            "imageSrc": "./d2_t2_074_O2.jpg",
             "text": "當認真",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/074_O3.jpg",
+            "imageSrc": "./d2_t2_074_O3.jpg",
             "text": "笑咪咪",
             "isCorrect": false
           }
@@ -24587,23 +24587,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/075_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/075_O.mp3",
         "questionText": "男：阿滿，手腳較遽兜，係無，等下就無菜哩喲。 女：𠊎字吂寫忒，你摎𠊎留滴仔菜好啦。 男：請問細倈仔喊細妹仔做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/075_Q.jpg",
+        "questionImg": "./d2_t2_075_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/075_O1.jpg",
+            "imageSrc": "./d2_t2_075_O1.jpg",
             "text": "去煮菜",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/075_O2.jpg",
+            "imageSrc": "./d2_t2_075_O2.jpg",
             "text": "去賣菜",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/075_O3.jpg",
+            "imageSrc": "./d2_t2_075_O3.jpg",
             "text": "去食飯",
             "isCorrect": true
           }
@@ -24613,23 +24613,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/076_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/076_O.mp3",
         "questionText": "男：聽講這位有畜羊仔、雞仔還有鴨仔。 女：又還有種已多果子！ 男：請問佢兜最有可能在哪位？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/076_Q.jpg",
+        "questionImg": "./d2_t2_076_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/076_O1.jpg",
+            "imageSrc": "./d2_t2_076_O1.jpg",
             "text": "農園",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/076_O2.jpg",
+            "imageSrc": "./d2_t2_076_O2.jpg",
             "text": "醫院",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/076_O3.jpg",
+            "imageSrc": "./d2_t2_076_O3.jpg",
             "text": "學校",
             "isCorrect": false
           }
@@ -24639,23 +24639,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/077_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/077_O.mp3",
         "questionText": "女：今晡日个豬腸炒薑絲還好食哦！ 男：係啊！因為佢酸醋落到已堵好。 女：請問佢兜對哪項菜試着仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/077_Q.jpg",
+        "questionImg": "./d2_t2_077_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/077_O1.jpg",
+            "imageSrc": "./d2_t2_077_O1.jpg",
             "text": "有罅辣",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/077_O2.jpg",
+            "imageSrc": "./d2_t2_077_O2.jpg",
             "text": "有合味",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/077_O3.jpg",
+            "imageSrc": "./d2_t2_077_O3.jpg",
             "text": "有罅鹹",
             "isCorrect": false
           }
@@ -24665,23 +24665,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/078_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/078_O.mp3",
         "questionText": "男：你愛去做麼个？ 女：𠊎愛去買筆、字簿仔還有參考書。 男：請問細妹仔愛去哪位買？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/078_Q.jpg",
+        "questionImg": "./d2_t2_078_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/078_O1.jpg",
+            "imageSrc": "./d2_t2_078_O1.jpg",
             "text": "藥房",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/078_O2.jpg",
+            "imageSrc": "./d2_t2_078_O2.jpg",
             "text": "書店",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/078_O3.jpg",
+            "imageSrc": "./d2_t2_078_O3.jpg",
             "text": "布店",
             "isCorrect": false
           }
@@ -24691,23 +24691,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/079_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/079_O.mp3",
         "questionText": "女：阿明个性好停動，阿華就較恬靜。 男：係啊，𠊎見擺來就無看着阿明。 女：請問阿明可能去做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/079_Q.jpg",
+        "questionImg": "./d2_t2_079_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/079_O1.jpg",
+            "imageSrc": "./d2_t2_079_O1.jpg",
             "text": "看書",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/079_O2.jpg",
+            "imageSrc": "./d2_t2_079_O2.jpg",
             "text": "打球仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/079_O3.jpg",
+            "imageSrc": "./d2_t2_079_O3.jpg",
             "text": "寫大字",
             "isCorrect": false
           }
@@ -24717,23 +24717,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/080_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/080_O.mp3",
         "questionText": "男：禮拜日𠊎學校愛運動會。 女：第二日有補假無？ 男：請問細妹仔想个補假係哪量時?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/080_Q.jpg",
+        "questionImg": "./d2_t2_080_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/080_O1.jpg",
+            "imageSrc": "./d2_t2_080_O1.jpg",
             "text": "星期日",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/080_O2.jpg",
+            "imageSrc": "./d2_t2_080_O2.jpg",
             "text": "星期一",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/080_O3.jpg",
+            "imageSrc": "./d2_t2_080_O3.jpg",
             "text": "星期二",
             "isCorrect": false
           }
@@ -24743,23 +24743,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/081_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/081_O.mp3",
         "questionText": "男：你愛去逛街係無？ 女：𠊎愛去看電影，順續食夜正轉。 男：請問細妹仔主要去做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/081_Q.jpg",
+        "questionImg": "./d2_t2_081_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/081_O1.jpg",
+            "imageSrc": "./d2_t2_081_O1.jpg",
             "text": "逛街",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/081_O2.jpg",
+            "imageSrc": "./d2_t2_081_O2.jpg",
             "text": "看電影",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/081_O3.jpg",
+            "imageSrc": "./d2_t2_081_O3.jpg",
             "text": "食夜",
             "isCorrect": false
           }
@@ -24769,23 +24769,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/082_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/082_O.mp3",
         "questionText": "男：這下當時行騎自行車。 女：係咩，毋管老嫩大細就好這項運動。 男：請問好騎自行車个係哪種人？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/082_Q.jpg",
+        "questionImg": "./d2_t2_082_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/082_O1.jpg",
+            "imageSrc": "./d2_t2_082_O1.jpg",
             "text": "無分年紀",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/082_O2.jpg",
+            "imageSrc": "./d2_t2_082_O2.jpg",
             "text": "較年長个",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/082_O3.jpg",
+            "imageSrc": "./d2_t2_082_O3.jpg",
             "text": "較後生个",
             "isCorrect": false
           }
@@ -24795,23 +24795,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/083_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/083_O.mp3",
         "questionText": "男：阿姆！好食飯吂? 女：還吂好！過等加一下。 男：請問這餐飯準備到仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/083_Q.jpg",
+        "questionImg": "./d2_t2_083_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/083_O1.jpg",
+            "imageSrc": "./d2_t2_083_O1.jpg",
             "text": "無準備",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/083_O2.jpg",
+            "imageSrc": "./d2_t2_083_O2.jpg",
             "text": "會好咧",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/083_O3.jpg",
+            "imageSrc": "./d2_t2_083_O3.jpg",
             "text": "準備好咧",
             "isCorrect": false
           }
@@ -24821,23 +24821,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/084_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/084_O.mp3",
         "questionText": "女：看你上課無麼个精神，係仰般形呢？ 男：唉，昨暗晡寫作業寫到忒夜，無麼个睡。 女：請問這細倈仔昨暗晡睡到仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/084_Q.jpg",
+        "questionImg": "./d2_t2_084_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/084_O1.jpg",
+            "imageSrc": "./d2_t2_084_O1.jpg",
             "text": "當好",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/084_O2.jpg",
+            "imageSrc": "./d2_t2_084_O2.jpg",
             "text": "發夢",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/084_O3.jpg",
+            "imageSrc": "./d2_t2_084_O3.jpg",
             "text": "毋足",
             "isCorrect": true
           }
@@ -24847,23 +24847,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/085_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/085_O.mp3",
         "questionText": "男：阿英，𠊎个字寫毋著咧。 女：這東西借你用。 男：請問阿英愛借佢麼个東西？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/085_Q.jpg",
+        "questionImg": "./d2_t2_085_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/085_O1.jpg",
+            "imageSrc": "./d2_t2_085_O1.jpg",
             "text": "簿仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/085_O2.jpg",
+            "imageSrc": "./d2_t2_085_O2.jpg",
             "text": "鉛筆",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/085_O3.jpg",
+            "imageSrc": "./d2_t2_085_O3.jpg",
             "text": "捽仔",
             "isCorrect": true
           }
@@ -24873,23 +24873,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/086_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/086_O.mp3",
         "questionText": "男：阿松哥還會哦！做得跳四米五恁遠。 女：係啊！實在還慶。 男：請問阿松哥參加麼个運動？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/086_Q.jpg",
+        "questionImg": "./d2_t2_086_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/086_O1.jpg",
+            "imageSrc": "./d2_t2_086_O1.jpg",
             "text": "跳高",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/086_O2.jpg",
+            "imageSrc": "./d2_t2_086_O2.jpg",
             "text": "跳遠",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/086_O3.jpg",
+            "imageSrc": "./d2_t2_086_O3.jpg",
             "text": "跳舞",
             "isCorrect": false
           }
@@ -24899,23 +24899,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/087_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/087_O.mp3",
         "questionText": "男：該小生實在還會做哦！ 女：係啊！無想着佢摎唐僧做到恁好看？ 男：請問佢兩儕在該討論麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/087_Q.jpg",
+        "questionImg": "./d2_t2_087_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/087_O1.jpg",
+            "imageSrc": "./d2_t2_087_O1.jpg",
             "text": "生理",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/087_O2.jpg",
+            "imageSrc": "./d2_t2_087_O2.jpg",
             "text": "和尚",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/087_O3.jpg",
+            "imageSrc": "./d2_t2_087_O3.jpg",
             "text": "大戲",
             "isCorrect": true
           }
@@ -24925,23 +24925,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/088_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/088_O.mp3",
         "questionText": "男：阿來伯討心臼，你愛去食酒無？ 女：𠊎朝晨愛去開會，12點正結束，毋知赴得着無？ 男：請問阿來伯幾時愛請人客？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/088_Q.jpg",
+        "questionImg": "./d2_t2_088_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/088_O1.jpg",
+            "imageSrc": "./d2_t2_088_O1.jpg",
             "text": "朝晨",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/088_O2.jpg",
+            "imageSrc": "./d2_t2_088_O2.jpg",
             "text": "當晝",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/088_O3.jpg",
+            "imageSrc": "./d2_t2_088_O3.jpg",
             "text": "暗晡夜",
             "isCorrect": false
           }
@@ -24951,23 +24951,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/089_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/089_O.mp3",
         "questionText": "男：天時恁對，今年个柑仔會大出哦。 女：係啊！就驚價數毋會幾好。 男：請問今年柑仔个價數可能會仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/089_Q.jpg",
+        "questionImg": "./d2_t2_089_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/089_O1.jpg",
+            "imageSrc": "./d2_t2_089_O1.jpg",
             "text": "較貴",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/089_O2.jpg",
+            "imageSrc": "./d2_t2_089_O2.jpg",
             "text": "較便宜",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/089_O3.jpg",
+            "imageSrc": "./d2_t2_089_O3.jpg",
             "text": "普通",
             "isCorrect": false
           }
@@ -24977,23 +24977,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/090_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/090_O.mp3",
         "questionText": "男：佢一百公尺又打頭名咧。 女：莫怪啦！人高腳長咩！ 男：請問佢參加麼个比賽？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/090_Q.jpg",
+        "questionImg": "./d2_t2_090_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/090_O1.jpg",
+            "imageSrc": "./d2_t2_090_O1.jpg",
             "text": "跳高",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/090_O2.jpg",
+            "imageSrc": "./d2_t2_090_O2.jpg",
             "text": "挷大索",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/090_O3.jpg",
+            "imageSrc": "./d2_t2_090_O3.jpg",
             "text": "走追仔",
             "isCorrect": true
           }
@@ -25003,23 +25003,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/091_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/091_O.mp3",
         "questionText": "女：阿文牯，你著个膨紗衫還好看哪！ 男：承蒙你！這係新買个，當燒哦。 女：請問這對話可能係麼个時節？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/091_Q.jpg",
+        "questionImg": "./d2_t2_091_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/091_O1.jpg",
+            "imageSrc": "./d2_t2_091_O1.jpg",
             "text": "正月半",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/091_O2.jpg",
+            "imageSrc": "./d2_t2_091_O2.jpg",
             "text": "五月節",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/091_O3.jpg",
+            "imageSrc": "./d2_t2_091_O3.jpg",
             "text": "七月半",
             "isCorrect": false
           }
@@ -25029,23 +25029,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/092_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/092_O.mp3",
         "questionText": "男：阿英，這本書送𠊎好無？ 女：𠊎還想愛看，等𠊎看忒正分你。 男：請問阿英个意思係麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/092_Q.jpg",
+        "questionImg": "./d2_t2_092_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/092_O1.jpg",
+            "imageSrc": "./d2_t2_092_O1.jpg",
             "text": "毋肯送",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/092_O2.jpg",
+            "imageSrc": "./d2_t2_092_O2.jpg",
             "text": "黏時送",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/092_O3.jpg",
+            "imageSrc": "./d2_t2_092_O3.jpg",
             "text": "較慢送",
             "isCorrect": true
           }
@@ -25055,23 +25055,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/093_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/093_O.mp3",
         "questionText": "男：阿雯，你做麼个恁暢？ 女：嘿嘿～阿明講𠊎緊來緊靚咧！ 男：請問阿雯个心情已仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/093_Q.jpg",
+        "questionImg": "./d2_t2_093_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/093_O1.jpg",
+            "imageSrc": "./d2_t2_093_O1.jpg",
             "text": "見笑",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/093_O2.jpg",
+            "imageSrc": "./d2_t2_093_O2.jpg",
             "text": "鬆爽",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/093_O3.jpg",
+            "imageSrc": "./d2_t2_093_O3.jpg",
             "text": "歡喜",
             "isCorrect": true
           }
@@ -25081,23 +25081,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/094_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/094_O.mp3",
         "questionText": "女：壞蹄咧！門分人撬開來。 男：屋肚个東西毋見淨淨咧! 女：請問厥屋下係仰般咧？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/094_Q.jpg",
+        "questionImg": "./d2_t2_094_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/094_O1.jpg",
+            "imageSrc": "./d2_t2_094_O1.jpg",
             "text": "分賊仔偷",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/094_O2.jpg",
+            "imageSrc": "./d2_t2_094_O2.jpg",
             "text": "搬新屋",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/094_O3.jpg",
+            "imageSrc": "./d2_t2_094_O3.jpg",
             "text": "大拚掃",
             "isCorrect": false
           }
@@ -25107,23 +25107,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/095_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/095_O.mp3",
         "questionText": "男：暗晡夜共下來去打鬥敘好無？ 女：好啊！到時正湊𠊎。 男：請問佢兜哪量時愛去打鬥敘?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/095_Q.jpg",
+        "questionImg": "./d2_t2_095_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/095_O1.jpg",
+            "imageSrc": "./d2_t2_095_O1.jpg",
             "text": "韶暗晡",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/095_O2.jpg",
+            "imageSrc": "./d2_t2_095_O2.jpg",
             "text": "今晡暗晡",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/095_O3.jpg",
+            "imageSrc": "./d2_t2_095_O3.jpg",
             "text": "昨晡暗晡",
             "isCorrect": false
           }
@@ -25133,23 +25133,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/096_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/096_O.mp3",
         "questionText": "女：阿爸，韶早比賽你愛來看無？ 男：好啊，愛走遽兜仔哦！ 女：請問細妹仔韶早可能係比賽麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/096_Q.jpg",
+        "questionImg": "./d2_t2_096_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/096_O1.jpg",
+            "imageSrc": "./d2_t2_096_O1.jpg",
             "text": "泅水",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/096_O2.jpg",
+            "imageSrc": "./d2_t2_096_O2.jpg",
             "text": "打乒乓",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/096_O3.jpg",
+            "imageSrc": "./d2_t2_096_O3.jpg",
             "text": "走追仔",
             "isCorrect": true
           }
@@ -25159,23 +25159,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/097_Q.mp3",
         "optionAudioSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/097_O.mp3",
         "questionText": "男：阿蓮姊，恭喜你做阿婆咧！ 女：承蒙你啦！有嬰兒仔好揇還生趣哦！ 男：請問這嬰兒仔係阿蓮姊个麼人？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/097_Q.jpg",
+        "questionImg": "./d2_t2_097_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/097_O1.jpg",
+            "imageSrc": "./d2_t2_097_O1.jpg",
             "text": "孫仔",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/097_O2.jpg",
+            "imageSrc": "./d2_t2_097_O2.jpg",
             "text": "倈仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/2/097_O3.jpg",
+            "imageSrc": "./d2_t2_097_O3.jpg",
             "text": "姪仔",
             "isCorrect": false
           }
@@ -25193,23 +25193,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "壞蹄咧！糖仔分老弟食_____咧！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/001_Q.jpg",
+        "questionImg": "./d2_t3_001_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/001_O1.jpg",
+            "imageSrc": "./d2_t3_001_O1.jpg",
             "text": "淨淨",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/001_O2.jpg",
+            "imageSrc": "./d2_t3_001_O2.jpg",
             "text": "淨俐",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/001_O3.jpg",
+            "imageSrc": "./d2_t3_001_O3.jpg",
             "text": "清清",
             "isCorrect": false
           }
@@ -25219,23 +25219,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "該兩兄弟當像＿＿＿，逐擺見面就相吵仔。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/002_Q.jpg",
+        "questionImg": "./d2_t3_002_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/002_O1.jpg",
+            "imageSrc": "./d2_t3_002_O1.jpg",
             "text": "生份人",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/002_O2.jpg",
+            "imageSrc": "./d2_t3_002_O2.jpg",
             "text": "自家人",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/002_O3.jpg",
+            "imageSrc": "./d2_t3_002_O3.jpg",
             "text": "冤仇人",
             "isCorrect": true
           }
@@ -25245,23 +25245,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "泡牛乳分嬰兒仔食，愛用_____來泡，正較衛生。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/003_Q.jpg",
+        "questionImg": "./d2_t3_003_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/003_O1.jpg",
+            "imageSrc": "./d2_t3_003_O1.jpg",
             "text": "冷水",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/003_O2.jpg",
+            "imageSrc": "./d2_t3_003_O2.jpg",
             "text": "滾水",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/003_O3.jpg",
+            "imageSrc": "./d2_t3_003_O3.jpg",
             "text": "涼水",
             "isCorrect": false
           }
@@ -25271,23 +25271,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "有兩輛車相撞，撞到貶車，看着實在還______！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/004_Q.jpg",
+        "questionImg": "./d2_t3_004_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/004_O1.jpg",
+            "imageSrc": "./d2_t3_004_O1.jpg",
             "text": "分人驚",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/004_O2.jpg",
+            "imageSrc": "./d2_t3_004_O2.jpg",
             "text": "會著驚",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/004_O3.jpg",
+            "imageSrc": "./d2_t3_004_O3.jpg",
             "text": "得人驚",
             "isCorrect": true
           }
@@ -25297,23 +25297,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "還衰哪！佢屋下上禮拜分賊仔______萬過銀。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/005_Q.jpg",
+        "questionImg": "./d2_t3_005_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/005_O1.jpg",
+            "imageSrc": "./d2_t3_005_O1.jpg",
             "text": "搶走",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/005_O2.jpg",
+            "imageSrc": "./d2_t3_005_O2.jpg",
             "text": "偷走",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/005_O3.jpg",
+            "imageSrc": "./d2_t3_005_O3.jpg",
             "text": "騙走",
             "isCorrect": false
           }
@@ -25323,23 +25323,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "厥婆頭擺17歲就______，聽講明年愛做婆太咧。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/006_Q.jpg",
+        "questionImg": "./d2_t3_006_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/006_O1.jpg",
+            "imageSrc": "./d2_t3_006_O1.jpg",
             "text": "行嫁",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/006_O2.jpg",
+            "imageSrc": "./d2_t3_006_O2.jpg",
             "text": "過身",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/006_O3.jpg",
+            "imageSrc": "./d2_t3_006_O3.jpg",
             "text": "出世",
             "isCorrect": false
           }
@@ -25349,23 +25349,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "朝晨䟘起來面洗好，愛摎_____扭燥吊起來。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/007_Q.jpg",
+        "questionImg": "./d2_t3_007_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/007_O1.jpg",
+            "imageSrc": "./d2_t3_007_O1.jpg",
             "text": "面盆",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/007_O2.jpg",
+            "imageSrc": "./d2_t3_007_O2.jpg",
             "text": "面帕",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/007_O3.jpg",
+            "imageSrc": "./d2_t3_007_O3.jpg",
             "text": "面紙",
             "isCorrect": false
           }
@@ -25375,23 +25375,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "水落恁大，＿＿＿有你𢯭手收衫褲，無就壞蹄咧。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/008_Q.jpg",
+        "questionImg": "./d2_t3_008_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/008_O1.jpg",
+            "imageSrc": "./d2_t3_008_O1.jpg",
             "text": "好空",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/008_O2.jpg",
+            "imageSrc": "./d2_t3_008_O2.jpg",
             "text": "好得",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/008_O3.jpg",
+            "imageSrc": "./d2_t3_008_O3.jpg",
             "text": "好使",
             "isCorrect": false
           }
@@ -25401,23 +25401,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿興十二月通過考試，_____就愛去外國讀大學咧。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/009_Q.jpg",
+        "questionImg": "./d2_t3_009_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/009_O1.jpg",
+            "imageSrc": "./d2_t3_009_O1.jpg",
             "text": "前年",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/009_O2.jpg",
+            "imageSrc": "./d2_t3_009_O2.jpg",
             "text": "舊年",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/009_O3.jpg",
+            "imageSrc": "./d2_t3_009_O3.jpg",
             "text": "過忒年",
             "isCorrect": true
           }
@@ -25427,23 +25427,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "煮糜若係愛較____兜，就愛放加兜水。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/010_Q.jpg",
+        "questionImg": "./d2_t3_010_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/010_O1.jpg",
+            "imageSrc": "./d2_t3_010_O1.jpg",
             "text": "淡",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/010_O2.jpg",
+            "imageSrc": "./d2_t3_010_O2.jpg",
             "text": "萋",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/010_O3.jpg",
+            "imageSrc": "./d2_t3_010_O3.jpg",
             "text": "鮮",
             "isCorrect": true
           }
@@ -25453,23 +25453,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這隻題目當難，麼人_____寫？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/011_Q.jpg",
+        "questionImg": "./d2_t3_011_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/011_O1.jpg",
+            "imageSrc": "./d2_t3_011_O1.jpg",
             "text": "好得",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/011_O2.jpg",
+            "imageSrc": "./d2_t3_011_O2.jpg",
             "text": "毋得",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/011_O3.jpg",
+            "imageSrc": "./d2_t3_011_O3.jpg",
             "text": "曉得",
             "isCorrect": true
           }
@@ -25479,23 +25479,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎睡目个時節，係無關____就睡毋得。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/012_Q.jpg",
+        "questionImg": "./d2_t3_012_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/012_O1.jpg",
+            "imageSrc": "./d2_t3_012_O1.jpg",
             "text": "電線",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/012_O2.jpg",
+            "imageSrc": "./d2_t3_012_O2.jpg",
             "text": "電球",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/012_O3.jpg",
+            "imageSrc": "./d2_t3_012_O3.jpg",
             "text": "電火",
             "isCorrect": true
           }
@@ -25505,23 +25505,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿姆講老妹恁乖！＿＿加食一垤雞卵糕。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/013_Q.jpg",
+        "questionImg": "./d2_t3_013_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/013_O1.jpg",
+            "imageSrc": "./d2_t3_013_O1.jpg",
             "text": "做得",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/013_O2.jpg",
+            "imageSrc": "./d2_t3_013_O2.jpg",
             "text": "做着",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/013_O3.jpg",
+            "imageSrc": "./d2_t3_013_O3.jpg",
             "text": "做下",
             "isCorrect": false
           }
@@ -25531,23 +25531,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢_____聰明，還當煞猛。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/014_Q.jpg",
+        "questionImg": "./d2_t3_014_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/014_O1.jpg",
+            "imageSrc": "./d2_t3_014_O1.jpg",
             "text": "毋單淨",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/014_O2.jpg",
+            "imageSrc": "./d2_t3_014_O2.jpg",
             "text": "毋過",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/014_O3.jpg",
+            "imageSrc": "./d2_t3_014_O3.jpg",
             "text": "毋係",
             "isCorrect": false
           }
@@ -25557,23 +25557,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這杯豆乳當____，怕係加忒多水。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/015_Q.jpg",
+        "questionImg": "./d2_t3_015_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/015_O1.jpg",
+            "imageSrc": "./d2_t3_015_O1.jpg",
             "text": "幼",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/015_O2.jpg",
+            "imageSrc": "./d2_t3_015_O2.jpg",
             "text": "細",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/015_O3.jpg",
+            "imageSrc": "./d2_t3_015_O3.jpg",
             "text": "淡",
             "isCorrect": true
           }
@@ -25583,23 +25583,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿爸講佢_____時節去過日本讀書，正恁會講日本話。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/016_Q.jpg",
+        "questionImg": "./d2_t3_016_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/016_O1.jpg",
+            "imageSrc": "./d2_t3_016_O1.jpg",
             "text": "後生",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/016_O2.jpg",
+            "imageSrc": "./d2_t3_016_O2.jpg",
             "text": "天生",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/016_O3.jpg",
+            "imageSrc": "./d2_t3_016_O3.jpg",
             "text": "還生",
             "isCorrect": false
           }
@@ -25609,23 +25609,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "臨暗仔，水正落啊過，東片有靚靚个_____出現在天頂。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/017_Q.jpg",
+        "questionImg": "./d2_t3_017_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/017_O1.jpg",
+            "imageSrc": "./d2_t3_017_O1.jpg",
             "text": "虹",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/017_O2.jpg",
+            "imageSrc": "./d2_t3_017_O2.jpg",
             "text": "日頭",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/017_O3.jpg",
+            "imageSrc": "./d2_t3_017_O3.jpg",
             "text": "雷公",
             "isCorrect": false
           }
@@ -25635,23 +25635,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "灶下長下有____个蜞蚻仔，當屙糟哦！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/018_Q.jpg",
+        "questionImg": "./d2_t3_018_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/018_O1.jpg",
+            "imageSrc": "./d2_t3_018_O1.jpg",
             "text": "得人惱",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/018_O2.jpg",
+            "imageSrc": "./d2_t3_018_O2.jpg",
             "text": "得人惜",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/018_O3.jpg",
+            "imageSrc": "./d2_t3_018_O3.jpg",
             "text": "得人緣",
             "isCorrect": false
           }
@@ -25661,23 +25661,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿樹哥送一隻鑽石个_______，摎厥女朋友求婚。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/019_Q.jpg",
+        "questionImg": "./d2_t3_019_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/019_O1.jpg",
+            "imageSrc": "./d2_t3_019_O1.jpg",
             "text": "手落",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/019_O2.jpg",
+            "imageSrc": "./d2_t3_019_O2.jpg",
             "text": "手巾",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/019_O3.jpg",
+            "imageSrc": "./d2_t3_019_O3.jpg",
             "text": "禁指",
             "isCorrect": true
           }
@@ -25687,23 +25687,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "老人家上下樓梯，一定愛好先。這係提醒老人家愛仰般行？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/020_Q.jpg",
+        "questionImg": "./d2_t3_020_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/020_O1.jpg",
+            "imageSrc": "./d2_t3_020_O1.jpg",
             "text": "遽遽",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/020_O2.jpg",
+            "imageSrc": "./d2_t3_020_O2.jpg",
             "text": "細義",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/020_O3.jpg",
+            "imageSrc": "./d2_t3_020_O3.jpg",
             "text": "大步",
             "isCorrect": false
           }
@@ -25713,23 +25713,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿姆在屋下無閒，_____𠊎去買豆油。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/021_Q.jpg",
+        "questionImg": "./d2_t3_021_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/021_O1.jpg",
+            "imageSrc": "./d2_t3_021_O1.jpg",
             "text": "喊",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/021_O2.jpg",
+            "imageSrc": "./d2_t3_021_O2.jpg",
             "text": "帶",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/021_O3.jpg",
+            "imageSrc": "./d2_t3_021_O3.jpg",
             "text": "跈",
             "isCorrect": false
           }
@@ -25739,23 +25739,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿爸逐日上夜班，就_____正做得休息。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/022_Q.jpg",
+        "questionImg": "./d2_t3_022_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/022_O1.jpg",
+            "imageSrc": "./d2_t3_022_O1.jpg",
             "text": "日時頭",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/022_O2.jpg",
+            "imageSrc": "./d2_t3_022_O2.jpg",
             "text": "昨晡日",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/022_O3.jpg",
+            "imageSrc": "./d2_t3_022_O3.jpg",
             "text": "暗晡頭",
             "isCorrect": false
           }
@@ -25765,23 +25765,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "哦！麻煩咧，𠊎个______毋記得插電，這下無飯好食。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/023_Q.jpg",
+        "questionImg": "./d2_t3_023_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/023_O1.jpg",
+            "imageSrc": "./d2_t3_023_O1.jpg",
             "text": "細鑊",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/023_O2.jpg",
+            "imageSrc": "./d2_t3_023_O2.jpg",
             "text": "電鑊",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/023_O3.jpg",
+            "imageSrc": "./d2_t3_023_O3.jpg",
             "text": "大鑊",
             "isCorrect": false
           }
@@ -25791,23 +25791,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這隻_____用十過年咧，還當準。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/024_Q.jpg",
+        "questionImg": "./d2_t3_024_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/024_O1.jpg",
+            "imageSrc": "./d2_t3_024_O1.jpg",
             "text": "禁指",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/024_O2.jpg",
+            "imageSrc": "./d2_t3_024_O2.jpg",
             "text": "時錶",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/024_O3.jpg",
+            "imageSrc": "./d2_t3_024_O3.jpg",
             "text": "耳環",
             "isCorrect": false
           }
@@ -25817,23 +25817,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你若係_____食加兜，就毋會忒瘦。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/025_Q.jpg",
+        "questionImg": "./d2_t3_025_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/025_O1.jpg",
+            "imageSrc": "./d2_t3_025_O1.jpg",
             "text": "客氣",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/025_O2.jpg",
+            "imageSrc": "./d2_t3_025_O2.jpg",
             "text": "煞猛",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/025_O3.jpg",
+            "imageSrc": "./d2_t3_025_O3.jpg",
             "text": "懶尸",
             "isCorrect": false
           }
@@ -25843,23 +25843,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢食忒三碗飯、兩隻饅頭，____試著肚屎枵。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/026_Q.jpg",
+        "questionImg": "./d2_t3_026_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/026_O1.jpg",
+            "imageSrc": "./d2_t3_026_O1.jpg",
             "text": "還有",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/026_O2.jpg",
+            "imageSrc": "./d2_t3_026_O2.jpg",
             "text": "還係",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/026_O3.jpg",
+            "imageSrc": "./d2_t3_026_O3.jpg",
             "text": "係有",
             "isCorrect": false
           }
@@ -25869,23 +25869,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "細人仔＿＿＿＿愛較早睡目，朝晨頭正做得較早䟘床。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/027_Q.jpg",
+        "questionImg": "./d2_t3_027_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/027_O1.jpg",
+            "imageSrc": "./d2_t3_027_O1.jpg",
             "text": "當晝頭",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/027_O2.jpg",
+            "imageSrc": "./d2_t3_027_O2.jpg",
             "text": "日時頭",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/027_O3.jpg",
+            "imageSrc": "./d2_t3_027_O3.jpg",
             "text": "暗晡頭",
             "isCorrect": true
           }
@@ -25895,23 +25895,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "落水天係想愛出門，_____係著水靴筒，腳正毋會涿溼。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/028_Q.jpg",
+        "questionImg": "./d2_t3_028_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/028_O1.jpg",
+            "imageSrc": "./d2_t3_028_O1.jpg",
             "text": "最好",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/028_O2.jpg",
+            "imageSrc": "./d2_t3_028_O2.jpg",
             "text": "還好",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/028_O3.jpg",
+            "imageSrc": "./d2_t3_028_O3.jpg",
             "text": "堵好",
             "isCorrect": false
           }
@@ -25921,23 +25921,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "八月半一般人會食_____，還過看月光。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/029_Q.jpg",
+        "questionImg": "./d2_t3_029_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/029_O1.jpg",
+            "imageSrc": "./d2_t3_029_O1.jpg",
             "text": "粽仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/029_O2.jpg",
+            "imageSrc": "./d2_t3_029_O2.jpg",
             "text": "粄圓",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/029_O3.jpg",
+            "imageSrc": "./d2_t3_029_O3.jpg",
             "text": "柚仔",
             "isCorrect": true
           }
@@ -25947,23 +25947,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這擺考數學，＿＿有你教𠊎，正有法度考到恁好。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/030_Q.jpg",
+        "questionImg": "./d2_t3_030_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/030_O1.jpg",
+            "imageSrc": "./d2_t3_030_O1.jpg",
             "text": "盼得",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/030_O2.jpg",
+            "imageSrc": "./d2_t3_030_O2.jpg",
             "text": "做得",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/030_O3.jpg",
+            "imageSrc": "./d2_t3_030_O3.jpg",
             "text": "好得",
             "isCorrect": true
           }
@@ -25973,23 +25973,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢屋下______貼个春聯，係厥公自家寫个。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/031_Q.jpg",
+        "questionImg": "./d2_t3_031_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/031_O1.jpg",
+            "imageSrc": "./d2_t3_031_O1.jpg",
             "text": "門項",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/031_O2.jpg",
+            "imageSrc": "./d2_t3_031_O2.jpg",
             "text": "門牌",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/031_O3.jpg",
+            "imageSrc": "./d2_t3_031_O3.jpg",
             "text": "門檻",
             "isCorrect": false
           }
@@ -25999,23 +25999,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎在農場看着一條大狗_____等一群羊仔轉寮仔，盡生趣!",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/032_Q.jpg",
+        "questionImg": "./d2_t3_032_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/032_O1.jpg",
+            "imageSrc": "./d2_t3_032_O1.jpg",
             "text": "追",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/032_O2.jpg",
+            "imageSrc": "./d2_t3_032_O2.jpg",
             "text": "走",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/032_O3.jpg",
+            "imageSrc": "./d2_t3_032_O3.jpg",
             "text": "行",
             "isCorrect": false
           }
@@ -26025,23 +26025,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "聽講常食紅豆毋單淨面色會較好看，____補血。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/033_Q.jpg",
+        "questionImg": "./d2_t3_033_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/033_O1.jpg",
+            "imageSrc": "./d2_t3_033_O1.jpg",
             "text": "還做得",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/033_O2.jpg",
+            "imageSrc": "./d2_t3_033_O2.jpg",
             "text": "還曉得",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/033_O3.jpg",
+            "imageSrc": "./d2_t3_033_O3.jpg",
             "text": "就做得",
             "isCorrect": false
           }
@@ -26051,23 +26051,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "蛇哥係鑽入____，就拉毋出來咧！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/034_Q.jpg",
+        "questionImg": "./d2_t3_034_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/034_O1.jpg",
+            "imageSrc": "./d2_t3_034_O1.jpg",
             "text": "空",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/034_O2.jpg",
+            "imageSrc": "./d2_t3_034_O2.jpg",
             "text": "口",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/034_O3.jpg",
+            "imageSrc": "./d2_t3_034_O3.jpg",
             "text": "田",
             "isCorrect": false
           }
@@ -26077,23 +26077,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿明從細就係厥婆___大个。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/035_Q.jpg",
+        "questionImg": "./d2_t3_035_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/035_O1.jpg",
+            "imageSrc": "./d2_t3_035_O1.jpg",
             "text": "擐",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/035_O2.jpg",
+            "imageSrc": "./d2_t3_035_O2.jpg",
             "text": "渡",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/035_O3.jpg",
+            "imageSrc": "./d2_t3_035_O3.jpg",
             "text": "放",
             "isCorrect": false
           }
@@ -26103,23 +26103,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這嬰兒仔較少帶出門，_____揇佢毋着。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/036_Q.jpg",
+        "questionImg": "./d2_t3_036_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/036_O1.jpg",
+            "imageSrc": "./d2_t3_036_O1.jpg",
             "text": "熟事人",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/036_O2.jpg",
+            "imageSrc": "./d2_t3_036_O2.jpg",
             "text": "生份人",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/036_O3.jpg",
+            "imageSrc": "./d2_t3_036_O3.jpg",
             "text": "自家人",
             "isCorrect": false
           }
@@ -26129,23 +26129,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𫣆俚五六儕在這看電視，一定有人_____，正會恁臭。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/037_Q.jpg",
+        "questionImg": "./d2_t3_037_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/037_O1.jpg",
+            "imageSrc": "./d2_t3_037_O1.jpg",
             "text": "打哈啾",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/037_O2.jpg",
+            "imageSrc": "./d2_t3_037_O2.jpg",
             "text": "打屁",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/037_O3.jpg",
+            "imageSrc": "./d2_t3_037_O3.jpg",
             "text": "打紙炮",
             "isCorrect": false
           }
@@ -26155,23 +26155,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "離這雜貨店兩百公尺____，頭擺係一隻大陂塘。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/038_Q.jpg",
+        "questionImg": "./d2_t3_038_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/038_O1.jpg",
+            "imageSrc": "./d2_t3_038_O1.jpg",
             "text": "該位",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/038_O2.jpg",
+            "imageSrc": "./d2_t3_038_O2.jpg",
             "text": "這位",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/038_O3.jpg",
+            "imageSrc": "./d2_t3_038_O3.jpg",
             "text": "哪位",
             "isCorrect": false
           }
@@ -26181,23 +26181,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "先生＿＿有講，韶早愛抽血哦!有聽着無?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/039_Q.jpg",
+        "questionImg": "./d2_t3_039_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/039_O1.jpg",
+            "imageSrc": "./d2_t3_039_O1.jpg",
             "text": "頭擺",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/039_O2.jpg",
+            "imageSrc": "./d2_t3_039_O2.jpg",
             "text": "該下",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/039_O3.jpg",
+            "imageSrc": "./d2_t3_039_O3.jpg",
             "text": "等下",
             "isCorrect": false
           }
@@ -26207,23 +26207,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿妹摎貓子____到像命樣，仰般拐佢，佢就毋肯送人。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/040_Q.jpg",
+        "questionImg": "./d2_t3_040_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/040_O1.jpg",
+            "imageSrc": "./d2_t3_040_O1.jpg",
             "text": "惜",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/040_O2.jpg",
+            "imageSrc": "./d2_t3_040_O2.jpg",
             "text": "愛",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/040_O3.jpg",
+            "imageSrc": "./d2_t3_040_O3.jpg",
             "text": "暢",
             "isCorrect": false
           }
@@ -26233,23 +26233,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "韶早就愛放暑假咧，𠊎今晡日在學校當＿＿拚掃。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/041_Q.jpg",
+        "questionImg": "./d2_t3_041_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/041_O1.jpg",
+            "imageSrc": "./d2_t3_041_O1.jpg",
             "text": "煞猛",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/041_O2.jpg",
+            "imageSrc": "./d2_t3_041_O2.jpg",
             "text": "厲害",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/041_O3.jpg",
+            "imageSrc": "./d2_t3_041_O3.jpg",
             "text": "淨俐",
             "isCorrect": false
           }
@@ -26259,23 +26259,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "上下電扶梯个時節愛______，正毋會跢倒。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/042_Q.jpg",
+        "questionImg": "./d2_t3_042_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/042_O1.jpg",
+            "imageSrc": "./d2_t3_042_O1.jpg",
             "text": "企好勢",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/042_O2.jpg",
+            "imageSrc": "./d2_t3_042_O2.jpg",
             "text": "跍好勢",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/042_O3.jpg",
+            "imageSrc": "./d2_t3_042_O3.jpg",
             "text": "搭好勢",
             "isCorrect": false
           }
@@ -26285,23 +26285,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這便所當_______，係因為輒常有人來拚掃。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/043_Q.jpg",
+        "questionImg": "./d2_t3_043_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/043_O1.jpg",
+            "imageSrc": "./d2_t3_043_O1.jpg",
             "text": "燒暖",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/043_O2.jpg",
+            "imageSrc": "./d2_t3_043_O2.jpg",
             "text": "淨俐",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/043_O3.jpg",
+            "imageSrc": "./d2_t3_043_O3.jpg",
             "text": "屙糟",
             "isCorrect": false
           }
@@ -26311,23 +26311,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿舅，你閒閒____加兩禮拜正轉好無？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/044_Q.jpg",
+        "questionImg": "./d2_t3_044_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/044_O1.jpg",
+            "imageSrc": "./d2_t3_044_O1.jpg",
             "text": "尞",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/044_O2.jpg",
+            "imageSrc": "./d2_t3_044_O2.jpg",
             "text": "搞",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/044_O3.jpg",
+            "imageSrc": "./d2_t3_044_O3.jpg",
             "text": "行",
             "isCorrect": false
           }
@@ -26337,23 +26337,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "做事愛先準備好勢，正毋會____就恁緊張。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/045_Q.jpg",
+        "questionImg": "./d2_t3_045_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/045_O1.jpg",
+            "imageSrc": "./d2_t3_045_O1.jpg",
             "text": "逐擺",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/045_O2.jpg",
+            "imageSrc": "./d2_t3_045_O2.jpg",
             "text": "下二擺",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/045_O3.jpg",
+            "imageSrc": "./d2_t3_045_O3.jpg",
             "text": "頭擺",
             "isCorrect": false
           }
@@ -26363,23 +26363,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿姆歲數大咧，摎佢講話毋好恁細聲。係講阿姆仰般?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/046_Q.jpg",
+        "questionImg": "./d2_t3_046_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/046_O1.jpg",
+            "imageSrc": "./d2_t3_046_O1.jpg",
             "text": "聽毋着",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/046_O2.jpg",
+            "imageSrc": "./d2_t3_046_O2.jpg",
             "text": "毋肯聽",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/046_O3.jpg",
+            "imageSrc": "./d2_t3_046_O3.jpg",
             "text": "無愛聽",
             "isCorrect": false
           }
@@ -26389,23 +26389,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "一般家庭大體會摎電鑊、瓦斯爐放到____，恁樣煮飯較方便。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/047_Q.jpg",
+        "questionImg": "./d2_t3_047_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/047_O1.jpg",
+            "imageSrc": "./d2_t3_047_O1.jpg",
             "text": "灶下",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/047_O2.jpg",
+            "imageSrc": "./d2_t3_047_O2.jpg",
             "text": "廳下",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/047_O3.jpg",
+            "imageSrc": "./d2_t3_047_O3.jpg",
             "text": "廊下",
             "isCorrect": false
           }
@@ -26415,23 +26415,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "草坪肚个草生到_____，毋好儘採落去踏佢。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/048_Q.jpg",
+        "questionImg": "./d2_t3_048_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/048_O1.jpg",
+            "imageSrc": "./d2_t3_048_O1.jpg",
             "text": "恁媸",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/048_O2.jpg",
+            "imageSrc": "./d2_t3_048_O2.jpg",
             "text": "恁靚",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/048_O3.jpg",
+            "imageSrc": "./d2_t3_048_O3.jpg",
             "text": "恁疏",
             "isCorrect": false
           }
@@ -26441,23 +26441,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎無注意着褲爛一大空，還著等出門，實在還_____喲！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/049_Q.jpg",
+        "questionImg": "./d2_t3_049_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/049_O1.jpg",
+            "imageSrc": "./d2_t3_049_O1.jpg",
             "text": "客氣",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/049_O2.jpg",
+            "imageSrc": "./d2_t3_049_O2.jpg",
             "text": "好得",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/049_O3.jpg",
+            "imageSrc": "./d2_t3_049_O3.jpg",
             "text": "見笑",
             "isCorrect": true
           }
@@ -26467,23 +26467,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢个作文正寫恁多隻字定定，係講佢个作文寫到仰般﹖",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/050_Q.jpg",
+        "questionImg": "./d2_t3_050_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/050_O1.jpg",
+            "imageSrc": "./d2_t3_050_O1.jpg",
             "text": "忒少",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/050_O2.jpg",
+            "imageSrc": "./d2_t3_050_O2.jpg",
             "text": "忒多",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/050_O3.jpg",
+            "imageSrc": "./d2_t3_050_O3.jpg",
             "text": "忒長",
             "isCorrect": false
           }
@@ -26493,23 +26493,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "該間違章建築_______，死忒六個消防人員，還得人驚。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/051_Q.jpg",
+        "questionImg": "./d2_t3_051_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/051_O1.jpg",
+            "imageSrc": "./d2_t3_051_O1.jpg",
             "text": "火燒屋",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/051_O2.jpg",
+            "imageSrc": "./d2_t3_051_O2.jpg",
             "text": "伙房屋",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/051_O3.jpg",
+            "imageSrc": "./d2_t3_051_O3.jpg",
             "text": "入新屋",
             "isCorrect": false
           }
@@ -26519,23 +26519,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你去看哪！該箱仔____囥等麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/052_Q.jpg",
+        "questionImg": "./d2_t3_052_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/052_O1.jpg",
+            "imageSrc": "./d2_t3_052_O1.jpg",
             "text": "面頂",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/052_O2.jpg",
+            "imageSrc": "./d2_t3_052_O2.jpg",
             "text": "裡背",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/052_O3.jpg",
+            "imageSrc": "./d2_t3_052_O3.jpg",
             "text": "脣頭",
             "isCorrect": false
           }
@@ -26545,23 +26545,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿福伯下隻月討心臼，𠊎渡阿宏去參加。請問這係麼个意思？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/053_Q.jpg",
+        "questionImg": "./d2_t3_053_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/053_O1.jpg",
+            "imageSrc": "./d2_t3_053_O1.jpg",
             "text": "阿宏跈𠊎去",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/053_O2.jpg",
+            "imageSrc": "./d2_t3_053_O2.jpg",
             "text": "𠊎喊阿宏自家去",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/053_O3.jpg",
+            "imageSrc": "./d2_t3_053_O3.jpg",
             "text": "𠊎搭阿宏去",
             "isCorrect": false
           }
@@ -26571,23 +26571,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿爸摎甘蔗剁做______，分𠊎兩兄弟食。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/054_Q.jpg",
+        "questionImg": "./d2_t3_054_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/054_O1.jpg",
+            "imageSrc": "./d2_t3_054_O1.jpg",
             "text": "兩垤",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/054_O2.jpg",
+            "imageSrc": "./d2_t3_054_O2.jpg",
             "text": "兩片",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/054_O3.jpg",
+            "imageSrc": "./d2_t3_054_O3.jpg",
             "text": "兩截",
             "isCorrect": true
           }
@@ -26597,23 +26597,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿弟牯尿當出，______便所就拉出來咧！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/055_Q.jpg",
+        "questionImg": "./d2_t3_055_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/055_O1.jpg",
+            "imageSrc": "./d2_t3_055_O1.jpg",
             "text": "忍毋核",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/055_O2.jpg",
+            "imageSrc": "./d2_t3_055_O2.jpg",
             "text": "忍毋到",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/055_O3.jpg",
+            "imageSrc": "./d2_t3_055_O3.jpg",
             "text": "忍毋落",
             "isCorrect": false
           }
@@ -26623,23 +26623,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "看你食到恁_____，毋會敗勢咩？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/056_Q.jpg",
+        "questionImg": "./d2_t3_056_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/056_O1.jpg",
+            "imageSrc": "./d2_t3_056_O1.jpg",
             "text": "客氣",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/056_O2.jpg",
+            "imageSrc": "./d2_t3_056_O2.jpg",
             "text": "煞猛",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/056_O3.jpg",
+            "imageSrc": "./d2_t3_056_O3.jpg",
             "text": "懶尸",
             "isCorrect": false
           }
@@ -26649,23 +26649,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這條路毋得___，𫣆俚對別位行過去。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/057_Q.jpg",
+        "questionImg": "./d2_t3_057_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/057_O1.jpg",
+            "imageSrc": "./d2_t3_057_O1.jpg",
             "text": "落",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/057_O2.jpg",
+            "imageSrc": "./d2_t3_057_O2.jpg",
             "text": "進",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/057_O3.jpg",
+            "imageSrc": "./d2_t3_057_O3.jpg",
             "text": "跈",
             "isCorrect": false
           }
@@ -26675,23 +26675,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "十二月个天時還恁____，實在怪奇！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/058_Q.jpg",
+        "questionImg": "./d2_t3_058_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/058_O1.jpg",
+            "imageSrc": "./d2_t3_058_O1.jpg",
             "text": "燒暖",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/058_O2.jpg",
+            "imageSrc": "./d2_t3_058_O2.jpg",
             "text": "燒燒",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/058_O3.jpg",
+            "imageSrc": "./d2_t3_058_O3.jpg",
             "text": "暖燒",
             "isCorrect": false
           }
@@ -26701,23 +26701,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎朝晨出門毋記得帶鎖匙，這下屋嗄___咧。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/059_Q.jpg",
+        "questionImg": "./d2_t3_059_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/059_O1.jpg",
+            "imageSrc": "./d2_t3_059_O1.jpg",
             "text": "做毋得",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/059_O2.jpg",
+            "imageSrc": "./d2_t3_059_O2.jpg",
             "text": "落毋得",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/059_O3.jpg",
+            "imageSrc": "./d2_t3_059_O3.jpg",
             "text": "出毋得",
             "isCorrect": false
           }
@@ -26727,23 +26727,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿姆大聲喊講：麼个時節咧？你___去學校，會赴毋着咧！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/060_Q.jpg",
+        "questionImg": "./d2_t3_060_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/060_O1.jpg",
+            "imageSrc": "./d2_t3_060_O1.jpg",
             "text": "還在",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/060_O2.jpg",
+            "imageSrc": "./d2_t3_060_O2.jpg",
             "text": "還吂",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/060_O3.jpg",
+            "imageSrc": "./d2_t3_060_O3.jpg",
             "text": "還有",
             "isCorrect": false
           }
@@ -26753,23 +26753,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢摎人行棋，______輸過。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/061_Q.jpg",
+        "questionImg": "./d2_t3_061_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/061_O1.jpg",
+            "imageSrc": "./d2_t3_061_O1.jpg",
             "text": "毋識",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/061_O2.jpg",
+            "imageSrc": "./d2_t3_061_O2.jpg",
             "text": "毋好",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/061_O3.jpg",
+            "imageSrc": "./d2_t3_061_O3.jpg",
             "text": "毋像",
             "isCorrect": false
           }
@@ -26779,23 +26779,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢騎機車出車禍，額頭撞隻____，緊出血！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/062_Q.jpg",
+        "questionImg": "./d2_t3_062_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/062_O1.jpg",
+            "imageSrc": "./d2_t3_062_O1.jpg",
             "text": "空",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/062_O2.jpg",
+            "imageSrc": "./d2_t3_062_O2.jpg",
             "text": "縫",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/062_O3.jpg",
+            "imageSrc": "./d2_t3_062_O3.jpg",
             "text": "嘴",
             "isCorrect": false
           }
@@ -26805,23 +26805,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿婆喊：恁夜咧！細孲仔好去睡目咧！這係喊細人仔做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/063_Q.jpg",
+        "questionImg": "./d2_t3_063_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/063_O1.jpg",
+            "imageSrc": "./d2_t3_063_O1.jpg",
             "text": "吂好去睡",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/063_O2.jpg",
+            "imageSrc": "./d2_t3_063_O2.jpg",
             "text": "遽遽去睡",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/063_O3.jpg",
+            "imageSrc": "./d2_t3_063_O3.jpg",
             "text": "毋使去睡",
             "isCorrect": false
           }
@@ -26831,23 +26831,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "先生講，寫好个作業，對____傳到頭前來，正做得下課。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/064_Q.jpg",
+        "questionImg": "./d2_t3_064_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/064_O1.jpg",
+            "imageSrc": "./d2_t3_064_O1.jpg",
             "text": "上背",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/064_O2.jpg",
+            "imageSrc": "./d2_t3_064_O2.jpg",
             "text": "裡背",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/064_O3.jpg",
+            "imageSrc": "./d2_t3_064_O3.jpg",
             "text": "後背",
             "isCorrect": true
           }
@@ -26857,23 +26857,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿妹生到已靚，佢个_______大大、頭那毛長長，盡得人惜。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/065_Q.jpg",
+        "questionImg": "./d2_t3_065_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/065_O1.jpg",
+            "imageSrc": "./d2_t3_065_O1.jpg",
             "text": "目眉毛",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/065_O2.jpg",
+            "imageSrc": "./d2_t3_065_O2.jpg",
             "text": "目珠",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/065_O3.jpg",
+            "imageSrc": "./d2_t3_065_O3.jpg",
             "text": "目汁",
             "isCorrect": false
           }
@@ -26883,23 +26883,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "別人誇佢一下，佢就當風神。係講佢个人當仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/066_Q.jpg",
+        "questionImg": "./d2_t3_066_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/066_O1.jpg",
+            "imageSrc": "./d2_t3_066_O1.jpg",
             "text": "精神",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/066_O2.jpg",
+            "imageSrc": "./d2_t3_066_O2.jpg",
             "text": "戇神",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/066_O3.jpg",
+            "imageSrc": "./d2_t3_066_O3.jpg",
             "text": "沙鼻",
             "isCorrect": true
           }
@@ -26909,23 +26909,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎愛還你个錢搭分阿珠，愛記得摎佢拿哦！請問這係講麼个意思？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/067_Q.jpg",
+        "questionImg": "./d2_t3_067_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/067_O1.jpg",
+            "imageSrc": "./d2_t3_067_O1.jpg",
             "text": "錢摎阿珠拿",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/067_O2.jpg",
+            "imageSrc": "./d2_t3_067_O2.jpg",
             "text": "錢係阿珠个",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/067_O3.jpg",
+            "imageSrc": "./d2_t3_067_O3.jpg",
             "text": "阿珠欠人錢",
             "isCorrect": false
           }
@@ -26935,23 +26935,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢毋知有麼个事情，歡喜到奈毋得。係講佢這下心情仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/068_Q.jpg",
+        "questionImg": "./d2_t3_068_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/068_O1.jpg",
+            "imageSrc": "./d2_t3_068_O1.jpg",
             "text": "當暢",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/068_O2.jpg",
+            "imageSrc": "./d2_t3_068_O2.jpg",
             "text": "無奈",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/068_O3.jpg",
+            "imageSrc": "./d2_t3_068_O3.jpg",
             "text": "盡見笑",
             "isCorrect": false
           }
@@ -26961,23 +26961,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿雄！你在恁烈个日頭下做事，仰毋驚熱着呢？請問這係講阿雄會仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/069_Q.jpg",
+        "questionImg": "./d2_t3_069_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/069_O1.jpg",
+            "imageSrc": "./d2_t3_069_O1.jpg",
             "text": "毋會熱着",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/069_O2.jpg",
+            "imageSrc": "./d2_t3_069_O2.jpg",
             "text": "毋會熱",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/069_O3.jpg",
+            "imageSrc": "./d2_t3_069_O3.jpg",
             "text": "會熱着",
             "isCorrect": true
           }
@@ -26987,23 +26987,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "老弟食忒多番薯，____打屁卵。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/070_Q.jpg",
+        "questionImg": "./d2_t3_070_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/070_O1.jpg",
+            "imageSrc": "./d2_t3_070_O1.jpg",
             "text": "緊",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/070_O2.jpg",
+            "imageSrc": "./d2_t3_070_O2.jpg",
             "text": "盡",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/070_O3.jpg",
+            "imageSrc": "./d2_t3_070_O3.jpg",
             "text": "恁",
             "isCorrect": false
           }
@@ -27013,23 +27013,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "菜摘轉來，阿姆喊𠊎𢯭手____淨來，正做得煮。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/071_Q.jpg",
+        "questionImg": "./d2_t3_071_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/071_O1.jpg",
+            "imageSrc": "./d2_t3_071_O1.jpg",
             "text": "擇",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/071_O2.jpg",
+            "imageSrc": "./d2_t3_071_O2.jpg",
             "text": "打",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/071_O3.jpg",
+            "imageSrc": "./d2_t3_071_O3.jpg",
             "text": "拍",
             "isCorrect": false
           }
@@ -27039,23 +27039,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "係分細蚊仔＿＿＿，就會痎死哦！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/072_Q.jpg",
+        "questionImg": "./d2_t3_072_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/072_O1.jpg",
+            "imageSrc": "./d2_t3_072_O1.jpg",
             "text": "食着",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/072_O2.jpg",
+            "imageSrc": "./d2_t3_072_O2.jpg",
             "text": "刺着",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/072_O3.jpg",
+            "imageSrc": "./d2_t3_072_O3.jpg",
             "text": "叼着",
             "isCorrect": true
           }
@@ -27065,23 +27065,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "下禮拜就愛考試咧！𠊎个書讀都毋得忒。請問這係講麼个意思？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/073_Q.jpg",
+        "questionImg": "./d2_t3_073_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/073_O1.jpg",
+            "imageSrc": "./d2_t3_073_O1.jpg",
             "text": "書讀忒咧",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/073_O2.jpg",
+            "imageSrc": "./d2_t3_073_O2.jpg",
             "text": "毋使讀書",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/073_O3.jpg",
+            "imageSrc": "./d2_t3_073_O3.jpg",
             "text": "書吂讀好",
             "isCorrect": true
           }
@@ -27091,23 +27091,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿火當緊張，想愛去便所。係講阿火這下仰般？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/074_Q.jpg",
+        "questionImg": "./d2_t3_074_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/074_O1.jpg",
+            "imageSrc": "./d2_t3_074_O1.jpg",
             "text": "既經在便所肚",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/074_O2.jpg",
+            "imageSrc": "./d2_t3_074_O2.jpg",
             "text": "還吂去便所",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/074_O3.jpg",
+            "imageSrc": "./d2_t3_074_O3.jpg",
             "text": "盡愛去便所",
             "isCorrect": false
           }
@@ -27117,23 +27117,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這包東西搭你放到你个車頂一下，好無？講話个人意思係麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/075_Q.jpg",
+        "questionImg": "./d2_t3_075_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/075_O1.jpg",
+            "imageSrc": "./d2_t3_075_O1.jpg",
             "text": "喊人摎佢包東西",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/075_O2.jpg",
+            "imageSrc": "./d2_t3_075_O2.jpg",
             "text": "湊人共下坐便車",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/075_O3.jpg",
+            "imageSrc": "./d2_t3_075_O3.jpg",
             "text": "拜託人分佢放東西",
             "isCorrect": true
           }
@@ -27143,23 +27143,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "恁夜咧！有人撳門鈴，_____有人客來？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/076_Q.jpg",
+        "questionImg": "./d2_t3_076_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/076_O1.jpg",
+            "imageSrc": "./d2_t3_076_O1.jpg",
             "text": "敢係",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/076_O2.jpg",
+            "imageSrc": "./d2_t3_076_O2.jpg",
             "text": "但係",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/076_O3.jpg",
+            "imageSrc": "./d2_t3_076_O3.jpg",
             "text": "也係",
             "isCorrect": false
           }
@@ -27169,23 +27169,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "厥老弟正七歲，____機器人當遽，還會哦！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/077_Q.jpg",
+        "questionImg": "./d2_t3_077_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/077_O1.jpg",
+            "imageSrc": "./d2_t3_077_O1.jpg",
             "text": "鬥",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/077_O2.jpg",
+            "imageSrc": "./d2_t3_077_O2.jpg",
             "text": "弇",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/077_O3.jpg",
+            "imageSrc": "./d2_t3_077_O3.jpg",
             "text": "扯",
             "isCorrect": false
           }
@@ -27195,23 +27195,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎叔公______，上禮拜六出山，親戚朋友來當多。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/078_Q.jpg",
+        "questionImg": "./d2_t3_078_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/078_O1.jpg",
+            "imageSrc": "./d2_t3_078_O1.jpg",
             "text": "轉身",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/078_O2.jpg",
+            "imageSrc": "./d2_t3_078_O2.jpg",
             "text": "過身",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/078_O3.jpg",
+            "imageSrc": "./d2_t3_078_O3.jpg",
             "text": "翻身",
             "isCorrect": false
           }
@@ -27221,23 +27221,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "伯婆在莊下畜盡多________，有豬仔、羊仔、牛。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/079_Q.jpg",
+        "questionImg": "./d2_t3_079_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/079_O1.jpg",
+            "imageSrc": "./d2_t3_079_O1.jpg",
             "text": "頭牲",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/079_O2.jpg",
+            "imageSrc": "./d2_t3_079_O2.jpg",
             "text": "三牲",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/079_O3.jpg",
+            "imageSrc": "./d2_t3_079_O3.jpg",
             "text": "頭家",
             "isCorrect": false
           }
@@ -27247,23 +27247,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢生到盡高，先生分佢坐在教室當_____个位仔。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/080_Q.jpg",
+        "questionImg": "./d2_t3_080_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/080_O1.jpg",
+            "imageSrc": "./d2_t3_080_O1.jpg",
             "text": "背尾",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/080_O2.jpg",
+            "imageSrc": "./d2_t3_080_O2.jpg",
             "text": "到尾",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/080_O3.jpg",
+            "imageSrc": "./d2_t3_080_O3.jpg",
             "text": "收尾",
             "isCorrect": false
           }
@@ -27273,23 +27273,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎叔當會____，大家聽到當入文，毋肯走。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/081_Q.jpg",
+        "questionImg": "./d2_t3_081_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/081_O1.jpg",
+            "imageSrc": "./d2_t3_081_O1.jpg",
             "text": "講古",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/081_O2.jpg",
+            "imageSrc": "./d2_t3_081_O2.jpg",
             "text": "講價",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/081_O3.jpg",
+            "imageSrc": "./d2_t3_081_O3.jpg",
             "text": "講和",
             "isCorrect": false
           }
@@ -27299,23 +27299,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿哥今晡朝晨睡忒晝咧，無______公車，去學校正會慢到。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/082_Q.jpg",
+        "questionImg": "./d2_t3_082_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/082_O1.jpg",
+            "imageSrc": "./d2_t3_082_O1.jpg",
             "text": "赴着",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/082_O2.jpg",
+            "imageSrc": "./d2_t3_082_O2.jpg",
             "text": "搭着",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/082_O3.jpg",
+            "imageSrc": "./d2_t3_082_O3.jpg",
             "text": "做着",
             "isCorrect": false
           }
@@ -27325,23 +27325,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "今晡日係年三十，阿美姊_____就愛去新公司上班咧。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/083_Q.jpg",
+        "questionImg": "./d2_t3_083_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/083_O1.jpg",
+            "imageSrc": "./d2_t3_083_O1.jpg",
             "text": "今年",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/083_O2.jpg",
+            "imageSrc": "./d2_t3_083_O2.jpg",
             "text": "舊年",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/083_O3.jpg",
+            "imageSrc": "./d2_t3_083_O3.jpg",
             "text": "過忒年",
             "isCorrect": true
           }
@@ -27351,23 +27351,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你等一下，𠊎_____來。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/084_Q.jpg",
+        "questionImg": "./d2_t3_084_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/084_O1.jpg",
+            "imageSrc": "./d2_t3_084_O1.jpg",
             "text": "黏等",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/084_O2.jpg",
+            "imageSrc": "./d2_t3_084_O2.jpg",
             "text": "黏着",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/084_O3.jpg",
+            "imageSrc": "./d2_t3_084_O3.jpg",
             "text": "黏皮",
             "isCorrect": true
           }
@@ -27377,23 +27377,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "公共場所若係亂_____垃圾，就會分人罰錢。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/085_Q.jpg",
+        "questionImg": "./d2_t3_085_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/085_O1.jpg",
+            "imageSrc": "./d2_t3_085_O1.jpg",
             "text": "㧡",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/085_O2.jpg",
+            "imageSrc": "./d2_t3_085_O2.jpg",
             "text": "收",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/085_O3.jpg",
+            "imageSrc": "./d2_t3_085_O3.jpg",
             "text": "擲",
             "isCorrect": true
           }
@@ -27403,23 +27403,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "昨晡日開會，𠊎先到，佢____正來。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/086_Q.jpg",
+        "questionImg": "./d2_t3_086_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/086_O1.jpg",
+            "imageSrc": "./d2_t3_086_O1.jpg",
             "text": "有時節",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/086_O2.jpg",
+            "imageSrc": "./d2_t3_086_O2.jpg",
             "text": "同時",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/086_O3.jpg",
+            "imageSrc": "./d2_t3_086_O3.jpg",
             "text": "背尾",
             "isCorrect": true
           }
@@ -27429,23 +27429,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "班長通知大家，韶早_____就愛在學校大門口集合。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/087_Q.jpg",
+        "questionImg": "./d2_t3_087_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/087_O1.jpg",
+            "imageSrc": "./d2_t3_087_O1.jpg",
             "text": "還早",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/087_O2.jpg",
+            "imageSrc": "./d2_t3_087_O2.jpg",
             "text": "打早",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/087_O3.jpg",
+            "imageSrc": "./d2_t3_087_O3.jpg",
             "text": "忒早",
             "isCorrect": false
           }
@@ -27455,23 +27455,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你行恁遽，𠊎_____毋着。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/088_Q.jpg",
+        "questionImg": "./d2_t3_088_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/088_O1.jpg",
+            "imageSrc": "./d2_t3_088_O1.jpg",
             "text": "跈",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/088_O2.jpg",
+            "imageSrc": "./d2_t3_088_O2.jpg",
             "text": "跍",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/088_O3.jpg",
+            "imageSrc": "./d2_t3_088_O3.jpg",
             "text": "企",
             "isCorrect": false
           }
@@ -27481,23 +27481,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢前幾日_____嬰兒仔，這下在該做月。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/089_Q.jpg",
+        "questionImg": "./d2_t3_089_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/089_O1.jpg",
+            "imageSrc": "./d2_t3_089_O1.jpg",
             "text": "降",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/089_O2.jpg",
+            "imageSrc": "./d2_t3_089_O2.jpg",
             "text": "出",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/089_O3.jpg",
+            "imageSrc": "./d2_t3_089_O3.jpg",
             "text": "發",
             "isCorrect": false
           }
@@ -27507,23 +27507,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎_____想，這個人𠊎識看過係無？仰會恁熟面？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/090_Q.jpg",
+        "questionImg": "./d2_t3_090_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/090_O1.jpg",
+            "imageSrc": "./d2_t3_090_O1.jpg",
             "text": "頭那",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/090_O2.jpg",
+            "imageSrc": "./d2_t3_090_O2.jpg",
             "text": "肚屎肚",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/090_O3.jpg",
+            "imageSrc": "./d2_t3_090_O3.jpg",
             "text": "心肝肚",
             "isCorrect": true
           }
@@ -27533,23 +27533,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "_____有你𢯭手，正有好恁遽做好。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/091_Q.jpg",
+        "questionImg": "./d2_t3_091_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/091_O1.jpg",
+            "imageSrc": "./d2_t3_091_O1.jpg",
             "text": "好勢",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/091_O2.jpg",
+            "imageSrc": "./d2_t3_091_O2.jpg",
             "text": "好心",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/091_O3.jpg",
+            "imageSrc": "./d2_t3_091_O3.jpg",
             "text": "好得",
             "isCorrect": true
           }
@@ -27559,23 +27559,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這擺个演唱會，佢係＿＿＿＿一個買着票个，實在當幸運。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/092_Q.jpg",
+        "questionImg": "./d2_t3_092_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/092_O1.jpg",
+            "imageSrc": "./d2_t3_092_O1.jpg",
             "text": "最尾",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/092_O2.jpg",
+            "imageSrc": "./d2_t3_092_O2.jpg",
             "text": "頭尾",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/092_O3.jpg",
+            "imageSrc": "./d2_t3_092_O3.jpg",
             "text": "到尾",
             "isCorrect": false
           }
@@ -27585,23 +27585,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "毋好看𠊎恁______電動，其實𠊎對裡肚乜學着盡多英文。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/093_Q.jpg",
+        "questionImg": "./d2_t3_093_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/093_O1.jpg",
+            "imageSrc": "./d2_t3_093_O1.jpg",
             "text": "好搞",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/093_O2.jpg",
+            "imageSrc": "./d2_t3_093_O2.jpg",
             "text": "毋好",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/093_O3.jpg",
+            "imageSrc": "./d2_t3_093_O3.jpg",
             "text": "好鬥",
             "isCorrect": false
           }
@@ -27611,23 +27611,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎無注意着褲______隻大空，還著等出門，還失禮喲！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/094_Q.jpg",
+        "questionImg": "./d2_t3_094_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/094_O1.jpg",
+            "imageSrc": "./d2_t3_094_O1.jpg",
             "text": "綿",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/094_O2.jpg",
+            "imageSrc": "./d2_t3_094_O2.jpg",
             "text": "破",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/094_O3.jpg",
+            "imageSrc": "./d2_t3_094_O3.jpg",
             "text": "爛",
             "isCorrect": true
           }
@@ -27637,23 +27637,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "書架个書忒多咧，毋好再過____落去。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/095_Q.jpg",
+        "questionImg": "./d2_t3_095_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/095_O1.jpg",
+            "imageSrc": "./d2_t3_095_O1.jpg",
             "text": "鬥",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/095_O2.jpg",
+            "imageSrc": "./d2_t3_095_O2.jpg",
             "text": "貼",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/095_O3.jpg",
+            "imageSrc": "./d2_t3_095_O3.jpg",
             "text": "尖",
             "isCorrect": true
           }
@@ -27663,23 +27663,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你个鞋帶仔無䌈緪，_____行路會跢倒！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/096_Q.jpg",
+        "questionImg": "./d2_t3_096_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/096_O1.jpg",
+            "imageSrc": "./d2_t3_096_O1.jpg",
             "text": "還怕",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/096_O2.jpg",
+            "imageSrc": "./d2_t3_096_O2.jpg",
             "text": "毋怕",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/096_O3.jpg",
+            "imageSrc": "./d2_t3_096_O3.jpg",
             "text": "驚怕",
             "isCorrect": true
           }
@@ -27689,23 +27689,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你个手恁屙糟，毋好無洗手就拿東西食。係講大家愛注意麼个﹖",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/097_Q.jpg",
+        "questionImg": "./d2_t3_097_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/097_O1.jpg",
+            "imageSrc": "./d2_t3_097_O1.jpg",
             "text": "淨食",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/097_O2.jpg",
+            "imageSrc": "./d2_t3_097_O2.jpg",
             "text": "淨俐",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/097_O3.jpg",
+            "imageSrc": "./d2_t3_097_O3.jpg",
             "text": "白淨",
             "isCorrect": false
           }
@@ -27715,23 +27715,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢分日頭晒歸日就毋會____，毋知用麼个保養个，仰恁好！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/098_Q.jpg",
+        "questionImg": "./d2_t3_098_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/098_O1.jpg",
+            "imageSrc": "./d2_t3_098_O1.jpg",
             "text": "光",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/098_O2.jpg",
+            "imageSrc": "./d2_t3_098_O2.jpg",
             "text": "烏",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/098_O3.jpg",
+            "imageSrc": "./d2_t3_098_O3.jpg",
             "text": "暗",
             "isCorrect": false
           }
@@ -27741,23 +27741,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "桌頂个菜_____收揫，驚怕會分烏蠅拑。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/099_Q.jpg",
+        "questionImg": "./d2_t3_099_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/099_O1.jpg",
+            "imageSrc": "./d2_t3_099_O1.jpg",
             "text": "係無",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/099_O2.jpg",
+            "imageSrc": "./d2_t3_099_O2.jpg",
             "text": "係有",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/099_O3.jpg",
+            "imageSrc": "./d2_t3_099_O3.jpg",
             "text": "又係",
             "isCorrect": false
           }
@@ -27767,23 +27767,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這張桌仔長有120公分、___有60公分，做得放已多東西着。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/100_Q.jpg",
+        "questionImg": "./d2_t3_100_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/100_O1.jpg",
+            "imageSrc": "./d2_t3_100_O1.jpg",
             "text": "寬",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/100_O2.jpg",
+            "imageSrc": "./d2_t3_100_O2.jpg",
             "text": "短",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/100_O3.jpg",
+            "imageSrc": "./d2_t3_100_O3.jpg",
             "text": "闊",
             "isCorrect": true
           }
@@ -27793,23 +27793,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿弟牯當好讀書，一本____个書，兩下半就讀忒咧！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/101_Q.jpg",
+        "questionImg": "./d2_t3_101_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/101_O1.jpg",
+            "imageSrc": "./d2_t3_101_O1.jpg",
             "text": "恁闊",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/101_O2.jpg",
+            "imageSrc": "./d2_t3_101_O2.jpg",
             "text": "恁大",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/101_O3.jpg",
+            "imageSrc": "./d2_t3_101_O3.jpg",
             "text": "恁賁",
             "isCorrect": true
           }
@@ -27819,23 +27819,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這尾枋車係無赴着，毋知愛_______，大家愛行較遽兜仔哦！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/102_Q.jpg",
+        "questionImg": "./d2_t3_102_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/102_O1.jpg",
+            "imageSrc": "./d2_t3_102_O1.jpg",
             "text": "仰結煞",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/102_O2.jpg",
+            "imageSrc": "./d2_t3_102_O2.jpg",
             "text": "仰會知",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/102_O3.jpg",
+            "imageSrc": "./d2_t3_102_O3.jpg",
             "text": "仰做得",
             "isCorrect": false
           }
@@ -27845,23 +27845,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這包食伸个零嗒，袋嘴愛用_____束起來。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/103_Q.jpg",
+        "questionImg": "./d2_t3_103_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/103_O1.jpg",
+            "imageSrc": "./d2_t3_103_O1.jpg",
             "text": "蓋仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/103_O2.jpg",
+            "imageSrc": "./d2_t3_103_O2.jpg",
             "text": "樹乳仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/103_O3.jpg",
+            "imageSrc": "./d2_t3_103_O3.jpg",
             "text": "捽仔",
             "isCorrect": false
           }
@@ -27871,23 +27871,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你个球鞋恁屙糟，拿去水槽_____，正拿出去晒。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/104_Q.jpg",
+        "questionImg": "./d2_t3_104_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/104_O1.jpg",
+            "imageSrc": "./d2_t3_104_O1.jpg",
             "text": "刷淨來",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/104_O2.jpg",
+            "imageSrc": "./d2_t3_104_O2.jpg",
             "text": "捽淨來",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/104_O3.jpg",
+            "imageSrc": "./d2_t3_104_O3.jpg",
             "text": "抹淨來",
             "isCorrect": false
           }
@@ -27897,23 +27897,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿梅畜个狗_____，毋管麼人來佢就分到清清楚楚。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/105_Q.jpg",
+        "questionImg": "./d2_t3_105_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/105_O1.jpg",
+            "imageSrc": "./d2_t3_105_O1.jpg",
             "text": "盡靚",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/105_O2.jpg",
+            "imageSrc": "./d2_t3_105_O2.jpg",
             "text": "盡精",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/105_O3.jpg",
+            "imageSrc": "./d2_t3_105_O3.jpg",
             "text": "盡恬",
             "isCorrect": false
           }
@@ -27923,23 +27923,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "過十字路个時節，細孲仔用_____比用牽較安全。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/106_Q.jpg",
+        "questionImg": "./d2_t3_106_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/106_O1.jpg",
+            "imageSrc": "./d2_t3_106_O1.jpg",
             "text": "揇",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/106_O2.jpg",
+            "imageSrc": "./d2_t3_106_O2.jpg",
             "text": "扛",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/106_O3.jpg",
+            "imageSrc": "./d2_t3_106_O3.jpg",
             "text": "擎",
             "isCorrect": false
           }
@@ -27949,23 +27949,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "若係你______就摎人冤家，該就會無朋友。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/107_Q.jpg",
+        "questionImg": "./d2_t3_107_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/107_O1.jpg",
+            "imageSrc": "./d2_t3_107_O1.jpg",
             "text": "動啊着",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/107_O2.jpg",
+            "imageSrc": "./d2_t3_107_O2.jpg",
             "text": "聽啊着",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/107_O3.jpg",
+            "imageSrc": "./d2_t3_107_O3.jpg",
             "text": "拈啊着",
             "isCorrect": false
           }
@@ -27975,23 +27975,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿蓮嫁分阿成厥哥，所以阿蓮係阿成个麼人？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/108_Q.jpg",
+        "questionImg": "./d2_t3_108_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/108_O1.jpg",
+            "imageSrc": "./d2_t3_108_O1.jpg",
             "text": "阿姨",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/108_O2.jpg",
+            "imageSrc": "./d2_t3_108_O2.jpg",
             "text": "阿嫂",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/108_O3.jpg",
+            "imageSrc": "./d2_t3_108_O3.jpg",
             "text": "阿姊",
             "isCorrect": false
           }
@@ -28001,23 +28001,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "逐擺看着老弟，佢就____摎阿婆討錢，盡無用。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/109_Q.jpg",
+        "questionImg": "./d2_t3_109_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/109_O1.jpg",
+            "imageSrc": "./d2_t3_109_O1.jpg",
             "text": "專門",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/109_O2.jpg",
+            "imageSrc": "./d2_t3_109_O2.jpg",
             "text": "專心",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/109_O3.jpg",
+            "imageSrc": "./d2_t3_109_O3.jpg",
             "text": "用心",
             "isCorrect": false
           }
@@ -28027,23 +28027,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "作業簿个字寫毋著咧，愛_____忒寫過。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/110_Q.jpg",
+        "questionImg": "./d2_t3_110_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/110_O1.jpg",
+            "imageSrc": "./d2_t3_110_O1.jpg",
             "text": "捽",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/110_O2.jpg",
+            "imageSrc": "./d2_t3_110_O2.jpg",
             "text": "抹",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/110_O3.jpg",
+            "imageSrc": "./d2_t3_110_O3.jpg",
             "text": "撚",
             "isCorrect": false
           }
@@ -28053,23 +28053,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這有_____餅，你愛食無？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/111_Q.jpg",
+        "questionImg": "./d2_t3_111_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/111_O1.jpg",
+            "imageSrc": "./d2_t3_111_O1.jpg",
             "text": "一垤",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/111_O2.jpg",
+            "imageSrc": "./d2_t3_111_O2.jpg",
             "text": "一支",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/111_O3.jpg",
+            "imageSrc": "./d2_t3_111_O3.jpg",
             "text": "一頭",
             "isCorrect": false
           }
@@ -28079,23 +28079,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎今晡日去你屋下_____，你就無在屋下哦。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/112_Q.jpg",
+        "questionImg": "./d2_t3_112_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/112_O1.jpg",
+            "imageSrc": "./d2_t3_112_O1.jpg",
             "text": "三到",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/112_O2.jpg",
+            "imageSrc": "./d2_t3_112_O2.jpg",
             "text": "三通",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/112_O3.jpg",
+            "imageSrc": "./d2_t3_112_O3.jpg",
             "text": "三項",
             "isCorrect": false
           }
@@ -28105,23 +28105,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿爸下晝打電話講今晡日愛加班，臨暗仔＿共下食飯咧，愛𠊎兜先食。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/113_Q.jpg",
+        "questionImg": "./d2_t3_113_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/113_O1.jpg",
+            "imageSrc": "./d2_t3_113_O1.jpg",
             "text": "無法度",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/113_O2.jpg",
+            "imageSrc": "./d2_t3_113_O2.jpg",
             "text": "無堵好",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/113_O3.jpg",
+            "imageSrc": "./d2_t3_113_O3.jpg",
             "text": "無奈何",
             "isCorrect": false
           }
@@ -28131,23 +28131,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿弟牯，等大家坐____來正食，恁仰正乖！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/114_Q.jpg",
+        "questionImg": "./d2_t3_114_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/114_O1.jpg",
+            "imageSrc": "./d2_t3_114_O1.jpg",
             "text": "實在",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/114_O2.jpg",
+            "imageSrc": "./d2_t3_114_O2.jpg",
             "text": "盡好",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/114_O3.jpg",
+            "imageSrc": "./d2_t3_114_O3.jpg",
             "text": "好勢",
             "isCorrect": true
           }
@@ -28157,23 +28157,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢屋下______吊个月曆，係厥爸公司送个。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/115_Q.jpg",
+        "questionImg": "./d2_t3_115_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/115_O1.jpg",
+            "imageSrc": "./d2_t3_115_O1.jpg",
             "text": "壁頂",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/115_O2.jpg",
+            "imageSrc": "./d2_t3_115_O2.jpg",
             "text": "屋頂",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/115_O3.jpg",
+            "imageSrc": "./d2_t3_115_O3.jpg",
             "text": "桌頂",
             "isCorrect": false
           }
@@ -28183,23 +28183,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "姐婆見擺＿＿＿一變，佢个風溼就會擎起來。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/116_Q.jpg",
+        "questionImg": "./d2_t3_116_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/116_O1.jpg",
+            "imageSrc": "./d2_t3_116_O1.jpg",
             "text": "天時",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/116_O2.jpg",
+            "imageSrc": "./d2_t3_116_O2.jpg",
             "text": "虹",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/116_O3.jpg",
+            "imageSrc": "./d2_t3_116_O3.jpg",
             "text": "天年",
             "isCorrect": false
           }
@@ -28209,23 +28209,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "今晡日先分𠊎請，____正分你出錢。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/117_Q.jpg",
+        "questionImg": "./d2_t3_117_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/117_O1.jpg",
+            "imageSrc": "./d2_t3_117_O1.jpg",
             "text": "逐擺",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/117_O2.jpg",
+            "imageSrc": "./d2_t3_117_O2.jpg",
             "text": "下二擺",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/117_O3.jpg",
+            "imageSrc": "./d2_t3_117_O3.jpg",
             "text": "頭擺",
             "isCorrect": false
           }
@@ -28235,23 +28235,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "厥爸留下來个田產，分佢賣淨淨，這下_____到屙痢肚。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/118_Q.jpg",
+        "questionImg": "./d2_t3_118_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/118_O1.jpg",
+            "imageSrc": "./d2_t3_118_O1.jpg",
             "text": "痛",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/118_O2.jpg",
+            "imageSrc": "./d2_t3_118_O2.jpg",
             "text": "閼",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/118_O3.jpg",
+            "imageSrc": "./d2_t3_118_O3.jpg",
             "text": "苦",
             "isCorrect": true
           }
@@ -28261,23 +28261,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這下讀書點電火，毋使像_____愛點油燈。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/119_Q.jpg",
+        "questionImg": "./d2_t3_119_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/119_O1.jpg",
+            "imageSrc": "./d2_t3_119_O1.jpg",
             "text": "逐擺",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/119_O2.jpg",
+            "imageSrc": "./d2_t3_119_O2.jpg",
             "text": "下二擺",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/119_O3.jpg",
+            "imageSrc": "./d2_t3_119_O3.jpg",
             "text": "頭擺",
             "isCorrect": true
           }
@@ -28287,23 +28287,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎跍在花園______草，正半點鐘就悿咧。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/120_Q.jpg",
+        "questionImg": "./d2_t3_120_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/120_O1.jpg",
+            "imageSrc": "./d2_t3_120_O1.jpg",
             "text": "摸",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/120_O2.jpg",
+            "imageSrc": "./d2_t3_120_O2.jpg",
             "text": "換",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/120_O3.jpg",
+            "imageSrc": "./d2_t3_120_O3.jpg",
             "text": "挷",
             "isCorrect": true
           }
@@ -28313,23 +28313,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "煮客家粄圓，愛放_____艾菜，毋使忒多，正會好食。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/121_Q.jpg",
+        "questionImg": "./d2_t3_121_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/121_O1.jpg",
+            "imageSrc": "./d2_t3_121_O1.jpg",
             "text": "一滴",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/121_O2.jpg",
+            "imageSrc": "./d2_t3_121_O2.jpg",
             "text": "一粒",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/121_O3.jpg",
+            "imageSrc": "./d2_t3_121_O3.jpg",
             "text": "一鑊",
             "isCorrect": false
           }
@@ -28339,23 +28339,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿秋个皮包仔____咧！毋知麼人拈着？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/122_Q.jpg",
+        "questionImg": "./d2_t3_122_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/122_O1.jpg",
+            "imageSrc": "./d2_t3_122_O1.jpg",
             "text": "橫忒",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/122_O2.jpg",
+            "imageSrc": "./d2_t3_122_O2.jpg",
             "text": "跌忒",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/122_O3.jpg",
+            "imageSrc": "./d2_t3_122_O3.jpg",
             "text": "走忒",
             "isCorrect": false
           }
@@ -28365,23 +28365,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿文行路無細義跢倒，痛到緊＿＿，看着已毋盼得。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/123_Q.jpg",
+        "questionImg": "./d2_t3_123_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/123_O1.jpg",
+            "imageSrc": "./d2_t3_123_O1.jpg",
             "text": "講",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/123_O2.jpg",
+            "imageSrc": "./d2_t3_123_O2.jpg",
             "text": "噭",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/123_O3.jpg",
+            "imageSrc": "./d2_t3_123_O3.jpg",
             "text": "閼",
             "isCorrect": false
           }
@@ -28391,23 +28391,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "騎腳踏車下崎个時節，_____愛撚等，莫溜恁遽。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/124_Q.jpg",
+        "questionImg": "./d2_t3_124_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/124_O1.jpg",
+            "imageSrc": "./d2_t3_124_O1.jpg",
             "text": "輪仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/124_O2.jpg",
+            "imageSrc": "./d2_t3_124_O2.jpg",
             "text": "擋仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/124_O3.jpg",
+            "imageSrc": "./d2_t3_124_O3.jpg",
             "text": "鈴仔",
             "isCorrect": false
           }
@@ -28417,23 +28417,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這下人係毋曉得用手機、用電腦，該就______咧！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/125_Q.jpg",
+        "questionImg": "./d2_t3_125_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/125_O1.jpg",
+            "imageSrc": "./d2_t3_125_O1.jpg",
             "text": "跈人毋着",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/125_O2.jpg",
+            "imageSrc": "./d2_t3_125_O2.jpg",
             "text": "跈得着人",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/125_O3.jpg",
+            "imageSrc": "./d2_t3_125_O3.jpg",
             "text": "有人跈着",
             "isCorrect": false
           }
@@ -28443,23 +28443,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "韶早就愛註冊，錢嗄跌忒咧！愛______正好？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/126_Q.jpg",
+        "questionImg": "./d2_t3_126_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/126_O1.jpg",
+            "imageSrc": "./d2_t3_126_O1.jpg",
             "text": "仰會",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/126_O2.jpg",
+            "imageSrc": "./d2_t3_126_O2.jpg",
             "text": "仰結煞",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/126_O3.jpg",
+            "imageSrc": "./d2_t3_126_O3.jpg",
             "text": "仰堵好",
             "isCorrect": false
           }
@@ -28469,23 +28469,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "學校下課時節，𠊎摎同學共下去_____走追仔。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/127_Q.jpg",
+        "questionImg": "./d2_t3_127_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/127_O1.jpg",
+            "imageSrc": "./d2_t3_127_O1.jpg",
             "text": "運動坪",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/127_O2.jpg",
+            "imageSrc": "./d2_t3_127_O2.jpg",
             "text": "便所",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/127_O3.jpg",
+            "imageSrc": "./d2_t3_127_O3.jpg",
             "text": "辦公室",
             "isCorrect": false
           }
@@ -28495,23 +28495,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢賣个衫_____，較便宜乜毋摎佢買。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/128_Q.jpg",
+        "questionImg": "./d2_t3_128_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/128_O1.jpg",
+            "imageSrc": "./d2_t3_128_O1.jpg",
             "text": "恁媸",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/128_O2.jpg",
+            "imageSrc": "./d2_t3_128_O2.jpg",
             "text": "盡靚",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/128_O3.jpg",
+            "imageSrc": "./d2_t3_128_O3.jpg",
             "text": "已淨",
             "isCorrect": false
           }
@@ -28521,23 +28521,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "做事若係_____做忒悿，暗晡頭就會較好睡。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/129_Q.jpg",
+        "questionImg": "./d2_t3_129_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/129_O1.jpg",
+            "imageSrc": "./d2_t3_129_O1.jpg",
             "text": "日時頭",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/129_O2.jpg",
+            "imageSrc": "./d2_t3_129_O2.jpg",
             "text": "韶早",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/129_O3.jpg",
+            "imageSrc": "./d2_t3_129_O3.jpg",
             "text": "昨晡日",
             "isCorrect": false
           }
@@ -28547,23 +28547,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "衫褲愛晒____來，正毋會生菇。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/130_Q.jpg",
+        "questionImg": "./d2_t3_130_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/130_O1.jpg",
+            "imageSrc": "./d2_t3_130_O1.jpg",
             "text": "燒",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/130_O2.jpg",
+            "imageSrc": "./d2_t3_130_O2.jpg",
             "text": "乾",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/130_O3.jpg",
+            "imageSrc": "./d2_t3_130_O3.jpg",
             "text": "燥",
             "isCorrect": true
           }
@@ -28573,23 +28573,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "拿人个東西以前愛先問過人，係無就_____偷。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/131_Q.jpg",
+        "questionImg": "./d2_t3_131_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/131_O1.jpg",
+            "imageSrc": "./d2_t3_131_O1.jpg",
             "text": "喊到",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/131_O2.jpg",
+            "imageSrc": "./d2_t3_131_O2.jpg",
             "text": "叫到",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/131_O3.jpg",
+            "imageSrc": "./d2_t3_131_O3.jpg",
             "text": "安到",
             "isCorrect": true
           }
@@ -28599,23 +28599,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "日頭恁烈，細阿姊仔當慣擎______來抵涼。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/132_Q.jpg",
+        "questionImg": "./d2_t3_132_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/132_O1.jpg",
+            "imageSrc": "./d2_t3_132_O1.jpg",
             "text": "竹篙",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/132_O2.jpg",
+            "imageSrc": "./d2_t3_132_O2.jpg",
             "text": "钁頭",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/132_O3.jpg",
+            "imageSrc": "./d2_t3_132_O3.jpg",
             "text": "遮仔",
             "isCorrect": true
           }
@@ -28625,23 +28625,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿婆講，食____剝殼後，還愛挲兜鹽較好食。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/133_Q.jpg",
+        "questionImg": "./d2_t3_133_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/133_O1.jpg",
+            "imageSrc": "./d2_t3_133_O1.jpg",
             "text": "包粟",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/133_O2.jpg",
+            "imageSrc": "./d2_t3_133_O2.jpg",
             "text": "豆仔",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/133_O3.jpg",
+            "imageSrc": "./d2_t3_133_O3.jpg",
             "text": "柑仔",
             "isCorrect": false
           }
@@ -28651,23 +28651,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿爸講：車仔會無油咧，愛遽兜去加油。係講油仰般咧？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/134_Q.jpg",
+        "questionImg": "./d2_t3_134_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/134_O1.jpg",
+            "imageSrc": "./d2_t3_134_O1.jpg",
             "text": "伸一息",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/134_O2.jpg",
+            "imageSrc": "./d2_t3_134_O2.jpg",
             "text": "還已多",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/134_O3.jpg",
+            "imageSrc": "./d2_t3_134_O3.jpg",
             "text": "全無咧",
             "isCorrect": false
           }
@@ -28677,23 +28677,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "現下个人____个東西驚會壞忒，大體就會放落冰箱肚去。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/135_Q.jpg",
+        "questionImg": "./d2_t3_135_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/135_O1.jpg",
+            "imageSrc": "./d2_t3_135_O1.jpg",
             "text": "食伸",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/135_O2.jpg",
+            "imageSrc": "./d2_t3_135_O2.jpg",
             "text": "食淨",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/135_O3.jpg",
+            "imageSrc": "./d2_t3_135_O3.jpg",
             "text": "食着",
             "isCorrect": false
           }
@@ -28703,23 +28703,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢見擺過年過節就會轉老屋拜_____，還已有心哦！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/136_Q.jpg",
+        "questionImg": "./d2_t3_136_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/136_O1.jpg",
+            "imageSrc": "./d2_t3_136_O1.jpg",
             "text": "阿叔婆",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/136_O2.jpg",
+            "imageSrc": "./d2_t3_136_O2.jpg",
             "text": "阿姨婆",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/136_O3.jpg",
+            "imageSrc": "./d2_t3_136_O3.jpg",
             "text": "阿公婆",
             "isCorrect": true
           }
@@ -28729,23 +28729,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎毋堵好撞着佢一下，佢就______等去投先生。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/137_Q.jpg",
+        "questionImg": "./d2_t3_137_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/137_O1.jpg",
+            "imageSrc": "./d2_t3_137_O1.jpg",
             "text": "擎",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/137_O2.jpg",
+            "imageSrc": "./d2_t3_137_O2.jpg",
             "text": "噭",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/137_O3.jpg",
+            "imageSrc": "./d2_t3_137_O3.jpg",
             "text": "企",
             "isCorrect": false
           }
@@ -28755,23 +28755,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "煮火鍋愛拈______高麗菜共下煮，毋好斯食肉，較健康。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/138_Q.jpg",
+        "questionImg": "./d2_t3_138_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/138_O1.jpg",
+            "imageSrc": "./d2_t3_138_O1.jpg",
             "text": "幾皮",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/138_O2.jpg",
+            "imageSrc": "./d2_t3_138_O2.jpg",
             "text": "幾把",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/138_O3.jpg",
+            "imageSrc": "./d2_t3_138_O3.jpg",
             "text": "幾層",
             "isCorrect": false
           }
@@ -28781,23 +28781,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢朝晨食_______，臨晝仔就肚屎枵咧。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/139_Q.jpg",
+        "questionImg": "./d2_t3_139_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/139_O1.jpg",
+            "imageSrc": "./d2_t3_139_O1.jpg",
             "text": "忒少",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/139_O2.jpg",
+            "imageSrc": "./d2_t3_139_O2.jpg",
             "text": "忒晝",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/139_O3.jpg",
+            "imageSrc": "./d2_t3_139_O3.jpg",
             "text": "忒好",
             "isCorrect": false
           }
@@ -28807,23 +28807,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎公个＿＿在山頂，該位空氣當好。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/140_Q.jpg",
+        "questionImg": "./d2_t3_140_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/140_O1.jpg",
+            "imageSrc": "./d2_t3_140_O1.jpg",
             "text": "上屋",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/140_O2.jpg",
+            "imageSrc": "./d2_t3_140_O2.jpg",
             "text": "屋下",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/140_O3.jpg",
+            "imageSrc": "./d2_t3_140_O3.jpg",
             "text": "屋肚",
             "isCorrect": false
           }
@@ -28833,23 +28833,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿婆係屋下最_______時行个人，麼个新出个手機佢就曉得用。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/141_Q.jpg",
+        "questionImg": "./d2_t3_141_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/141_O1.jpg",
+            "imageSrc": "./d2_t3_141_O1.jpg",
             "text": "跈得着",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/141_O2.jpg",
+            "imageSrc": "./d2_t3_141_O2.jpg",
             "text": "買得着",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/141_O3.jpg",
+            "imageSrc": "./d2_t3_141_O3.jpg",
             "text": "捽得着",
             "isCorrect": false
           }
@@ -28859,23 +28859,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎爸个阿嫂，𠊎愛喊佢麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/142_Q.jpg",
+        "questionImg": "./d2_t3_142_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/142_O1.jpg",
+            "imageSrc": "./d2_t3_142_O1.jpg",
             "text": "伯姆",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/142_O2.jpg",
+            "imageSrc": "./d2_t3_142_O2.jpg",
             "text": "伯婆",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/142_O3.jpg",
+            "imageSrc": "./d2_t3_142_O3.jpg",
             "text": "阿婆",
             "isCorrect": false
           }
@@ -28885,23 +28885,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "週年慶个特價品還盡多，毋使相搶，_____就買得着！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/143_Q.jpg",
+        "questionImg": "./d2_t3_143_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/143_O1.jpg",
+            "imageSrc": "./d2_t3_143_O1.jpg",
             "text": "頭頭",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/143_O2.jpg",
+            "imageSrc": "./d2_t3_143_O2.jpg",
             "text": "儕儕",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/143_O3.jpg",
+            "imageSrc": "./d2_t3_143_O3.jpg",
             "text": "條條",
             "isCorrect": false
           }
@@ -28911,23 +28911,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "正釣著个魚仔當____，煮湯定着好食！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/144_Q.jpg",
+        "questionImg": "./d2_t3_144_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/144_O1.jpg",
+            "imageSrc": "./d2_t3_144_O1.jpg",
             "text": "鮮",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/144_O2.jpg",
+            "imageSrc": "./d2_t3_144_O2.jpg",
             "text": "萋",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/144_O3.jpg",
+            "imageSrc": "./d2_t3_144_O3.jpg",
             "text": "靚",
             "isCorrect": false
           }
@@ -28937,23 +28937,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿姆著____靚靚个洋裝，愛去分人請。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/145_Q.jpg",
+        "questionImg": "./d2_t3_145_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/145_O1.jpg",
+            "imageSrc": "./d2_t3_145_O1.jpg",
             "text": "一身",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/145_O2.jpg",
+            "imageSrc": "./d2_t3_145_O2.jpg",
             "text": "一件",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/145_O3.jpg",
+            "imageSrc": "./d2_t3_145_O3.jpg",
             "text": "一片",
             "isCorrect": false
           }
@@ -28963,23 +28963,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "桌頂無肉氣，斯傍青菜、豆腐____已好。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/146_Q.jpg",
+        "questionImg": "./d2_t3_146_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/146_O1.jpg",
+            "imageSrc": "./d2_t3_146_O1.jpg",
             "text": "正",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/146_O2.jpg",
+            "imageSrc": "./d2_t3_146_O2.jpg",
             "text": "吂",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/146_O3.jpg",
+            "imageSrc": "./d2_t3_146_O3.jpg",
             "text": "乜",
             "isCorrect": true
           }
@@ -28989,23 +28989,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "食飽夜，碗箸愛收揫、桌仔愛_____，正毋會餳蟻公。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/147_Q.jpg",
+        "questionImg": "./d2_t3_147_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/147_O1.jpg",
+            "imageSrc": "./d2_t3_147_O1.jpg",
             "text": "刷淨來",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/147_O2.jpg",
+            "imageSrc": "./d2_t3_147_O2.jpg",
             "text": "拈淨來",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/147_O3.jpg",
+            "imageSrc": "./d2_t3_147_O3.jpg",
             "text": "抺淨來",
             "isCorrect": true
           }
@@ -29015,23 +29015,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "為着學客家話，佢逐禮拜都去新竹______，還煞猛!",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/148_Q.jpg",
+        "questionImg": "./d2_t3_148_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/148_O1.jpg",
+            "imageSrc": "./d2_t3_148_O1.jpg",
             "text": "一棧",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/148_O2.jpg",
+            "imageSrc": "./d2_t3_148_O2.jpg",
             "text": "一到",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/148_O3.jpg",
+            "imageSrc": "./d2_t3_148_O3.jpg",
             "text": "一儕",
             "isCorrect": false
           }
@@ -29041,23 +29041,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "間房个桌仔____當賁，愛記得捽，看起來正會鬆爽。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/149_Q.jpg",
+        "questionImg": "./d2_t3_149_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/149_O1.jpg",
+            "imageSrc": "./d2_t3_149_O1.jpg",
             "text": "塵灰",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/149_O2.jpg",
+            "imageSrc": "./d2_t3_149_O2.jpg",
             "text": "垃圾",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/149_O3.jpg",
+            "imageSrc": "./d2_t3_149_O3.jpg",
             "text": "石灰",
             "isCorrect": false
           }
@@ -29067,23 +29067,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿新當會講笑科，講到大家笑到______痛。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/150_Q.jpg",
+        "questionImg": "./d2_t3_150_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/150_O1.jpg",
+            "imageSrc": "./d2_t3_150_O1.jpg",
             "text": "腰仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/150_O2.jpg",
+            "imageSrc": "./d2_t3_150_O2.jpg",
             "text": "頭那",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/150_O3.jpg",
+            "imageSrc": "./d2_t3_150_O3.jpg",
             "text": "肚屎",
             "isCorrect": true
           }
@@ -29093,23 +29093,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "路中央个手機還新新，毋知係麼人毋堵好______个。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/151_Q.jpg",
+        "questionImg": "./d2_t3_151_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/151_O1.jpg",
+            "imageSrc": "./d2_t3_151_O1.jpg",
             "text": "擲忒",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/151_O2.jpg",
+            "imageSrc": "./d2_t3_151_O2.jpg",
             "text": "跌忒",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/151_O3.jpg",
+            "imageSrc": "./d2_t3_151_O3.jpg",
             "text": "㧒忒",
             "isCorrect": false
           }
@@ -29119,23 +29119,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "因為佢動啊着就摎人＿＿，所以無麼个朋友。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/152_Q.jpg",
+        "questionImg": "./d2_t3_152_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/152_O1.jpg",
+            "imageSrc": "./d2_t3_152_O1.jpg",
             "text": "冤家",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/152_O2.jpg",
+            "imageSrc": "./d2_t3_152_O2.jpg",
             "text": "𢯭手",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/152_O3.jpg",
+            "imageSrc": "./d2_t3_152_O3.jpg",
             "text": "相借問",
             "isCorrect": false
           }
@@ -29145,23 +29145,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿福伯下隻月討心臼，𠊎个紅包____阿宏帶過去。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/153_Q.jpg",
+        "questionImg": "./d2_t3_153_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/153_O1.jpg",
+            "imageSrc": "./d2_t3_153_O1.jpg",
             "text": "托",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/153_O2.jpg",
+            "imageSrc": "./d2_t3_153_O2.jpg",
             "text": "搭",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/153_O3.jpg",
+            "imageSrc": "./d2_t3_153_O3.jpg",
             "text": "渡",
             "isCorrect": false
           }
@@ -29171,23 +29171,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "車頭＿有一頭兩百零年个大樟樹。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/154_Q.jpg",
+        "questionImg": "./d2_t3_154_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/154_O1.jpg",
+            "imageSrc": "./d2_t3_154_O1.jpg",
             "text": "脣",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/154_O2.jpg",
+            "imageSrc": "./d2_t3_154_O2.jpg",
             "text": "頂",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/154_O3.jpg",
+            "imageSrc": "./d2_t3_154_O3.jpg",
             "text": "面",
             "isCorrect": false
           }
@@ -29197,23 +29197,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "朝晨𠊎食一滴仔東西定定，半晝就肚屎_______咧!",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/155_Q.jpg",
+        "questionImg": "./d2_t3_155_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/155_O1.jpg",
+            "imageSrc": "./d2_t3_155_O1.jpg",
             "text": "渴",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/155_O2.jpg",
+            "imageSrc": "./d2_t3_155_O2.jpg",
             "text": "悿",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/155_O3.jpg",
+            "imageSrc": "./d2_t3_155_O3.jpg",
             "text": "枵",
             "isCorrect": true
           }
@@ -29223,23 +29223,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "過年過節毋好燒金紙、銀紙，_______會汙染空氣，又毋環保。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/156_Q.jpg",
+        "questionImg": "./d2_t3_156_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/156_O1.jpg",
+            "imageSrc": "./d2_t3_156_O1.jpg",
             "text": "有無",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/156_O2.jpg",
+            "imageSrc": "./d2_t3_156_O2.jpg",
             "text": "係無",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/156_O3.jpg",
+            "imageSrc": "./d2_t3_156_O3.jpg",
             "text": "敢無",
             "isCorrect": false
           }
@@ -29249,23 +29249,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "路脣个苦楝樹分人_____兩頭了後，這下伸一頭定。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/157_Q.jpg",
+        "questionImg": "./d2_t3_157_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/157_O1.jpg",
+            "imageSrc": "./d2_t3_157_O1.jpg",
             "text": "剁忒",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/157_O2.jpg",
+            "imageSrc": "./d2_t3_157_O2.jpg",
             "text": "種了",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/157_O3.jpg",
+            "imageSrc": "./d2_t3_157_O3.jpg",
             "text": "㓾忒",
             "isCorrect": false
           }
@@ -29275,23 +29275,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "若係冷着流濞，愛戴麼个?",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/158_Q.jpg",
+        "questionImg": "./d2_t3_158_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/158_O1.jpg",
+            "imageSrc": "./d2_t3_158_O1.jpg",
             "text": "嘴落仔",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/158_O2.jpg",
+            "imageSrc": "./d2_t3_158_O2.jpg",
             "text": "笠嫲",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/158_O3.jpg",
+            "imageSrc": "./d2_t3_158_O3.jpg",
             "text": "目鏡",
             "isCorrect": false
           }
@@ -29301,23 +29301,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎个字簿仔_____咧！仰結煞？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/159_Q.jpg",
+        "questionImg": "./d2_t3_159_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/159_O1.jpg",
+            "imageSrc": "./d2_t3_159_O1.jpg",
             "text": "打毋得",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/159_O2.jpg",
+            "imageSrc": "./d2_t3_159_O2.jpg",
             "text": "做毋得",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/159_O3.jpg",
+            "imageSrc": "./d2_t3_159_O3.jpg",
             "text": "打毋見",
             "isCorrect": true
           }
@@ -29327,23 +29327,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "田肚个____割起來後，穀愛先晒燥來。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/160_Q.jpg",
+        "questionImg": "./d2_t3_160_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/160_O1.jpg",
+            "imageSrc": "./d2_t3_160_O1.jpg",
             "text": "包粟",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/160_O2.jpg",
+            "imageSrc": "./d2_t3_160_O2.jpg",
             "text": "禾仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/160_O3.jpg",
+            "imageSrc": "./d2_t3_160_O3.jpg",
             "text": "地豆",
             "isCorrect": false
           }
@@ -29353,23 +29353,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "堵着困難个事，你个____愛有自家个想法。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/161_Q.jpg",
+        "questionImg": "./d2_t3_161_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/161_O1.jpg",
+            "imageSrc": "./d2_t3_161_O1.jpg",
             "text": "頭那",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/161_O2.jpg",
+            "imageSrc": "./d2_t3_161_O2.jpg",
             "text": "肚屎肚",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/161_O3.jpg",
+            "imageSrc": "./d2_t3_161_O3.jpg",
             "text": "心肝肚",
             "isCorrect": true
           }
@@ -29379,23 +29379,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎婆食齋，朝晨頭常下食鮮___傍菜脯。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/162_Q.jpg",
+        "questionImg": "./d2_t3_162_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/162_O1.jpg",
+            "imageSrc": "./d2_t3_162_O1.jpg",
             "text": "肉",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/162_O2.jpg",
+            "imageSrc": "./d2_t3_162_O2.jpg",
             "text": "糜",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/162_O3.jpg",
+            "imageSrc": "./d2_t3_162_O3.jpg",
             "text": "飯",
             "isCorrect": false
           }
@@ -29405,23 +29405,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "係堵着____，阿明會去河壩釣魚仔。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/163_Q.jpg",
+        "questionImg": "./d2_t3_163_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/163_O1.jpg",
+            "imageSrc": "./d2_t3_163_O1.jpg",
             "text": "放尞時節",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/163_O2.jpg",
+            "imageSrc": "./d2_t3_163_O2.jpg",
             "text": "無閒時節",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/163_O3.jpg",
+            "imageSrc": "./d2_t3_163_O3.jpg",
             "text": "麼个時節",
             "isCorrect": false
           }
@@ -29431,23 +29431,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "薑嫲絲愛切較____兜，煮起來較入味。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/164_Q.jpg",
+        "questionImg": "./d2_t3_164_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/164_O1.jpg",
+            "imageSrc": "./d2_t3_164_O1.jpg",
             "text": "幼",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/164_O2.jpg",
+            "imageSrc": "./d2_t3_164_O2.jpg",
             "text": "辣",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/164_O3.jpg",
+            "imageSrc": "./d2_t3_164_O3.jpg",
             "text": "粗",
             "isCorrect": false
           }
@@ -29457,23 +29457,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿姆喊𠊎拿一＿＿杓仔去圳溝舀水淋菜。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/165_Q.jpg",
+        "questionImg": "./d2_t3_165_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/165_O1.jpg",
+            "imageSrc": "./d2_t3_165_O1.jpg",
             "text": "粒",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/165_O2.jpg",
+            "imageSrc": "./d2_t3_165_O2.jpg",
             "text": "支",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/165_O3.jpg",
+            "imageSrc": "./d2_t3_165_O3.jpg",
             "text": "條",
             "isCorrect": false
           }
@@ -29483,23 +29483,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿明已_____該間店个粄條，長下摎厥老弟去食。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/166_Q.jpg",
+        "questionImg": "./d2_t3_166_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/166_O1.jpg",
+            "imageSrc": "./d2_t3_166_O1.jpg",
             "text": "愛",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/166_O2.jpg",
+            "imageSrc": "./d2_t3_166_O2.jpg",
             "text": "會",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/166_O3.jpg",
+            "imageSrc": "./d2_t3_166_O3.jpg",
             "text": "好",
             "isCorrect": true
           }
@@ -29509,23 +29509,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "因為佢_____分狗嚇着，這下看着狗就驚。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/167_Q.jpg",
+        "questionImg": "./d2_t3_167_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/167_O1.jpg",
+            "imageSrc": "./d2_t3_167_O1.jpg",
             "text": "識",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/167_O2.jpg",
+            "imageSrc": "./d2_t3_167_O2.jpg",
             "text": "愛",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/167_O3.jpg",
+            "imageSrc": "./d2_t3_167_O3.jpg",
             "text": "吂",
             "isCorrect": false
           }
@@ -29535,23 +29535,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "坐輪椅个人較毋方便，係有人𢯭_____就加已順序。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/168_Q.jpg",
+        "questionImg": "./d2_t3_168_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/168_O1.jpg",
+            "imageSrc": "./d2_t3_168_O1.jpg",
             "text": "推",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/168_O2.jpg",
+            "imageSrc": "./d2_t3_168_O2.jpg",
             "text": "挷",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/168_O3.jpg",
+            "imageSrc": "./d2_t3_168_O3.jpg",
             "text": "𢱤",
             "isCorrect": true
           }
@@ -29561,23 +29561,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "學寫字，筆愛___正來，字正會靚。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/169_Q.jpg",
+        "questionImg": "./d2_t3_169_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/169_O1.jpg",
+            "imageSrc": "./d2_t3_169_O1.jpg",
             "text": "拈",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/169_O2.jpg",
+            "imageSrc": "./d2_t3_169_O2.jpg",
             "text": "挾",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/169_O3.jpg",
+            "imageSrc": "./d2_t3_169_O3.jpg",
             "text": "擎",
             "isCorrect": true
           }
@@ -29587,23 +29587,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "嬰兒仔在該緊____，怕係身體毋鬆爽抑係肚屎枵。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/170_Q.jpg",
+        "questionImg": "./d2_t3_170_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/170_O1.jpg",
+            "imageSrc": "./d2_t3_170_O1.jpg",
             "text": "講",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/170_O2.jpg",
+            "imageSrc": "./d2_t3_170_O2.jpg",
             "text": "噭",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/170_O3.jpg",
+            "imageSrc": "./d2_t3_170_O3.jpg",
             "text": "笑",
             "isCorrect": false
           }
@@ -29613,23 +29613,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿爸食飯該下當好摎菜______，佢講恁樣較扯飯。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/171_Q.jpg",
+        "questionImg": "./d2_t3_171_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/171_O1.jpg",
+            "imageSrc": "./d2_t3_171_O1.jpg",
             "text": "渣",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/171_O2.jpg",
+            "imageSrc": "./d2_t3_171_O2.jpg",
             "text": "汁",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/171_O3.jpg",
+            "imageSrc": "./d2_t3_171_O3.jpg",
             "text": "味",
             "isCorrect": true
           }
@@ -29639,23 +29639,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你仰上課還在該啄目睡？______愛較早兜仔睡。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/172_Q.jpg",
+        "questionImg": "./d2_t3_172_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/172_O1.jpg",
+            "imageSrc": "./d2_t3_172_O1.jpg",
             "text": "朝晨頭",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/172_O2.jpg",
+            "imageSrc": "./d2_t3_172_O2.jpg",
             "text": "暗晡頭",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/172_O3.jpg",
+            "imageSrc": "./d2_t3_172_O3.jpg",
             "text": "下晝頭",
             "isCorrect": false
           }
@@ -29665,23 +29665,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎買着一______老鼠色个衫，當靚。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/173_Q.jpg",
+        "questionImg": "./d2_t3_173_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/173_O1.jpg",
+            "imageSrc": "./d2_t3_173_O1.jpg",
             "text": "領",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/173_O2.jpg",
+            "imageSrc": "./d2_t3_173_O2.jpg",
             "text": "頂",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/173_O3.jpg",
+            "imageSrc": "./d2_t3_173_O3.jpg",
             "text": "件",
             "isCorrect": false
           }
@@ -29691,23 +29691,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "摎人約好咧，你＿＿無愛去，就愛講哦！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/174_Q.jpg",
+        "questionImg": "./d2_t3_174_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/174_O1.jpg",
+            "imageSrc": "./d2_t3_174_O1.jpg",
             "text": "仰",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/174_O2.jpg",
+            "imageSrc": "./d2_t3_174_O2.jpg",
             "text": "係",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/174_O3.jpg",
+            "imageSrc": "./d2_t3_174_O3.jpg",
             "text": "乜",
             "isCorrect": false
           }
@@ -29717,23 +29717,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "該凳仔恁_____，毋使尖共下坐。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/175_Q.jpg",
+        "questionImg": "./d2_t3_175_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/175_O1.jpg",
+            "imageSrc": "./d2_t3_175_O1.jpg",
             "text": "闊",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/175_O2.jpg",
+            "imageSrc": "./d2_t3_175_O2.jpg",
             "text": "狹",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/175_O3.jpg",
+            "imageSrc": "./d2_t3_175_O3.jpg",
             "text": "緪",
             "isCorrect": false
           }
@@ -29743,23 +29743,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "樹乳糖食忒做毋得亂_____，驚怕會黏着人个鞋底。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/176_Q.jpg",
+        "questionImg": "./d2_t3_176_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/176_O1.jpg",
+            "imageSrc": "./d2_t3_176_O1.jpg",
             "text": "翻",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/176_O2.jpg",
+            "imageSrc": "./d2_t3_176_O2.jpg",
             "text": "呸",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/176_O3.jpg",
+            "imageSrc": "./d2_t3_176_O3.jpg",
             "text": "嘔",
             "isCorrect": false
           }
@@ -29769,23 +29769,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿伯姆逐朝晨就用擔竿____兩籃菜去市場賣。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/177_Q.jpg",
+        "questionImg": "./d2_t3_177_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/177_O1.jpg",
+            "imageSrc": "./d2_t3_177_O1.jpg",
             "text": "揇",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/177_O2.jpg",
+            "imageSrc": "./d2_t3_177_O2.jpg",
             "text": "㧡",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/177_O3.jpg",
+            "imageSrc": "./d2_t3_177_O3.jpg",
             "text": "揹",
             "isCorrect": false
           }
@@ -29795,23 +29795,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿婆分你个紅包愛____好，毋好跌忒。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/178_Q.jpg",
+        "questionImg": "./d2_t3_178_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/178_O1.jpg",
+            "imageSrc": "./d2_t3_178_O1.jpg",
             "text": "搭",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/178_O2.jpg",
+            "imageSrc": "./d2_t3_178_O2.jpg",
             "text": "拈",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/178_O3.jpg",
+            "imageSrc": "./d2_t3_178_O3.jpg",
             "text": "袋",
             "isCorrect": true
           }
@@ -29821,23 +29821,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "百貨公司週年慶，阿姊講佢愛先去_____領錢，過了正去逛看啊。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/179_Q.jpg",
+        "questionImg": "./d2_t3_179_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/179_O1.jpg",
+            "imageSrc": "./d2_t3_179_O1.jpg",
             "text": "郵局",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/179_O2.jpg",
+            "imageSrc": "./d2_t3_179_O2.jpg",
             "text": "學校",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/179_O3.jpg",
+            "imageSrc": "./d2_t3_179_O3.jpg",
             "text": "屋下",
             "isCorrect": false
           }
@@ -29847,23 +29847,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "天時恁_____，你仰還著恁多衫？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/180_Q.jpg",
+        "questionImg": "./d2_t3_180_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/180_O1.jpg",
+            "imageSrc": "./d2_t3_180_O1.jpg",
             "text": "燒暖",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/180_O2.jpg",
+            "imageSrc": "./d2_t3_180_O2.jpg",
             "text": "燒",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/180_O3.jpg",
+            "imageSrc": "./d2_t3_180_O3.jpg",
             "text": "暖燒",
             "isCorrect": false
           }
@@ -29873,23 +29873,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿真想愛去運動，又驚會落水，毋知愛_______正好。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/181_Q.jpg",
+        "questionImg": "./d2_t3_181_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/181_O1.jpg",
+            "imageSrc": "./d2_t3_181_O1.jpg",
             "text": "仰結煞",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/181_O2.jpg",
+            "imageSrc": "./d2_t3_181_O2.jpg",
             "text": "仰恁閒",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/181_O3.jpg",
+            "imageSrc": "./d2_t3_181_O3.jpg",
             "text": "仰恁會",
             "isCorrect": false
           }
@@ -29899,23 +29899,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "毋好單淨食菜，愛多食____飯，正毋會肚屎枵。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/182_Q.jpg",
+        "questionImg": "./d2_t3_182_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/182_O1.jpg",
+            "imageSrc": "./d2_t3_182_O1.jpg",
             "text": "一息",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/182_O2.jpg",
+            "imageSrc": "./d2_t3_182_O2.jpg",
             "text": "一粒",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/182_O3.jpg",
+            "imageSrc": "./d2_t3_182_O3.jpg",
             "text": "一垤",
             "isCorrect": false
           }
@@ -29925,23 +29925,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "賣早餐，賺係好賺，_____愛盡早䟘。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/183_Q.jpg",
+        "questionImg": "./d2_t3_183_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/183_O1.jpg",
+            "imageSrc": "./d2_t3_183_O1.jpg",
             "text": "毋過",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/183_O2.jpg",
+            "imageSrc": "./d2_t3_183_O2.jpg",
             "text": "毋係",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/183_O3.jpg",
+            "imageSrc": "./d2_t3_183_O3.jpg",
             "text": "毋單",
             "isCorrect": false
           }
@@ -29951,23 +29951,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "日頭晒屎朏咧，好___起來咧！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/184_Q.jpg",
+        "questionImg": "./d2_t3_184_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/184_O1.jpg",
+            "imageSrc": "./d2_t3_184_O1.jpg",
             "text": "䟘",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/184_O2.jpg",
+            "imageSrc": "./d2_t3_184_O2.jpg",
             "text": "囥",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/184_O3.jpg",
+            "imageSrc": "./d2_t3_184_O3.jpg",
             "text": "企",
             "isCorrect": false
           }
@@ -29977,23 +29977,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你毋好在該___地泥，衫褲會搣屙糟！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/185_Q.jpg",
+        "questionImg": "./d2_t3_185_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/185_O1.jpg",
+            "imageSrc": "./d2_t3_185_O1.jpg",
             "text": "𢱤",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/185_O2.jpg",
+            "imageSrc": "./d2_t3_185_O2.jpg",
             "text": "擲",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/185_O3.jpg",
+            "imageSrc": "./d2_t3_185_O3.jpg",
             "text": "搵",
             "isCorrect": true
           }
@@ -30003,23 +30003,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "日誌一日____一頁，毋多知仔就過年咧！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/186_Q.jpg",
+        "questionImg": "./d2_t3_186_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/186_O1.jpg",
+            "imageSrc": "./d2_t3_186_O1.jpg",
             "text": "搓",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/186_O2.jpg",
+            "imageSrc": "./d2_t3_186_O2.jpg",
             "text": "捽",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/186_O3.jpg",
+            "imageSrc": "./d2_t3_186_O3.jpg",
             "text": "扯",
             "isCorrect": true
           }
@@ -30029,23 +30029,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎姊摎厥男朋友結婚咧！𠊎愛改嘴喊佢______咧，試着無幾慣嘴。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/187_Q.jpg",
+        "questionImg": "./d2_t3_187_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/187_O1.jpg",
+            "imageSrc": "./d2_t3_187_O1.jpg",
             "text": "姨丈",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/187_O2.jpg",
+            "imageSrc": "./d2_t3_187_O2.jpg",
             "text": "姊丈",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/187_O3.jpg",
+            "imageSrc": "./d2_t3_187_O3.jpg",
             "text": "姑丈",
             "isCorrect": false
           }
@@ -30055,23 +30055,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你腳毋方便，留在＿＿位坐，𠊎去該片坐。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/188_Q.jpg",
+        "questionImg": "./d2_t3_188_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/188_O1.jpg",
+            "imageSrc": "./d2_t3_188_O1.jpg",
             "text": "哪",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/188_O2.jpg",
+            "imageSrc": "./d2_t3_188_O2.jpg",
             "text": "這",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/188_O3.jpg",
+            "imageSrc": "./d2_t3_188_O3.jpg",
             "text": "該",
             "isCorrect": false
           }
@@ -30081,23 +30081,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "老弟去動物園有看着_______貓熊，盡得人惜。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/189_Q.jpg",
+        "questionImg": "./d2_t3_189_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/189_O1.jpg",
+            "imageSrc": "./d2_t3_189_O1.jpg",
             "text": "兩尾",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/189_O2.jpg",
+            "imageSrc": "./d2_t3_189_O2.jpg",
             "text": "兩條",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/189_O3.jpg",
+            "imageSrc": "./d2_t3_189_O3.jpg",
             "text": "兩頭",
             "isCorrect": false
           }
@@ -30107,23 +30107,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "過大路愛細義，_____係青燈，做得過咧！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/190_Q.jpg",
+        "questionImg": "./d2_t3_190_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/190_O1.jpg",
+            "imageSrc": "./d2_t3_190_O1.jpg",
             "text": "頭下",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/190_O2.jpg",
+            "imageSrc": "./d2_t3_190_O2.jpg",
             "text": "該下",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/190_O3.jpg",
+            "imageSrc": "./d2_t3_190_O3.jpg",
             "text": "這下",
             "isCorrect": true
           }
@@ -30133,23 +30133,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這餅仔買來已______，便宜又好食。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/191_Q.jpg",
+        "questionImg": "./d2_t3_191_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/191_O1.jpg",
+            "imageSrc": "./d2_t3_191_O1.jpg",
             "text": "省",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/191_O2.jpg",
+            "imageSrc": "./d2_t3_191_O2.jpg",
             "text": "發",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/191_O3.jpg",
+            "imageSrc": "./d2_t3_191_O3.jpg",
             "text": "值",
             "isCorrect": true
           }
@@ -30159,23 +30159,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢个鎖匙毋知____在哪，麼人尋得着？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/192_Q.jpg",
+        "questionImg": "./d2_t3_192_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/192_O1.jpg",
+            "imageSrc": "./d2_t3_192_O1.jpg",
             "text": "鬥",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/192_O2.jpg",
+            "imageSrc": "./d2_t3_192_O2.jpg",
             "text": "拚",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/192_O3.jpg",
+            "imageSrc": "./d2_t3_192_O3.jpg",
             "text": "囥",
             "isCorrect": true
           }
@@ -30185,23 +30185,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "隔夜菜愛先____看啊有壞忒無，正毋會食到屙痢肚。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/193_Q.jpg",
+        "questionImg": "./d2_t3_193_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/193_O1.jpg",
+            "imageSrc": "./d2_t3_193_O1.jpg",
             "text": "呸",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/193_O2.jpg",
+            "imageSrc": "./d2_t3_193_O2.jpg",
             "text": "鼻",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/193_O3.jpg",
+            "imageSrc": "./d2_t3_193_O3.jpg",
             "text": "咬",
             "isCorrect": false
           }
@@ -30211,23 +30211,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "搞囥人尋，做鬼个人目珠愛____，等大家囥好正開始尋人。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/194_Q.jpg",
+        "questionImg": "./d2_t3_194_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/194_O1.jpg",
+            "imageSrc": "./d2_t3_194_O1.jpg",
             "text": "弇等",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/194_O2.jpg",
+            "imageSrc": "./d2_t3_194_O2.jpg",
             "text": "揞等",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/194_O3.jpg",
+            "imageSrc": "./d2_t3_194_O3.jpg",
             "text": "蓋等",
             "isCorrect": false
           }
@@ -30237,23 +30237,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "老弟食＿＿＿，曉得自家擘皮。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/195_Q.jpg",
+        "questionImg": "./d2_t3_195_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/195_O1.jpg",
+            "imageSrc": "./d2_t3_195_O1.jpg",
             "text": "粢粑",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/195_O2.jpg",
+            "imageSrc": "./d2_t3_195_O2.jpg",
             "text": "弓蕉",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/195_O3.jpg",
+            "imageSrc": "./d2_t3_195_O3.jpg",
             "text": "紅粄",
             "isCorrect": false
           }
@@ -30263,23 +30263,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "該間店仔做生理盡公當，＿＿＿＿偷斤減兩。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/196_Q.jpg",
+        "questionImg": "./d2_t3_196_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/196_O1.jpg",
+            "imageSrc": "./d2_t3_196_O1.jpg",
             "text": "毋會",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/196_O2.jpg",
+            "imageSrc": "./d2_t3_196_O2.jpg",
             "text": "毋想",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/196_O3.jpg",
+            "imageSrc": "./d2_t3_196_O3.jpg",
             "text": "毋好",
             "isCorrect": false
           }
@@ -30289,23 +30289,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "分燒水____个時節，愛記得先沖冷水。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/197_Q.jpg",
+        "questionImg": "./d2_t3_197_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/197_O1.jpg",
+            "imageSrc": "./d2_t3_197_O1.jpg",
             "text": "熱着",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/197_O2.jpg",
+            "imageSrc": "./d2_t3_197_O2.jpg",
             "text": "著着",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/197_O3.jpg",
+            "imageSrc": "./d2_t3_197_O3.jpg",
             "text": "熝着",
             "isCorrect": true
           }
@@ -30315,23 +30315,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "敗勢！𠊎暗晡夜_______陪你去看電影咧。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/198_Q.jpg",
+        "questionImg": "./d2_t3_198_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/198_O1.jpg",
+            "imageSrc": "./d2_t3_198_O1.jpg",
             "text": "無法度",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/198_O2.jpg",
+            "imageSrc": "./d2_t3_198_O2.jpg",
             "text": "無共樣",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/198_O3.jpg",
+            "imageSrc": "./d2_t3_198_O3.jpg",
             "text": "無定著",
             "isCorrect": false
           }
@@ -30341,23 +30341,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "擦米篩目愛用秥米_____會好食。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/199_Q.jpg",
+        "questionImg": "./d2_t3_199_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/199_O1.jpg",
+            "imageSrc": "./d2_t3_199_O1.jpg",
             "text": "正",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/199_O2.jpg",
+            "imageSrc": "./d2_t3_199_O2.jpg",
             "text": "恁",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/199_O3.jpg",
+            "imageSrc": "./d2_t3_199_O3.jpg",
             "text": "忒",
             "isCorrect": false
           }
@@ -30367,23 +30367,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "洗手過後，手溼溼，愛用手巾仔_____燥來。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/200_Q.jpg",
+        "questionImg": "./d2_t3_200_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/200_O1.jpg",
+            "imageSrc": "./d2_t3_200_O1.jpg",
             "text": "捽",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/200_O2.jpg",
+            "imageSrc": "./d2_t3_200_O2.jpg",
             "text": "摸",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/200_O3.jpg",
+            "imageSrc": "./d2_t3_200_O3.jpg",
             "text": "搓",
             "isCorrect": false
           }
@@ -30393,23 +30393,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這杯茶恁____，愛等較冷兜仔正好食。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/201_Q.jpg",
+        "questionImg": "./d2_t3_201_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/201_O1.jpg",
+            "imageSrc": "./d2_t3_201_O1.jpg",
             "text": "燒暖",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/201_O2.jpg",
+            "imageSrc": "./d2_t3_201_O2.jpg",
             "text": "燒",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/201_O3.jpg",
+            "imageSrc": "./d2_t3_201_O3.jpg",
             "text": "暖燒",
             "isCorrect": false
           }
@@ -30419,23 +30419,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "牙膏____到尾，愛用極个正會出來。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/202_Q.jpg",
+        "questionImg": "./d2_t3_202_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/202_O1.jpg",
+            "imageSrc": "./d2_t3_202_O1.jpg",
             "text": "扭",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/202_O2.jpg",
+            "imageSrc": "./d2_t3_202_O2.jpg",
             "text": "撚",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/202_O3.jpg",
+            "imageSrc": "./d2_t3_202_O3.jpg",
             "text": "揞",
             "isCorrect": false
           }
@@ -30445,23 +30445,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿萬伯當熱心，就算係______愛佢𢯭手，佢乜毋會拒絕。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/203_Q.jpg",
+        "questionImg": "./d2_t3_203_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/203_O1.jpg",
+            "imageSrc": "./d2_t3_203_O1.jpg",
             "text": "自家人",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/203_O2.jpg",
+            "imageSrc": "./d2_t3_203_O2.jpg",
             "text": "生理人",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/203_O3.jpg",
+            "imageSrc": "./d2_t3_203_O3.jpg",
             "text": "生份人",
             "isCorrect": true
           }
@@ -30471,23 +30471,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢考試打頭名當＿＿，歸日笑咪咪仔。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/204_Q.jpg",
+        "questionImg": "./d2_t3_204_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/204_O1.jpg",
+            "imageSrc": "./d2_t3_204_O1.jpg",
             "text": "閼",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/204_O2.jpg",
+            "imageSrc": "./d2_t3_204_O2.jpg",
             "text": "愛",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/204_O3.jpg",
+            "imageSrc": "./d2_t3_204_O3.jpg",
             "text": "暢",
             "isCorrect": true
           }
@@ -30497,23 +30497,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿公今晡日食齋，＿＿＿用豬油炒菜。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/205_Q.jpg",
+        "questionImg": "./d2_t3_205_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/205_O1.jpg",
+            "imageSrc": "./d2_t3_205_O1.jpg",
             "text": "做毋得",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/205_O2.jpg",
+            "imageSrc": "./d2_t3_205_O2.jpg",
             "text": "毋記得",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/205_O3.jpg",
+            "imageSrc": "./d2_t3_205_O3.jpg",
             "text": "做下",
             "isCorrect": false
           }
@@ -30523,23 +30523,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢个身體恁好，____發病仔呢？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/206_Q.jpg",
+        "questionImg": "./d2_t3_206_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/206_O1.jpg",
+            "imageSrc": "./d2_t3_206_O1.jpg",
             "text": "敢愛",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/206_O2.jpg",
+            "imageSrc": "./d2_t3_206_O2.jpg",
             "text": "仰會",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/206_O3.jpg",
+            "imageSrc": "./d2_t3_206_O3.jpg",
             "text": "幾多",
             "isCorrect": false
           }
@@ -30549,23 +30549,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "加兩日就係阿爸个生日，請兄弟姊妹_______定著愛轉來慶祝。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/207_Q.jpg",
+        "questionImg": "./d2_t3_207_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/207_O1.jpg",
+            "imageSrc": "./d2_t3_207_O1.jpg",
             "text": "韶早",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/207_O2.jpg",
+            "imageSrc": "./d2_t3_207_O2.jpg",
             "text": "後日",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/207_O3.jpg",
+            "imageSrc": "./d2_t3_207_O3.jpg",
             "text": "昨晡日",
             "isCorrect": false
           }
@@ -30575,23 +30575,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "頭那毛長長愛_____好勢，看起來正有精神。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/208_Q.jpg",
+        "questionImg": "./d2_t3_208_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/208_O1.jpg",
+            "imageSrc": "./d2_t3_208_O1.jpg",
             "text": "䌈",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/208_O2.jpg",
+            "imageSrc": "./d2_t3_208_O2.jpg",
             "text": "捉",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/208_O3.jpg",
+            "imageSrc": "./d2_t3_208_O3.jpg",
             "text": "拉",
             "isCorrect": false
           }
@@ -30601,23 +30601,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "韶早阿華哥愛討餔娘，前一日隔壁鄰舍就來_____打粢粑，愛請大家食。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/209_Q.jpg",
+        "questionImg": "./d2_t3_209_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/209_O1.jpg",
+            "imageSrc": "./d2_t3_209_O1.jpg",
             "text": "𢯭手",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/209_O2.jpg",
+            "imageSrc": "./d2_t3_209_O2.jpg",
             "text": "牽手",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/209_O3.jpg",
+            "imageSrc": "./d2_t3_209_O3.jpg",
             "text": "伸手",
             "isCorrect": false
           }
@@ -30627,23 +30627,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "大人喊咧，細人仔愛______聲，做毋得恬恬，無規矩。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/210_Q.jpg",
+        "questionImg": "./d2_t3_210_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/210_O1.jpg",
+            "imageSrc": "./d2_t3_210_O1.jpg",
             "text": "說",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/210_O2.jpg",
+            "imageSrc": "./d2_t3_210_O2.jpg",
             "text": "講",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/210_O3.jpg",
+            "imageSrc": "./d2_t3_210_O3.jpg",
             "text": "應",
             "isCorrect": true
           }
@@ -30653,23 +30653,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿宏發燒又緊_____，愛請假分先生看。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/211_Q.jpg",
+        "questionImg": "./d2_t3_211_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/211_O1.jpg",
+            "imageSrc": "./d2_t3_211_O1.jpg",
             "text": "歕",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/211_O2.jpg",
+            "imageSrc": "./d2_t3_211_O2.jpg",
             "text": "呸",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/211_O3.jpg",
+            "imageSrc": "./d2_t3_211_O3.jpg",
             "text": "嘔",
             "isCorrect": true
           }
@@ -30679,23 +30679,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢實在還＿＿！恁難个老山歌也唱到恁好聽。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/212_Q.jpg",
+        "questionImg": "./d2_t3_212_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/212_O1.jpg",
+            "imageSrc": "./d2_t3_212_O1.jpg",
             "text": "精",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/212_O2.jpg",
+            "imageSrc": "./d2_t3_212_O2.jpg",
             "text": "慶",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/212_O3.jpg",
+            "imageSrc": "./d2_t3_212_O3.jpg",
             "text": "暢",
             "isCorrect": false
           }
@@ -30705,23 +30705,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿興牯个書包______，張盡多東西，全部係書本摎文具。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/213_Q.jpg",
+        "questionImg": "./d2_t3_213_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/213_O1.jpg",
+            "imageSrc": "./d2_t3_213_O1.jpg",
             "text": "外背",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/213_O2.jpg",
+            "imageSrc": "./d2_t3_213_O2.jpg",
             "text": "脣頭",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/213_O3.jpg",
+            "imageSrc": "./d2_t3_213_O3.jpg",
             "text": "裡肚",
             "isCorrect": true
           }
@@ -30731,23 +30731,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢摎同學______掃地泥，摎地泥掃到當淨俐。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/214_Q.jpg",
+        "questionImg": "./d2_t3_214_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/214_O1.jpg",
+            "imageSrc": "./d2_t3_214_O1.jpg",
             "text": "做下",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/214_O2.jpg",
+            "imageSrc": "./d2_t3_214_O2.jpg",
             "text": "共下",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/214_O3.jpg",
+            "imageSrc": "./d2_t3_214_O3.jpg",
             "text": "該下",
             "isCorrect": false
           }
@@ -30757,23 +30757,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "該個人生活無正常，又_____食酒，總有一日身體會壞忒。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/215_Q.jpg",
+        "questionImg": "./d2_t3_215_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/215_O1.jpg",
+            "imageSrc": "./d2_t3_215_O1.jpg",
             "text": "輒輒",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/215_O2.jpg",
+            "imageSrc": "./d2_t3_215_O2.jpg",
             "text": "遽遽",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/215_O3.jpg",
+            "imageSrc": "./d2_t3_215_O3.jpg",
             "text": "定定",
             "isCorrect": false
           }
@@ -30783,23 +30783,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎這皮包仔____你這放，等一下正來拿。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/216_Q.jpg",
+        "questionImg": "./d2_t3_216_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/216_O1.jpg",
+            "imageSrc": "./d2_t3_216_O1.jpg",
             "text": "分",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/216_O2.jpg",
+            "imageSrc": "./d2_t3_216_O2.jpg",
             "text": "渡",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/216_O3.jpg",
+            "imageSrc": "./d2_t3_216_O3.jpg",
             "text": "搭",
             "isCorrect": true
           }
@@ -30809,23 +30809,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你韶早上體育課，愛記得_____運動衫。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/217_Q.jpg",
+        "questionImg": "./d2_t3_217_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/217_O1.jpg",
+            "imageSrc": "./d2_t3_217_O1.jpg",
             "text": "穿",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/217_O2.jpg",
+            "imageSrc": "./d2_t3_217_O2.jpg",
             "text": "著",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/217_O3.jpg",
+            "imageSrc": "./d2_t3_217_O3.jpg",
             "text": "戴",
             "isCorrect": false
           }
@@ -30835,23 +30835,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你自家个作業就寫毋忒咧，還____別人恁多做麼个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/218_Q.jpg",
+        "questionImg": "./d2_t3_218_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/218_O1.jpg",
+            "imageSrc": "./d2_t3_218_O1.jpg",
             "text": "搞",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/218_O2.jpg",
+            "imageSrc": "./d2_t3_218_O2.jpg",
             "text": "弄",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/218_O3.jpg",
+            "imageSrc": "./d2_t3_218_O3.jpg",
             "text": "插",
             "isCorrect": true
           }
@@ -30861,23 +30861,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這下最時行就係搞＿＿＿，火車頂長下看得着大家頭犁犁手緊劃。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/219_Q.jpg",
+        "questionImg": "./d2_t3_219_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/219_O1.jpg",
+            "imageSrc": "./d2_t3_219_O1.jpg",
             "text": "電腦",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/219_O2.jpg",
+            "imageSrc": "./d2_t3_219_O2.jpg",
             "text": "相機",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/219_O3.jpg",
+            "imageSrc": "./d2_t3_219_O3.jpg",
             "text": "手機仔",
             "isCorrect": true
           }
@@ -30887,23 +30887,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿姆講豬肝煮紅菜_______補血。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/220_Q.jpg",
+        "questionImg": "./d2_t3_220_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/220_O1.jpg",
+            "imageSrc": "./d2_t3_220_O1.jpg",
             "text": "好得",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/220_O2.jpg",
+            "imageSrc": "./d2_t3_220_O2.jpg",
             "text": "做得",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/220_O3.jpg",
+            "imageSrc": "./d2_t3_220_O3.jpg",
             "text": "難得",
             "isCorrect": false
           }
@@ -30913,23 +30913,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這位有流籠____坐，做得在高高个位所看風景。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/221_Q.jpg",
+        "questionImg": "./d2_t3_221_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/221_O1.jpg",
+            "imageSrc": "./d2_t3_221_O1.jpg",
             "text": "愛",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/221_O2.jpg",
+            "imageSrc": "./d2_t3_221_O2.jpg",
             "text": "好",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/221_O3.jpg",
+            "imageSrc": "./d2_t3_221_O3.jpg",
             "text": "會",
             "isCorrect": false
           }
@@ -30939,23 +30939,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "時間恁趕，還毋_____準備？等一下車仔就駛走咧！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/222_Q.jpg",
+        "questionImg": "./d2_t3_222_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/222_O1.jpg",
+            "imageSrc": "./d2_t3_222_O1.jpg",
             "text": "定定",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/222_O2.jpg",
+            "imageSrc": "./d2_t3_222_O2.jpg",
             "text": "遽遽",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/222_O3.jpg",
+            "imageSrc": "./d2_t3_222_O3.jpg",
             "text": "漸漸",
             "isCorrect": false
           }
@@ -30965,23 +30965,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "佢个工做到當_____，刻个人公仔像真个人樣。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/223_Q.jpg",
+        "questionImg": "./d2_t3_223_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/223_O1.jpg",
+            "imageSrc": "./d2_t3_223_O1.jpg",
             "text": "密",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/223_O2.jpg",
+            "imageSrc": "./d2_t3_223_O2.jpg",
             "text": "精",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/223_O3.jpg",
+            "imageSrc": "./d2_t3_223_O3.jpg",
             "text": "幼",
             "isCorrect": true
           }
@@ -30991,23 +30991,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你去____一張凳仔來分人客坐。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/224_Q.jpg",
+        "questionImg": "./d2_t3_224_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/224_O1.jpg",
+            "imageSrc": "./d2_t3_224_O1.jpg",
             "text": "揹",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/224_O2.jpg",
+            "imageSrc": "./d2_t3_224_O2.jpg",
             "text": "㧡",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/224_O3.jpg",
+            "imageSrc": "./d2_t3_224_O3.jpg",
             "text": "兜",
             "isCorrect": true
           }
@@ -31017,23 +31017,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "校長盡有心，放尞日還去海脣____垃圾，愛護地球。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/225_Q.jpg",
+        "questionImg": "./d2_t3_225_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/225_O1.jpg",
+            "imageSrc": "./d2_t3_225_O1.jpg",
             "text": "撿",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/225_O2.jpg",
+            "imageSrc": "./d2_t3_225_O2.jpg",
             "text": "拈",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/225_O3.jpg",
+            "imageSrc": "./d2_t3_225_O3.jpg",
             "text": "擲",
             "isCorrect": false
           }
@@ -31043,23 +31043,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "交一個朋友千言萬語，_____一個朋友三言兩語，所以愛惜緣。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/226_Q.jpg",
+        "questionImg": "./d2_t3_226_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/226_O1.jpg",
+            "imageSrc": "./d2_t3_226_O1.jpg",
             "text": "罵",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/226_O2.jpg",
+            "imageSrc": "./d2_t3_226_O2.jpg",
             "text": "送",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/226_O3.jpg",
+            "imageSrc": "./d2_t3_226_O3.jpg",
             "text": "斷",
             "isCorrect": true
           }
@@ -31069,23 +31069,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "洗運動鞋愛用_____，煞猛洗正會淨。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/227_Q.jpg",
+        "questionImg": "./d2_t3_227_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/227_O1.jpg",
+            "imageSrc": "./d2_t3_227_O1.jpg",
             "text": "捽仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/227_O2.jpg",
+            "imageSrc": "./d2_t3_227_O2.jpg",
             "text": "刷仔",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/227_O3.jpg",
+            "imageSrc": "./d2_t3_227_O3.jpg",
             "text": "夾仔",
             "isCorrect": false
           }
@@ -31095,23 +31095,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這隻柚仔个皮當＿＿，單淨用手擘毋開。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/228_Q.jpg",
+        "questionImg": "./d2_t3_228_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/228_O1.jpg",
+            "imageSrc": "./d2_t3_228_O1.jpg",
             "text": "賁",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/228_O2.jpg",
+            "imageSrc": "./d2_t3_228_O2.jpg",
             "text": "燥",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/228_O3.jpg",
+            "imageSrc": "./d2_t3_228_O3.jpg",
             "text": "薄",
             "isCorrect": false
           }
@@ -31121,23 +31121,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "這幾日天時轉冷，一______就會流濞水、打哈啾。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/229_Q.jpg",
+        "questionImg": "./d2_t3_229_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/229_O1.jpg",
+            "imageSrc": "./d2_t3_229_O1.jpg",
             "text": "毋堵好",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/229_O2.jpg",
+            "imageSrc": "./d2_t3_229_O2.jpg",
             "text": "正堵好",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/229_O3.jpg",
+            "imageSrc": "./d2_t3_229_O3.jpg",
             "text": "恁堵好",
             "isCorrect": false
           }
@@ -31147,23 +31147,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "天烏地暗，下晝____會落水，水衣愛帶等。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/230_Q.jpg",
+        "questionImg": "./d2_t3_230_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/230_O1.jpg",
+            "imageSrc": "./d2_t3_230_O1.jpg",
             "text": "定著",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/230_O2.jpg",
+            "imageSrc": "./d2_t3_230_O2.jpg",
             "text": "定定",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/230_O3.jpg",
+            "imageSrc": "./d2_t3_230_O3.jpg",
             "text": "定期",
             "isCorrect": false
           }
@@ -31173,23 +31173,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "臨暗仔歸大遍个樹林_____有盡多白鶴仔在該休息。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/231_Q.jpg",
+        "questionImg": "./d2_t3_231_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/231_O1.jpg",
+            "imageSrc": "./d2_t3_231_O1.jpg",
             "text": "下頭",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/231_O2.jpg",
+            "imageSrc": "./d2_t3_231_O2.jpg",
             "text": "頂高",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/231_O3.jpg",
+            "imageSrc": "./d2_t3_231_O3.jpg",
             "text": "脣項",
             "isCorrect": false
           }
@@ -31199,23 +31199,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你个皮帶繫_____來，正毋會褲落落。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/232_Q.jpg",
+        "questionImg": "./d2_t3_232_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/232_O1.jpg",
+            "imageSrc": "./d2_t3_232_O1.jpg",
             "text": "密",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/232_O2.jpg",
+            "imageSrc": "./d2_t3_232_O2.jpg",
             "text": "揫",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/232_O3.jpg",
+            "imageSrc": "./d2_t3_232_O3.jpg",
             "text": "緪",
             "isCorrect": true
           }
@@ -31225,23 +31225,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "頭家，該黃梨摎𠊎_____較淨兜，𠊎愛現食。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/233_Q.jpg",
+        "questionImg": "./d2_t3_233_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/233_O1.jpg",
+            "imageSrc": "./d2_t3_233_O1.jpg",
             "text": "割",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/233_O2.jpg",
+            "imageSrc": "./d2_t3_233_O2.jpg",
             "text": "㓾",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/233_O3.jpg",
+            "imageSrc": "./d2_t3_233_O3.jpg",
             "text": "剁",
             "isCorrect": false
           }
@@ -31251,23 +31251,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "工廠打算徙去巴西，阿明____會無頭路咧，心情當毋好。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/234_Q.jpg",
+        "questionImg": "./d2_t3_234_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/234_O1.jpg",
+            "imageSrc": "./d2_t3_234_O1.jpg",
             "text": "係無",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/234_O2.jpg",
+            "imageSrc": "./d2_t3_234_O2.jpg",
             "text": "驚怕",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/234_O3.jpg",
+            "imageSrc": "./d2_t3_234_O3.jpg",
             "text": "好得",
             "isCorrect": false
           }
@@ -31277,23 +31277,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "今晡日係_____，無車仔載，去哪仔都盡毋方便。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/235_Q.jpg",
+        "questionImg": "./d2_t3_235_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/235_O1.jpg",
+            "imageSrc": "./d2_t3_235_O1.jpg",
             "text": "出頭天",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/235_O2.jpg",
+            "imageSrc": "./d2_t3_235_O2.jpg",
             "text": "落水天",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/235_O3.jpg",
+            "imageSrc": "./d2_t3_235_O3.jpg",
             "text": "烏陰天",
             "isCorrect": false
           }
@@ -31303,23 +31303,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "今晡日日仔當_____，盡多人討親。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/236_Q.jpg",
+        "questionImg": "./d2_t3_236_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/236_O1.jpg",
+            "imageSrc": "./d2_t3_236_O1.jpg",
             "text": "靚",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/236_O2.jpg",
+            "imageSrc": "./d2_t3_236_O2.jpg",
             "text": "壞",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/236_O3.jpg",
+            "imageSrc": "./d2_t3_236_O3.jpg",
             "text": "媸",
             "isCorrect": false
           }
@@ -31329,23 +31329,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "正講啊忒，𠊎____就毋記得，實在還無記才！",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/237_Q.jpg",
+        "questionImg": "./d2_t3_237_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/237_O1.jpg",
+            "imageSrc": "./d2_t3_237_O1.jpg",
             "text": "黏時",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/237_O2.jpg",
+            "imageSrc": "./d2_t3_237_O2.jpg",
             "text": "黏黏",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/237_O3.jpg",
+            "imageSrc": "./d2_t3_237_O3.jpg",
             "text": "黏等",
             "isCorrect": false
           }
@@ -31355,23 +31355,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "朝晨係_____七早八早就打電話尋阿姆？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/238_Q.jpg",
+        "questionImg": "./d2_t3_238_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/238_O1.jpg",
+            "imageSrc": "./d2_t3_238_O1.jpg",
             "text": "麼个",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/238_O2.jpg",
+            "imageSrc": "./d2_t3_238_O2.jpg",
             "text": "麼人",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/238_O3.jpg",
+            "imageSrc": "./d2_t3_238_O3.jpg",
             "text": "哪時",
             "isCorrect": false
           }
@@ -31381,23 +31381,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "你有帶錢____？先借𠊎兩百個銀。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/239_Q.jpg",
+        "questionImg": "./d2_t3_239_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/239_O1.jpg",
+            "imageSrc": "./d2_t3_239_O1.jpg",
             "text": "吂",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/239_O2.jpg",
+            "imageSrc": "./d2_t3_239_O2.jpg",
             "text": "無",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/239_O3.jpg",
+            "imageSrc": "./d2_t3_239_O3.jpg",
             "text": "毋",
             "isCorrect": false
           }
@@ -31407,23 +31407,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "天都____咧！還毋轉屋，若姆會愁。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/240_Q.jpg",
+        "questionImg": "./d2_t3_240_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/240_O1.jpg",
+            "imageSrc": "./d2_t3_240_O1.jpg",
             "text": "烏",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/240_O2.jpg",
+            "imageSrc": "./d2_t3_240_O2.jpg",
             "text": "暗",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/240_O3.jpg",
+            "imageSrc": "./d2_t3_240_O3.jpg",
             "text": "夜",
             "isCorrect": false
           }
@@ -31433,23 +31433,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎____這糖仔當好食，好得有買着。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/241_Q.jpg",
+        "questionImg": "./d2_t3_241_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/241_O1.jpg",
+            "imageSrc": "./d2_t3_241_O1.jpg",
             "text": "堵着",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/241_O2.jpg",
+            "imageSrc": "./d2_t3_241_O2.jpg",
             "text": "感着",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/241_O3.jpg",
+            "imageSrc": "./d2_t3_241_O3.jpg",
             "text": "試着",
             "isCorrect": true
           }
@@ -31459,23 +31459,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "食麵茶愛摻兜仔地豆麩落去＿＿＿，正較好食。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/242_Q.jpg",
+        "questionImg": "./d2_t3_242_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/242_O1.jpg",
+            "imageSrc": "./d2_t3_242_O1.jpg",
             "text": "攪",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/242_O2.jpg",
+            "imageSrc": "./d2_t3_242_O2.jpg",
             "text": "舀",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/242_O3.jpg",
+            "imageSrc": "./d2_t3_242_O3.jpg",
             "text": "撈",
             "isCorrect": false
           }
@@ -31485,23 +31485,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "考試考忒，先生_____會摎學生仔再過討論一下答案。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/243_Q.jpg",
+        "questionImg": "./d2_t3_243_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/243_O1.jpg",
+            "imageSrc": "./d2_t3_243_O1.jpg",
             "text": "大體",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/243_O2.jpg",
+            "imageSrc": "./d2_t3_243_O2.jpg",
             "text": "大局",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/243_O3.jpg",
+            "imageSrc": "./d2_t3_243_O3.jpg",
             "text": "大眾",
             "isCorrect": false
           }
@@ -31511,23 +31511,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "阿公腳膝頭毋好，所以無法度_____山。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/244_Q.jpg",
+        "questionImg": "./d2_t3_244_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/244_O1.jpg",
+            "imageSrc": "./d2_t3_244_O1.jpg",
             "text": "蹶",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/244_O2.jpg",
+            "imageSrc": "./d2_t3_244_O2.jpg",
             "text": "走",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/244_O3.jpg",
+            "imageSrc": "./d2_t3_244_O3.jpg",
             "text": "出",
             "isCorrect": false
           }
@@ -31537,23 +31537,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "尋無艾粄好買，__________買菜包。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/245_Q.jpg",
+        "questionImg": "./d2_t3_245_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/245_O1.jpg",
+            "imageSrc": "./d2_t3_245_O1.jpg",
             "text": "毋單淨",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/245_O2.jpg",
+            "imageSrc": "./d2_t3_245_O2.jpg",
             "text": "無共樣",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/245_O3.jpg",
+            "imageSrc": "./d2_t3_245_O3.jpg",
             "text": "高不將",
             "isCorrect": true
           }
@@ -31563,23 +31563,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "外背落水，出門愛記得_____遮仔。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/246_Q.jpg",
+        "questionImg": "./d2_t3_246_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/246_O1.jpg",
+            "imageSrc": "./d2_t3_246_O1.jpg",
             "text": "拗",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/246_O2.jpg",
+            "imageSrc": "./d2_t3_246_O2.jpg",
             "text": "撐",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/246_O3.jpg",
+            "imageSrc": "./d2_t3_246_O3.jpg",
             "text": "擎",
             "isCorrect": true
           }
@@ -31589,23 +31589,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "鑊仔肚係還有湯，鑊蓋愛____起來，蜞蚻仔正毋會走落去。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/247_Q.jpg",
+        "questionImg": "./d2_t3_247_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/247_O1.jpg",
+            "imageSrc": "./d2_t3_247_O1.jpg",
             "text": "弇",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/247_O2.jpg",
+            "imageSrc": "./d2_t3_247_O2.jpg",
             "text": "關",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/247_O3.jpg",
+            "imageSrc": "./d2_t3_247_O3.jpg",
             "text": "合",
             "isCorrect": false
           }
@@ -31615,23 +31615,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "＿＿你愛坐車仔去圖書館，＿＿記得帶零星錢。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/248_Q.jpg",
+        "questionImg": "./d2_t3_248_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/248_O1.jpg",
+            "imageSrc": "./d2_t3_248_O1.jpg",
             "text": "雖然…毋過",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/248_O2.jpg",
+            "imageSrc": "./d2_t3_248_O2.jpg",
             "text": "因爭...也係",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/248_O3.jpg",
+            "imageSrc": "./d2_t3_248_O3.jpg",
             "text": "係講…就愛",
             "isCorrect": true
           }
@@ -31641,23 +31641,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "𠊎老妹當黏阿姆，一下仔無看着阿姆，就_____到哇天哇地。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/249_Q.jpg",
+        "questionImg": "./d2_t3_249_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/249_O1.jpg",
+            "imageSrc": "./d2_t3_249_O1.jpg",
             "text": "噭",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/249_O2.jpg",
+            "imageSrc": "./d2_t3_249_O2.jpg",
             "text": "㖸",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/249_O3.jpg",
+            "imageSrc": "./d2_t3_249_O3.jpg",
             "text": "嘔",
             "isCorrect": false
           }
@@ -31667,23 +31667,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "昨晡日，阿爸渡𠊎兜歸屋下人去_____山花。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/250_Q.jpg",
+        "questionImg": "./d2_t3_250_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/250_O1.jpg",
+            "imageSrc": "./d2_t3_250_O1.jpg",
             "text": "逛",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/250_O2.jpg",
+            "imageSrc": "./d2_t3_250_O2.jpg",
             "text": "遶",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/250_O3.jpg",
+            "imageSrc": "./d2_t3_250_O3.jpg",
             "text": "尞",
             "isCorrect": false
           }
@@ -31693,23 +31693,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "母親節到咧，佢打算買一____康乃馨送分阿姆。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/251_Q.jpg",
+        "questionImg": "./d2_t3_251_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/251_O1.jpg",
+            "imageSrc": "./d2_t3_251_O1.jpg",
             "text": "蕊",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/251_O2.jpg",
+            "imageSrc": "./d2_t3_251_O2.jpg",
             "text": "頭",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/251_O3.jpg",
+            "imageSrc": "./d2_t3_251_O3.jpg",
             "text": "隻",
             "isCorrect": false
           }
@@ -31719,23 +31719,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "該天時恁冷，出外愛記得揹加一領___。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/252_Q.jpg",
+        "questionImg": "./d2_t3_252_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/252_O1.jpg",
+            "imageSrc": "./d2_t3_252_O1.jpg",
             "text": "底衫仔",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/252_O2.jpg",
+            "imageSrc": "./d2_t3_252_O2.jpg",
             "text": "襖婆",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/252_O3.jpg",
+            "imageSrc": "./d2_t3_252_O3.jpg",
             "text": "短衫",
             "isCorrect": false
           }
@@ -31745,23 +31745,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "_____阿姆赴毋着去接你，你就自家行路轉屋下。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/253_Q.jpg",
+        "questionImg": "./d2_t3_253_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/253_O1.jpg",
+            "imageSrc": "./d2_t3_253_O1.jpg",
             "text": "係講",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/253_O2.jpg",
+            "imageSrc": "./d2_t3_253_O2.jpg",
             "text": "莫講",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/253_O3.jpg",
+            "imageSrc": "./d2_t3_253_O3.jpg",
             "text": "無講",
             "isCorrect": false
           }
@@ -31771,23 +31771,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "會十二點咧，好＿＿＿＿咧。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/254_Q.jpg",
+        "questionImg": "./d2_t3_254_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/254_O1.jpg",
+            "imageSrc": "./d2_t3_254_O1.jpg",
             "text": "食朝",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/254_O2.jpg",
+            "imageSrc": "./d2_t3_254_O2.jpg",
             "text": "食晝",
             "isCorrect": true
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/254_O3.jpg",
+            "imageSrc": "./d2_t3_254_O3.jpg",
             "text": "食夜",
             "isCorrect": false
           }
@@ -31797,23 +31797,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "貓仔會打老鼠，狗仔會＿＿屋。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/255_Q.jpg",
+        "questionImg": "./d2_t3_255_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/255_O1.jpg",
+            "imageSrc": "./d2_t3_255_O1.jpg",
             "text": "掌",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/255_O2.jpg",
+            "imageSrc": "./d2_t3_255_O2.jpg",
             "text": "看",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/255_O3.jpg",
+            "imageSrc": "./d2_t3_255_O3.jpg",
             "text": "守",
             "isCorrect": false
           }
@@ -31823,23 +31823,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "日頭對東______出來。",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/256_Q.jpg",
+        "questionImg": "./d2_t3_256_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/256_O1.jpg",
+            "imageSrc": "./d2_t3_256_O1.jpg",
             "text": "片",
             "isCorrect": true
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/256_O2.jpg",
+            "imageSrc": "./d2_t3_256_O2.jpg",
             "text": "西",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/256_O3.jpg",
+            "imageSrc": "./d2_t3_256_O3.jpg",
             "text": "頭",
             "isCorrect": false
           }
@@ -31849,23 +31849,23 @@ const QUIZ_DATA = {
         "questionAudioSrc": null,
         "optionAudioSrc": null,
         "questionText": "請問這支筆_______若个？",
-        "questionImg": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/257_Q.jpg",
+        "questionImg": "./d2_t3_257_Q.jpg",
         "options": [
           {
             "index": 1,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/257_O1.jpg",
+            "imageSrc": "./d2_t3_257_O1.jpg",
             "text": "抑係",
             "isCorrect": false
           },
           {
             "index": 2,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/257_O2.jpg",
+            "imageSrc": "./d2_t3_257_O2.jpg",
             "text": "係講",
             "isCorrect": false
           },
           {
             "index": 3,
-            "imageSrc": "https://elearning.hakka.gov.tw/hakka/files/cert/exam/110/1/2/3/257_O3.jpg",
+            "imageSrc": "./d2_t3_257_O3.jpg",
             "text": "敢係",
             "isCorrect": true
           }
