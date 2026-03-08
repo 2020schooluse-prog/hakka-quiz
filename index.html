@@ -2314,6 +2314,17 @@
       sessionAnswered++;
       document.getElementById('scorNow').textContent = sessionScore;
       document.getElementById('scorTot').textContent = sessionAnswered;
+
+      // Save progress so map updates and Remembers index
+      const q = sessionQuestions[sessionIndex];
+      const prog = currentStudent.progress[sessionKey] || {};
+      if (!Array.isArray(prog.done)) prog.done = [];
+      if (!Array.isArray(prog.doneIndices)) prog.doneIndices = [];
+      if (!prog.done.includes(q.origIndex)) prog.done.push(q.origIndex);
+      prog.date = new Date().toISOString();
+      currentStudent.progress[sessionKey] = prog;
+      saveStudent(currentStudent);
+
       nextQuestion();
     }
 
@@ -2463,8 +2474,8 @@
 
       if (isSpeak) {
         document.getElementById('rtrophy').textContent = '🎙️';
-        document.getElementById('rscore').textContent = '完成練習';
-        document.getElementById('rscoreLbl').textContent = '此次進度';
+        document.getElementById('rscore').textContent = `${sessionScore} 題`;
+        document.getElementById('rscoreLbl').textContent = '完成練習量';
         document.getElementById('statCorrect').style.display = 'none';
         document.getElementById('statWrong').style.display = 'none';
       } else {
