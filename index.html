@@ -2458,14 +2458,26 @@
       stopAudio();
       hide('questionCard');
 
-      const allQs = getQuestionsForKey(sessionKey);
-      const prog = currentStudent.progress[sessionKey] || { done: [] };
-      const totalQ = allQs ? allQs.length : '?';
-      const doneTotal = prog.done.length;
-      const remain = totalQ === '?' ? '?' : (totalQ - doneTotal);
-
       const type = document.getElementById('typeSel').value;
       const isSpeak = type === 'speak';
+
+      let totalQ = '?';
+      if (type === '1') {
+        const base = getQuestionsForKey('d2_t1');
+        totalQ = base ? base.length : 258;
+      } else if (type === '2') {
+        const base = getQuestionsForKey('d2_t2');
+        totalQ = base ? base.length : 97;
+      } else if (isSpeak) {
+        totalQ = 242;
+      } else {
+        const allQs = getQuestionsForKey(sessionKey);
+        totalQ = allQs ? allQs.length : '?';
+      }
+
+      const prog = currentStudent.progress[sessionKey] || { done: [] };
+      const doneTotal = prog.done.length;
+      const remain = totalQ === '?' ? '?' : (totalQ - doneTotal);
 
       const pct = Math.round((sessionScore / sessionQuestions.length) * 100);
       const trophy = pct >= 90 ? '🏆' : pct >= 70 ? '🥈' : pct >= 50 ? '🥉' : '💪';
