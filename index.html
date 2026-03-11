@@ -1661,7 +1661,7 @@
 
     let currentStageIndex = 0;
 
-    async function sendResultToBackend(score, total, answered) {
+    async function sendResultToBackend(score, total, answered, qRange) {
       if (!BACKEND_URL || BACKEND_URL.trim() === '') return;
       try {
         const type = document.getElementById('typeSel').value;
@@ -1675,7 +1675,8 @@
           totalQuestions: total,
           correctCount: score,
           wrongCount: total - score,
-          accuracy: pct
+          accuracy: pct,
+          questionRange: qRange || ''
         };
 
         await fetch(BACKEND_URL, {
@@ -2527,7 +2528,12 @@
           overallProgEl.parentNode.insertBefore(progMsg, overallProgEl.nextSibling);
         }
 
-        sendResultToBackend(sessionScore, sessionQuestions.length, sessionAnswered)
+        // Calculate question range
+        const firstQ = sessionQuestions[0] ? sessionQuestions[0].origIndex + 1 : 1;
+        const lastQ = sessionQuestions[sessionQuestions.length - 1] ? sessionQuestions[sessionQuestions.length - 1].origIndex + 1 : sessionQuestions.length;
+        const qRangeStr = `${firstQ}~${lastQ}`;
+
+        sendResultToBackend(sessionScore, sessionQuestions.length, sessionAnswered, qRangeStr)
           .then(() => {
             const msgEl = document.getElementById('backendSubmitMsg');
             if (msgEl) {
